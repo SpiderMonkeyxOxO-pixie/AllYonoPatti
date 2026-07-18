@@ -448,4 +448,80 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "dhan-game-launch-details",
+    title: "DhanGame: Launch Date, Welcome Bonus, and What's Confirmed So Far",
+    description:
+      "DhanGame is scheduled to launch 23 July 2026. Here's what the operator advertises for its welcome bonus and first-deposit match, what's still unverified, and where the promo code will actually appear.",
+    category: "Platform Guides",
+    featuredImage: "/images/blog/dhan-game-launch-details.jpg",
+    publishedAt: "2026-07-19",
+    updatedAt: "2026-07-19",
+    relatedSlugs: [
+      "how-to-review-a-teen-patti-platform-safely",
+      "why-a-promo-code-may-not-work",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "DhanGame is a new platform scheduled to join this directory's [catalogue](/games/dhan-game) on 23 July 2026, between 8:00 and 9:00 AM IST. This post covers what's been announced so far — a welcome bonus, a first-deposit match, and where the promo code will appear — and, just as importantly, what hasn't been confirmed yet.",
+          "A note on scope before the numbers: DhanGame has not launched. Nothing below has been independently verified by this directory. What follows is what the operator itself advertises, clearly labelled as such, not a claim we're making on the platform's behalf.",
+        ],
+      },
+      {
+        heading: "What DhanGame advertises",
+        paragraphs: [
+          "According to DhanGame's own promotional materials, the platform advertises a welcome bonus in the ₹100–₹500 range and a first-deposit match reported as up to 200%. Both figures come directly from the operator, not from any independent testing or documentation review — we haven't seen the underlying terms and conditions that would normally define eligibility, wagering requirements, minimum deposit thresholds, or expiry windows for offers like these.",
+          "That gap matters. Our [guide to why a promo code may not work](/blog/why-a-promo-code-may-not-work) covers this in detail: an advertised bonus percentage is rarely the whole story. A '200% match' with a high wagering multiplier or a short redemption window can behave very differently from what the headline number implies. Treat the figures above as a starting point for questions to ask once the app is actually available, not as a guarantee of what you'll receive.",
+        ],
+      },
+      {
+        heading: "The promo code — not released yet",
+        paragraphs: [
+          "No DhanGame promo code exists yet, and none is published anywhere on this site. The operator states that a code will be released inside the app itself, alongside a separate voucher code, once the platform is live. Until then, any 'DhanGame code' circulating elsewhere should be treated with the same skepticism this directory applies everywhere else: codes are only published here once supplied and dated, never invented or guessed.",
+          "When a code is released, it will appear on [DhanGame's promo-code page](/promo-codes/dhan-game) with a status label and the date it was added — the same system used for every other listing in this [directory](/promo-codes).",
+        ],
+      },
+      {
+        heading: "What's still unknown",
+        paragraphs: [
+          "The official domain isn't public yet — the operator has said it's 'coming soon' alongside the 23 July launch, which is also why this post can't link to one. Game modes, supported languages, official download source, and the exact wagering conditions behind the advertised bonuses are all unconfirmed as of this writing. This directory does not host APK files or install links from unofficial sources, and won't publish a download link for DhanGame until the operator supplies its own official one — the same rule applied to every other listing here.",
+        ],
+      },
+      {
+        heading: "Before you deposit anything",
+        paragraphs: [
+          "Once DhanGame is actually live, run it through the same checks you'd apply to any new platform before depositing real money — operator identity, documented terms, how withdrawals are described, and what the bonus conditions actually say in writing rather than in a headline. Our [platform review guide](/guides/how-to-review-a-teen-patti-platform-safely) walks through exactly what to look for, and it's worth doing before the excitement of a launch-day bonus outweighs the five minutes it takes to check.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "When does DhanGame launch?",
+        answer:
+          "23 July 2026, between 8:00 and 9:00 AM IST, according to the operator. This directory will update DhanGame's listing once the platform is actually live.",
+      },
+      {
+        question: "What welcome bonus does DhanGame advertise?",
+        answer:
+          "The operator advertises a welcome bonus in the ₹100–₹500 range and a first-deposit match reported as up to 200%. These are the operator's own stated figures, not independently verified, and the underlying terms (wagering requirements, eligibility, expiry) haven't been reviewed.",
+      },
+      {
+        question: "Is the DhanGame bonus guaranteed?",
+        answer:
+          "No. Advertised bonus percentages are marketing figures until you can read the actual terms and conditions. Nothing here should be read as a promise of what any specific player will receive.",
+      },
+      {
+        question: "Where do I get the DhanGame promo code?",
+        answer:
+          "Nowhere yet — no code has been released. The operator says one will appear inside the app and as a separate voucher code once DhanGame launches. It will be published on this site's DhanGame promo page only once supplied and dated.",
+      },
+      {
+        question: "What is DhanGame's official website?",
+        answer:
+          "Not public yet. The operator has described it as 'coming soon' alongside the 23 July launch date.",
+      },
+    ],
+  },
 ];

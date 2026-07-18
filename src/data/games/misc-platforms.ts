@@ -167,8 +167,10 @@ export const miscPlatforms: GameEntry[] = [
       "DhanGame is scheduled to become available on 23 July 2026, between 8:00 and 9:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
     informationalStatus:
       "This platform has not yet launched. It is expected to become available on 23 July 2026; no features, downloads, or codes exist to review yet.",
+    rewardInformation:
+      "DhanGame is reported to advertise a welcome bonus of ₹100–₹500 and a first-deposit match of up to 200%, according to the operator's own promotional materials. Neither figure has been independently verified by this directory, and advertised bonus terms commonly carry wagering requirements or eligibility conditions that aren't disclosed upfront. No promo code exists yet — DhanGame states one will be released inside the app and as a separate voucher code once the platform launches.",
     tags: ["upcoming"],
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-18",
+    updatedAt: "2026-07-19",
   }),
 ];
