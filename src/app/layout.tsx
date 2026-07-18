@@ -4,6 +4,7 @@ import { BottomNav } from "@/components/layout/BottomNav";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { PromoAlert } from "@/components/promo/PromoAlert";
+import { TelegramWidget } from "@/components/promo/TelegramWidget";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { freshPromoCount } from "@/data/games";
 import { absoluteUrl, siteConfig } from "@/lib/site";
@@ -72,6 +73,7 @@ export default function RootLayout({
         <Footer />
         <BottomNav hasFreshPromo={freshPromoCount > 0} />
         <PromoAlert count={freshPromoCount} />
+        <TelegramWidget />
       </body>
     </html>
   );
