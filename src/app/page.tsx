@@ -6,7 +6,7 @@ import { INDEPENDENCE_NOTICE } from "@/lib/compliance";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Teen Patti Game Directory for India",
+  title: "Teen Patti Games India 2026 | Promo Codes & Rewards Directory",
   description:
     "Browse an independent directory of 53 Teen Patti games and related platforms. Neutral information on features, promo codes, rewards, safety checks, and download links — not a betting site.",
   path: "/",
