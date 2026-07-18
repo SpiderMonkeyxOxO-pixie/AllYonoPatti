@@ -262,6 +262,8 @@ export default async function GamePage({ params }: PageProps) {
             <DownloadLink
               href={game.downloadUrl}
               gameName={game.name}
+              gameSlug={game.slug}
+              placement="game_detail"
               label={`Download ${game.name}`}
               className="inline-flex min-h-11 items-center gap-1 rounded-lg bg-gold-400 px-4 text-sm font-semibold text-brand-950 hover:bg-gold-300"
             />

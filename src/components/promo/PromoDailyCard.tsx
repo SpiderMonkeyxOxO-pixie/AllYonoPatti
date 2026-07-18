@@ -123,7 +123,12 @@ export function PromoDailyCard({ game }: PromoDailyCardProps) {
 
       <div className="mt-3 flex flex-col gap-2">
         {game.downloadUrl && (
-          <DownloadLink href={game.downloadUrl} gameName={game.name} />
+          <DownloadLink
+            href={game.downloadUrl}
+            gameName={game.name}
+            gameSlug={game.slug}
+            placement="promo_card"
+          />
         )}
         <Link
           href={`/promo-codes/${game.slug}`}

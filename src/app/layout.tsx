@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
+import Script from "next/script";
 import { BottomNav } from "@/components/layout/BottomNav";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
@@ -58,6 +59,22 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <body className="flex min-h-screen flex-col font-sans">
+        {siteConfig.gaMeasurementId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaMeasurementId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${siteConfig.gaMeasurementId}');
+              `}
+            </Script>
+          </>
+        )}
         <JsonLd data={organizationSchema} />
         <JsonLd data={webSiteSchema} />
         <a
