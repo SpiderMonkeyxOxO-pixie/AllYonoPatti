@@ -10,6 +10,15 @@ export const metadata = buildMetadata({
   description:
     "Browse an independent directory of 53 Teen Patti games and related platforms. Neutral information on features, promo codes, rewards, safety checks, and download links — not a betting site.",
   path: "/",
+  keywords: [
+    "Teen Patti",
+    "Teen Patti games India",
+    "Teen Patti promo codes",
+    "Teen Patti rewards",
+    "Teen Patti apps",
+    "Teen Patti directory",
+    "Indian card games",
+  ],
 });
 
 export default function HomePage() {

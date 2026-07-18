@@ -10,6 +10,9 @@ type BuildMetadataInput = {
   image?: string;
   /** Set true for pages that should not be indexed. */
   noindex?: boolean;
+  /** Optional per-page keywords. Google/Bing ignore this for ranking, but
+   * it's harmless and some audit tools still check for it. */
+  keywords?: string[];
 };
 
 export function buildMetadata({
@@ -18,6 +21,7 @@ export function buildMetadata({
   path,
   image,
   noindex,
+  keywords,
 }: BuildMetadataInput): Metadata {
   const url = absoluteUrl(path);
   const ogImage = absoluteUrl(image ?? siteConfig.logo);
@@ -25,8 +29,13 @@ export function buildMetadata({
   return {
     title,
     description,
+    keywords,
+    authors: [{ name: siteConfig.name, url: siteConfig.url }],
+    other: { publisher: siteConfig.name },
     alternates: { canonical: url },
-    robots: noindex ? { index: false, follow: true } : undefined,
+    robots: noindex
+      ? { index: false, follow: true }
+      : { index: true, follow: true },
     openGraph: {
       title,
       description,
