@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand purple — drawn from the site logo's purple-to-magenta gradient */
+  --color-brand-50: #f6f0ff;
+  --color-brand-100: #ece0ff;
+  --color-brand-200: #d9c2ff;
+  --color-brand-300: #bf96ff;
+  --color-brand-400: #a166f5;
+  --color-brand-500: #8a3fe0;
+  --color-brand-600: #7124c9;
+  --color-brand-700: #5a1aa3;
+  --color-brand-800: #43137a;
+  --color-brand-900: #2d0d54;
+  --color-brand-950: #1a0733;
+
+  /* Gold accent — from the logo's wordmark, ribbon, and border frame.
+     Accent-only: fills with dark text, borders, and large text on dark
+     backgrounds. Never body-size gold text on light backgrounds. */
+  --color-gold-50: #fffaeb;
+  --color-gold-100: #fff0c2;
+  --color-gold-200: #ffe08a;
+  --color-gold-300: #ffcc4d;
+  --color-gold-400: #f7b924;
+  --color-gold-500: #e8a200;
+  --color-gold-600: #c78600;
+  --color-gold-700: #9c6a00;
+  --color-gold-800: #714d00;
+
+  /* Body type stays Inter; display type (wordmark, page h1s, homepage
+     section h2s, footer headings) uses Poppins. */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-inter), sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+/* Visible focus states everywhere, keyboard-first */
+:focus-visible {
+  outline: 3px solid var(--color-brand-600);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* On dark purple surfaces (hero, footer) the brand-600 outline is nearly
+   invisible (~2.6:1 vs brand-950); switch to gold-300 (~12.5:1). */
+.on-dark :focus-visible,
+.on-dark:focus-visible {
+  outline-color: var(--color-gold-300);
+}
+
+/* Pulsing attention ring for the promo alert badge — expanding, fading
+   ring behind the icon. Neutralised by the prefers-reduced-motion rule
+   below via the universal animation-duration override. */
+@keyframes promo-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+.animate-promo-pulse {
+  animation: promo-pulse 1.8s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Long-form content styling for editorial and legal pages */
+.content-prose {
+  @apply text-slate-700 leading-relaxed;
+}
+.content-prose h2 {
+  @apply mt-10 mb-3 text-xl font-semibold text-slate-900;
+}
+.content-prose h3 {
+  @apply mt-7 mb-2 text-lg font-semibold text-slate-900;
+}
+.content-prose p {
+  @apply mb-4;
+}
+.content-prose ul {
+  @apply mb-4 list-disc space-y-1.5 pl-6;
+}
+.content-prose ol {
+  @apply mb-4 list-decimal space-y-1.5 pl-6;
+}
+.content-prose a {
+  @apply text-brand-700 underline underline-offset-2 hover:text-brand-800;
+}
+.content-prose table {
+  @apply mb-4 w-full border-collapse text-sm;
+}
+.content-prose th {
+  @apply border border-slate-200 bg-slate-100 px-3 py-2 text-left font-semibold text-slate-900;
+}
+.content-prose td {
+  @apply border border-slate-200 px-3 py-2 align-top;
+}
