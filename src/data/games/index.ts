@@ -9,7 +9,7 @@ import { getPromoDailyMap, type PromoDailyEntry } from "../promo-daily";
 
 export type { GameEntry, GameCategory, PromoStatus, VerificationStatus } from "./types";
 
-const EXPECTED_GAME_COUNT = 53;
+const EXPECTED_GAME_COUNT = 54;
 
 /**
  * promo-code.txt is the owner's daily-editing surface for morning/

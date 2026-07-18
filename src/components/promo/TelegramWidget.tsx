@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const TELEGRAM_URL = "https://t.me/AllYonoPatti";
+import { siteConfig } from "@/lib/site";
 
 /**
  * Persistent floating channel-join CTA, mirrored on the opposite corner
@@ -20,7 +19,7 @@ export function TelegramWidget() {
     <div className="fixed bottom-20 left-4 z-50 lg:bottom-6 lg:left-6">
       <div className="relative flex items-center">
         <a
-          href={TELEGRAM_URL}
+          href={siteConfig.telegramUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-full bg-[#2AABEE] py-3 pr-4 pl-3 text-sm font-semibold text-white shadow-lg hover:bg-[#229ED9]"

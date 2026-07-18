@@ -16,6 +16,7 @@ export const siteConfig = {
   contactEmail:
     process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@allyonopatti.com",
   gaMeasurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-DY32HFLYDN",
+  telegramUrl: "https://t.me/AllYonoPatti",
   logo: "/images/site/logo.png",
   locale: "en_IN",
 } as const;

@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import { UpcomingGameCard } from "@/components/games/UpcomingGameCard";
 import { GameCard } from "@/components/ui/GameCard";
 import { featuredGames, games } from "@/data/games";
+import { getActiveUpcomingGames } from "@/data/upcoming-games";
 import { INDEPENDENCE_NOTICE } from "@/lib/compliance";
 import { buildMetadata } from "@/lib/seo";
 
@@ -22,6 +24,8 @@ export const metadata = buildMetadata({
 });
 
 export default function HomePage() {
+  const upcomingGames = getActiveUpcomingGames();
+
   return (
     <div>
       <section className="on-dark relative overflow-hidden bg-brand-950">
@@ -106,6 +110,25 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {upcomingGames.length > 0 && (
+          <section aria-labelledby="upcoming-heading" className="mt-14">
+            <h2
+              id="upcoming-heading"
+              className="font-display text-2xl font-bold text-slate-900"
+            >
+              Coming soon
+            </h2>
+            <p className="mt-1 text-sm text-slate-500">
+              Announced platforms not yet available to review.
+            </p>
+            <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {upcomingGames.map((game) => (
+                <UpcomingGameCard key={game.slug} game={game} />
+              ))}
+            </div>
+          </section>
+        )}
 
         <section aria-labelledby="explore-heading" className="mt-14">
           <h2
