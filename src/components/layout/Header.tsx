@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { freshPromoCount } from "@/data/games";
 import { siteConfig } from "@/lib/site";
 import { MobileMenu } from "./MobileMenu";
+import { PromoPulseDot } from "./PromoPulseDot";
 
 export const primaryNav = [
   { href: "/", label: "Home" },
@@ -17,8 +17,6 @@ export const primaryNav = [
 const desktopNav = primaryNav.filter((item) => item.href !== "/promo-codes");
 
 export function Header() {
-  const hasFreshPromo = freshPromoCount > 0;
-
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-4">
@@ -53,20 +51,10 @@ export function Header() {
           </nav>
           <Link
             href="/promo-codes"
-            aria-label={
-              hasFreshPromo
-                ? "Promo Codes — new code available today"
-                : "Promo Codes"
-            }
             className="inline-flex min-h-11 items-center gap-2 rounded-full bg-gold-400 px-4 text-sm font-semibold text-brand-950 hover:bg-gold-300"
           >
             Promo Codes
-            {hasFreshPromo && (
-              <span className="relative flex h-2.5 w-2.5" aria-hidden="true">
-                <span className="animate-promo-pulse absolute inset-0 rounded-full bg-brand-700" />
-                <span className="relative h-2.5 w-2.5 rounded-full bg-brand-700" />
-              </span>
-            )}
+            <PromoPulseDot />
           </Link>
         </div>
 

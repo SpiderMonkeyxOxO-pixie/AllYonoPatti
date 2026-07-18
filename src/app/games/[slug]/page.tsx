@@ -7,7 +7,11 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { DownloadLink } from "@/components/ui/DownloadLink";
 import { GameCard } from "@/components/ui/GameCard";
 import { StatusBadge } from "@/components/ui/StatusBadge";
-import { games, getGameBySlug, getRelatedGames } from "@/data/games";
+import {
+  games,
+  getGameWithLivePromo,
+  getRelatedGames,
+} from "@/data/games";
 import {
   AWAITING_VERIFICATION,
   NO_APK_NOTICE,
@@ -30,11 +34,15 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+// Keeps the promo-status badge on this page in sync with /promo-codes —
+// see the same directive on src/app/promo-codes/[slug]/page.tsx for why.
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = getGameWithLivePromo(slug);
   if (!game) return {};
   return buildMetadata({
     title: `${game.name} — Information, Features & Safety Checks`,
@@ -46,7 +54,7 @@ export async function generateMetadata({
 
 export default async function GamePage({ params }: PageProps) {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = getGameWithLivePromo(slug);
   if (!game) notFound();
 
   const related = getRelatedGames(game);

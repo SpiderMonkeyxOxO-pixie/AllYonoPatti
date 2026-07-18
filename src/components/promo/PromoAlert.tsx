@@ -3,25 +3,38 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-type PromoAlertProps = {
-  /** How many games have a live daily code right now. 0 renders nothing. */
-  count: number;
-};
-
 /**
  * Small pulsing corner badge that only appears when promo-code.txt has an
  * actual live code for today — never a manufactured "new offer" nudge.
  * Collapsed by default (icon only); a click reveals the CTA.
  *
+ * Fetches its own status from /api/promo-status client-side (rather than
+ * receiving it as a server-rendered prop) so an edit to promo-code.txt is
+ * reflected the next time this loads — no rebuild involved. That API
+ * route re-reads the file fresh on every call; nothing here is cached.
+ *
  * This renders from the root layout, outside `children`, so React never
  * unmounts it on client-side navigation between pages — plain component
  * state is enough to keep a dismissal in effect for the rest of the visit
- * without reaching for sessionStorage. A hard reload (or tomorrow's
- * rebuild, once new codes replace today's) naturally resets it.
+ * without reaching for sessionStorage. A hard reload naturally resets it.
  */
-export function PromoAlert({ count }: PromoAlertProps) {
+export function PromoAlert() {
+  const [count, setCount] = useState(0);
   const [open, setOpen] = useState(false);
   const [dismissed, setDismissed] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/promo-status")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { count?: number } | null) => {
+        if (!cancelled && data) setCount(data.count ?? 0);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   useEffect(() => {
     if (!open) return;

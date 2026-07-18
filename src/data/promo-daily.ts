@@ -23,22 +23,25 @@ function todayIso(): string {
 /**
  * Parses the owner-edited promo-code.txt sheet (`slug | name | morning |
  * afternoon | evening`, plus a shared `DATE | YYYY-MM-DD` line) into a
- * slug-keyed map. Runs once at module load, server-side only (Node `fs`).
- * A missing file or malformed row is skipped rather than thrown — a
- * formatting slip in a hand-edited text file must never break the build.
+ * slug-keyed map. Server-side only (Node `fs`). Called fresh on every
+ * invocation — deliberately NOT cached at module scope, so that pages
+ * reading it (marked `dynamic = "force-dynamic"`) see an edit to the file
+ * immediately on the next request, with no rebuild step. A missing file or
+ * malformed row is skipped rather than thrown — a formatting slip in a
+ * hand-edited text file must never break a page render.
  *
  * Two defensive checks exist specifically because this file is hand-edited
  * multiple times a day:
  *  - A malformed DATE is dropped entirely (never passed through to render
  *    as "Invalid Date" on the live site).
- *  - If DATE doesn't match the actual build date, every code in the file
- *    is still used (an owner may build a little after midnight for the
- *    same working day), but a warning is logged — this is the cheapest
- *    signal available that the file may not have been reset for a new
- *    day, since forgetting to clear yesterday's cells before updating
- *    DATE would otherwise silently relabel stale codes as fresh.
+ *  - If DATE doesn't match today, every code in the file is still used (an
+ *    owner may edit a little after midnight for the same working day), but
+ *    a warning is logged — this is the cheapest signal available that the
+ *    file may not have been reset for a new day, since forgetting to clear
+ *    yesterday's cells before updating DATE would otherwise silently
+ *    relabel stale codes as fresh.
  */
-function parse(): Map<string, PromoDailyEntry> {
+export function getPromoDailyMap(): Map<string, PromoDailyEntry> {
   const result = new Map<string, PromoDailyEntry>();
   let raw: string;
   try {
@@ -133,6 +136,3 @@ function parse(): Map<string, PromoDailyEntry> {
 
   return result;
 }
-
-/** Daily promo codes keyed by game slug, sourced from promo-code.txt. */
-export const promoDailyBySlug: Map<string, PromoDailyEntry> = parse();

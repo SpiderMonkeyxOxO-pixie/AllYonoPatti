@@ -7,7 +7,6 @@ import { Header } from "@/components/layout/Header";
 import { PromoAlert } from "@/components/promo/PromoAlert";
 import { TelegramWidget } from "@/components/promo/TelegramWidget";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { freshPromoCount } from "@/data/games";
 import { absoluteUrl, siteConfig } from "@/lib/site";
 import "./globals.css";
 
@@ -88,8 +87,8 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <BottomNav hasFreshPromo={freshPromoCount > 0} />
-        <PromoAlert count={freshPromoCount} />
+        <BottomNav />
+        <PromoAlert />
         <TelegramWidget />
       </body>
     </html>

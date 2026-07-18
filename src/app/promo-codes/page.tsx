@@ -2,9 +2,14 @@ import Link from "next/link";
 import { PromoDailyCard } from "@/components/promo/PromoDailyCard";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FaqSection } from "@/components/ui/FaqSection";
-import { games } from "@/data/games";
+import { getGamesWithLivePromo } from "@/data/games";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
+
+// promo-code.txt is edited directly on the server (no rebuild step) — this
+// page must re-read it on every request rather than serve a cached/static
+// snapshot, or edits would never show up without a manual rebuild.
+export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
   title: "Teen Patti Promo Code Status Updates — All 53 Games",
@@ -37,6 +42,8 @@ const hubFaqs = [
 ];
 
 export default function PromoCodesPage() {
+  const games = getGamesWithLivePromo();
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
       <Breadcrumbs

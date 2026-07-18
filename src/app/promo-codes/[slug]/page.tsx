@@ -6,7 +6,11 @@ import { FaqSection, type FaqItem } from "@/components/ui/FaqSection";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CopyButton } from "@/components/ui/CopyButton";
 import { StatusBadge } from "@/components/ui/StatusBadge";
-import { games, getGameBySlug, type GameEntry } from "@/data/games";
+import {
+  games,
+  getGameWithLivePromo,
+  type GameEntry,
+} from "@/data/games";
 import {
   PROMO_CHANGE_NOTICE,
   promoStatusLabels,
@@ -23,11 +27,19 @@ export function generateStaticParams() {
 
 export const dynamicParams = false;
 
+// promo-code.txt is edited directly on the server (no rebuild step) — this
+// page must re-read it on every request rather than serve a cached/static
+// snapshot, or edits would never show up without a manual rebuild.
+// generateStaticParams above still pins the valid slug list at build time
+// (so an unknown slug 404s exactly as before), only the render itself is
+// fresh per request.
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = getGameWithLivePromo(slug);
   if (!game) return {};
   return buildMetadata({
     title: `${game.name} Promo Code — Status & Conditions`,
@@ -63,7 +75,7 @@ function buildPromoFaqs(game: GameEntry): FaqItem[] {
 
 export default async function PromoPage({ params }: PageProps) {
   const { slug } = await params;
-  const game = getGameBySlug(slug);
+  const game = getGameWithLivePromo(slug);
   if (!game) notFound();
 
   const statusLabel = promoStatusLabels[game.promoStatus] ?? game.promoStatus;

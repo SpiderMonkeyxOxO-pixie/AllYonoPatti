@@ -5,7 +5,7 @@ import { slotsFamily } from "./slots-family";
 import { spinFamily } from "./spin-family";
 import type { GameEntry } from "./types";
 import { yonoFamily } from "./yono-family";
-import { promoDailyBySlug } from "../promo-daily";
+import { getPromoDailyMap, type PromoDailyEntry } from "../promo-daily";
 
 export type { GameEntry, GameCategory, PromoStatus, VerificationStatus } from "./types";
 
@@ -14,8 +14,28 @@ const EXPECTED_GAME_COUNT = 53;
 /**
  * promo-code.txt is the owner's daily-editing surface for morning/
  * afternoon/evening codes — when it sets a slug's slots, that overrides
- * whatever (if anything) a game's own file has for promoDaily.
+ * whatever (if anything) a game's own file has for promoDaily. A live
+ * daily code is itself owner-supplied evidence — reflect that in the
+ * status badge rather than leaving it stuck on "awaiting review" next to
+ * a code that's visibly right there. Never override a status the owner
+ * set to something other than the default, e.g. "expired".
  */
+function mergePromoDaily(g: GameEntry, daily: PromoDailyEntry | undefined): GameEntry {
+  if (!daily) return g;
+  const hasLiveCode = Boolean(daily.morning || daily.afternoon || daily.evening);
+  const promoStatus =
+    hasLiveCode && g.promoStatus === "awaiting-review"
+      ? ("reported-active" as const)
+      : g.promoStatus;
+  return { ...g, promoDaily: daily, promoStatus };
+}
+
+// A build-time snapshot — good enough for the statically-generated game
+// pages, where "live" freshness isn't the point. The promo-codes pages use
+// getGamesWithLivePromo() below instead, which re-reads the file on every
+// request.
+const buildTimePromoDaily = getPromoDailyMap();
+
 const allGames: GameEntry[] = [
   ...yonoFamily,
   ...jaihoFamily,
@@ -23,27 +43,14 @@ const allGames: GameEntry[] = [
   ...spinFamily,
   ...slotsFamily,
   ...miscPlatforms,
-].map((g) => {
-  const daily = promoDailyBySlug.get(g.slug);
-  if (!daily) return g;
-  const hasLiveCode = Boolean(daily.morning || daily.afternoon || daily.evening);
-  // A live daily code is itself owner-supplied evidence — reflect that in
-  // the status badge rather than leaving it stuck on "awaiting review"
-  // next to a code that's visibly right there. Never override a status
-  // the owner set to something other than the default, e.g. "expired".
-  const promoStatus =
-    hasLiveCode && g.promoStatus === "awaiting-review"
-      ? ("reported-active" as const)
-      : g.promoStatus;
-  return { ...g, promoDaily: daily, promoStatus };
-});
+].map((g) => mergePromoDaily(g, buildTimePromoDaily.get(g.slug)));
 
 // A slug in promo-code.txt that matches no real game is a silent no-op
 // otherwise — almost always a typo in the file's first column. Warn so it
 // gets noticed instead of "why isn't this code showing up?" a day later.
 {
   const realSlugs = new Set(allGames.map((g) => g.slug));
-  for (const slug of promoDailyBySlug.keys()) {
+  for (const slug of buildTimePromoDaily.keys()) {
     if (!realSlugs.has(slug)) {
       console.warn(
         `[promo-code.txt] "${slug}" doesn't match any game slug — this row's codes are being ignored.`,
@@ -151,14 +158,35 @@ export const games: GameEntry[] = validate(allGames).slice().sort((a, b) =>
 
 export const featuredGames: GameEntry[] = games.filter((g) => g.featured);
 
-const gamesWithFreshCode = games.filter(
-  (g) =>
-    g.promoDaily &&
-    (g.promoDaily.morning || g.promoDaily.afternoon || g.promoDaily.evening),
-);
+/**
+ * Re-merges promo-code.txt fresh (bypassing the build-time snapshot above)
+ * onto the validated game list. Call this from request-time code — a
+ * route marked `export const dynamic = "force-dynamic"`, or a Route
+ * Handler — so an edit to promo-code.txt shows up on the next request,
+ * with no rebuild. Never cached at module scope.
+ */
+export function getGamesWithLivePromo(): GameEntry[] {
+  const live = getPromoDailyMap();
+  return games.map((g) => mergePromoDaily(g, live.get(g.slug)));
+}
 
-/** How many games currently have a live daily code, per promo-code.txt. */
-export const freshPromoCount: number = gamesWithFreshCode.length;
+export function getGameWithLivePromo(slug: string): GameEntry | undefined {
+  return getGamesWithLivePromo().find((g) => g.slug === slug);
+}
+
+function countFreshPromo(entries: GameEntry[]): { count: number; date?: string } {
+  const withCode = entries.filter(
+    (g) =>
+      g.promoDaily &&
+      (g.promoDaily.morning || g.promoDaily.afternoon || g.promoDaily.evening),
+  );
+  return { count: withCode.length, date: withCode[0]?.promoDaily?.date };
+}
+
+/** Live (not build-time-cached) count of games with a code today, for the API route. */
+export function getFreshPromoStatus(): { count: number; date?: string } {
+  return countFreshPromo(getGamesWithLivePromo());
+}
 
 export const gameCategories: string[] = [
   ...new Set(games.map((g) => g.category)),

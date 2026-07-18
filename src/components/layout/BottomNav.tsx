@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const items = [
   { href: "/", label: "Home" },
@@ -15,13 +16,24 @@ function isActive(pathname: string, href: string): boolean {
   return pathname === href || pathname.startsWith(`${href}/`);
 }
 
-type BottomNavProps = {
-  /** Whether at least one game has a live daily code right now. */
-  hasFreshPromo?: boolean;
-};
-
-export function BottomNav({ hasFreshPromo = false }: BottomNavProps) {
+export function BottomNav() {
   const pathname = usePathname();
+  // Fetched client-side (see PromoAlert for why) so the dot reflects a
+  // promo-code.txt edit immediately, without a rebuild.
+  const [hasFreshPromo, setHasFreshPromo] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/promo-status")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { count?: number } | null) => {
+        if (!cancelled && data) setHasFreshPromo((data.count ?? 0) > 0);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   return (
     <nav
