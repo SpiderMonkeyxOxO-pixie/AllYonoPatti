@@ -56,8 +56,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
-      <body className="flex min-h-screen flex-col font-sans">
+    <html
+      lang="en"
+      className={`${inter.variable} ${poppins.variable}`}
+      suppressHydrationWarning
+    >
+      <body
+        className="flex min-h-screen flex-col font-sans"
+        suppressHydrationWarning
+      >
         {siteConfig.gaMeasurementId && (
           <>
             <Script
