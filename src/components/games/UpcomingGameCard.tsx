@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useSyncExternalStore } from "react";
+import { useSyncExternalStore } from "react";
 import { releaseStartUtc, type UpcomingGame } from "@/data/upcoming-games";
 import { formatDate } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
@@ -12,26 +12,55 @@ type UpcomingGameCardProps = {
 };
 
 /**
+ * Module-level singleton clock, shared by every card on the page — one
+ * interval total, not one per card. Critically, `subscribeToClock` and
+ * `getClockSnapshot` are stable references (defined once, not recreated
+ * per render): passing a new `subscribe` function to useSyncExternalStore
+ * on every render makes React re-subscribe every render, and this
+ * particular subscribe fired an update as its first action, which is
+ * exactly the infinite-render-loop shape ("Maximum update depth
+ * exceeded") that happens when that isn't stable.
+ */
+let clockValue = Date.now();
+const clockListeners = new Set<() => void>();
+let clockIntervalId: ReturnType<typeof setInterval> | null = null;
+
+function subscribeToClock(onStoreChange: () => void): () => void {
+  clockListeners.add(onStoreChange);
+  if (clockIntervalId === null) {
+    clockIntervalId = setInterval(() => {
+      clockValue = Date.now();
+      clockListeners.forEach((listener) => listener());
+    }, 1000);
+  }
+  return () => {
+    clockListeners.delete(onStoreChange);
+    if (clockListeners.size === 0 && clockIntervalId !== null) {
+      clearInterval(clockIntervalId);
+      clockIntervalId = null;
+    }
+  };
+}
+
+function getClockSnapshot(): number {
+  return clockValue;
+}
+
+function getServerClockSnapshot(): null {
+  return null;
+}
+
+/**
  * Ticks once a second, client-side only. `getServerSnapshot` returns null
  * so SSR never has to guess "now" — a build-time value would just be
  * wrong by the time a visitor loads the page — and the real clock takes
  * over on the client without a hydration mismatch.
  */
 function useTickingNow(): number | null {
-  const valueRef = useRef<number | null>(null);
-
   return useSyncExternalStore(
-    (onStoreChange) => {
-      valueRef.current = Date.now();
-      onStoreChange();
-      const id = setInterval(() => {
-        valueRef.current = Date.now();
-        onStoreChange();
-      }, 1000);
-      return () => clearInterval(id);
-    },
-    () => valueRef.current,
-    () => null,
+    subscribeToClock,
+    getClockSnapshot,
+    getServerClockSnapshot,
   );
 }
 
