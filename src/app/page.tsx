@@ -70,9 +70,28 @@ export default function HomePage() {
       </section>
 
       <div className="mx-auto max-w-6xl px-4 pt-8">
+        {upcomingGames.length > 0 && (
+          <section aria-labelledby="upcoming-heading">
+            <h2
+              id="upcoming-heading"
+              className="font-display text-2xl font-bold text-slate-900"
+            >
+              Coming soon
+            </h2>
+            <p className="mt-1 text-sm text-slate-500">
+              Announced platforms not yet available to review.
+            </p>
+            <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {upcomingGames.map((game) => (
+                <UpcomingGameCard key={game.slug} game={game} />
+              ))}
+            </div>
+          </section>
+        )}
+
         <section
           aria-labelledby="independence-heading"
-          className="rounded-xl border border-slate-200 bg-white p-5"
+          className={`rounded-xl border border-slate-200 bg-white p-5 ${upcomingGames.length > 0 ? "mt-12" : ""}`}
         >
           <h2
             id="independence-heading"
@@ -110,25 +129,6 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-
-        {upcomingGames.length > 0 && (
-          <section aria-labelledby="upcoming-heading" className="mt-14">
-            <h2
-              id="upcoming-heading"
-              className="font-display text-2xl font-bold text-slate-900"
-            >
-              Coming soon
-            </h2>
-            <p className="mt-1 text-sm text-slate-500">
-              Announced platforms not yet available to review.
-            </p>
-            <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
-              {upcomingGames.map((game) => (
-                <UpcomingGameCard key={game.slug} game={game} />
-              ))}
-            </div>
-          </section>
-        )}
 
         <section aria-labelledby="explore-heading" className="mt-14">
           <h2
