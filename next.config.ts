@@ -1,5 +1,14 @@
 import type { NextConfig } from "next";
 
+// React's dev-mode tooling (Fast Refresh stack-trace reconstruction) needs
+// eval(), which the production CSP correctly blocks. Without this, every
+// local dev session shows a permanent (harmless) console error overlay.
+// React never uses eval() in production, so prod stays strict.
+const scriptSrc =
+  process.env.NODE_ENV === "development"
+    ? "script-src 'self' 'unsafe-inline' 'unsafe-eval'"
+    : "script-src 'self' 'unsafe-inline'";
+
 const securityHeaders = [
   { key: "X-Frame-Options", value: "SAMEORIGIN" },
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -12,7 +21,7 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline'",
+      scriptSrc,
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data:",
       "font-src 'self'",
