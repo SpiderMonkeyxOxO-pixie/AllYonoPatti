@@ -151,10 +151,40 @@ function validate(entries: GameEntry[]): GameEntry[] {
   return entries;
 }
 
-/** All 53 games, alphabetically sorted for stable listings. */
-export const games: GameEntry[] = validate(allGames).slice().sort((a, b) =>
-  a.name.localeCompare(b.name, "en"),
-);
+/**
+ * Manually pinned display order for the top of every listing (/games,
+ * /promo-codes, homepage Featured listings, and the JSON-LD item list —
+ * all of them just map over `games` in order, so this one array is the
+ * single place that controls it). Owner-directed, not derived from any
+ * data field: when a new platform is announced, the owner adds it at #1
+ * and the rest shift down (2026-07-19: "strictly abide this arrangement
+ * ... the #1 will become #2"). Anything not listed here falls back to
+ * alphabetical order after the pinned entries. A slug that no longer
+ * exists is silently skipped rather than breaking the build.
+ */
+const PINNED_ORDER: string[] = [
+  "dhan-game",
+  "max-rummy",
+  "yono-rummy",
+  "yono-games",
+  "yono-777",
+  "yono-arcade",
+];
+
+function withPinnedOrder(entries: GameEntry[]): GameEntry[] {
+  const bySlug = new Map(entries.map((g) => [g.slug, g] as const));
+  const pinned = PINNED_ORDER.map((slug) => bySlug.get(slug)).filter(
+    (g): g is GameEntry => Boolean(g),
+  );
+  const pinnedSlugs = new Set(pinned.map((g) => g.slug));
+  const rest = entries
+    .filter((g) => !pinnedSlugs.has(g.slug))
+    .sort((a, b) => a.name.localeCompare(b.name, "en"));
+  return [...pinned, ...rest];
+}
+
+/** All 54 games — pinned order first, then the rest alphabetically. */
+export const games: GameEntry[] = withPinnedOrder(validate(allGames));
 
 export const featuredGames: GameEntry[] = games.filter((g) => g.featured);
 
