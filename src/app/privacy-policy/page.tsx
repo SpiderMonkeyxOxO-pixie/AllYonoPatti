@@ -55,17 +55,23 @@ export default function PrivacyPolicyPage() {
 
         <h2>Analytics</h2>
         <p>
-          This site currently runs without a third-party analytics service.
-          If one is introduced, this policy will be updated first to name the
-          service, describe what it records, and explain any consent controls
-          offered.
+          This site uses Google Analytics (GA4) to understand aggregate
+          traffic patterns — which pages are visited, how people arrive
+          here, and which links get used. Google Analytics sets cookies and
+          collects standard technical data (such as approximate location
+          from IP address, device and browser type, and pages viewed); it
+          does not collect names, email addresses, or payment details
+          through this site. Data is processed by Google under its own
+          privacy policy. If this changes to a different service, or if
+          consent controls are added, this section will be updated first.
         </p>
 
         <h2>Cookies</h2>
         <p>
-          The site does not set marketing or tracking cookies. Any cookies
-          present are limited to technical necessities of the hosting
-          platform. Details live in the{" "}
+          The site sets Google Analytics cookies (to distinguish visitors and
+          sessions) and may set strictly technical cookies for hosting-level
+          functions such as load balancing and security. It does not set
+          advertising or cross-site marketing cookies. Details live in the{" "}
           <Link href="/cookie-policy">cookie policy</Link>, which will be
           updated before any change in practice.
         </p>

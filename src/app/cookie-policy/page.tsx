@@ -5,11 +5,11 @@ import { buildMetadata, formatDate } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Cookie Policy",
   description:
-    "The cookies this directory does and does not use: no marketing or tracking cookies, only technical necessities of the hosting platform.",
+    "The cookies this directory uses: Google Analytics for aggregate traffic measurement, plus technical necessities of the hosting platform — no advertising or cross-site marketing cookies.",
   path: "/cookie-policy",
 });
 
-const LAST_UPDATED = "2026-07-17";
+const LAST_UPDATED = "2026-07-18";
 
 export default function CookiePolicyPage() {
   return (
@@ -30,10 +30,21 @@ export default function CookiePolicyPage() {
       <div className="content-prose mt-6">
         <h2>The current position</h2>
         <p>
-          This website does not set marketing, advertising, or cross-site
-          tracking cookies, and it does not currently run a third-party
-          analytics service. Reading the directory requires no account and no
-          consent banner because there is nothing to consent to.
+          This website uses Google Analytics to measure aggregate traffic —
+          it does not set advertising or cross-site marketing cookies, and
+          reading the directory requires no account.
+        </p>
+
+        <h2>Analytics cookies</h2>
+        <p>
+          Google Analytics (GA4) sets cookies (typically named{" "}
+          <code>_ga</code> and <code>_ga_*</code>) to distinguish visitors
+          and sessions, so we can see aggregate patterns like which pages get
+          read and which links get used. These cookies do not identify you
+          by name and are not used to serve you ads on other sites. Google
+          processes this data under its own privacy policy; see our{" "}
+          <Link href="/privacy-policy">privacy policy</Link> for what we do
+          and don&apos;t collect directly.
         </p>
 
         <h2>Technical cookies</h2>
@@ -48,10 +59,11 @@ export default function CookiePolicyPage() {
 
         <h2>If this changes</h2>
         <p>
-          If analytics or any other cookie-setting service is introduced in
-          future, this page will be updated first with the service&apos;s
-          name, purpose, cookie lifetimes, and any consent controls — and
-          the <Link href="/privacy-policy">privacy policy</Link> will be
+          If additional analytics, advertising, or any other
+          cookie-setting service is introduced in future, this page will be
+          updated first with the service&apos;s name, purpose, cookie
+          lifetimes, and any consent controls — and the{" "}
+          <Link href="/privacy-policy">privacy policy</Link> will be
           revised to match. A practice change will never precede its
           disclosure here.
         </p>
