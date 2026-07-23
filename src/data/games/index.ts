@@ -11,6 +11,12 @@ export type { GameEntry, GameCategory, PromoStatus, VerificationStatus } from ".
 
 const EXPECTED_GAME_COUNT = 54;
 
+// Catches an unfilled template URL before it ships as a real Download
+// button — "flag it in the code" rather than silently publishing a
+// broken link (2026-07-23 requirement).
+const PLACEHOLDER_URL_PATTERN =
+  /example\.(com|org|net)|yourdomain|\[.*\]|<.*>|TODO|PLACEHOLDER|xxx\.xxx|lorem ?ipsum/i;
+
 /**
  * promo-code.txt is the owner's daily-editing surface for morning/
  * afternoon/evening codes — when it sets a slug's slots, that overrides
@@ -128,6 +134,27 @@ function validate(entries: GameEntry[]): GameEntry[] {
       !g.promoDaily.date
     ) {
       errors.push(`promoDaily slots set without a date: ${g.slug}`);
+    }
+
+    // A downloadUrl must be a real, syntactically valid link — not an
+    // unfilled template placeholder that would otherwise ship silently as
+    // a broken Download button.
+    if (g.downloadUrl) {
+      let parsed: URL | null = null;
+      try {
+        parsed = new URL(g.downloadUrl);
+      } catch {
+        parsed = null;
+      }
+      if (!parsed || !/^https?:$/.test(parsed.protocol)) {
+        errors.push(
+          `downloadUrl is not a valid http(s) URL: ${g.slug} — "${g.downloadUrl}"`,
+        );
+      } else if (PLACEHOLDER_URL_PATTERN.test(g.downloadUrl)) {
+        errors.push(
+          `downloadUrl looks like an unfilled placeholder, not a real link: ${g.slug} — "${g.downloadUrl}"`,
+        );
+      }
     }
   }
 

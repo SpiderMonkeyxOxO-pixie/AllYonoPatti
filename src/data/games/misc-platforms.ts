@@ -160,17 +160,20 @@ export const miscPlatforms: GameEntry[] = [
   defineGame({
     name: "DhanGame",
     slug: "dhan-game",
+    downloadUrl: "https://dhanwinplay.com/?code=L2VRQRRF2UK&t=1784778249",
+    aliases: ["Dhan Win Play", "DhanWinPlay"],
     category: "Multi-game platform",
     shortDescription:
-      "An upcoming platform expected to join this directory on 23 July 2026 — not yet launched, no features confirmed.",
+      "A Teen Patti platform that launched 23 July 2026 at dhanwinplay.com, advertising multiple tables and a launch bonus — not yet independently reviewed.",
     fullDescription:
-      "DhanGame is scheduled to become available on 23 July 2026, between 8:00 and 9:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+      "DhanGame launched on 23 July 2026 at dhanwinplay.com, positioning itself around classic Teen Patti with multiple concurrent tables. The operator's own promotional material advertises 'fair and safe play,' round-the-clock support, and the welcome bonus described below — none of these claims have been independently verified by this directory. As with any newly launched platform, treat marketing copy as marketing copy until you've checked the operator's own terms, permissions, and support channels yourself — this directory's platform review guide walks through exactly what to check.",
     informationalStatus:
-      "This platform has not yet launched. It is expected to become available on 23 July 2026; no features, downloads, or codes exist to review yet.",
+      "DhanGame launched 23 July 2026. This is a newly added listing — features, terms, and safety details are based on the operator's own promotional materials and have not yet been independently confirmed.",
     rewardInformation:
-      "DhanGame is reported to advertise a welcome bonus of ₹100–₹500 and a first-deposit match of up to 200%, according to the operator's own promotional materials. Neither figure has been independently verified by this directory, and advertised bonus terms commonly carry wagering requirements or eligibility conditions that aren't disclosed upfront. No promo code exists yet — DhanGame states one will be released inside the app and as a separate voucher code once the platform launches.",
-    tags: ["upcoming"],
+      "DhanGame advertises a welcome bonus of ₹100–₹500 and a first-deposit match of up to 200%, according to the operator's own promotional materials. Neither figure has been independently verified by this directory, and advertised bonus terms commonly carry wagering requirements or eligibility conditions that aren't disclosed upfront.",
+    tags: ["newly-launched", "teen-patti"],
+    featured: true,
     publishedAt: "2026-07-18",
-    updatedAt: "2026-07-19",
+    updatedAt: "2026-07-23",
   }),
 ];
