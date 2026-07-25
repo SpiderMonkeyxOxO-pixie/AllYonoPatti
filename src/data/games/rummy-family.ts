@@ -226,4 +226,20 @@ export const rummyFamily: GameEntry[] = [
     tags: ["rummy", "card-games"],
     relatedGameSlugs: ["boss-rummy", "max-rummy", "rumble-rummy"],
   }),
+  defineGame({
+    name: "Win Rummy",
+    slug: "win-rummy",
+    category: "Rummy-focused platform",
+    logo: "/images/games/win-rummy.png",
+    featuredImage: "/images/games/win-rummy.png",
+    shortDescription:
+      "An upcoming rummy platform expected to join this directory on 29 July 2026 — not yet launched, no features confirmed.",
+    fullDescription:
+      "Win Rummy is scheduled to become available on 29 July 2026, between 9:00 and 10:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+    informationalStatus:
+      "This platform has not yet launched. It is expected to become available on 29 July 2026; no features, downloads, or codes exist to review yet.",
+    tags: ["upcoming", "rummy"],
+    publishedAt: "2026-07-25",
+    updatedAt: "2026-07-25",
+  }),
 ];

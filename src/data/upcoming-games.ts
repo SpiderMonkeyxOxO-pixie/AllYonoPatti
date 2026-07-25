@@ -21,8 +21,20 @@ export type UpcomingGame = {
 };
 
 // DhanGame launched 2026-07-23 and moved into the main game collection
-// (src/data/games/misc-platforms.ts) — no announcements pending right now.
-export const upcomingGames: UpcomingGame[] = [];
+// (src/data/games/misc-platforms.ts).
+export const upcomingGames: UpcomingGame[] = [
+  {
+    slug: "win-rummy",
+    name: "Win Rummy",
+    logo: "/images/games/win-rummy.png",
+    releaseDate: "2026-07-29",
+    windowStart: "09:00",
+    windowEnd: "10:00",
+    blurb:
+      "Win Rummy is joining this directory's catalogue. We'll add category, promo-code, and safety information once the game is available and can be independently reviewed.",
+    gameSlug: "win-rummy",
+  },
+];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
