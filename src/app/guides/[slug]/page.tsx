@@ -21,7 +21,7 @@ export async function generateMetadata({
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
   return buildMetadata({
-    title: guide.title,
+    title: guide.seoTitle ?? guide.title,
     description: guide.description,
     path: `/guides/${guide.slug}`,
     image: guide.featuredImage,

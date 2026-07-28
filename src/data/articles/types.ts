@@ -1,7 +1,13 @@
+export type ArticleTable = {
+  headers: string[];
+  rows: string[][];
+};
+
 export type ArticleSection = {
   heading?: string;
   paragraphs?: string[];
   list?: string[];
+  table?: ArticleTable;
 };
 
 export type ArticleCategory =
@@ -22,6 +28,8 @@ export type ArticleFaqItem = {
 export type Article = {
   slug: string;
   title: string;
+  /** Optional distinct <title>/meta title. Falls back to `title` (the H1) when unset. */
+  seoTitle?: string;
   description: string;
   category: ArticleCategory;
   publishedAt: string;

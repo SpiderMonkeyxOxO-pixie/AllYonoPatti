@@ -56,6 +56,28 @@ export function ArticleBody({ sections }: ArticleBodyProps) {
               ))}
             </ul>
           )}
+          {section.table && (
+            <table>
+              <thead>
+                <tr>
+                  {section.table.headers.map((h) => (
+                    <th key={h} scope="col">
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {section.table.rows.map((row, rowIndex) => (
+                  <tr key={rowIndex}>
+                    {row.map((cell, cellIndex) => (
+                      <td key={cellIndex}>{renderWithLinks(cell)}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
         </section>
       ))}
     </div>

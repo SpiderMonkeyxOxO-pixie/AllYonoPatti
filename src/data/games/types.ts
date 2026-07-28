@@ -85,6 +85,8 @@ export type GameEntry = {
   };
   /** Slugs of related games. Validated at build time. */
   relatedGameSlugs?: string[];
+  /** Slugs of blog posts or guides that go deeper on this game. Validated at build time. */
+  relatedArticleSlugs?: string[];
   tags?: string[];
   featured?: boolean;
   /** ISO dates. */

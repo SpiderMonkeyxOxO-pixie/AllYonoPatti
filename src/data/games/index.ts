@@ -1,3 +1,4 @@
+import { blogPosts, guideArticles } from "../articles";
 import { jaihoFamily } from "./jaiho-family";
 import { miscPlatforms } from "./misc-platforms";
 import { rummyFamily } from "./rummy-family";
@@ -165,6 +166,18 @@ function validate(entries: GameEntry[]): GameEntry[] {
       }
       if (rel === g.slug) {
         errors.push(`Self-referencing related game on: ${g.slug}`);
+      }
+    }
+  }
+
+  const articleSlugs = new Set([
+    ...blogPosts.map((a) => a.slug),
+    ...guideArticles.map((a) => a.slug),
+  ]);
+  for (const g of entries) {
+    for (const rel of g.relatedArticleSlugs ?? []) {
+      if (!articleSlugs.has(rel)) {
+        errors.push(`Invalid related-article reference "${rel}" on: ${g.slug}`);
       }
     }
   }

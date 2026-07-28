@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { DownloadLink } from "@/components/ui/DownloadLink";
 import { GameCard } from "@/components/ui/GameCard";
 import { StatusBadge } from "@/components/ui/StatusBadge";
+import { articleBasePath, getArticleBySlug } from "@/data/articles";
 import {
   games,
   getGameWithLivePromo,
@@ -60,6 +61,9 @@ export default async function GamePage({ params }: PageProps) {
   const related = getRelatedGames(game);
   const faqs = buildGameFaqs(game);
   const features = getReportedFeatures(game);
+  const relatedArticles = (game.relatedArticleSlugs ?? [])
+    .map((s) => getArticleBySlug(s))
+    .filter((a) => a !== undefined);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -379,6 +383,16 @@ export default async function GamePage({ params }: PageProps) {
           Further reading
         </h2>
         <ul className="mt-3 list-disc space-y-1.5 pl-6 text-slate-700">
+          {relatedArticles.map((a) => (
+            <li key={a.slug}>
+              <Link
+                href={`${articleBasePath(a)}/${a.slug}`}
+                className="text-brand-700 underline"
+              >
+                {a.title}
+              </Link>
+            </li>
+          ))}
           <li>
             <Link
               href="/guides/how-to-review-a-teen-patti-platform-safely"

@@ -229,17 +229,18 @@ export const rummyFamily: GameEntry[] = [
   defineGame({
     name: "Win Rummy",
     slug: "win-rummy",
-    category: "Rummy-focused platform",
+    category: "Multi-game platform",
     logo: "/images/games/win-rummy.png",
     featuredImage: "/images/games/win-rummy.png",
     shortDescription:
-      "An upcoming rummy platform expected to join this directory on 29 July 2026 — not yet launched, no features confirmed.",
+      "A multi-game platform whose website advertises 25+ games including Teen Patti — the marketing site is live, but the Android app itself is not yet downloadable.",
     fullDescription:
-      "Win Rummy is scheduled to become available on 29 July 2026, between 9:00 and 10:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+      "Win Rummy has a live marketing website that advertises more than 25 games, naming rummy, poker, Teen Patti, Andar Bahar, Dragon and Tiger, Baccarat, Blackjack, Roulette, and several non-card titles. Rummy is the most prominently presented category — it appears in the platform name, the Top Games section, and the app-download area — but Teen Patti is only mentioned in the site's description text and a testimonial, not shown as its own tile in the visible Top Games grid. As of this listing, the website's download area shows a waiting message rather than a working APK, so none of these advertised games — including which Teen Patti variant, if any, is actually included — have been independently verified. See this directory's full write-up on whether Win Rummy includes Teen Patti for the detailed breakdown.",
     informationalStatus:
-      "This platform has not yet launched. It is expected to become available on 29 July 2026; no features, downloads, or codes exist to review yet.",
-    tags: ["upcoming", "rummy"],
+      "This platform's marketing website is live, but no working Android app has been published for independent review yet. Every game named on the website — including Teen Patti — is advertised only, not app-verified.",
+    tags: ["upcoming", "multi-game", "teen-patti"],
+    relatedArticleSlugs: ["win-rummy-teen-patti-card-games"],
     publishedAt: "2026-07-25",
-    updatedAt: "2026-07-25",
+    updatedAt: "2026-07-28",
   }),
 ];
