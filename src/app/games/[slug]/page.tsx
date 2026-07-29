@@ -12,6 +12,7 @@ import {
   games,
   getGameWithLivePromo,
   getRelatedGames,
+  newestPinnedSlug,
 } from "@/data/games";
 import {
   AWAITING_VERIFICATION,
@@ -368,7 +369,11 @@ export default async function GamePage({ params }: PageProps) {
           </h2>
           <div className="mt-4 grid grid-cols-2 gap-3 sm:gap-4">
             {related.map((r) => (
-              <GameCard key={r.slug} game={r} />
+              <GameCard
+                key={r.slug}
+                game={r}
+                isNewest={r.slug === newestPinnedSlug}
+              />
             ))}
           </div>
         </section>

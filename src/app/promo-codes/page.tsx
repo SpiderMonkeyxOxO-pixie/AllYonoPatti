@@ -2,7 +2,7 @@ import Link from "next/link";
 import { PromoDailyCard } from "@/components/promo/PromoDailyCard";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FaqSection } from "@/components/ui/FaqSection";
-import { getGamesWithLivePromo } from "@/data/games";
+import { games, getGamesWithLivePromo } from "@/data/games";
 import { buildMetadata } from "@/lib/seo";
 import { siteConfig } from "@/lib/site";
 
@@ -12,9 +12,8 @@ import { siteConfig } from "@/lib/site";
 export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
-  title: "Teen Patti Promo Code Status Updates — All 53 Games",
-  description:
-    "Daily promo-code status for all 53 Teen Patti games, with separate morning, afternoon, and evening release slots per platform. Codes are recorded when supplied — never invented or guaranteed.",
+  title: `Teen Patti Promo Code Status Updates — All ${games.length} Games`,
+  description: `Daily promo-code status for all ${games.length} Teen Patti games, with separate morning, afternoon, and evening release slots per platform. Codes are recorded when supplied — never invented or guaranteed.`,
   path: "/promo-codes",
 });
 

@@ -17,6 +17,7 @@ export type ExplorerGame = {
 type GamesExplorerProps = {
   games: ExplorerGame[];
   categories: string[];
+  newestSlug?: string;
 };
 
 /**
@@ -24,7 +25,11 @@ type GamesExplorerProps = {
  * component state only (no URL parameters), so no indexable filter
  * combinations are ever created; /games remains the single canonical URL.
  */
-export function GamesExplorer({ games, categories }: GamesExplorerProps) {
+export function GamesExplorer({
+  games,
+  categories,
+  newestSlug,
+}: GamesExplorerProps) {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [letter, setLetter] = useState("all");
@@ -154,7 +159,7 @@ export function GamesExplorer({ games, categories }: GamesExplorerProps) {
         <ul className="mt-4 grid list-none grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
           {filtered.map((game) => (
             <li key={game.slug}>
-              <GameCard game={game} />
+              <GameCard game={game} isNewest={game.slug === newestSlug} />
             </li>
           ))}
         </ul>

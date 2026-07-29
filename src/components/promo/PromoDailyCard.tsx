@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { GameEntry } from "@/data/games";
+import { newestPinnedSlug, type GameEntry } from "@/data/games";
 import { CopyButton } from "@/components/ui/CopyButton";
 import {
   DownloadDisclosureNote,
@@ -42,6 +42,11 @@ export function PromoDailyCard({ game }: PromoDailyCardProps) {
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-1 bg-linear-to-r from-brand-600 via-brand-500 to-gold-400"
       />
+      {game.slug === newestPinnedSlug && (
+        <span className="absolute top-2 right-2 z-10 rounded-full bg-gold-400 px-2 py-0.5 text-[10px] font-bold tracking-wide text-brand-950 uppercase shadow-sm">
+          New
+        </span>
+      )}
       <div className="flex items-center justify-between gap-3">
         <div className="flex min-w-0 items-center gap-2.5">
           <Image

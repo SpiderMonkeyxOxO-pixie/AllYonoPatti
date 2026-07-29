@@ -229,18 +229,19 @@ export const rummyFamily: GameEntry[] = [
   defineGame({
     name: "Win Rummy",
     slug: "win-rummy",
+    downloadUrl: "https://www.winrummy10.com/?code=8JT9D83WCC3&t=1785293043",
     category: "Multi-game platform",
     logo: "/images/games/win-rummy.png",
     featuredImage: "/images/games/win-rummy.png",
     shortDescription:
-      "A multi-game platform whose website advertises 25+ games including Teen Patti — the marketing site is live, but the Android app itself is not yet downloadable.",
+      "A newly launched multi-game platform advertising 25+ games including Teen Patti, rummy, poker, and Andar Bahar — the app is now downloadable, but individual game claims remain unverified.",
     fullDescription:
-      "Win Rummy has a live marketing website that advertises more than 25 games, naming rummy, poker, Teen Patti, Andar Bahar, Dragon and Tiger, Baccarat, Blackjack, Roulette, and several non-card titles. Rummy is the most prominently presented category — it appears in the platform name, the Top Games section, and the app-download area — but Teen Patti is only mentioned in the site's description text and a testimonial, not shown as its own tile in the visible Top Games grid. As of this listing, the website's download area shows a waiting message rather than a working APK, so none of these advertised games — including which Teen Patti variant, if any, is actually included — have been independently verified. See this directory's full write-up on whether Win Rummy includes Teen Patti for the detailed breakdown.",
+      "Win Rummy has launched, with a working download link now available. Its marketing website advertises more than 25 games, naming rummy, poker, Teen Patti, Andar Bahar, Dragon and Tiger, Baccarat, Blackjack, Roulette, and several non-card titles. Rummy is the most prominently presented category — it appears in the platform name, the Top Games section, and the app-download area — but Teen Patti is only mentioned in the site's description text and a testimonial, not shown as its own tile in the visible Top Games grid. Which specific games and variants actually work inside the released app has not yet been independently reviewed. See this directory's full write-up on whether Win Rummy includes Teen Patti for the detailed breakdown.",
     informationalStatus:
-      "This platform's marketing website is live, but no working Android app has been published for independent review yet. Every game named on the website — including Teen Patti — is advertised only, not app-verified.",
-    tags: ["upcoming", "multi-game", "teen-patti"],
+      "This platform has launched and a download link is now available. Every game named on the website — including Teen Patti — is still advertised only at this stage, not independently app-verified.",
+    tags: ["newly-launched", "multi-game", "teen-patti"],
     relatedArticleSlugs: ["win-rummy-teen-patti-card-games"],
     publishedAt: "2026-07-25",
-    updatedAt: "2026-07-28",
+    updatedAt: "2026-07-29",
   }),
 ];

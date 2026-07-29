@@ -14,15 +14,22 @@ type GameCardProps = {
     shortDescription: string;
     downloadUrl?: string;
   };
+  /** Shows a "NEW" corner badge — the newest featured platform's #1 slot. */
+  isNewest?: boolean;
 };
 
-export function GameCard({ game }: GameCardProps) {
+export function GameCard({ game, isNewest }: GameCardProps) {
   return (
     <article className="relative flex h-full flex-col overflow-hidden rounded-xl border border-slate-200 bg-white p-3 pt-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-4 sm:pt-5">
       <span
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-1 bg-linear-to-r from-brand-600 via-brand-500 to-gold-400"
       />
+      {isNewest && (
+        <span className="absolute top-2 right-2 z-10 rounded-full bg-gold-400 px-2 py-0.5 text-[10px] font-bold tracking-wide text-brand-950 uppercase shadow-sm">
+          New
+        </span>
+      )}
       <div className="flex items-start gap-2.5 sm:gap-3">
         <Image
           src={game.logo}

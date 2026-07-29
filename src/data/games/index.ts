@@ -224,8 +224,16 @@ function withPinnedOrder(entries: GameEntry[]): GameEntry[] {
   return [...pinned, ...rest];
 }
 
-/** All 54 games — pinned order first, then the rest alphabetically. */
+/** All 55 games — pinned order first, then the rest alphabetically. */
 export const games: GameEntry[] = withPinnedOrder(validate(allGames));
+
+/**
+ * Whichever slug currently sits at #1 in PINNED_ORDER — by the owner's own
+ * rule that position always holds the newest featured platform, so this
+ * drives a "NEW" badge on cards without a separate manually-set flag per
+ * game. Moves automatically the next time PINNED_ORDER's #1 changes.
+ */
+export const newestPinnedSlug: string | undefined = PINNED_ORDER[0];
 
 export const featuredGames: GameEntry[] = games.filter((g) => g.featured);
 

@@ -24,7 +24,7 @@ export const posts: Article[] = [
       {
         heading: "The lookalike name",
         paragraphs: [
-          "The simplest fake borrows a known name with a small mutation: an extra word, a number swapped, a space removed. [The 53 games in this directory](/games) alone include multiple '777', '91', and 'Rummy' variants — legitimate apps already blur together, and impostors exploit exactly that blur.",
+          "The simplest fake borrows a known name with a small mutation: an extra word, a number swapped, a space removed. [The games in this directory](/games) alone include multiple '777', '91', and 'Rummy' variants — legitimate apps already blur together, and impostors exploit exactly that blur.",
           "The check: anchor on the publisher, not the name. Two apps can share a name; they cannot share a developer account. Note the exact publisher of the app you intend to install, and treat any mismatch between what a website claims and what the store listing shows as disqualifying.",
         ],
       },

@@ -1,14 +1,13 @@
 import { GamesExplorer } from "@/components/games/GamesExplorer";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
-import { gameCategories, games } from "@/data/games";
+import { gameCategories, games, newestPinnedSlug } from "@/data/games";
 import { buildMetadata } from "@/lib/seo";
 import { absoluteUrl } from "@/lib/site";
 
 export const metadata = buildMetadata({
-  title: "All Teen Patti Games — Directory of 53 Platforms",
-  description:
-    "A teen patti game directory covering 53 platforms. Search and filter by category, compare features, and open each game's profile and promo-code page.",
+  title: `All Teen Patti Games — Directory of ${games.length} Platforms`,
+  description: `A teen patti game directory covering ${games.length} platforms. Search and filter by category, compare features, and open each game's profile and promo-code page.`,
   path: "/games",
 });
 
@@ -58,7 +57,11 @@ export default function GamesPage() {
         independently confirmed.
       </p>
       <div className="mt-7">
-        <GamesExplorer games={explorerGames} categories={gameCategories} />
+        <GamesExplorer
+          games={explorerGames}
+          categories={gameCategories}
+          newestSlug={newestPinnedSlug}
+        />
       </div>
     </div>
   );

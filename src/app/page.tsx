@@ -2,15 +2,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { UpcomingGameCard } from "@/components/games/UpcomingGameCard";
 import { GameCard } from "@/components/ui/GameCard";
-import { featuredGames, games } from "@/data/games";
+import { featuredGames, games, newestPinnedSlug } from "@/data/games";
 import { getActiveUpcomingGames } from "@/data/upcoming-games";
 import { INDEPENDENCE_NOTICE } from "@/lib/compliance";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
   title: "Teen Patti Games India 2026 | Promo Codes & Rewards Directory",
-  description:
-    "Browse an independent directory of 53 Teen Patti games and related platforms. Neutral information on features, promo codes, rewards, safety checks, and download links — not a betting site.",
+  description: `Browse an independent directory of ${games.length} Teen Patti games and related platforms. Neutral information on features, promo codes, rewards, safety checks, and download links — not a betting site.`,
   path: "/",
   keywords: [
     "Teen Patti",
@@ -125,7 +124,11 @@ export default function HomePage() {
           </p>
           <div className="mt-5 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
             {featuredGames.map((game) => (
-              <GameCard key={game.slug} game={game} />
+              <GameCard
+                key={game.slug}
+                game={game}
+                isNewest={game.slug === newestPinnedSlug}
+              />
             ))}
           </div>
         </section>
