@@ -204,11 +204,11 @@ function validate(entries: GameEntry[]): GameEntry[] {
  */
 const PINNED_ORDER: string[] = [
   "win-rummy",
+  "yono-777",
   "dhan-game",
   "max-rummy",
   "yono-rummy",
   "yono-games",
-  "yono-777",
   "yono-arcade",
 ];
 

@@ -41,7 +41,7 @@ export const yonoFamily: GameEntry[] = [
   defineGame({
     name: "Yono 777",
     slug: "yono-777",
-    downloadUrl: "https://uono777.co/?code=F9MPD4LNMMX&t=1781970461",
+    downloadUrl: "https://yononewgames.vip/?code=SCHFQRY8DAS",
     aliases: ["Yono777"],
     category: "Slots-style platform",
     featured: true,
