@@ -19,6 +19,35 @@ type ArticlePageProps = {
   sectionName: "Blog" | "Guides";
 };
 
+/**
+ * PHASE 3 WAVE 1 (see phase3/ALLYONOPATTI_COM_WAVE1_IMPLEMENTATION.md): editorial
+ * cross-links from this domain's Teen Patti guides to AllYonoGuru.com's 5
+ * Teen-Patti-specific posts. Added per phase2/PORTFOLIO_WIDE_FINAL_DISPOSITION.md
+ * §10.1 — reciprocal to the cross-links added on AllYonoGuru.com in the same wave.
+ * Keyed by guide slug; the other 4 guides without an obvious direct topical match
+ * (teen-patti-terms, teen-patti-vs-poker, how-to-review-a-teen-patti-platform-safely,
+ * teen-patti-in-hindi) intentionally have no entry here.
+ */
+const TEEN_PATTI_GURU_CROSS_LINKS: Record<string, { href: string; label: string }[]> = {
+  "teen-patti-rules": [
+    { href: "https://allyonoguru.com/blog/3-patti-rules-complete-guide", label: "3 Patti Rules Complete Guide on AllYonoGuru.com" },
+    { href: "https://allyonoguru.com/blog/how-to-win-at-teen-patti", label: "How to Win at Teen Patti on AllYonoGuru.com" },
+  ],
+  "teen-patti-hand-rankings": [
+    { href: "https://allyonoguru.com/blog/teen-patti-hand-ranking-and-sequence-order", label: "Teen Patti Hand Ranking and Sequence Order on AllYonoGuru.com" },
+  ],
+  "teen-patti-sequence-guide": [
+    { href: "https://allyonoguru.com/blog/teen-patti-hand-ranking-and-sequence-order", label: "Teen Patti Hand Ranking and Sequence Order on AllYonoGuru.com" },
+  ],
+  "common-teen-patti-variations": [
+    { href: "https://allyonoguru.com/blog/ak47-teen-patti-rules", label: "AK47 Teen Patti Rules on AllYonoGuru.com" },
+    { href: "https://allyonoguru.com/blog/muflis-teen-patti-rules", label: "Muflis Teen Patti Rules on AllYonoGuru.com" },
+  ],
+  "what-is-teen-patti": [
+    { href: "https://allyonoguru.com/blog/how-to-win-at-teen-patti", label: "How to Win at Teen Patti on AllYonoGuru.com" },
+  ],
+};
+
 export function ArticlePage({
   article,
   basePath,
@@ -93,6 +122,23 @@ export function ArticlePage({
 
       {article.faq && article.faq.length > 0 && (
         <FaqSection items={article.faq} />
+      )}
+
+      {TEEN_PATTI_GURU_CROSS_LINKS[article.slug] && (
+        <section aria-labelledby="guru-cross-links" className="mt-8 rounded-xl border border-brand-100 bg-brand-50 p-4">
+          <h2 id="guru-cross-links" className="text-sm font-semibold text-slate-900">
+            More Teen Patti reading
+          </h2>
+          <ul className="mt-2 list-inside list-disc space-y-1.5">
+            {TEEN_PATTI_GURU_CROSS_LINKS[article.slug].map((link) => (
+              <li key={link.href} className="text-sm">
+                <a href={link.href} className="text-brand-700 underline">
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {related.length > 0 && (
