@@ -17,6 +17,10 @@ export const yonoFamily: GameEntry[] = [
       "A rummy-first platform in the Yono family that is commonly listed alongside Teen Patti-style card games.",
     fullDescription:
       "Yono Rummy is presented as the card-game centrepiece of the Yono family of apps, with Indian rummy as its headline offering. Listings for the app typically group it with Teen Patti-style table games, which is why it appears in this directory. As with every entry here, we have not independently confirmed its operator, game catalogue, or payment handling, so treat the details on this page as a starting point for your own checks rather than a final answer.",
+    // Incidental: the app is described as being grouped with Teen Patti
+    // games in third-party listings ("typically group it with"), not as
+    // documenting a Teen Patti mode within the app itself.
+    teenPattiRelevance: "incidental",
     tags: ["yono", "rummy", "card-games"],
     safetyNotes:
       "Yono-branded apps are distributed under many similar names. Before installing anything, compare the exact app name, publisher, and source against the version you intend to use.",
@@ -33,6 +37,9 @@ export const yonoFamily: GameEntry[] = [
       "A multi-game hub in the Yono family that reportedly bundles card, spin, and casual titles in one app.",
     fullDescription:
       "Yono Games positions itself as an umbrella app rather than a single game: reports describe a lobby that collects rummy, Teen Patti-style tables, spin-style games, and smaller casual titles behind one login. That breadth is the main reason people search for it, and also the main reason to be careful — a large catalogue makes it harder to judge each individual game. The operator, licensing status, and current game list have not been verified by this directory.",
+    // Mode: Teen Patti-style tables are named as a specific, identifiable
+    // component of the documented lobby, alongside rummy and spin.
+    teenPattiRelevance: "mode",
     tags: ["yono", "multi-game", "card-games"],
     safetyNotes:
       "Multi-game hubs change their catalogues frequently. A review that praised or criticised the app months ago may describe a different set of games than the one you would see today.",
@@ -49,6 +56,9 @@ export const yonoFamily: GameEntry[] = [
       "A slots-leaning entry in the Yono family, usually described with 777-style reel games plus card tables.",
     fullDescription:
       "The '777' in the name signals the focus: Yono 777 is generally described as a slots-style app with reel games as the main draw and card games, including Teen Patti-style tables, as secondary options. Apps in this naming pattern often share design and infrastructure with sibling apps, so experiences reported for one may or may not apply to another. Nothing about its operator or payout behaviour has been independently confirmed for this listing.",
+    // Mode: Teen Patti-style tables are named explicitly as a documented
+    // secondary option alongside the slots-style main draw.
+    teenPattiRelevance: "mode",
     tags: ["yono", "slots", "777"],
     relatedGameSlugs: ["yono-slots", "jaiho-777", "yn-777"],
   }),
@@ -58,6 +68,8 @@ export const yonoFamily: GameEntry[] = [
     downloadUrl: "https://www.uonoslots.fun/?code=59YLFBFUNDL&t=1781968918",
     aliases: ["YonoSlots"],
     category: "Slots-style platform",
+    // Reviewed: copy names only "card tables" generically, no Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "The dedicated slots app of the Yono family, reportedly built around reel and jackpot-style games.",
     fullDescription:
@@ -75,6 +87,10 @@ export const yonoFamily: GameEntry[] = [
       "An arcade-flavoured Yono app that reportedly mixes quick casual games with familiar card options.",
     fullDescription:
       "Yono Arcade is described as the lighter corner of the Yono family — short-session arcade and casual games rather than long card tables, though Teen Patti-style games are reported to appear in its lobby as well. Arcade-style apps in this space frequently rotate their mini-game line-ups, so the catalogue you find may differ from older descriptions. This directory has not verified its operator, game list, or reward mechanics.",
+    // Mode: Teen Patti-style games are named as reported lobby content,
+    // secondary to the arcade/casual focus, but named specifically rather
+    // than left as vague "card games."
+    teenPattiRelevance: "mode",
     tags: ["yono", "arcade", "casual"],
     relatedGameSlugs: ["yono-games", "jaiho-arcade", "yono-vip"],
   }),
@@ -84,6 +100,8 @@ export const yonoFamily: GameEntry[] = [
     downloadUrl: "https://uonovipplay.vip/?code=9U8GYEWZ9LN&t=1781969008",
     aliases: ["Yono VIP"],
     category: "Multi-game platform",
+    // Reviewed: copy names only "card tables" generically, no Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A Yono-family app whose 'VIP' branding suggests tiered membership features around a familiar game mix.",
     fullDescription:
@@ -99,6 +117,8 @@ export const yonoFamily: GameEntry[] = [
     downloadUrl: "https://www.y754.com/?code=4SW8P8RDE8P&t=1781968442",
     aliases: ["YN777", "Yn777"],
     category: "Slots-style platform",
+    // Reviewed: copy names only "card tables" generically, no Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A compactly-named 777-style app associated with the Yono naming family, focused on reel-style games.",
     fullDescription:

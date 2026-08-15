@@ -12,6 +12,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://101z19.com/?code=398FMU1E4UC&t=1781948650",
     aliases: ["101z", "101 Z"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A tersely-named app in the 101 cluster with a reported mixed catalogue of quick games.",
     fullDescription:
@@ -27,6 +29,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://www.777game2.com/?code=H53WZ731GKT&t=1781948890",
     aliases: ["777Game"],
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A plainly-named 777 app whose reported focus is classic lucky-seven reel play.",
     fullDescription:
@@ -40,6 +44,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://join789jackpots.cc/?code=VJJL7DL96SG&t=1781948943",
     aliases: ["789Jackpot"],
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A jackpot-branded reel app; jackpot terms are exactly the details to verify before believing.",
     fullDescription:
@@ -55,6 +61,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://www.bet213app.com/?code=2QTMHNTC4J9&t=1781949147",
     aliases: ["Bet213"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "An explicitly betting-branded app, which makes local-law checks especially important.",
     fullDescription:
@@ -70,6 +78,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://bingo101.info/?code=3WFYXGESSL8&t=1781949273",
     aliases: ["Bingo101"],
     category: "Bingo-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A bingo-first app in the 101 cluster, the only bingo-focused title listed here.",
     fullDescription:
@@ -83,6 +93,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://clubinr2.top/?code=WZJ9KYQMY2X&t=1781949863",
     aliases: ["ClubINR"],
     category: "Multi-game platform",
+    // Reviewed: copy names only "card tables" generically, no Teen Patti text.
+    teenPattiRelevance: "none",
     featured: true,
     shortDescription:
       "A club-styled, rupee-branded platform reportedly organising mixed games in a members' lobby.",
@@ -97,6 +109,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://www.hindi777agent4.com/?code=7LFAXV7ZFX2&t=1781953691",
     aliases: ["Hindi 777"],
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A 777 app branded for Hindi-speaking players, suggesting localised presentation.",
     fullDescription:
@@ -109,6 +123,8 @@ export const miscPlatforms: GameEntry[] = [
     slug: "ind-club",
     downloadUrl: "https://indclub38.com/?code=W231VYT9S4K&t=1781953944",
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "The club-styled hub of the Ind series, reportedly gathering the family's games in one lobby.",
     fullDescription:
@@ -122,6 +138,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://mahagames-a.com/?code=J245HMNW4C3&t=1781958855",
     aliases: ["MahaGames"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A grandly-named multi-game app whose 'maha' branding promises scale across genres.",
     fullDescription:
@@ -135,6 +153,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://www.mbmbet21.com/?code=UPHZHE49PH6&t=1781958952",
     aliases: ["MBMBet"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "An initialled betting app with minimal public documentation of what the initials stand for.",
     fullDescription:
@@ -150,6 +170,8 @@ export const miscPlatforms: GameEntry[] = [
     downloadUrl: "https://neta7.vip/?code=DR0TFBX29CG&t=1781959176",
     aliases: ["Neta VIP", "NetaVip"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A VIP-styled multi-game app whose leader-flavoured branding targets status-conscious players.",
     fullDescription:
@@ -171,6 +193,11 @@ export const miscPlatforms: GameEntry[] = [
       "DhanGame launched 23 July 2026. This is a newly added listing — features, terms, and safety details are based on the operator's own promotional materials and have not yet been independently confirmed.",
     rewardInformation:
       "DhanGame advertises a welcome bonus of ₹100–₹500 and a first-deposit match of up to 200%, according to the operator's own promotional materials. Neither figure has been independently verified by this directory, and advertised bonus terms commonly carry wagering requirements or eligibility conditions that aren't disclosed upfront.",
+    // Core: operator's own positioning names classic Teen Patti as the
+    // headline offering ("positioning itself around classic Teen Patti with
+    // multiple concurrent tables"), not one mode among several — unverified
+    // but explicit and central, per the entry's own fullDescription above.
+    teenPattiRelevance: "core",
     tags: ["newly-launched", "teen-patti"],
     featured: true,
     publishedAt: "2026-07-18",

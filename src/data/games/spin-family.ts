@@ -10,6 +10,8 @@ export const spinFamily: GameEntry[] = [
     slug: "slot-spin",
     downloadUrl: "https://slotsspiny.com/?code=C1A3LUE98Y9&t=1781964366",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A hybrid-named app that reportedly sits between reel slots and wheel-spin mechanics.",
     fullDescription:
@@ -22,6 +24,8 @@ export const spinFamily: GameEntry[] = [
     slug: "spin-101",
     downloadUrl: "https://spin101-f.com/?code=Z9BRWVJXE7T&t=1781966141",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A 101-numbered spin app, part of a numbered series that also includes bingo and arcade titles.",
     fullDescription:
@@ -34,6 +38,8 @@ export const spinFamily: GameEntry[] = [
     slug: "spin-crush",
     downloadUrl: "https://spincrush61.com/?code=ADE75XVN5W2&t=1782646860",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A spin app with casual-game branding reminiscent of match-style mobile titles.",
     fullDescription:
@@ -48,6 +54,8 @@ export const spinFamily: GameEntry[] = [
     slug: "spin-gold",
     downloadUrl: "https://spingoldvipagent.cc/?code=S9VSKRLMRJB&t=1781965765",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     featured: true,
     shortDescription:
       "A gold-themed spin app, one of the more visible titles in the Spin series.",
@@ -61,6 +69,8 @@ export const spinFamily: GameEntry[] = [
     slug: "spin-winner",
     downloadUrl: "https://spinwinner-y.com/?code=QVT5YKQQ4ZZ&t=1781966029",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "An outcome-branded spin app whose name promises more than any game can guarantee.",
     fullDescription:
@@ -73,6 +83,8 @@ export const spinFamily: GameEntry[] = [
     slug: "yes-spin",
     downloadUrl: "https://www.yesspinclub.com/?code=47TPM5YAUBY&t=1781968075",
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "An affirmatively-named spin app with the series' standard quick-round wheel format.",
     fullDescription:

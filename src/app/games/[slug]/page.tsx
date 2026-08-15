@@ -104,6 +104,54 @@ export default async function GamePage({ params }: PageProps) {
         install or spend.
       </p>
 
+      {/* Teen Patti relevance — rendered for every reviewed outcome except
+          a confirmed "none"; "unknown" (not yet reviewed) gets its own
+          neutral notice rather than being folded into "none" silently or
+          left as an unhandled blank case. Nothing is manufactured for
+          "none" entries. */}
+      {game.teenPattiRelevance !== "none" && (
+        <section
+          aria-labelledby="teen-patti-relevance-heading"
+          className={`mt-5 rounded-xl border p-4 ${
+            game.teenPattiRelevance === "unknown"
+              ? "border-slate-200 bg-slate-100"
+              : "border-brand-200 bg-brand-50"
+          }`}
+        >
+          <h2
+            id="teen-patti-relevance-heading"
+            className={`text-sm font-semibold ${
+              game.teenPattiRelevance === "unknown"
+                ? "text-slate-700"
+                : "text-brand-900"
+            }`}
+          >
+            Teen Patti relevance
+          </h2>
+          <p
+            className={`mt-1.5 text-sm leading-relaxed ${
+              game.teenPattiRelevance === "unknown"
+                ? "text-slate-600"
+                : "text-brand-900"
+            }`}
+          >
+            {game.teenPattiRelevance === "core" &&
+              `${game.name}'s own promotional material positions Teen Patti as its primary, headline offering — not one mode among several. That claim is unverified by this directory, same as the rest of this listing, but it is explicit and central rather than incidental.`}
+            {game.teenPattiRelevance === "mode" &&
+              `${game.name} is reported to include a specific, named Teen Patti table or mode alongside its other games. Teen Patti is documented as a secondary feature here, not the platform's main draw.`}
+            {game.teenPattiRelevance === "incidental" &&
+              `Teen Patti is mentioned for ${game.name} only in vague, hedged, or secondary marketing language (see "What is ${game.name}?" below) — it has not been established here as a confirmed, identifiable feature. Treat any Teen Patti claim for this app as unconfirmed until you check the app itself.`}
+            {game.teenPattiRelevance === "unknown" &&
+              `Teen Patti relevance not yet reviewed for ${game.name}. This is not the same as a confirmed absence of Teen Patti — it means this specific entry is still awaiting that review.`}{" "}
+            New to the game itself?{" "}
+            <Link href="/guides/teen-patti-rules" className="underline">
+              Read the Teen Patti rules guide
+            </Link>
+            .
+          </p>
+        </section>
+      )}
+
       {/* Quick facts */}
       <section aria-labelledby="facts-heading" className="mt-8">
         <h2 id="facts-heading" className="text-xl font-semibold text-slate-900">

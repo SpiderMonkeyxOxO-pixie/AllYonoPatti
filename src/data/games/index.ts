@@ -271,6 +271,26 @@ export const gameCategories: string[] = [
   ...new Set(games.map((g) => g.category)),
 ].sort();
 
+/**
+ * Listings whose own copy positions Teen Patti as the primary/headline
+ * offering (teenPattiRelevance: "core") — the category-eligibility bar for
+ * a first-class Teen Patti listing.
+ */
+export const teenPattiCoreGames: GameEntry[] = games.filter(
+  (g) => g.teenPattiRelevance === "core",
+);
+
+/**
+ * "core" + "mode": listings whose own copy documents a genuine, specific,
+ * identifiable Teen Patti offering, whether headline or secondary. Excludes
+ * "incidental" (vague/testimonial-only mentions) and "none" (no evidence).
+ * This is the set used anywhere the site claims "genuinely Teen-Patti
+ * relevant" — never `games` in bulk.
+ */
+export const teenPattiRelevantGames: GameEntry[] = games.filter(
+  (g) => g.teenPattiRelevance === "core" || g.teenPattiRelevance === "mode",
+);
+
 export function getGameBySlug(slug: string): GameEntry | undefined {
   return games.find((g) => g.slug === slug);
 }

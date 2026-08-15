@@ -27,6 +27,46 @@ export type GameCategory =
   | "Arcade & casual games"
   | "Multi-game platform";
 
+/**
+ * How genuinely Teen Patti-relevant this specific listing is, independent of
+ * its primary `category`. This is deliberately a second dimension rather
+ * than a seventh category value: an app's primary category (Rummy-focused,
+ * Multi-game, etc.) describes how the platform presents itself, while this
+ * field answers "does this specific entry's own copy document a Teen Patti
+ * offering, and how central is it?" A Rummy-focused platform can be
+ * Teen-Patti-"mode" and a Multi-game platform can be Teen-Patti-"none" —
+ * the two dimensions are independent.
+ *
+ * Values, in descending order of Teen Patti centrality:
+ * - "core": the entry's own description positions Teen Patti as the
+ *   platform's primary/headline offering, not one mode among many.
+ * - "mode": Teen Patti is documented as a specific, named, identifiable
+ *   component of the platform's lobby (not just "card games" in general).
+ * - "incidental": Teen Patti is mentioned only vaguely, hedged, or as
+ *   secondary/marketing language ("sometimes mentioned as extras", a
+ *   testimonial) — not established as an identifiable feature.
+ * - "none": the entry has been reviewed and its copy contains no Teen
+ *   Patti-specific claim at all — a confirmed negative finding.
+ * - "unknown": the entry has NOT yet been reviewed for Teen Patti
+ *   relevance. This is deliberately distinct from "none" — an unreviewed
+ *   entry must never be presented or counted as confirmed "no Teen Patti."
+ *
+ * Set by hand per entry from the entry's own shortDescription/
+ * fullDescription text — never inferred from category, branding, or the
+ * fact that an app is a card game. Every one of the 55 entries reviewed in
+ * the AllYonoPatti Phase 1 audit sets this field explicitly (including
+ * "none"), so no current entry relies on a default. Defaults to "unknown"
+ * in defineGame() — never "none" — so that a future entry added without an
+ * explicit review is flagged as unreviewed rather than silently counted as
+ * a confirmed absence of Teen Patti evidence.
+ */
+export type TeenPattiRelevance =
+  | "core"
+  | "mode"
+  | "incidental"
+  | "none"
+  | "unknown";
+
 export type GameEntry = {
   /** Stable unique identifier (kebab-case, matches slug by convention). */
   id: string;
@@ -42,6 +82,8 @@ export type GameEntry = {
   fullDescription: string;
   /** Informational category derived from how the platform presents itself. */
   category: GameCategory;
+  /** Teen Patti relevance of this specific entry — see TeenPattiRelevance. */
+  teenPattiRelevance: TeenPattiRelevance;
   /** Distribution platforms as commonly reported. */
   platform: string[];
   supportedDevices: string[];

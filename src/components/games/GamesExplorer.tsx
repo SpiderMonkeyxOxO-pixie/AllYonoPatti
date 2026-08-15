@@ -12,6 +12,7 @@ export type ExplorerGame = {
   aliases: string[];
   firstLetter: string;
   downloadUrl?: string;
+  teenPattiRelevance: "core" | "mode" | "incidental" | "none" | "unknown";
 };
 
 type GamesExplorerProps = {
@@ -19,6 +20,8 @@ type GamesExplorerProps = {
   categories: string[];
   newestSlug?: string;
 };
+
+type TeenPattiFilter = "all" | "documented";
 
 /**
  * Client-side search and filtering for the directory. Filter state lives in
@@ -33,6 +36,7 @@ export function GamesExplorer({
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("all");
   const [letter, setLetter] = useState("all");
+  const [teenPattiFilter, setTeenPattiFilter] = useState<TeenPattiFilter>("all");
   const searchId = useId();
   const categoryId = useId();
 
@@ -41,18 +45,32 @@ export function GamesExplorer({
     [games],
   );
 
+  const documentedCount = useMemo(
+    () =>
+      games.filter(
+        (g) => g.teenPattiRelevance === "core" || g.teenPattiRelevance === "mode",
+      ).length,
+    [games],
+  );
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return games.filter((g) => {
       if (category !== "all" && g.category !== category) return false;
       if (letter !== "all" && g.firstLetter !== letter) return false;
+      if (
+        teenPattiFilter === "documented" &&
+        g.teenPattiRelevance !== "core" &&
+        g.teenPattiRelevance !== "mode"
+      )
+        return false;
       if (!q) return true;
       return (
         g.name.toLowerCase().includes(q) ||
         g.aliases.some((a) => a.toLowerCase().includes(q))
       );
     });
-  }, [games, query, category, letter]);
+  }, [games, query, category, letter, teenPattiFilter]);
 
   return (
     <div>
@@ -96,6 +114,43 @@ export function GamesExplorer({
           </select>
         </div>
       </div>
+
+      <fieldset className="mt-4">
+        <legend className="mb-2 text-sm font-medium text-slate-700">
+          Teen Patti relevance
+        </legend>
+        <div className="flex flex-wrap gap-1.5" role="group">
+          <button
+            type="button"
+            onClick={() => setTeenPattiFilter("all")}
+            aria-pressed={teenPattiFilter === "all"}
+            className={`inline-flex min-h-11 items-center rounded-lg border px-3.5 text-sm font-medium ${
+              teenPattiFilter === "all"
+                ? "border-brand-600 bg-brand-600 text-white"
+                : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+            }`}
+          >
+            All {games.length} listings
+          </button>
+          <button
+            type="button"
+            onClick={() => setTeenPattiFilter("documented")}
+            aria-pressed={teenPattiFilter === "documented"}
+            className={`inline-flex min-h-11 items-center rounded-lg border px-3.5 text-sm font-medium ${
+              teenPattiFilter === "documented"
+                ? "border-brand-600 bg-brand-600 text-white"
+                : "border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
+            }`}
+          >
+            {documentedCount} with a documented Teen Patti offering
+          </button>
+        </div>
+        <p className="mt-1.5 text-xs text-slate-500">
+          &quot;Documented&quot; means this listing&apos;s own description
+          names a specific Teen Patti table or mode — not just that it is a
+          card-game app. The rest remain listed as general directory entries.
+        </p>
+      </fieldset>
 
       <fieldset className="mt-4">
         <legend className="mb-2 text-sm font-medium text-slate-700">
@@ -149,6 +204,7 @@ export function GamesExplorer({
               setQuery("");
               setCategory("all");
               setLetter("all");
+              setTeenPattiFilter("all");
             }}
             className="mt-4 inline-flex min-h-11 items-center rounded-lg border border-slate-300 bg-white px-4 text-sm font-medium text-slate-700 hover:bg-slate-50"
           >

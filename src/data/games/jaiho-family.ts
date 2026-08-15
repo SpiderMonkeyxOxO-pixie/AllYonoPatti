@@ -16,6 +16,10 @@ export const jaihoFamily: GameEntry[] = [
       "The 777-branded slots entry of the Jaiho family, often listed with card tables alongside its reel games.",
     fullDescription:
       "Jaiho 777 leads the Jaiho group's slots line-up, with descriptions centring on 777-style reel games and a side menu of card play that reportedly includes Teen Patti-style tables. The name is frequently misspelled as 'Jahio 777' in listings and shared links, which makes cross-checking sources unusually tricky for this app. Its operator, catalogue, and payment handling have not been verified by this directory.",
+    // Mode: Teen Patti-style tables are named as a specific, identifiable
+    // lobby component ("a side menu of card play that reportedly includes
+    // Teen Patti-style tables"), secondary to the slots focus.
+    teenPattiRelevance: "mode",
     tags: ["jaiho", "slots", "777"],
     safetyNotes:
       "This app's name circulates in at least two spellings. Confirm which spelling the official listing uses before trusting third-party pages that reference either one.",
@@ -31,6 +35,10 @@ export const jaihoFamily: GameEntry[] = [
       "The Jaiho family's rummy app, reportedly pairing Indian rummy tables with Teen Patti-style games.",
     fullDescription:
       "Jaiho Rummy takes the family's card-game slot, with Indian rummy formats as the advertised core and Teen Patti-style tables commonly mentioned in the same breath. Rummy apps in this segment tend to emphasise quick matchmaking and small-stakes tables, but we have not confirmed how this particular app handles stakes, accounts, or withdrawals. Treat its published claims as unverified until you have checked them at the source.",
+    // Mode: rummy is the advertised core, but Teen Patti-style tables are
+    // named as a specific, identifiable secondary component, not vague
+    // marketing — "commonly mentioned in the same breath" as the rummy core.
+    teenPattiRelevance: "mode",
     tags: ["jaiho", "rummy", "card-games"],
     relatedGameSlugs: ["yono-rummy", "jaiho-win", "ind-rummy", "boss-rummy"],
   }),
@@ -40,6 +48,8 @@ export const jaihoFamily: GameEntry[] = [
     downloadUrl: "https://www.jaihoslots24.com/?code=QJS2Y15LD48&t=1781957788",
     aliases: ["Jaiho Slots"],
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A reel-focused Jaiho app that appears to be the family's dedicated slot-machine catalogue.",
     fullDescription:
@@ -53,6 +63,8 @@ export const jaihoFamily: GameEntry[] = [
     downloadUrl: "https://7jaihospinagent.com/?code=4168H4BCEUT&t=1781958114",
     aliases: ["JaihoSpin"],
     category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "The Jaiho family's spin-branded app, built around wheel and spin-style games by most accounts.",
     fullDescription:
@@ -66,6 +78,8 @@ export const jaihoFamily: GameEntry[] = [
     downloadUrl: "https://www.jaihowin11.com/?code=XZD1DCCQ3N4&t=1781958256",
     aliases: ["JaihoWin"],
     category: "Multi-game platform",
+    // Reviewed: copy names only "card tables" generically, no Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A Jaiho-family app with a broad reported catalogue spanning card, spin, and reel-style games.",
     fullDescription:
@@ -85,6 +99,9 @@ export const jaihoFamily: GameEntry[] = [
       "A numbered Jaiho app that reportedly bundles the family's usual card and casual game mix.",
     fullDescription:
       "Jaiho91 follows the number-suffix naming common in this segment, and available descriptions suggest a general-purpose lobby similar to Jaiho Win's: card games including Teen Patti-style tables, plus spin and slot options. Numbered variants often exist because earlier versions of an app were rebranded or re-released, so version history is worth checking if you research it further. None of its details have been independently confirmed here.",
+    // Mode: Teen Patti-style tables are named explicitly as one component
+    // of a documented general-purpose lobby, not vague card-game language.
+    teenPattiRelevance: "mode",
     tags: ["jaiho", "multi-game"],
     relatedGameSlugs: ["jaiho-win", "rummy-91", "bingo-101"],
   }),
@@ -94,6 +111,9 @@ export const jaihoFamily: GameEntry[] = [
     downloadUrl: "https://www.jaihoarcade48.com/?code=74SY92P3WEB&t=1781955258",
     aliases: ["JaihoArcade"],
     category: "Arcade & casual games",
+    // Reviewed: copy names only "familiar card options" generically, no
+    // Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "The casual-games corner of the Jaiho family, reportedly focused on quick arcade-style titles.",
     fullDescription:

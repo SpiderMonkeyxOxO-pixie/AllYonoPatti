@@ -2,12 +2,18 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 
+// Promo Codes was previously in this bar; the fresh-code signal it carried
+// (a pulsing dot) is not lost — it's already surfaced site-wide via
+// PromoAlert in app/layout.tsx, and the page itself remains one tap away
+// via the header and the homepage's "More on this site" section. Guides is
+// this domain's category-authority content and belongs in the primary
+// mobile nav; a generic-directory-vs-category-authority site should not
+// spend one of four bottom-nav slots on promo-code lookup.
 const items = [
   { href: "/", label: "Home" },
+  { href: "/guides", label: "Guides" },
   { href: "/games", label: "Games" },
-  { href: "/promo-codes", label: "Promos" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -18,22 +24,6 @@ function isActive(pathname: string, href: string): boolean {
 
 export function BottomNav() {
   const pathname = usePathname();
-  // Fetched client-side (see PromoAlert for why) so the dot reflects a
-  // promo-code.txt edit immediately, without a rebuild.
-  const [hasFreshPromo, setHasFreshPromo] = useState(false);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch("/api/promo-status")
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data: { count?: number } | null) => {
-        if (!cancelled && data) setHasFreshPromo((data.count ?? 0) > 0);
-      })
-      .catch(() => {});
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   return (
     <nav
@@ -43,15 +33,11 @@ export function BottomNav() {
       <ul className="mx-auto grid max-w-md grid-cols-4">
         {items.map((item) => {
           const active = isActive(pathname, item.href);
-          const showDot = hasFreshPromo && item.href === "/promo-codes";
           return (
             <li key={item.href}>
               <Link
                 href={item.href}
                 aria-current={active ? "page" : undefined}
-                aria-label={
-                  showDot ? `${item.label} — new code available today` : undefined
-                }
                 className={`relative flex min-h-14 flex-col items-center justify-center gap-0.5 text-xs font-medium ${
                   active
                     ? "text-brand-700"
@@ -63,15 +49,6 @@ export function BottomNav() {
                   className={`h-1 w-8 rounded-full ${active ? "bg-brand-600" : "bg-transparent"}`}
                 />
                 {item.label}
-                {showDot && (
-                  <span
-                    className="absolute top-1.5 right-3 flex h-2 w-2"
-                    aria-hidden="true"
-                  >
-                    <span className="animate-promo-pulse absolute inset-0 rounded-full bg-gold-500" />
-                    <span className="relative h-2 w-2 rounded-full bg-gold-500" />
-                  </span>
-                )}
               </Link>
             </li>
           );

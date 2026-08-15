@@ -14,6 +14,9 @@ export const rummyFamily: GameEntry[] = [
       "A rummy app with a back-to-basics name, reportedly offering standard Indian rummy formats.",
     fullDescription:
       "ABC Rummy markets itself on simplicity — the name promises rummy without frills, and available descriptions match that: points-style tables and standard Indian rummy formats, with Teen Patti-style games sometimes mentioned as extras. Simple branding cuts both ways, though; generic names are easy for unrelated apps to imitate. Its operator, table rules, and account handling have not been verified for this listing.",
+    // Incidental: "sometimes mentioned as extras" is hedged, secondary
+    // marketing language, not a documented identifiable mode.
+    teenPattiRelevance: "incidental",
     tags: ["rummy", "card-games"],
     relatedGameSlugs: ["game-rummy", "ok-rummy", "hi-rummy"],
   }),
@@ -22,6 +25,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "boss-rummy",
     downloadUrl: "https://www.bossrummyv.com/?code=9HF54MYMV8X&t=1781969528",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A rummy platform whose listings emphasise competitive tables and tournament-style play.",
     fullDescription:
@@ -38,6 +43,9 @@ export const rummyFamily: GameEntry[] = [
       "A generically-named rummy app reported to carry the standard mix of Indian rummy tables.",
     fullDescription:
       "Game Rummy is about as literal as app naming gets, and its reported offering is equally standard: Indian rummy variants at the centre, with side games that listings occasionally describe as including Teen Patti-style tables. The generic name makes it one of the hardest apps in this directory to research reliably, since search results blend it with dozens of similarly-named products. Every substantive detail remains awaiting verification.",
+    // Incidental: "listings occasionally describe" is hedged, secondary
+    // language, not a documented identifiable mode.
+    teenPattiRelevance: "incidental",
     tags: ["rummy", "card-games"],
     safetyNotes:
       "Because this name is so generic, search results mix multiple unrelated apps. Anchor your research to the exact publisher and icon, not the name alone.",
@@ -48,6 +56,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "gogo-rummy",
     downloadUrl: "https://www.gogorummy30.com/?code=V4U7LU1TUDZ&t=1781951275",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A rummy app branded around speed, reportedly favouring quick tables and fast matchmaking.",
     fullDescription:
@@ -60,6 +70,9 @@ export const rummyFamily: GameEntry[] = [
     slug: "hi-rummy",
     downloadUrl: "https://joinhirummy.cc/?code=RX37ZA9H7G7&t=1781952763",
     category: "Rummy-focused platform",
+    // Reviewed: copy names only "the usual companion card games" generically,
+    // no Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A casually-branded rummy app that positions itself as friendly and easy to pick up.",
     fullDescription:
@@ -72,6 +85,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "ind-rummy",
     downloadUrl: "https://indrummyvip30.com/?code=2BAB6MWU1ST&t=1781954340",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "An India-branded rummy app in the Ind series, reportedly built around classic Indian rummy.",
     fullDescription:
@@ -85,6 +100,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://inrrummysvip.net/?code=JMQK62EW7RW&t=1781969140",
     aliases: ["INR-Rummy"],
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A rummy app named after the rupee, signalling an explicitly Indian, cash-table orientation.",
     fullDescription:
@@ -100,6 +117,9 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://www.joyrummy8.com/?code=J5KZREFFUG5&t=1781969686",
     aliases: ["Joy-Rummy"],
     category: "Rummy-focused platform",
+    // Reviewed: copy names only "occasional side games" generically, no
+    // Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A cheerfully-branded rummy app reported to offer standard tables with a lighter presentation.",
     fullDescription:
@@ -112,6 +132,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "love-rummy",
     downloadUrl: "https://www.loverummy88.com/?code=R6KTL37DEVW&t=1781958746",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A rummy app with affectionate branding, reportedly carrying the segment's usual table formats.",
     fullDescription:
@@ -125,6 +147,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://www.maxrummy99.com/?code=QUMV1MBQR7L&t=1783566019",
     aliases: ["MAX RUMMY"],
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     logo: "/images/games/max-rummy.png",
     featuredImage: "/images/games/max-rummy.png",
     shortDescription:
@@ -140,6 +164,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://www.okrummy48.com/?code=H2GNJTTB4TP&t=1781959294",
     aliases: ["OK Rummy", "OkRUMMY"],
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A minimally-branded rummy app reported to focus on straightforward, no-frills table play.",
     fullDescription:
@@ -152,6 +178,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "rumble-rummy",
     downloadUrl: "https://www.rumblerummy333.net/?code=82MDH43NXH9&t=1781961857",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A competition-flavoured rummy app whose branding leans into head-to-head energy.",
     fullDescription:
@@ -165,6 +193,9 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://www.rummy91q.bet/?code=UXT67QH88MK&t=1781963162",
     aliases: ["Rummy91"],
     category: "Rummy-focused platform",
+    // Reviewed: copy names only "companion card games" generically, no
+    // Teen Patti text.
+    teenPattiRelevance: "none",
     shortDescription:
       "A numbered rummy app, one of several 91-suffixed titles circulating in this segment.",
     fullDescription:
@@ -180,6 +211,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://rummy77z.vip/?code=F3VMY7HUKLD&t=1781962775",
     aliases: ["Rummy 77"],
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A 77-numbered rummy app reported to blend classic tables with lightweight bonus mechanics.",
     fullDescription:
@@ -193,6 +226,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://rummy888vip37.com/?code=TPUREFESN3G&t=1781963064",
     aliases: ["Rummy 888"],
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     featured: true,
     shortDescription:
       "A prominent 888-branded rummy app, among the more frequently searched titles in this directory.",
@@ -207,6 +242,8 @@ export const rummyFamily: GameEntry[] = [
     downloadUrl: "https://www.rummyludo1.com/?code=UWPCL2TP9N3&t=1781963324",
     aliases: ["Rummy-Ludo"],
     category: "Multi-game platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A dual-genre app pairing rummy tables with ludo boards, unusual among this directory's listings.",
     fullDescription:
@@ -219,6 +256,8 @@ export const rummyFamily: GameEntry[] = [
     slug: "top-rummy",
     downloadUrl: "https://www.toprummy.cc/?code=M4GW3PJNE81&t=1781967667",
     category: "Rummy-focused platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A rummy app whose superlative branding positions it as a leading option, a claim to weigh carefully.",
     fullDescription:
@@ -239,6 +278,13 @@ export const rummyFamily: GameEntry[] = [
       "Win Rummy has launched, with a working download link now available. Its marketing website advertises more than 25 games, naming rummy, poker, Teen Patti, Andar Bahar, Dragon and Tiger, Baccarat, Blackjack, Roulette, and several non-card titles. Rummy is the most prominently presented category — it appears in the platform name, the Top Games section, and the app-download area — but Teen Patti is only mentioned in the site's description text and a testimonial, not shown as its own tile in the visible Top Games grid. Which specific games and variants actually work inside the released app has not yet been independently reviewed. See this directory's full write-up on whether Win Rummy includes Teen Patti for the detailed breakdown.",
     informationalStatus:
       "This platform has launched and a download link is now available. Every game named on the website — including Teen Patti — is still advertised only at this stage, not independently app-verified.",
+    // Incidental, not "mode": the entry's own fullDescription explicitly
+    // states Teen Patti "is only mentioned in the site's description text
+    // and a testimonial, not shown as its own tile in the visible Top Games
+    // grid" — the textbook definition of secondary/testimonial-only
+    // reference, despite the "teen-patti" tag below (kept for discoverability,
+    // not as a relevance claim).
+    teenPattiRelevance: "incidental",
     tags: ["newly-launched", "multi-game", "teen-patti"],
     relatedArticleSlugs: ["win-rummy-teen-patti-card-games"],
     publishedAt: "2026-07-25",

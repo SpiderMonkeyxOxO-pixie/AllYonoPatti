@@ -13,12 +13,29 @@ type GameCardProps = {
     category: string;
     shortDescription: string;
     downloadUrl?: string;
+    teenPattiRelevance?: "core" | "mode" | "incidental" | "none" | "unknown";
   };
   /** Shows a "NEW" corner badge — the newest featured platform's #1 slot. */
   isNewest?: boolean;
 };
 
+// "core" and "mode" get a positive badge — both are entries whose own copy
+// documents a specific, identifiable Teen Patti offering. "unknown" gets a
+// distinct neutral badge so an unreviewed entry is never visually
+// indistinguishable from a confirmed "none" (which renders no badge at
+// all, same as "incidental"). See TeenPattiRelevance in
+// src/data/games/types.ts for the evidence bar behind each value.
+const teenPattiBadgeLabel: Partial<Record<string, string>> = {
+  core: "Teen Patti platform",
+  mode: "Teen Patti mode reported",
+  unknown: "Teen Patti relevance not yet reviewed",
+};
+
 export function GameCard({ game, isNewest }: GameCardProps) {
+  const teenPattiBadge = game.teenPattiRelevance
+    ? teenPattiBadgeLabel[game.teenPattiRelevance]
+    : undefined;
+
   return (
     <article className="relative flex h-full flex-col overflow-hidden rounded-xl border border-slate-200 bg-white p-3 pt-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-4 sm:pt-5">
       <span
@@ -48,6 +65,17 @@ export function GameCard({ game, isNewest }: GameCardProps) {
             </Link>
           </h3>
           <p className="mt-0.5 text-xs text-slate-500">{game.category}</p>
+          {teenPattiBadge && (
+            <span
+              className={`mt-1 inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium ${
+                game.teenPattiRelevance === "unknown"
+                  ? "bg-slate-100 text-slate-500"
+                  : "bg-brand-50 text-brand-700"
+              }`}
+            >
+              {teenPattiBadge}
+            </span>
+          )}
         </div>
       </div>
       <p className="mt-3 line-clamp-3 flex-1 text-sm text-slate-600">

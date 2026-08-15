@@ -42,6 +42,14 @@ export function defineGame(input: GameInput): GameEntry {
     informationalStatus:
       "Independent informational listing. Key facts about this platform have not yet been independently confirmed and are awaiting review.",
     verificationStatus: "awaiting-review",
+    // "unknown", not "none" — omitting this field means the entry has not
+    // been reviewed for Teen Patti relevance, which must never be treated
+    // as a confirmed absence of Teen Patti evidence. Every entry that HAS
+    // been reviewed (all 55 as of the Phase 1 audit) sets this explicitly,
+    // including the ones that reviewed "none". See TeenPattiRelevance in
+    // ./types. Entries with a reviewed classification override this via
+    // `rest` below.
+    teenPattiRelevance: "unknown",
     promoStatus: "awaiting-review",
     ageNotice: AGE_NOTICE,
     legalNotice: LEGAL_NOTICE,

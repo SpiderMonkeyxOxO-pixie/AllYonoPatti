@@ -4,17 +4,21 @@ import { siteConfig } from "@/lib/site";
 import { MobileMenu } from "./MobileMenu";
 import { PromoPulseDot } from "./PromoPulseDot";
 
+// Guides leads (the category-authority content); Promo Codes and Rewards
+// are kept fully reachable but no longer occupy the header's single most
+// prominent slot — see the gold CTA below, now pointed at Guides instead.
 export const primaryNav = [
   { href: "/", label: "Home" },
-  { href: "/games", label: "All Games" },
+  { href: "/guides", label: "Guides" },
+  { href: "/games", label: "Teen Patti Apps" },
+  { href: "/blog", label: "Blog" },
+  { href: "/gambling-awareness", label: "Safety" },
   { href: "/promo-codes", label: "Promo Codes" },
   { href: "/rewards", label: "Rewards" },
-  { href: "/blog", label: "Blog" },
-  { href: "/gambling-awareness", label: "Gambling Awareness" },
 ];
 
 // Rendered as a standalone gold button (see below) instead of a plain link.
-const desktopNav = primaryNav.filter((item) => item.href !== "/promo-codes");
+const desktopNav = primaryNav.filter((item) => item.href !== "/guides");
 
 export function Header() {
   return (
@@ -41,20 +45,20 @@ export function Header() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="inline-flex min-h-11 items-center rounded-lg px-3 text-sm font-medium text-slate-700 hover:bg-brand-50 hover:text-brand-700"
+                    className="inline-flex min-h-11 items-center gap-1.5 rounded-lg px-3 text-sm font-medium text-slate-700 hover:bg-brand-50 hover:text-brand-700"
                   >
                     {item.label}
+                    {item.href === "/promo-codes" && <PromoPulseDot />}
                   </Link>
                 </li>
               ))}
             </ul>
           </nav>
           <Link
-            href="/promo-codes"
+            href="/guides"
             className="inline-flex min-h-11 items-center gap-2 rounded-full bg-gold-400 px-4 text-sm font-semibold text-brand-950 hover:bg-gold-300"
           >
-            Promo Codes
-            <PromoPulseDot />
+            Rules &amp; Guides
           </Link>
         </div>
 

@@ -11,6 +11,8 @@ export const slotsFamily: GameEntry[] = [
     downloadUrl: "https://join567slots.cc/?code=9UXNF2XJ68V&t=1781948821",
     aliases: ["567Slots"],
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A number-branded slots app reported to carry a catalogue of themed reel games.",
     fullDescription:
@@ -23,6 +25,8 @@ export const slotsFamily: GameEntry[] = [
     slug: "ind-slots",
     downloadUrl: "https://www.indslotsgame.com/?code=T2QAZY5XRX5&t=1781954995",
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "The slots entry of the Ind series, reportedly offering reel games for an Indian audience.",
     fullDescription:
@@ -35,6 +39,8 @@ export const slotsFamily: GameEntry[] = [
     slug: "saga-slots",
     downloadUrl: "https://www.sagaslots23.com/?code=0QHQQDQR832&t=1781963464",
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A story-branded slots app whose name suggests progression mechanics over its reel games.",
     fullDescription:
@@ -47,6 +53,8 @@ export const slotsFamily: GameEntry[] = [
     slug: "share-slots",
     downloadUrl: "https://share977.com/?code=YAZ4PR9XNK4&t=1781964196",
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     shortDescription:
       "A slots app whose name suggests social or referral features around its reel catalogue.",
     fullDescription:
@@ -61,6 +69,8 @@ export const slotsFamily: GameEntry[] = [
     slug: "slots-winner",
     downloadUrl: "https://slotswinnerk.com/?code=PGVZ35PE57E&t=1781965038",
     category: "Slots-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
     featured: true,
     shortDescription:
       "An outcome-branded slots app; the name is marketing, not a description of results.",
