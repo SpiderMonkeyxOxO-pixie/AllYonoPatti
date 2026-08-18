@@ -10,7 +10,7 @@ import { getPromoDailyMap, type PromoDailyEntry } from "../promo-daily";
 
 export type { GameEntry, GameCategory, PromoStatus, VerificationStatus } from "./types";
 
-const EXPECTED_GAME_COUNT = 55;
+const EXPECTED_GAME_COUNT = 56;
 
 // Catches an unfilled template URL before it ships as a real Download
 // button — "flag it in the code" rather than silently publishing a
@@ -203,6 +203,7 @@ function validate(entries: GameEntry[]): GameEntry[] {
  * exists is silently skipped rather than breaking the build.
  */
 const PINNED_ORDER: string[] = [
+  "gold-rummy",
   "win-rummy",
   "yono-777",
   "dhan-game",
