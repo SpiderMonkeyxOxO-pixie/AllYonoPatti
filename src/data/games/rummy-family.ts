@@ -293,17 +293,18 @@ export const rummyFamily: GameEntry[] = [
   defineGame({
     name: "Gold Rummy",
     slug: "gold-rummy",
+    downloadUrl: "https://goldrummy20.com/?code=JLX7LRP2YTG&t=1787111858",
     category: "Rummy-focused platform",
     logo: "/images/games/gold-rummy.png",
     featuredImage: "/images/games/gold-rummy.png",
     shortDescription:
-      "An upcoming rummy platform expected to join this directory on 19 August 2026 — not yet launched, no features confirmed.",
+      "A newly launched rummy platform with a working download link — no welcome bonus or promo code has been announced yet.",
     fullDescription:
-      "Gold Rummy is scheduled to become available on 19 August 2026, between 8:00 and 9:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+      "Gold Rummy has launched, with a working download link now available. As a newly launched app, its full feature set, table formats, and promo-code schedule have not yet been independently reviewed. This entry will be updated with verified category specifics, promo codes, and safety notes as they can be confirmed, in line with this directory's policy of never publishing invented details.",
     informationalStatus:
-      "This platform has not yet launched. It is expected to become available on 19 August 2026; no features, downloads, or codes exist to review yet.",
-    tags: ["upcoming", "rummy"],
+      "This platform has launched and a download link is now available. Its feature set, table formats, and promo codes are still unverified at this stage.",
+    tags: ["newly-launched", "rummy"],
     publishedAt: "2026-08-18",
-    updatedAt: "2026-08-18",
+    updatedAt: "2026-08-19",
   }),
 ];
