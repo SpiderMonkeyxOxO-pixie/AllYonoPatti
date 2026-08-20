@@ -952,6 +952,7 @@ export const posts: Article[] = [
     description:
       "\"51 bonus\" is one of the most-searched Teen Patti phrases, attached to dozens of unrelated apps. Here's why the same figure repeats, and what to verify before trusting it on any specific platform.",
     category: "Safety and Privacy",
+    featuredImage: "/images/blog/teen-patti-51-bonus-claims.jpg",
     publishedAt: "2026-08-20",
     updatedAt: "2026-08-20",
     relatedSlugs: ["how-to-identify-fake-teen-patti-apps", "why-a-promo-code-may-not-work"],
