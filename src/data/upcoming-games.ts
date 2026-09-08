@@ -23,7 +23,19 @@ export type UpcomingGame = {
 // DhanGame launched 2026-07-23, Win Rummy launched 2026-07-29, and Gold
 // Rummy launched 2026-08-19; all moved into the main game collection
 // (src/data/games).
-export const upcomingGames: UpcomingGame[] = [];
+export const upcomingGames: UpcomingGame[] = [
+  {
+    slug: "money-rummy",
+    name: "Money Rummy",
+    logo: "/images/games/money-rummy.jpg",
+    releaseDate: "2026-09-09",
+    windowStart: "08:00",
+    windowEnd: "09:00",
+    blurb:
+      "Money Rummy is joining this directory's catalogue. We'll add category, promo-code, and safety information once the game is available and can be independently reviewed.",
+    gameSlug: "money-rummy",
+  },
+];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 

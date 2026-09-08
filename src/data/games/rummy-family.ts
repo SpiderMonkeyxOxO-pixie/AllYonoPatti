@@ -307,4 +307,20 @@ export const rummyFamily: GameEntry[] = [
     publishedAt: "2026-08-18",
     updatedAt: "2026-08-19",
   }),
+  defineGame({
+    name: "Money Rummy",
+    slug: "money-rummy",
+    category: "Rummy-focused platform",
+    logo: "/images/games/money-rummy.jpg",
+    featuredImage: "/images/games/money-rummy.jpg",
+    shortDescription:
+      "An upcoming rummy platform expected to join this directory on 9 September 2026 — not yet launched, no features confirmed.",
+    fullDescription:
+      "Money Rummy is scheduled to become available on 9 September 2026, between 8:00 and 9:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+    informationalStatus:
+      "This platform has not yet launched. It is expected to become available on 9 September 2026; no features, downloads, or codes exist to review yet.",
+    tags: ["upcoming", "rummy"],
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+  }),
 ];
