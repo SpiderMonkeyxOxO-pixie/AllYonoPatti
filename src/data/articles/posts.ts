@@ -1001,4 +1001,93 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "money-rummy-teen-patti-card-games",
+    title: "Does Money Rummy Include Teen Patti? Its Card Games Explained",
+    seoTitle: "Money Rummy Teen Patti: Card Games Explained",
+    description:
+      "Find out whether Money Rummy includes Teen Patti and review what's actually been reported about its game catalogue ahead of its September 9 launch.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/money-rummy-teen-patti-card-games.jpg",
+    publishedAt: "2026-09-08",
+    updatedAt: "2026-09-08",
+    relatedSlugs: [
+      "what-is-teen-patti",
+      "teen-patti-rules",
+      "how-to-review-a-teen-patti-platform-safely",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "The current answer is: no evidence connects Money Rummy to Teen Patti. Unlike some similarly named apps in this directory, nothing in Money Rummy's own reported branding, category, or pre-launch materials mentions Teen Patti at all — it's positioned specifically as a 13-card / points rummy app, reported to launch September 9, 2026.",
+          "AllYonoPatti.com is an independent information directory. It does not operate Money Rummy, provide accounts, accept payments or guarantee that any specific game mode will appear in the released app.",
+        ],
+      },
+      {
+        heading: "Money Rummy Teen Patti Status at a Glance",
+        table: {
+          headers: ["Question", "Current answer"],
+          rows: [
+            ["Does Money Rummy's branding mention Teen Patti?", "No"],
+            ["Is Money Rummy positioned as a Teen Patti app?", "No — reported as 13-card/points rummy"],
+            ["Has the app launched yet?", "No — reported to launch September 9, 2026"],
+            ["Has Teen Patti been seen inside the app?", "Not applicable — not yet launched"],
+            ["Is a Teen Patti game mode confirmed?", "No"],
+            ["Verification status", "No relevance found"],
+            ["Last checked", "September 8, 2026"],
+          ],
+        },
+        paragraphs: [
+          "Readers can follow the main [Money Rummy platform profile](/games/money-rummy) for changing APK, publisher and game-catalogue information, and this directory's [rewards and incentives explained](/rewards) page for how bonus terms typically work across these platforms. Real-money card games are also subject to India's evolving regulatory landscape — see this directory's [online gaming legalities overview](/legalities) for the state-by-state picture.",
+        ],
+      },
+      {
+        heading: "Does Money Rummy Have Teen Patti?",
+        paragraphs: [
+          "Money Rummy is reported to be the 57th platform on the Yono network, positioned specifically around the 13-card / points rummy format — the same category as Win Rummy's rummy tables, not its separately-flagged Teen Patti mentions. No website description, testimonial, or promotional material reviewed for this app referenced Teen Patti, Andar Bahar, poker, or any other card-game category beyond rummy.",
+          "This is a meaningfully different situation from Win Rummy's case, where the operator's own website explicitly named Teen Patti even though the app itself couldn't yet confirm it. Here, there's no claim to evaluate in the first place — Money Rummy simply isn't presented as a multi-game platform.",
+        ],
+      },
+      {
+        heading: "Why This Listing Doesn't Cover Teen Patti",
+        paragraphs: [
+          "The article should therefore avoid statements such as \"Money Rummy might include Teen Patti\" until either the operator makes that claim or the released app can be inspected. As of publication, neither has happened.",
+        ],
+      },
+      {
+        heading: "What Could Still Change This",
+        paragraphs: [
+          "App catalogues sometimes expand after launch, and pre-launch marketing doesn't always reflect the final released build. If Money Rummy's actual app turns out to include Teen Patti or other table games not mentioned in its pre-launch materials, this page will be updated to reflect that — the same way Win Rummy's listing was updated once its own website made an explicit claim.",
+        ],
+      },
+      {
+        paragraphs: [
+          "The existing Money Rummy directory listing currently describes the platform as rummy-only, pending its September 9 launch. That listing will be reviewed and updated if the released app shows otherwise.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does Money Rummy have Teen Patti?",
+        answer:
+          "No evidence connects Money Rummy to Teen Patti. It's reported to be a dedicated 13-card / points rummy platform, set to launch September 9, 2026.",
+      },
+      {
+        question: "Is Money Rummy a multi-game platform like Win Rummy?",
+        answer:
+          "Not based on current reporting — Money Rummy is positioned specifically around rummy, not a broader card-game catalogue.",
+      },
+      {
+        question: "Could Money Rummy add Teen Patti later?",
+        answer:
+          "It's possible app catalogues expand after launch. This page will be updated if that happens.",
+      },
+      {
+        question: "Is Money Rummy part of the Yono network?",
+        answer:
+          "It's reported to be the 57th platform on the Yono network, per the app's own operator (MoneyRummy.site) — not independently verified by AllYonoPatti.com.",
+      },
+    ],
+  },
 ];
