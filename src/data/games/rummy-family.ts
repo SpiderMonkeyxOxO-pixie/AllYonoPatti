@@ -310,17 +310,18 @@ export const rummyFamily: GameEntry[] = [
   defineGame({
     name: "Money Rummy",
     slug: "money-rummy",
+    downloadUrl: "https://moneyrummyff.com/?code=T1XR7S7YJ9T&t=1788922546",
     category: "Rummy-focused platform",
     logo: "/images/games/money-rummy.jpg",
     featuredImage: "/images/games/money-rummy.jpg",
     shortDescription:
-      "An upcoming rummy platform expected to join this directory on 9 September 2026 — not yet launched, no features confirmed.",
+      "Money Rummy just launched with a live download link, reported to be the 57th platform on the Yono network — its bonus and promo-code status are still unverified.",
     fullDescription:
-      "Money Rummy is scheduled to become available on 9 September 2026, between 8:00 and 9:00 AM IST. As of this listing the app has not launched: there is no gameplay, feature set, download link, or promo code to describe or verify yet. This entry will be filled in with real information — category specifics, promo codes, and safety notes — once the platform is live and can be independently reviewed, in line with this directory's policy of never publishing invented details.",
+      "Money Rummy launched on September 9, 2026, reported to be the 57th platform released on the Yono network, and a working download link is now available. As a brand-new app, its full feature set, table formats, and promo-code schedule have not yet been independently reviewed. This entry will be updated with verified category specifics, promo codes, and safety notes as they can be confirmed, in line with this directory's policy of never publishing invented details.",
     informationalStatus:
-      "This platform has not yet launched. It is expected to become available on 9 September 2026; no features, downloads, or codes exist to review yet.",
-    tags: ["upcoming", "rummy"],
+      "This platform launched on September 9, 2026, and a download link is now available. Its reported network affiliation, feature set, table formats, and promo codes are still unverified at this stage.",
+    tags: ["newly-launched", "rummy"],
     publishedAt: "2026-09-08",
-    updatedAt: "2026-09-08",
+    updatedAt: "2026-09-09",
   }),
 ];
