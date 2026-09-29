@@ -92,4 +92,19 @@ export const spinFamily: GameEntry[] = [
     tags: ["spin"],
     relatedGameSlugs: ["jaiho-spin", "slot-spin", "spin-101"],
   }),
+  defineGame({
+    name: "Jeet Spin",
+    slug: "jeet-spin",
+    category: "Spin-style platform",
+    // Reviewed: no Teen Patti text anywhere in this entry's copy.
+    teenPattiRelevance: "none",
+    shortDescription:
+      "A victory-themed spin app whose name invokes 'jeet' (win/victory) alongside the series' familiar wheel format.",
+    fullDescription:
+      "Jeet Spin pairs the Hindi word for victory with the Spin series' established quick-round wheel gameplay, joining a crowded field of outcome-branded spin apps. As with every other title in this directory, the name is branding — not a guarantee of results. The platform has been announced for a 30 September 2026 launch but has not yet been independently reviewed. No download link, operator details, or payout information have been confirmed at this time.",
+    tags: ["spin", "outcome-branding"],
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-29",
+    relatedGameSlugs: ["spin-winner", "yes-spin", "spin-gold"],
+  }),
 ];

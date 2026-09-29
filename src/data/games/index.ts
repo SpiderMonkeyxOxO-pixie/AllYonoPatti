@@ -10,7 +10,7 @@ import { getPromoDailyMap, type PromoDailyEntry } from "../promo-daily";
 
 export type { GameEntry, GameCategory, PromoStatus, VerificationStatus } from "./types";
 
-const EXPECTED_GAME_COUNT = 57;
+const EXPECTED_GAME_COUNT = 58;
 
 // Catches an unfilled template URL before it ships as a real Download
 // button — "flag it in the code" rather than silently publishing a
