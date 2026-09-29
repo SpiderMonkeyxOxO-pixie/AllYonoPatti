@@ -6,6 +6,107 @@ import type { Article } from "./types";
  */
 export const posts: Article[] = [
   {
+    slug: "jeet-spin-game-launch",
+    title: "Jeet Spin Game: Launch Date, Download Status & What Teen Patti Players Should Know",
+    seoTitle: "Jeet Spin Game — Launch Date, Download & Details for Teen Patti Players",
+    description:
+      "Jeet Spin launches 30 Sep 2026. What Teen Patti players should know about this spin-format game — download status, expected features, and how it fits alongside card games.",
+    category: "Legal and Industry Updates",
+    featuredImage: "/images/blog/jeet-spin-game.webp",
+    publishedAt: "2026-09-29",
+    updatedAt: "2026-09-30",
+    relatedSlugs: ["dhan-game-launch-details", "how-to-identify-fake-teen-patti-apps"],
+    sections: [
+      {
+        paragraphs: [
+          "Jeet Spin is a spin-and-win gaming app launching on 30 September 2026 as the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. The name combines \"Jeet\" (Hindi for victory) with \"Spin,\" pointing to a lucky-wheel or reel-spin mechanic rather than the card-table format familiar to Teen Patti players.",
+          "This page covers what has been announced so far. It will be updated with verified details once the app is live.",
+        ],
+      },
+      {
+        heading: "What Is Jeet Spin?",
+        paragraphs: [
+          "Jeet Spin is a spin-format app, not a card game. While it shares the green-diamond branding and distribution method (sideloaded APK) used across the Yono network, its core mechanic is a lucky-wheel or reel-spin format — short, quick-play rounds rather than the live card tables or hand-ranking gameplay of Teen Patti.",
+          "For Teen Patti players, this means Jeet Spin is a separate category of game. It does not replace, update, or modify any existing Teen Patti app in the network.",
+        ],
+      },
+      {
+        heading: "Launch and Download Status",
+        table: {
+          headers: ["Detail", "Status"],
+          rows: [
+            ["App name", "Jeet Spin"],
+            ["Category", "Spin / Arcade"],
+            ["Expected launch", "30 September 2026"],
+            ["APK download link", "Not yet available"],
+            ["Google Play listing", "Not found"],
+            ["File size", "Not yet known"],
+            ["Minimum Android", "Not yet confirmed (likely 5.0+)"],
+          ],
+        },
+      },
+      {
+        heading: "How Jeet Spin Relates to Teen Patti Apps",
+        paragraphs: [
+          "The Yono network includes both card games (Teen Patti variants, rummy apps) and arcade/spin games. Jeet Spin falls into the arcade/spin side. It has its own accounts, promo codes and update schedule — installing it will not affect any Teen Patti app you already use.",
+          "Players who move between app categories in this network should be aware that each app operates independently: balances, bonuses and referral rewards do not transfer between apps.",
+        ],
+      },
+      {
+        heading: "Expected Features",
+        paragraphs: [
+          "Based on similar spin-category apps in this network, Jeet Spin may include a spin-wheel or reel-based main game, daily login rewards, a referral program with per-invite bonuses, UPI and bank transfer withdrawal options, and phone-number registration with OTP login. These are expectations based on established patterns, not confirmed features.",
+        ],
+      },
+      {
+        heading: "Promo Code and Welcome Bonus",
+        paragraphs: [
+          "No Jeet Spin promo code or welcome bonus amount has been confirmed. Based on patterns across similar launches, a sign-up reward in the ₹50–₹500 range is typical, and promo codes are usually released inside the app itself at or shortly after launch.",
+        ],
+      },
+      {
+        heading: "Safety Checks Before You Download",
+        paragraphs: [
+          "The same safety checks that apply to Teen Patti apps apply here: download only from the platform's own website, verify what permissions the app requests, and read the withdrawal terms and KYC requirements before depositing. Our [fake app identification guide](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags to watch for — they apply equally to spin-category apps.",
+          "Do not trust any \"Jeet Spin APK\" links circulating before the launch date. Pre-launch APKs are not from the platform's source.",
+        ],
+      },
+      {
+        heading: "Legal Note",
+        paragraphs: [
+          "Online money games are prohibited in India since 1 May 2026 under the Promotion and Regulation of Online Gaming Act, 2025. Free spin games that do not involve real money or stakes are not affected. Players should confirm Jeet Spin's classification and their state's specific regulations before playing.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is Jeet Spin a Teen Patti game?",
+        answer:
+          "No. Jeet Spin is a spin-format arcade game, not a card game. It shares the Yono network but uses a lucky-wheel mechanic rather than card-table gameplay.",
+      },
+      {
+        question: "Will installing Jeet Spin affect my Teen Patti app?",
+        answer:
+          "No. Each app in the Yono network has separate accounts, balances and promo codes. Installing Jeet Spin will not change anything on your existing Teen Patti apps.",
+      },
+      {
+        question: "When does Jeet Spin launch?",
+        answer:
+          "Jeet Spin is expected to launch on 30 September 2026. This page will be updated with a download link once the app goes live.",
+      },
+      {
+        question: "Is there a Jeet Spin promo code?",
+        answer:
+          "No promo code has been announced yet. Codes are typically released inside the app at or shortly after launch.",
+      },
+      {
+        question: "Is Jeet Spin safe to download?",
+        answer:
+          "Safety cannot be assessed before launch. Apply the same checks you would for any Teen Patti app: verify the source, review permissions, and read the terms before depositing.",
+      },
+    ],
+  },
+  {
     slug: "how-to-identify-fake-teen-patti-apps",
     title: "How to Identify Fake Teen Patti Apps and Websites",
     description:
