@@ -95,6 +95,7 @@ export const spinFamily: GameEntry[] = [
   defineGame({
     name: "Jeet Spin",
     slug: "jeet-spin",
+    downloadUrl: "https://www.jeetspin12.com/?code=SYHPBD5M972&t=1790735445",
     category: "Spin-style platform",
     // Reviewed: no Teen Patti text anywhere in this entry's copy.
     teenPattiRelevance: "none",
