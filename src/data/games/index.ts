@@ -203,6 +203,7 @@ function validate(entries: GameEntry[]): GameEntry[] {
  * exists is silently skipped rather than breaking the build.
  */
 const PINNED_ORDER: string[] = [
+  "jeet-spin",
   "money-rummy",
   "gold-rummy",
   "win-rummy",
