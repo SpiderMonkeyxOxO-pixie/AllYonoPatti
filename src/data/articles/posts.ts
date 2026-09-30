@@ -19,7 +19,7 @@ export const posts: Article[] = [
     sections: [
       {
         paragraphs: [
-          "Jeet Spin is a spin-and-win gaming app launching on 30 September 2026 as the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. The name combines \"Jeet\" (Hindi for victory) with \"Spin,\" pointing to a lucky-wheel or reel-spin mechanic rather than the card-table format familiar to Teen Patti players.",
+          "Jeet Spin is a spin-and-win gaming app that launched on 30 September 2026 as the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. Download it from jeetspin12.com. The name combines \"Jeet\" (Hindi for victory) with \"Spin,\" pointing to a lucky-wheel or reel-spin mechanic rather than the card-table format familiar to Teen Patti players.",
           "This page covers what has been announced so far. It will be updated with verified details once the app is live.",
         ],
       },
@@ -38,7 +38,7 @@ export const posts: Article[] = [
             ["App name", "Jeet Spin"],
             ["Category", "Spin / Arcade"],
             ["Expected launch", "30 September 2026"],
-            ["APK download link", "Not yet available"],
+            ["APK download link", "jeetspin12.com (live)"],
             ["Google Play listing", "Not found"],
             ["File size", "Not yet known"],
             ["Minimum Android", "Not yet confirmed (likely 5.0+)"],
@@ -82,7 +82,7 @@ export const posts: Article[] = [
       {
         question: "Is Jeet Spin a Teen Patti game?",
         answer:
-          "No. Jeet Spin is a spin-format arcade game, not a card game. It shares the Yono network but uses a lucky-wheel mechanic rather than card-table gameplay.",
+          "No. Jeet Spin is a spin-format arcade game, not a card game. It shares the Yono network but uses a lucky-wheel mechanic rather than card-table gameplay. Download it from jeetspin12.com.",
       },
       {
         question: "Will installing Jeet Spin affect my Teen Patti app?",
