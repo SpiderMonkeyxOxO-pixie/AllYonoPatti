@@ -23,19 +23,7 @@ export type UpcomingGame = {
 // DhanGame launched 2026-07-23, Win Rummy launched 2026-07-29, Gold
 // Rummy launched 2026-08-19, and Money Rummy launched 2026-09-09; all
 // moved into the main game collection (src/data/games).
-export const upcomingGames: UpcomingGame[] = [
-  {
-    slug: "jeet-spin-launch",
-    name: "Jeet Spin",
-    logo: "/images/games/jeet-spin.webp",
-    releaseDate: "2026-09-30",
-    windowStart: "10:00",
-    windowEnd: "23:59",
-    blurb:
-      "A victory-themed spin app joining the Spin series. Launching 30 September 2026.",
-    gameSlug: "jeet-spin",
-  },
-];
+export const upcomingGames: UpcomingGame[] = [];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 

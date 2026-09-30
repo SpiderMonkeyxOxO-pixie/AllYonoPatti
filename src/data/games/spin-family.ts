@@ -101,10 +101,10 @@ export const spinFamily: GameEntry[] = [
     shortDescription:
       "A victory-themed spin app whose name invokes 'jeet' (win/victory) alongside the series' familiar wheel format.",
     fullDescription:
-      "Jeet Spin pairs the Hindi word for victory with the Spin series' established quick-round wheel gameplay, joining a crowded field of outcome-branded spin apps. As with every other title in this directory, the name is branding — not a guarantee of results. The platform has been announced for a 30 September 2026 launch but has not yet been independently reviewed. No download link, operator details, or payout information have been confirmed at this time.",
+      "Jeet Spin pairs the Hindi word for victory with the Spin series' established quick-round wheel gameplay, joining a crowded field of outcome-branded spin apps. As with every other title in this directory, the name is branding — not a guarantee of results. The platform launched on 30 September 2026 and is available for download at jeetspin12.com. Operator details and payout information have not yet been independently confirmed.",
     tags: ["spin", "outcome-branding"],
     publishedAt: "2026-09-29",
-    updatedAt: "2026-09-29",
+    updatedAt: "2026-09-30",
     relatedGameSlugs: ["spin-winner", "yes-spin", "spin-gold"],
   }),
 ];
