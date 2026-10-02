@@ -190,7 +190,6 @@ export const postsOct2026: Article[] = [
     "featuredImageAlt": "Balanced golden scale with a brain icon on one side and a cube on the other, weighing skill against chance",
     "publishedAt": "2026-10-14",
     "updatedAt": "2026-10-14",
-    "hold": true,
     "relatedSlugs": [
       "teen-patti-and-indian-online-gaming-awareness",
       "teen-patti-vs-rummy",
