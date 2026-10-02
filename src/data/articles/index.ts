@@ -1,8 +1,25 @@
-import { guides } from "./guides";
-import { posts } from "./posts";
+import { guides as baseGuides } from "./guides";
+import { guidesOct2026 } from "./guides-oct2026";
+import { posts as basePosts } from "./posts";
+import { postsOct2026 } from "./posts-oct2026";
 import type { Article } from "./types";
 
 export type { Article, ArticleCategory, ArticleSection } from "./types";
+
+// Every authored article, including scheduled and held ones. Validation runs
+// against this full set so scheduled articles can link to each other.
+const guides: Article[] = [...baseGuides, ...guidesOct2026];
+const posts: Article[] = [...basePosts, ...postsOct2026];
+
+/** Today's date in IST (YYYY-MM-DD), evaluated at build time. */
+function todayIST(): string {
+  return new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Kolkata" });
+}
+
+/** An article is live once its publishedAt has arrived and it is not on hold. */
+function isLive(a: Article): boolean {
+  return !a.hold && a.publishedAt <= todayIST();
+}
 
 function validateArticles(entries: Article[], label: string): Article[] {
   const errors: string[] = [];
@@ -51,8 +68,8 @@ function validateArticles(entries: Article[], label: string): Article[] {
   return entries;
 }
 
-export const blogPosts: Article[] = validateArticles(posts, "blog");
-export const guideArticles: Article[] = validateArticles(guides, "guide");
+export const blogPosts: Article[] = validateArticles(posts, "blog").filter(isLive);
+export const guideArticles: Article[] = validateArticles(guides, "guide").filter(isLive);
 
 export function getPostBySlug(slug: string): Article | undefined {
   return blogPosts.find((p) => p.slug === slug);

@@ -38,6 +38,10 @@ export type Article = {
   relatedSlugs?: string[];
   /** Path under /public. Only set when a supplied banner image exists — never invented. */
   featuredImage?: string;
+  /** Alt text for the featured image. Omit for a decorative (empty-alt) image. */
+  featuredImageAlt?: string;
+  /** When true the article stays unpublished regardless of `publishedAt` (e.g. awaiting legal review). */
+  hold?: boolean;
   /**
    * Optional FAQ block rendered with FAQPage structured data. Answers must
    * be grounded in what the article already says — never a new claim.

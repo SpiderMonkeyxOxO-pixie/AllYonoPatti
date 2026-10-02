@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
-import type { ArticleSection } from "@/data/articles";
+import { getArticleBySlug, type ArticleSection } from "@/data/articles";
 
 type ArticleBodyProps = {
   sections: ArticleSection[];
@@ -27,11 +27,18 @@ function renderWithLinks(text: string): ReactNode[] {
       nodes.push(text.slice(lastIndex, match.index));
     }
     const [, label, href] = match;
-    nodes.push(
-      <Link key={`link-${key++}`} href={href}>
-        {label}
-      </Link>,
-    );
+    // Scheduled articles may link to posts that are not live yet. Render those
+    // as plain text so no visitor or crawler ever hits a 404.
+    const articleMatch = href.match(/^\/(?:guides|blog)\/([^/]+)$/);
+    if (articleMatch && !getArticleBySlug(articleMatch[1])) {
+      nodes.push(label);
+    } else {
+      nodes.push(
+        <Link key={`link-${key++}`} href={href}>
+          {label}
+        </Link>,
+      );
+    }
     lastIndex = match.index + match[0].length;
   }
   if (lastIndex < text.length) {

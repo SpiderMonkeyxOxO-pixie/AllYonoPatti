@@ -100,7 +100,7 @@ export function ArticlePage({
       {article.featuredImage && (
         <Image
           src={article.featuredImage}
-          alt=""
+          alt={article.featuredImageAlt ?? ""}
           width={1200}
           height={630}
           priority
