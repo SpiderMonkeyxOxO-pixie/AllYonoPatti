@@ -309,7 +309,7 @@ export const postsOct2026: Article[] = [
     "seoTitle": "Teen Patti Origin and History: Where It Started",
     "description": "Where did Teen Patti come from? Trace the game's roots in Indian card play and its likely link to three-card brag, in plain language.",
     "category": "Teen Patti Basics",
-    "featuredImage": "/images/blog/teen-patti-origin-and-history.webp",
+    "featuredImage": "/images/blog/teen-patti-origin-history.webp",
     "featuredImageAlt": "Antique playing cards on parchment with a faint South Asia map and a dotted route, showing Teen Patti history",
     "publishedAt": "2026-10-15",
     "updatedAt": "2026-10-15",
