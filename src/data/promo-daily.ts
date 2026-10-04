@@ -9,11 +9,6 @@ export type PromoDailyEntry = {
 };
 
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
-// Catches the exact shape flagged earlier this session: domain-like strings
-// (gamerummy.com, indslots.vip, clubinrvip1.one) entered where a promo code
-// belongs, rather than an actual code.
-const LOOKS_LIKE_URL =
-  /^https?:\/\/|^www\.|\.(com|net|org|vip|top|cc|club|bet|fun|website|info|one|co)\b/i;
 
 function todayIso(): string {
   return todayIst();
@@ -95,19 +90,6 @@ export function getPromoDailyMap(): Map<string, PromoDailyEntry> {
     if (morning) entry.morning = morning;
     if (afternoon) entry.afternoon = afternoon;
     if (evening) entry.evening = evening;
-
-    for (const [slot, value] of [
-      ["morning", morning],
-      ["afternoon", afternoon],
-      ["evening", evening],
-    ] as const) {
-      if (value && LOOKS_LIKE_URL.test(value)) {
-        console.warn(
-          `[promo-code.txt] "${slug}" ${slot} slot looks like a URL/domain, not a code: "${value}". ` +
-            `This directory never publishes download-style links as promo codes — double-check this entry.`,
-        );
-      }
-    }
 
     if (entry.morning || entry.afternoon || entry.evening) {
       result.set(slug, entry);

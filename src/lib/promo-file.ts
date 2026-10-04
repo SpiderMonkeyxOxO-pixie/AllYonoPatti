@@ -39,9 +39,6 @@ export type PromoSheet = {
 
 export const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 export const MAX_CODE_LENGTH = 40;
-// Same shape the site refuses to publish as a "code": domains and links.
-export const LOOKS_LIKE_URL =
-  /^https?:\/\/|^www\.|\.(com|net|org|vip|top|cc|club|bet|fun|website|info|one|co)\b/i;
 
 const DEFAULT_HEADER = `# AllYonoPatti — Daily Promo Codes
 # ------------------------------------------------------------
@@ -120,8 +117,6 @@ export function codeProblem(value: string): string | null {
     return `longer than ${MAX_CODE_LENGTH} characters`;
   if (/[|\u0000-\u001f\u007f]/.test(value))
     return 'contains a "|" or control character';
-  if (LOOKS_LIKE_URL.test(value))
-    return "looks like a link/domain, not a promo code";
   return null;
 }
 
