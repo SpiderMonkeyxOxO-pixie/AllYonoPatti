@@ -1,5 +1,5 @@
 import { readFileSync } from "node:fs";
-import { join } from "node:path";
+import { getPromoFilePath, todayIst } from "@/lib/promo-file";
 
 export type PromoDailyEntry = {
   date: string;
@@ -8,7 +8,6 @@ export type PromoDailyEntry = {
   evening?: string;
 };
 
-const SOURCE_FILE = join(process.cwd(), "promo-code.txt");
 const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 // Catches the exact shape flagged earlier this session: domain-like strings
 // (gamerummy.com, indslots.vip, clubinrvip1.one) entered where a promo code
@@ -17,7 +16,7 @@ const LOOKS_LIKE_URL =
   /^https?:\/\/|^www\.|\.(com|net|org|vip|top|cc|club|bet|fun|website|info|one|co)\b/i;
 
 function todayIso(): string {
-  return new Date().toISOString().slice(0, 10);
+  return todayIst();
 }
 
 /**
@@ -45,7 +44,7 @@ export function getPromoDailyMap(): Map<string, PromoDailyEntry> {
   const result = new Map<string, PromoDailyEntry>();
   let raw: string;
   try {
-    raw = readFileSync(SOURCE_FILE, "utf-8");
+    raw = readFileSync(getPromoFilePath(), "utf-8");
   } catch {
     return result;
   }

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { trackEvent, withUtm } from "@/lib/analytics";
 
-type Placement = "game_card" | "promo_card" | "game_detail";
+type Placement = "game_card" | "promo_card" | "promo_detail" | "game_detail";
 
 type DownloadLinkProps = {
   /** The game's owner-supplied referral URL (`downloadUrl`). */

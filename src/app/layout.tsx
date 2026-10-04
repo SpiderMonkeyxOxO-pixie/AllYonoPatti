@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
-import Script from "next/script";
-import { BottomNav } from "@/components/layout/BottomNav";
-import { Footer } from "@/components/layout/Footer";
-import { Header } from "@/components/layout/Header";
-import { PromoAlert } from "@/components/promo/PromoAlert";
-import { TelegramWidget } from "@/components/promo/TelegramWidget";
-import { JsonLd } from "@/components/seo/JsonLd";
-import { absoluteUrl, siteConfig } from "@/lib/site";
+import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
 const inter = Inter({
@@ -33,23 +26,8 @@ export const metadata: Metadata = {
     "An independent, informational directory of Teen Patti games and related platforms for Indian players, with promo-code information, safety guidance, and educational guides.",
 };
 
-const organizationSchema = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: siteConfig.name,
-  url: siteConfig.url,
-  logo: absoluteUrl(siteConfig.logo),
-  description:
-    "Independent informational directory of Teen Patti games and related platforms. Not a gambling operator.",
-};
-
-const webSiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: siteConfig.name,
-  url: siteConfig.url,
-};
-
+// The public-site frame (header, footer, analytics, structured data) lives in
+// app/(site)/layout.tsx so the admin area can render without any of it.
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -65,38 +43,7 @@ export default function RootLayout({
         className="flex min-h-screen flex-col font-sans"
         suppressHydrationWarning
       >
-        {siteConfig.gaMeasurementId && (
-          <>
-            <Script
-              src={`https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaMeasurementId}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${siteConfig.gaMeasurementId}');
-              `}
-            </Script>
-          </>
-        )}
-        <JsonLd data={organizationSchema} />
-        <JsonLd data={webSiteSchema} />
-        <a
-          href="#main-content"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-brand-700 focus:px-4 focus:py-2 focus:text-white"
-        >
-          Skip to content
-        </a>
-        <Header />
-        <main id="main-content" className="flex-1 pb-16 lg:pb-0">
-          {children}
-        </main>
-        <Footer />
-        <BottomNav />
-        <PromoAlert />
-        <TelegramWidget />
+        {children}
       </body>
     </html>
   );

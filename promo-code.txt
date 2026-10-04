@@ -1,38 +1,11 @@
-# AllYonoPatti — Daily Promo Codes
+# AllYonoPatti — Daily Promo Codes (repo seed copy)
 # ------------------------------------------------------------
-# How to use this file:
-#   1. FIRST THING each new day, reset the sheet with ONE of these:
-#        a) Run `npm run promo:reset` — clears every code cell and
-#           sets DATE to today automatically. (recommended)
-#        b) Or by hand: clear every code cell below to blank BEFORE
-#           updating DATE — not after. If you update DATE first and
-#           forget to clear old cells, yesterday's codes will
-#           silently show as today's.
-#   2. As a code is released, type it into the Morning / Afternoon /
-#      Evening column for that game. Leave a cell blank if that
-#      slot hasn't been released yet — the site shows "Not released
-#      yet" for any blank cell.
-#   3. Save the file, then ask Claude to "update the site from
-#      promo-code.txt" and it will rebuild the promo pages.
-#   4. Do not edit the slug (first column) or add/remove rows.
-#      One row per game, already listed below in site order.
+# Live codes are managed from the admin panel at
+# code.allyonopatti.com and stored at the path in PROMO_FILE
+# (see ADMIN-SETUP.md). This repo copy is only the blank seed.
 #
 # Format:  slug | name | morning | afternoon | evening
-# Example: 101z | 101Z | ABC123  |           | XYZ789
-#          (afternoon left blank = not released yet for that game today)
-#
-# Safety nets already built in — you'll never see silently wrong
-# data, only a build warning Claude will point out:
-#   - A DATE not in YYYY-MM-DD format is ignored entirely (rather
-#     than showing "Invalid Date" on the site).
-#   - If DATE doesn't match the actual day of the rebuild, a warning
-#     is logged — the most common cause is exactly the mistake step 1
-#     prevents (forgetting to clear old codes for a new day).
-#   - A slug that doesn't match a real game, or a slug listed twice,
-#     is warned about rather than silently dropped or overwritten.
-#   - A value that looks like a URL or domain (e.g. "site.com") in a
-#     code cell is warned about — this directory never publishes
-#     download-style links as promo codes.
+# A blank cell shows "Not released yet" on the site.
 # ------------------------------------------------------------
 
 DATE | 2026-07-18

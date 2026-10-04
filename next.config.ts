@@ -36,6 +36,12 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  experimental: {
+    // The admin panel posts Server Actions from code.allyonopatti.com.
+    serverActions: {
+      allowedOrigins: [process.env.ADMIN_HOST ?? "code.allyonopatti.com"],
+    },
+  },
   async headers() {
     return [
       {

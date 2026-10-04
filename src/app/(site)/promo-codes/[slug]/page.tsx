@@ -5,6 +5,10 @@ import { notFound } from "next/navigation";
 import { FaqSection, type FaqItem } from "@/components/ui/FaqSection";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { CopyButton } from "@/components/ui/CopyButton";
+import {
+  DownloadDisclosureNote,
+  DownloadLink,
+} from "@/components/ui/DownloadLink";
 import { StatusBadge } from "@/components/ui/StatusBadge";
 import {
   games,
@@ -79,6 +83,11 @@ export default async function PromoPage({ params }: PageProps) {
   if (!game) notFound();
 
   const statusLabel = promoStatusLabels[game.promoStatus] ?? game.promoStatus;
+  const hasDailyCode = Boolean(
+    game.promoDaily?.morning ||
+      game.promoDaily?.afternoon ||
+      game.promoDaily?.evening,
+  );
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -133,6 +142,12 @@ export default async function PromoPage({ params }: PageProps) {
               <code className="rounded bg-slate-100 px-2 py-1 font-mono text-base">
                 {game.promoCode}
               </code>
+            </p>
+          ) : hasDailyCode ? (
+            <p className="text-sm leading-relaxed text-slate-600">
+              The latest {game.name} codes are listed in the release slots
+              below. Codes can be withdrawn or expire at any time, so a
+              code showing here is not a guarantee that it will work.
             </p>
           ) : (
             <p className="text-sm leading-relaxed text-slate-600">
@@ -193,6 +208,24 @@ export default async function PromoPage({ params }: PageProps) {
           </p>
         </div>
       </section>
+
+      {/* Download CTA — directly under the code information */}
+      {game.downloadUrl && (
+        <section
+          aria-label={`Download ${game.name}`}
+          className="mt-4 rounded-xl border border-gold-200 bg-gold-50 p-4"
+        >
+          <DownloadLink
+            href={game.downloadUrl}
+            gameName={game.name}
+            gameSlug={game.slug}
+            placement="promo_detail"
+            label={`Download ${game.name}`}
+            className="inline-flex min-h-12 w-full items-center justify-center gap-1 rounded-lg bg-gold-400 px-5 text-base font-semibold text-brand-950 hover:bg-gold-300 sm:w-auto"
+          />
+          <DownloadDisclosureNote className="mt-2 text-xs leading-relaxed text-slate-600" />
+        </section>
+      )}
 
       {/* What a code may provide */}
       <section aria-labelledby="provides-heading" className="mt-10">
