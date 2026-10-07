@@ -30,7 +30,7 @@ export const upcomingGames: UpcomingGame[] = [
     name: "Jaiho Play",
     logo: "/images/games/jaiho-play.webp",
     releaseDate: "2026-10-15",
-    windowStart: "12:00",
+    windowStart: "08:00",
     blurb:
       "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
   },
