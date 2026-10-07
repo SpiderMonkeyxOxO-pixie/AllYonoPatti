@@ -150,8 +150,9 @@ export function UpcomingGameCard({ game }: UpcomingGameCardProps) {
         )}
       </h3>
       <p className="mt-2 text-sm leading-relaxed text-slate-600">
-        Expected to launch between {formatHour12(game.windowStart)}–
-        {formatHour12(game.windowEnd)} IST on {formatDate(game.releaseDate)}.{" "}
+        {game.windowEnd
+          ? `Expected to launch between ${formatHour12(game.windowStart)}–${formatHour12(game.windowEnd)} IST on ${formatDate(game.releaseDate)}.`
+          : `Expected to launch at ${formatHour12(game.windowStart)} IST on ${formatDate(game.releaseDate)}.`}{" "}
         {game.blurb}
       </p>
 
