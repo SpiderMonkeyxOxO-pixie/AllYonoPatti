@@ -121,4 +121,27 @@ export const jaihoFamily: GameEntry[] = [
     tags: ["jaiho", "arcade", "casual"],
     relatedGameSlugs: ["yono-arcade", "jaiho-spin", "spin-crush"],
   }),
+  defineGame({
+    name: "Jaiho Play",
+    slug: "jaiho-play",
+    downloadUrl: "https://jaihogo.com/?code=E4VW58CDZFY&t=1792035058",
+    category: "Multi-game platform",
+    // Reviewed: the app's own lobby documents both Teen Patti and rummy
+    // tables as of launch, named specifically rather than vaguely — but
+    // rummy is named alongside it, not positioned as secondary, so this is
+    // "mode" rather than "core".
+    teenPattiRelevance: "mode",
+    shortDescription:
+      "The newest Jaiho-family app, launched 15 October 2026 with confirmed Teen Patti and rummy tables alongside the group's usual card-game mix.",
+    fullDescription:
+      "Jaiho Play is the latest addition to the Jaiho family, launching on 15 October 2026 at 8:00 AM IST as version 1.0.0. The app's lobby documents both Teen Patti and rummy tables, giving it a confirmed, specific Teen Patti offering rather than a generic card-games claim. At launch the app showed a minimum deposit of about ₹50–₹100, a minimum withdrawal of ₹100, and UPI, Paytm and BHIM as payment methods, alongside a welcome bonus shown in the ₹50–₹500 range whose conditions were not recorded. The app names Yonotech Pvt. Ltd. as its operator, which this directory has not independently verified. Boot amounts, table variants and the rules screen have not yet been recorded — check them inside the app before you play.",
+    featured: true,
+    tags: ["jaiho", "teen-patti", "rummy", "multi-game", "newly-launched"],
+    safetyNotes:
+      "Confirm the operator name and read the terms inside the app before depositing — this directory has not independently verified Yonotech Pvt. Ltd. as the operator.",
+    publishedAt: "2026-10-14",
+    updatedAt: "2026-10-15",
+    relatedGameSlugs: ["jaiho-win", "jaiho-rummy", "jaiho-91"],
+    relatedArticleSlugs: ["jaiho-play-teen-patti-check"],
+  }),
 ];

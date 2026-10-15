@@ -2139,5 +2139,150 @@ export const guidesOct2026: Article[] = [
         "answer": "Usually a few minutes."
       }
     ]
+  },
+  {
+    "slug": "jaiho-play-teen-patti-check",
+    "title": "Jaiho Play Teen Patti: What to Check at the Table",
+    "seoTitle": "Jaiho Play Teen Patti: What to Check at the Table",
+    "description": "Jaiho Play has Teen Patti and rummy as of its 15 Oct 2026 launch. See what we confirmed, what we have not recorded, and how to check a table yourself.",
+    "category": "Platform Guides",
+    "publishedAt": "2026-10-15",
+    "updatedAt": "2026-10-15",
+    "relatedSlugs": [
+      "teen-patti-rules",
+      "teen-patti-terms",
+      "how-to-identify-fake-teen-patti-apps"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "**Direct answer:** Yes, Jaiho Play includes Teen Patti, along with rummy, as of its launch on 15 October 2026. We have not recorded its boot amounts, variants or table rules, so check those inside the app before you play. Teen Patti involves chance, and no table can guarantee a win."
+        ]
+      },
+      {
+        "heading": "What we confirmed",
+        "table": {
+          "headers": ["Question", "Status"],
+          "rows": [
+            ["Launched", "Yes, from 8:00 AM IST on 15 Oct 2026 (version 1.0.0)"],
+            ["Teen Patti in the app", "Yes (seen in the app)"],
+            ["Rummy in the app", "Yes"],
+            ["Boot amounts", "Not recorded"],
+            ["Variants offered", "Not recorded"],
+            ["Table rules screen", "Not recorded"],
+            ["Minimum deposit and withdrawal", "About ₹50–₹100 and ₹100"],
+            ["Payment methods shown", "UPI, Paytm and BHIM"],
+            ["Welcome bonus", "A range of ₹50–₹500 shown (conditions not recorded)"]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "The app names Yonotech Pvt. Ltd. as its operator, which we have not independently verified. A blank above means we have not recorded it, not that it does not exist."
+        ]
+      },
+      {
+        "heading": "What a real Teen Patti table shows",
+        "paragraphs": [
+          "Teen Patti has fixed rules, so a genuine table shows specific details you can check against them:"
+        ],
+        "list": [
+          "A table or lobby labelled Teen Patti or 3 Patti.",
+          "A stated boot amount, the starting stake each player puts in. Our [Teen Patti rules guide](/guides/teen-patti-rules) explains how boot works.",
+          "Blind and seen play, plus chaal and sideshow.",
+          "The usual hand rankings, from trail down to high card.",
+          "Variants listed by name, if the app offers any."
+        ]
+      },
+      {
+        "paragraphs": [
+          "If the app's Teen Patti screens match the rules, you are looking at the real game. If they do not, stop and read the rules screen before you play."
+        ]
+      },
+      {
+        "heading": "Five checks to run at the Jaiho Play table",
+        "list": [
+          "Find the lobby and note the exact name of the Teen Patti entry.",
+          "Open a table and see the boot amount before you commit anything.",
+          "Read the rules screen and compare hand rankings and sideshow rules with a known source.",
+          "Check the terms for the operator's name and how disputes are handled.",
+          "Take a dated screenshot of the table and rules, in case anything changes."
+        ]
+      },
+      {
+        "heading": "Teen Patti on an app versus the game itself",
+        "paragraphs": [
+          "Teen Patti is a card game. An app adds accounts, money and payments on top. The rules do not tell you whether an app is safe or available, and the app does not change how the cards work. Keep those two questions apart: learn the game from the guide, and judge the platform on what is documented about it."
+        ]
+      },
+      {
+        "heading": "What we know about money in the app",
+        "paragraphs": [
+          "At launch the minimum deposit was about ₹50–₹100 and the minimum withdrawal ₹100, with UPI, Paytm and BHIM shown as payment methods. A welcome bonus in the range of ₹50–₹500 was also shown, with its conditions not recorded. None of this tells you the boot at any table, so check the table's stake before sitting down. Promo codes are released daily; see the [promo codes page](/promo-codes) for today's status and verify any code inside the app."
+        ]
+      },
+      {
+        "heading": "Phone binding and support",
+        "paragraphs": [
+          "The app asks you to bind a phone number, and we did not record a separate identity-document step. Support is available through a contact in the app and a live chat. We have not tested how fast support replies, so test it with a simple question before you rely on it."
+        ]
+      },
+      {
+        "heading": "Red flags around Jaiho Play Teen Patti claims",
+        "list": [
+          "A page promising \"guaranteed\" or \"sure profit\" Teen Patti wins",
+          "A boot amount or table list quoted with no screenshot or date",
+          "Pressure to deposit before you can see a table",
+          "A bonus or code attached to a table with no visible terms",
+          "Screenshots with no app name or version"
+        ]
+      },
+      {
+        "paragraphs": [
+          "Teen Patti involves chance and other players. A page that guarantees a result is selling, not informing."
+        ]
+      },
+      {
+        "heading": "Legal and safety context",
+        "paragraphs": [
+          "India's 2026 rules, in force since 1 May 2026, distinguish prohibited online money games from permissible social games, and a Teen Patti table that takes deposits raises that question directly. Read our [legal status notes](/legalities) before you consider any app. A table being available is not permission to play."
+        ]
+      },
+      {
+        "heading": "If you decide to look at the app",
+        "paragraphs": [
+          "Our sponsored referral link is below. It is not an official store link, and we may earn a commission if you use it.",
+          "**Download Jaiho Play (sponsored link):** https://jaihogo.com/?code=E4VW58CDZFY&t=1792035058",
+          "Set a spending limit before your first table and keep to it. You can read how we label what we have and have not checked in the [platform directory](/games) and on our [about page](/about)."
+        ]
+      },
+      {
+        "paragraphs": [
+          "18+ only. Online games involving money carry financial risk and may be restricted where you live. Play responsibly. AllYonoPatti is informational and not affiliated with any app. Download links on this page are referral links and may earn a commission."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does Jaiho Play have Teen Patti?",
+        "answer": "Yes. Teen Patti and rummy are in the app as of its 15 October 2026 launch. We have not recorded its boot amounts or variants."
+      },
+      {
+        "question": "What is the Jaiho Play Teen Patti boot amount?",
+        "answer": "Not recorded. Check the boot shown on the table before you play."
+      },
+      {
+        "question": "Which Teen Patti variants does Jaiho Play offer?",
+        "answer": "Not recorded. Open the lobby and note the variants listed by name."
+      },
+      {
+        "question": "Can I win real money on Jaiho Play Teen Patti?",
+        "answer": "Nobody can promise that. Teen Patti involves chance and other players, and you can lose what you put in."
+      },
+      {
+        "question": "Does AllYonoPatti operate Jaiho Play?",
+        "answer": "No. AllYonoPatti is an independent site that explains Teen Patti and documents platforms. It does not run any app."
+      }
+    ]
   }
 ];

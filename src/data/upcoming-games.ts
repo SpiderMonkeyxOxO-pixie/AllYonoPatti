@@ -22,19 +22,10 @@ export type UpcomingGame = {
 };
 
 // DhanGame launched 2026-07-23, Win Rummy launched 2026-07-29, Gold
-// Rummy launched 2026-08-19, and Money Rummy launched 2026-09-09; all
-// moved into the main game collection (src/data/games).
-export const upcomingGames: UpcomingGame[] = [
-  {
-    slug: "jaiho-play",
-    name: "Jaiho Play",
-    logo: "/images/games/jaiho-play.webp",
-    releaseDate: "2026-10-15",
-    windowStart: "08:00",
-    blurb:
-      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
-  },
-];
+// Rummy launched 2026-08-19, Money Rummy launched 2026-09-09, and Jaiho
+// Play launched 2026-10-15; all moved into the main game collection
+// (src/data/games).
+export const upcomingGames: UpcomingGame[] = [];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
