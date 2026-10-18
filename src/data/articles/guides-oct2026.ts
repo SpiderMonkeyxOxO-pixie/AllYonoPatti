@@ -2284,5 +2284,579 @@ export const guidesOct2026: Article[] = [
         "answer": "No. AllYonoPatti is an independent site that explains Teen Patti and documents platforms. It does not run any app."
       }
     ]
+  },
+  {
+    "slug": "teen-patti-app-list",
+    "title": "How Many Teen Patti Apps Are There? A Directory Approach",
+    "seoTitle": "How Many Teen Patti Apps Are There? A Directory Approach",
+    "description": "There's no official count of Teen Patti apps. Here's why, and how this site approaches building an honest directory instead of guessing a number.",
+    "category": "Platform Guides",
+    "featuredImage": "/images/blog/teen-patti-app-list.webp",
+    "featuredImageAlt": "Grid of generic mobile app icons on a smartphone screen, representing a directory of Teen Patti apps",
+    "publishedAt": "2026-10-20",
+    "updatedAt": "2026-10-20",
+    "relatedSlugs": [
+      "teen-patti-game-development-company",
+      "how-to-identify-fake-teen-patti-apps"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "There is no authoritative count of how many Teen Patti apps exist — new ones launch constantly and old ones disappear without notice. Rather than claim a number, this site tracks what it has actually reviewed, labelled honestly by what's confirmed versus what isn't."
+        ]
+      },
+      {
+        "heading": "Why no one can give you an exact number",
+        "paragraphs": [
+          "Teen Patti is a card game, and its name (plus close variants like \"3 Patti\" and \"Tin Patti\") is used by an enormous and constantly shifting number of independent apps. Play Store searches alone return results in the hundreds, many short-lived, rebranded, or regionally restricted. Any page claiming an exact total is presenting a guess as a fact."
+        ]
+      },
+      {
+        "heading": "What a useful directory does instead",
+        "paragraphs": [
+          "Rather than a number, a useful directory does three things:"
+        ],
+        "list": [
+          "States what it has actually reviewed — not a claim about the whole market.",
+          "Labels confidence honestly. Some facts about a platform are independently confirmed; others are only what the app itself states; others are simply not yet checked.",
+          "Updates rather than freezes. Apps change — features, terms, and even whether they still operate — so a directory entry from six months ago may no longer be accurate."
+        ]
+      },
+      {
+        "heading": "How this site categorizes what it covers",
+        "paragraphs": [
+          "When we write about a specific app, we distinguish between platform rules explainers (general Teen Patti education, true across the game regardless of app) and app-specific notes (what a particular app claims, which may not generalize). This separation matters: a withdrawal minimum that's true for one app tells you nothing about another."
+        ]
+      },
+      {
+        "heading": "What to do if you're comparing apps yourself",
+        "list": [
+          "Check the developer name on the Play Store listing, not just the app's display name.",
+          "Note the exact package name if you're trying to tell two similarly-named apps apart.",
+          "Treat install counts and star ratings as one signal among several, not proof of legitimacy."
+        ]
+      },
+      {
+        "paragraphs": [
+          "This site reviews Teen Patti rules, mechanics, and platform safety independently — not an exhaustive market census. 18+ only where real-money apps are discussed."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many Teen Patti apps are there in total?",
+        "answer": "No one can give an accurate number — the market is too fragmented and constantly changing for a reliable count."
+      },
+      {
+        "question": "Does this site list every Teen Patti app?",
+        "answer": "No. We cover what we've reviewed, clearly labelled by what's confirmed versus not yet checked."
+      },
+      {
+        "question": "How do I tell two similarly-named apps apart?",
+        "answer": "Compare the exact developer name and package name on their Play Store listings, not just the display name."
+      },
+      {
+        "question": "Is a high install count proof an app is safe?",
+        "answer": "No — install counts can be inflated or simply reflect popularity, not safety or legitimacy."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-offline",
+    "title": "Can You Play Teen Patti Offline?",
+    "seoTitle": "Can You Play Teen Patti Offline?",
+    "description": "Offline with friends vs online with strangers — here's the real distinction, which apps offer true offline play, and why most real-cash apps need a connection.",
+    "category": "Teen Patti Basics",
+    "featuredImage": "/images/blog/teen-patti-offline.webp",
+    "featuredImageAlt": "Deck of playing cards beside a smartphone showing a Teen Patti app, representing offline versus app play",
+    "publishedAt": "2026-10-21",
+    "updatedAt": "2026-10-21",
+    "relatedSlugs": [
+      "play-teen-patti-at-home-with-cards",
+      "what-is-teen-patti"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Yes, but it depends what you mean by \"offline.\" Playing Teen Patti with physical cards among friends needs no internet at all. Playing a Teen Patti app offline usually means a local pass-and-play or practice mode — real-cash and multiplayer-with-strangers modes almost always require a live connection."
+        ]
+      },
+      {
+        "heading": "Three different things people mean by \"offline\"",
+        "list": [
+          "No app at all — just a physical deck of cards and the rules. This is how Teen Patti has always been played, and needs nothing but cards and people.",
+          "An app's local/practice mode — some apps include a single-device, pass-the-phone mode, or a practice mode against computer-controlled opponents, playable without a live connection.",
+          "An app's real-money or live-multiplayer mode — this requires a server connection to match you with other players, process stakes, and track outcomes. There is no real offline equivalent for this mode."
+        ]
+      },
+      {
+        "heading": "Why real-cash modes can't go offline",
+        "paragraphs": [
+          "Multiplayer Teen Patti with money involved needs to verify your balance, match you against other real players in real time, and record the outcome somewhere both sides trust. None of that is possible without a live connection to the app's servers. Any page claiming you can play \"offline for real cash\" is describing something that doesn't make technical sense."
+        ]
+      },
+      {
+        "heading": "If you want to play with physical cards instead",
+        "paragraphs": [
+          "Playing the traditional way with friends needs no app, no account, and no internet — just the standard rules, a deck of cards, and chips or tokens to track stakes if you're not using real money."
+        ]
+      },
+      {
+        "heading": "Checking what a specific app offers",
+        "paragraphs": [
+          "Not every app documents its offline/practice mode clearly. If this matters to you, check the app's own description and settings menu rather than assuming — and remember that even a genuine offline mode in an app is separate from its real-money features.",
+          "18+ only where real-money gaming is involved."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Can I play real-cash Teen Patti without internet?",
+        "answer": "No. Real-money and live-multiplayer modes require a server connection to process stakes and match players."
+      },
+      {
+        "question": "Do any Teen Patti apps have an offline mode?",
+        "answer": "Some include a local pass-and-play or practice-against-computer mode. Check the specific app's settings or description to confirm."
+      },
+      {
+        "question": "Is playing with physical cards the same as \"offline\" in an app?",
+        "answer": "It's a different thing entirely — no app, account, or internet needed, just cards and players."
+      },
+      {
+        "question": "Why would an app need an internet connection to play with friends nearby?",
+        "answer": "Even \"local\" multiplayer in most apps is still routed through the app's servers rather than a true device-to-device connection, unless the app specifically offers a pass-and-play mode."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-groups-safety",
+    "title": "Teen Patti Telegram & WhatsApp Groups: Safe?",
+    "seoTitle": "Teen Patti Telegram & WhatsApp Groups: Safe?",
+    "description": "Promo-code groups, \"VIP\" paid groups, referral groups — the common Teen Patti group types, their scam patterns, and how to evaluate one.",
+    "category": "Safety and Privacy",
+    "featuredImage": "/images/blog/teen-patti-groups-safety.webp",
+    "featuredImageAlt": "Telegram and WhatsApp chat icons beside a shield, representing Teen Patti group safety",
+    "publishedAt": "2026-10-23",
+    "updatedAt": "2026-10-23",
+    "relatedSlugs": [
+      "why-a-promo-code-may-not-work",
+      "how-to-identify-fake-teen-patti-apps"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Teen Patti Telegram and WhatsApp groups range from genuinely useful (official update channels) to actively harmful (paid \"VIP\" groups promising guaranteed wins). The group type matters more than the platform — here's how to tell them apart."
+        ]
+      },
+      {
+        "heading": "The common group types",
+        "paragraphs": [
+          "Official update/announcement channels. Some apps run a genuine Telegram channel for launch news and legitimate promo-code announcements. These are typically one-way (admin posts, members can't post) and link back to the app's own official pages.",
+          "Promo-code sharing groups. User-run groups where members post codes they've found. Useful in theory, but codes posted here are unverified — anyone can post anything, including expired, fake, or bait codes.",
+          "\"VIP\" or \"paid\" groups. Groups charging an entry fee for \"guaranteed winning tricks,\" \"insider codes,\" or \"boosted odds.\" This is a scam pattern seen across many gaming categories, not specific to Teen Patti — no legitimate app sells advance knowledge of outcomes.",
+          "Referral/downline groups. Groups organized around referral chains, where joining is framed as a way to earn from others who join under you. These resemble pyramid-structure recruitment more than genuine gaming communities."
+        ]
+      },
+      {
+        "heading": "Red flags across all group types",
+        "list": [
+          "Any request for payment to join or to \"unlock\" content",
+          "Guarantees of winning, \"100% working tricks,\" or similar absolute claims",
+          "Pressure to act immediately (\"code expires in 10 minutes\")",
+          "Admins asking for your account login, OTP, or payment details directly in chat"
+        ]
+      },
+      {
+        "heading": "What a reasonably safe group looks like",
+        "list": [
+          "Clearly linked from the app's own official page or in-app announcement, not found through a random search or forwarded message",
+          "No payment required to join or participate",
+          "No guarantee-of-winning language from admins"
+        ]
+      },
+      {
+        "heading": "If you're unsure",
+        "paragraphs": [
+          "Treat any code, tip, or claim from a group the same way you'd treat an anonymous tip from a stranger: unverified until you confirm it against the app itself.",
+          "18+ only; be cautious of any group promising financial outcomes."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Are official Teen Patti Telegram channels safe to join?",
+        "answer": "Generally yes, if linked directly from the app's own official page — treat any code or claim shared there the same as you would from the app itself."
+      },
+      {
+        "question": "Should I pay to join a \"VIP\" Teen Patti group?",
+        "answer": "No. Paid groups promising guaranteed wins or insider tricks are a well-documented scam pattern."
+      },
+      {
+        "question": "Can I trust a promo code posted in a random group?",
+        "answer": "Not without verifying it inside the app yourself — group-posted codes are unverified and can be expired or fake."
+      },
+      {
+        "question": "What should I never share in a gaming group?",
+        "answer": "Your account password, OTP, or payment details — no legitimate group admin needs these."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-suits",
+    "title": "Do Card Suits Matter in Teen Patti?",
+    "seoTitle": "Do Card Suits Matter in Teen Patti?",
+    "description": "A quick, accurate clarification: in standard Teen Patti, suits generally don't rank against each other — except inside specific hand types. Here's exactly where they do.",
+    "category": "Rules and Hand Rankings",
+    "featuredImage": "/images/blog/teen-patti-suits.webp",
+    "featuredImageAlt": "Four playing card suit symbols — hearts, diamonds, clubs, spades — beside three Teen Patti cards",
+    "publishedAt": "2026-10-24",
+    "updatedAt": "2026-10-24",
+    "relatedSlugs": [
+      "trail-vs-pure-sequence-teen-patti",
+      "a23-sequence-in-teen-patti"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "In standard Teen Patti, suits (hearts, diamonds, clubs, spades) don't rank against each other — no suit is \"higher\" than another when comparing hands of the same type. Suits only matter within certain hand types, specifically for forming a Flush (three cards of the same suit) and a Pure Sequence (three consecutive cards of the same suit)."
+        ]
+      },
+      {
+        "heading": "Where suits genuinely matter",
+        "paragraphs": [
+          "Flush (Colour). Three cards of the same suit, not in sequence. The suit itself isn't ranked — any flush beats any non-flush hand of a lower category, regardless of which suit it is.",
+          "Pure Sequence (Straight Flush). Three consecutive cards of the same suit. Again, which specific suit doesn't matter for ranking — a pure sequence in hearts and a pure sequence in spades of the same card values are equal."
+        ]
+      },
+      {
+        "heading": "Where suits do NOT matter",
+        "list": [
+          "Trail/Trio (three of a kind) — suit is irrelevant since all three cards share the same rank, not suit.",
+          "Sequence (Run) — three consecutive cards of mixed suits. The sequence itself is what counts, not which suits are involved.",
+          "Pair — two cards of the same rank plus a third card. Suit plays no role in ranking.",
+          "High Card — suit has no bearing on comparing high-card hands."
+        ]
+      },
+      {
+        "heading": "A common point of confusion",
+        "paragraphs": [
+          "Some players assume one suit outranks another, carried over from games or folk rules where that's sometimes true locally. In standard Teen Patti rules (and in essentially every app that follows them), no suit hierarchy exists. If you're playing a private home game with a house rule that says otherwise, that's a local variation — not the standard game."
+        ]
+      },
+      {
+        "heading": "Why this matters practically",
+        "paragraphs": [
+          "Misunderstanding suit ranking can lead to disputes at the table or confusion about why a hand you thought was stronger lost. Knowing exactly where suits matter (flush and pure sequence formation) and where they don't (everything else) resolves most of this confusion in one read."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does a spade flush beat a hearts flush in Teen Patti?",
+        "answer": "No. Flushes of the same card values are equal regardless of suit — no suit outranks another."
+      },
+      {
+        "question": "Do suits matter for a Trail (three of a kind)?",
+        "answer": "No — a trail's rank is based on the card value, not suit, since all three cards share the same rank anyway."
+      },
+      {
+        "question": "What's the only time suit composition affects a hand's category?",
+        "answer": "Forming a Flush (same suit, not in sequence) or a Pure Sequence (same suit, in sequence)."
+      },
+      {
+        "question": "Is suit-ranking a common house rule in home games?",
+        "answer": "Some private games use local variations, but it's not part of standard Teen Patti rules or how most apps implement the game."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-game-development-company",
+    "title": "Who Builds Teen Patti Apps? Reading a Developer Listing",
+    "seoTitle": "Who Builds Teen Patti Apps? Reading a Developer Listing",
+    "description": "Play Store developer names for card games are often shell companies. Here's how to read a developer listing and what independent verification actually looks like.",
+    "category": "Platform Guides",
+    "featuredImage": "/images/blog/teen-patti-game-development-company.webp",
+    "featuredImageAlt": "Play Store developer listing page with a magnifying glass, representing developer verification",
+    "publishedAt": "2026-10-25",
+    "updatedAt": "2026-10-25",
+    "relatedSlugs": [
+      "how-to-identify-fake-teen-patti-apps",
+      "teen-patti-app-list"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Most Teen Patti apps are published by small, single-purpose developer entities rather than large, well-known studios — and a generic or newly-registered-sounding developer name is common across this entire category, not necessarily a red flag by itself. What matters more is whether the listing's other details are consistent and checkable."
+        ]
+      },
+      {
+        "heading": "What a Play Store developer listing shows",
+        "paragraphs": [
+          "Every Play Store app page includes a developer name, and usually a support email and sometimes a website link, visible under \"Developer contact\" or similar. This is the starting point for checking who actually published an app."
+        ]
+      },
+      {
+        "heading": "Why developer names in this category often look unfamiliar",
+        "paragraphs": [
+          "Unlike large consumer apps from recognizable companies, real-money card game apps are frequently published by small studios, sometimes registered specifically for one or a handful of apps. This is common across the category — Indian and offshore real-money gaming apps alike — and isn't unique to any particular platform. A name you don't recognize isn't automatically suspicious; it's simply how this part of the app market tends to operate."
+        ]
+      },
+      {
+        "heading": "What's actually worth checking",
+        "list": [
+          "Does the developer's support email use a matching domain? A generic Gmail address with no connection to the app's branding is a weaker signal than a domain-matched email.",
+          "Does the developer have other apps listed? Checking the developer's full app catalogue (tap the developer name on the Play Store) can reveal whether they operate one app or many, and whether those other apps have their own track record.",
+          "Is there a privacy policy link, and does it actually describe this app? Some listings link to generic or mismatched privacy policies — a sign of low effort, if not necessarily fraud.",
+          "Does the app's own in-app \"About\" section match the Play Store listing? Inconsistency between the two is worth noting."
+        ]
+      },
+      {
+        "heading": "What independent verification realistically looks like",
+        "paragraphs": [
+          "For most apps in this category, there's no central registry to cross-check a developer against. \"Verification\" in practice means comparing consistency across the Play Store listing, the app's own disclosed information, and (where available) any official website — not a guarantee of legitimacy, but a reasonable due-diligence pass."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is an unfamiliar developer name a red flag by itself?",
+        "answer": "Not necessarily — small, single-purpose developer entities are common and normal across this app category."
+      },
+      {
+        "question": "How do I check what else a developer has published?",
+        "answer": "Tap the developer's name on their Play Store listing to see their full app catalogue."
+      },
+      {
+        "question": "What's a stronger signal than the developer name alone?",
+        "answer": "Consistency — whether the support email, privacy policy, and in-app information all match and make sense together."
+      },
+      {
+        "question": "Is there an official registry to verify Teen Patti app developers against?",
+        "answer": "No central registry exists for most of this market; verification is a due-diligence comparison, not a lookup against an authority."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-legal-india-2025",
+    "title": "Is Teen Patti Legal in India? The 2025 Rules",
+    "seoTitle": "Is Teen Patti Legal in India? The 2025 Rules",
+    "description": "The Online Gaming Act, 2025 distinguishes prohibited money games from permitted skill/social games. Here's where Teen Patti sits — and why that answer isn't one-size-fits-all.",
+    "category": "Legal and Industry Updates",
+    "featuredImage": "/images/blog/teen-patti-legal-india-2025.webp",
+    "featuredImageAlt": "Gavel beside a smartphone showing a Teen Patti app, representing India's 2025 online gaming law",
+    "publishedAt": "2026-10-26",
+    "updatedAt": "2026-10-26",
+    "relatedSlugs": [
+      "is-teen-patti-skill-or-chance",
+      "teen-patti-and-indian-online-gaming-awareness",
+      "teen-patti-age-requirement"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "There's no single yes/no answer. The Promotion and Regulation of Online Gaming Act, 2025 (in force since 1 May 2026) distinguishes between prohibited \"online money games\" and permitted skill-based or social games — and where a specific Teen Patti app falls depends on whether real money changes hands and how the app itself is classified, not on the fact that it's \"Teen Patti.\" Nothing here is legal advice."
+        ]
+      },
+      {
+        "heading": "What the 2025 Act actually distinguishes",
+        "paragraphs": [
+          "The Act's core distinction is between:"
+        ],
+        "list": [
+          "Online money games — games played for stakes with the possibility of monetary winnings, which the Act restricts.",
+          "Online games (non-money) — including many skill-based and social games, which the Act treats differently."
+        ]
+      },
+      {
+        "paragraphs": [
+          "Teen Patti itself, as a card game, has historically been argued in Indian courts to involve an element of skill (similar to rummy) rather than being purely chance-based — but that legal history predates the 2025 Act, and how individual apps are classified under the new framework is a separate, evolving question."
+        ]
+      },
+      {
+        "heading": "Why \"is Teen Patti legal\" isn't the right question",
+        "paragraphs": [
+          "The more accurate question is: \"Is this specific app, played this specific way, a money game under the 2025 Act?\" A free-to-play or social version of Teen Patti sits in a different category than a real-cash version with withdrawable winnings, even though both are \"Teen Patti.\""
+        ]
+      },
+      {
+        "heading": "What this means practically",
+        "list": [
+          "An app's own terms and classification claims are not a substitute for the law itself.",
+          "State-level rules can add further restriction on top of the central Act in some jurisdictions.",
+          "This area of law is actively evolving following the Act coming into force — guidance here reflects the rules as understood at time of writing and may not reflect later changes."
+        ]
+      },
+      {
+        "heading": "What we're not saying",
+        "paragraphs": [
+          "We're not telling you Teen Patti is legal or illegal for you specifically — that depends on the app, the stakes, and your jurisdiction, and is genuinely unsettled in places.",
+          "18+ only. This is informational content, not legal advice — consult a qualified professional for your specific situation."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does the 2025 Act ban Teen Patti outright?",
+        "answer": "No — it distinguishes between money games (restricted) and non-money/skill games (treated differently), so the answer depends on how a specific app operates, not the game's name."
+      },
+      {
+        "question": "Is Teen Patti legally a game of skill or chance?",
+        "answer": "Indian courts have historically treated it similarly to rummy, with a skill-element argument, but this predates the 2025 Act and isn't a blanket legal guarantee for every app."
+      },
+      {
+        "question": "Can state laws add further restrictions?",
+        "answer": "Yes, some states have their own additional rules beyond the central Act."
+      },
+      {
+        "question": "Is this page legal advice?",
+        "answer": "No. It's a general informational explainer. Consult a qualified legal professional for advice on your specific situation."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-kyc",
+    "title": "Does Teen Patti Require KYC?",
+    "seoTitle": "Does Teen Patti Require KYC?",
+    "description": "Phone verification vs document KYC — what Teen Patti apps typically require, when it's usually triggered, and why requirements vary by platform.",
+    "category": "Safety and Privacy",
+    "featuredImage": "/images/blog/teen-patti-kyc.webp",
+    "featuredImageAlt": "Identity card and smartphone with a checkmark, representing Teen Patti KYC verification",
+    "publishedAt": "2026-10-27",
+    "updatedAt": "2026-10-27",
+    "relatedSlugs": [
+      "teen-patti-withdrawal-explained",
+      "teen-patti-minimum-deposit"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Most real-cash Teen Patti apps require some form of KYC (Know Your Customer) verification, but what that means varies a lot — from a simple phone-number OTP to full government-ID document verification — and when it's triggered also varies, often at the point of withdrawal rather than at signup."
+        ]
+      },
+      {
+        "heading": "The two common tiers of KYC",
+        "paragraphs": [
+          "Phone-number verification. The lightest tier: confirming you control the phone number you signed up with, via an OTP. This is close to universal across apps in this category and is usually required just to create an account.",
+          "Document-based KYC. A heavier tier: uploading a government ID (commonly Aadhaar or PAN) for identity confirmation. This is less universal at signup, but commonly appears before a withdrawal is processed, especially above certain amounts."
+        ]
+      },
+      {
+        "heading": "When KYC is usually triggered",
+        "paragraphs": [
+          "Based on the pattern seen across reviewed apps: phone verification almost always at signup, before you can play at all; document KYC most commonly triggered the first time you attempt a withdrawal, sometimes only above a certain withdrawal amount. This isn't universal — some apps request document KYC earlier, and requirements can change without notice."
+        ]
+      },
+      {
+        "heading": "Why requirements vary by app",
+        "paragraphs": [
+          "KYC policy is set by each platform individually, often shaped by their own compliance posture and risk tolerance, not by a single external standard every app follows identically. An app with lighter KYC isn't automatically less safe, and one with heavier KYC isn't automatically more legitimate — it's one data point among several."
+        ]
+      },
+      {
+        "heading": "What to do before you need to withdraw",
+        "list": [
+          "Check the app's stated KYC policy (often in its FAQ or terms) before you deposit, not after you've tried to withdraw.",
+          "Have a clear photo of your ID ready if document KYC is likely to apply.",
+          "Be cautious of any KYC request made outside the app itself (e.g., via a chat link) — legitimate KYC happens inside the app or its official website flow."
+        ]
+      },
+      {
+        "heading": "A reasonable red flag",
+        "paragraphs": [
+          "If an app asks for document KYC immediately at signup, before you've deposited or played anything, that's worth noting — it's less common in this category than KYC triggered at withdrawal, and may be worth extra scrutiny of the app's overall legitimacy.",
+          "18+ only."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is phone verification the same as KYC?",
+        "answer": "It's the lightest tier of it — confirming account ownership, not identity. Document-based KYC is a separate, heavier step."
+      },
+      {
+        "question": "When will I be asked for document KYC?",
+        "answer": "Most commonly at your first withdrawal attempt, though this varies by app and sometimes depends on the withdrawal amount."
+      },
+      {
+        "question": "Is heavier KYC a sign an app is more trustworthy?",
+        "answer": "Not necessarily — it's one factor among several, not a standalone guarantee."
+      },
+      {
+        "question": "Should I complete KYC through a link sent in chat?",
+        "answer": "No — legitimate KYC verification happens inside the app itself or its official website, not through third-party chat links."
+      }
+    ]
+  },
+  {
+    "slug": "teen-patti-age-requirement",
+    "title": "Teen Patti Age Requirement: What Terms Usually Say",
+    "seoTitle": "Teen Patti Age Requirement: What Terms Usually Say",
+    "description": "The standard 18+ requirement, how apps typically self-certify age without real verification, and why that gap matters for responsible play.",
+    "category": "Responsible Gaming",
+    "featuredImage": "/images/blog/teen-patti-age-requirement.webp",
+    "featuredImageAlt": "18+ age restriction icon beside a smartphone showing a Teen Patti app",
+    "publishedAt": "2026-10-28",
+    "updatedAt": "2026-10-28",
+    "relatedSlugs": [
+      "responsible-teen-patti-gaming",
+      "teen-patti-legal-india-2025"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Nearly every real-cash Teen Patti app states an 18+ age requirement in its terms of service — but enforcement is typically limited to a checkbox or self-declared birthdate at signup, not independent age verification. That gap is exactly why responsible-use awareness matters more than the stated policy alone."
+        ]
+      },
+      {
+        "heading": "What the stated requirement usually looks like",
+        "paragraphs": [
+          "Terms of service across reviewed apps consistently state that users must be 18 years or older (sometimes 21+ in specific jurisdictions) to use real-money features. This is near-universal in the category and generally reflects both platform policy and the legal reality that gambling-adjacent services require adult users."
+        ]
+      },
+      {
+        "heading": "How age is typically \"verified\"",
+        "paragraphs": [
+          "In practice, most apps rely on: a self-declared date of birth entered at signup, with no document cross-check; a checkbox confirming the user is of legal age; occasionally, document-based KYC that would incidentally reveal age if triggered — but this often happens later, at withdrawal, not at signup.",
+          "This means the stated age requirement is largely honor-system at the point of entry, with real verification (if any) arriving later and inconsistently."
+        ]
+      },
+      {
+        "heading": "Why this gap matters",
+        "paragraphs": [
+          "A policy that exists on paper but isn't meaningfully enforced at signup doesn't protect against underage use by itself. This is a known limitation across the real-money gaming app category generally, not specific to any one platform, and is part of the broader context behind why the sector faces increasing regulatory attention, including the 2025 Online Gaming Act."
+        ]
+      },
+      {
+        "heading": "What responsible use looks like regardless of enforcement gaps",
+        "list": [
+          "Treat the 18+ requirement as a real boundary, not a formality, regardless of how loosely it's checked at signup.",
+          "Parents and guardians should be aware that self-declared age checks are not a reliable barrier on their own — device-level parental controls are a more effective safeguard than relying on an app's signup flow.",
+          "If you're unsure whether a specific app enforces age more strictly, check its terms directly rather than assuming either way."
+        ]
+      },
+      {
+        "paragraphs": [
+          "18+ only."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What's the standard minimum age for Teen Patti real-cash apps?",
+        "answer": "18, as stated in the terms of service for nearly all apps in this category, with some stating 21+ in specific contexts."
+      },
+      {
+        "question": "Do apps actually verify age at signup?",
+        "answer": "Usually not beyond a self-declared birthdate or checkbox — document-based verification, where it exists, typically happens later."
+      },
+      {
+        "question": "Is a self-declared age check a reliable safeguard?",
+        "answer": "No — it's an honor-system step, not independent verification, which is why device-level controls matter for households with minors."
+      },
+      {
+        "question": "Does document KYC double as age verification?",
+        "answer": "It can incidentally confirm age if triggered, but this usually happens later in the user journey (e.g., at withdrawal), not at signup."
+      }
+    ]
   }
 ];
