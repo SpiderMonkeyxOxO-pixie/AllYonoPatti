@@ -25,7 +25,17 @@ export type UpcomingGame = {
 // Rummy launched 2026-08-19, Money Rummy launched 2026-09-09, and Jaiho
 // Play launched 2026-10-15; all moved into the main game collection
 // (src/data/games).
-export const upcomingGames: UpcomingGame[] = [];
+export const upcomingGames: UpcomingGame[] = [
+  {
+    slug: "vip-rummy",
+    name: "VIP Rummy",
+    logo: "/images/games/vip-rummy.webp",
+    releaseDate: "2026-10-20",
+    windowStart: "08:00",
+    blurb:
+      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
+  },
+];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
