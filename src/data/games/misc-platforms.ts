@@ -203,4 +203,25 @@ export const miscPlatforms: GameEntry[] = [
     publishedAt: "2026-07-18",
     updatedAt: "2026-07-23",
   }),
+  defineGame({
+    name: "VIP Rummy",
+    slug: "vip-rummy",
+    downloadUrl: "https://viprummy6.com/?code=XSDWNSC153Q&t=1792476153",
+    category: "Rummy-focused platform",
+    shortDescription:
+      "VIP Rummy pairs a crowned-rummy branding with a green-diamond background — launched 20 October 2026.",
+    fullDescription:
+      "VIP Rummy launched on 20 October 2026 at 8:00 AM IST, pairing a crowned-rummy brand identity with a green-diamond background. Beyond the branding and launch timing, nothing about the app has been independently verified yet — no package name, permissions, signing certificate, welcome bonus, or promo code has been confirmed. Treat marketing copy as marketing copy until this directory's own technical review is complete.",
+    informationalStatus:
+      "VIP Rummy launched 20 October 2026. This is a newly added listing — features, terms, and safety details are not yet independently confirmed.",
+    // Reviewed: no Teen Patti text anywhere in the app's own branding/copy
+    // seen so far.
+    teenPattiRelevance: "none",
+    tags: ["newly-launched", "rummy"],
+    featured: true,
+    safetyNotes:
+      "This app launched today. No package name, permissions, or signing certificate have been independently checked yet — verify before installing.",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+  }),
 ];

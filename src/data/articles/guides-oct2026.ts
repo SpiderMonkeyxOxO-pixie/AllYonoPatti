@@ -2804,7 +2804,7 @@ export const guidesOct2026: Article[] = [
     "sections": [
       {
         "paragraphs": [
-          "VIP Rummy launches today, 20 October 2026 at 8:00 AM IST, and the honest answer to \"is it safe\" on day one is: not yet independently verified either way — there's no track record, no inspected APK, and no confirmed operator identity to evaluate yet."
+          "VIP Rummy launched today, 20 October 2026 at 8:00 AM IST (download link on its [game page](/games/vip-rummy)), and the honest answer to \"is it safe\" on day one is: not yet independently verified either way — there's no track record, no inspected APK, and no confirmed operator identity to evaluate yet."
         ]
       },
       {
