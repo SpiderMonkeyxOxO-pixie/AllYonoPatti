@@ -35,6 +35,15 @@ export const upcomingGames: UpcomingGame[] = [
     blurb:
       "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
   },
+  {
+    slug: "spin-rummy",
+    name: "Spin Rummy",
+    logo: "/images/games/spin-rummy.webp",
+    releaseDate: "2026-10-30",
+    windowStart: "08:00",
+    blurb:
+      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
+  },
 ];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
