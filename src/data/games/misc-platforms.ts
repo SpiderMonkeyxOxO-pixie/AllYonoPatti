@@ -224,4 +224,25 @@ export const miscPlatforms: GameEntry[] = [
     publishedAt: "2026-10-20",
     updatedAt: "2026-10-20",
   }),
+  defineGame({
+    name: "Spin Rummy",
+    slug: "spin-rummy",
+    downloadUrl: "https://spinrummy.cx/?code=31X42Q6DH9P&t=1793332810",
+    category: "Rummy-focused platform",
+    shortDescription:
+      "Spin Rummy pairs a spin-wheel icon with the rummy format in the same green-diamond branding as others in this network — launched 30 October 2026.",
+    fullDescription:
+      "Spin Rummy launched on 30 October 2026 at 8:00 AM IST, pairing a spin-wheel icon with the standard rummy card format in the same green-diamond branding seen elsewhere in this network. Beyond the branding and launch timing, nothing about the app has been independently verified yet — no package name, permissions, signing certificate, welcome bonus, or promo code has been confirmed. Treat marketing copy as marketing copy until this directory's own technical review is complete.",
+    informationalStatus:
+      "Spin Rummy launched 30 October 2026. This is a newly added listing — features, terms, and safety details are not yet independently confirmed.",
+    // Reviewed: no Teen Patti text anywhere in the app's own branding/copy
+    // seen so far.
+    teenPattiRelevance: "none",
+    tags: ["newly-launched", "rummy"],
+    featured: true,
+    safetyNotes:
+      "This app launched today. No package name, permissions, or signing certificate have been independently checked yet — verify before installing.",
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+  }),
 ];

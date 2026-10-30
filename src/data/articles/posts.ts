@@ -1191,4 +1191,77 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "spin-rummy-vs-teen-patti",
+    title: "Spin Rummy vs Teen Patti: What's the Difference?",
+    seoTitle: "Spin Rummy vs Teen Patti: Key Differences Explained",
+    description:
+      "Spin Rummy launched 30 October 2026. See how it differs from Teen Patti — card count, core mechanic, and what's confirmed vs. not yet known.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/spin-rummy-vs-teen-patti.webp",
+    featuredImageAlt:
+      "Three fanned playing cards beside a wider thirteen-card rummy hand with a spin-wheel icon, comparing Teen Patti and Spin Rummy",
+    publishedAt: "2026-10-30",
+    updatedAt: "2026-10-30",
+    relatedSlugs: ["teen-patti-vs-rummy"],
+    sections: [
+      {
+        paragraphs: [
+          "Quick answer: Teen Patti is a three-card betting game won at a show; Spin Rummy, based on its name and branding, combines the standard rummy card format (sets and sequences) with a spin-wheel feature layered on top — a structurally different game from Teen Patti, even though both are often offered side by side on the same platforms. Spin Rummy launched 30 October 2026, so its exact in-app mechanics are still being independently reviewed.",
+        ],
+      },
+      {
+        heading: "Side-by-side comparison",
+        table: {
+          headers: ["Feature", "Teen Patti", "Spin Rummy"],
+          rows: [
+            ["Cards per player", "3", "13 (standard rummy format)"],
+            [
+              "Core mechanic",
+              "Betting: blind, chaal, pack, show",
+              "Draw/discard + a spin-wheel feature (exact integration not yet reviewed)",
+            ],
+            ["Hand rankings", "Yes (trail, pure sequence, etc.)", "No — melds only, per standard rummy rules"],
+            ["Launch status", "Already live across this network", "Launched 30 October 2026, 8:00 AM IST"],
+            ["Confirmed bonus/rules", "Varies by app, generally documented", "Not yet confirmed"],
+          ],
+        },
+      },
+      {
+        heading: "What's confirmed vs. not yet known",
+        paragraphs: [
+          "Confirmed: launch date and time, rummy-category branding, and a spin-wheel visual element in its name and icon. Not yet confirmed: the exact spin mechanic, how it affects scoring or bonuses, welcome offer, or a reviewed download link beyond the platform's own sponsored referral link.",
+        ],
+      },
+      {
+        heading: "Why the comparison matters",
+        paragraphs: [
+          "Readers searching \"Spin Rummy\" often land here already familiar with Teen Patti from this network — this page exists to set the right expectation: a rummy variant, not a Teen Patti variant, now that the app has gone live.",
+        ],
+      },
+      {
+        heading: "Do platforms offer both?",
+        paragraphs: [
+          "Some gaming platforms list both Teen Patti and rummy-format titles side by side. Our directory page for [Spin Rummy](/games/spin-rummy) covers what's independently confirmed about the app so far. Some links on this site are affiliate links, disclosed on the relevant pages and in our [affiliate disclosure](/affiliate-disclosure). Always verify an app before installing.",
+          "Neither game is a way to earn money, and outcomes are never guaranteed. Set limits before you play. See [responsible gaming](/responsible-gaming). 18+ only. Educational content.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is Spin Rummy a Teen Patti game?",
+        answer:
+          "No — based on available signals it's a rummy-format game, not a Teen Patti variant, despite sharing a platform network with Teen Patti apps.",
+      },
+      {
+        question: "When did Spin Rummy launch?",
+        answer: "30 October 2026, 8:00 AM IST.",
+      },
+      {
+        question: "Will this page be updated?",
+        answer:
+          "Yes, once the app's actual spin mechanic and bonus terms can be independently reviewed.",
+      },
+    ],
+  },
 ];
