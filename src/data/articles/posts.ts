@@ -6,6 +6,72 @@ import type { Article } from "./types";
  */
 export const posts: Article[] = [
   {
+    slug: "jaiho-slot-promo-code",
+    title: "Jaiho Slot: Promo Code Status & What to Know",
+    seoTitle: "Jaiho Slot Promo Code — Current Status & What Teen Patti Players Should Know",
+    description:
+      "Jaiho Slot's promo code status, where it fits in the Jaiho family of apps, and whether it's relevant to Teen Patti players — with what's confirmed and what isn't.",
+    category: "Promo-Code Awareness",
+    featuredImage: "/images/blog/jaiho-slot-promo-code.webp",
+    publishedAt: "2026-10-31",
+    updatedAt: "2026-10-31",
+    relatedSlugs: ["jeet-spin-game-launch", "why-a-promo-code-may-not-work"],
+    sections: [
+      {
+        paragraphs: [
+          "Jaiho Slot is a reel-focused app in the Jaiho family, sitting next to Jaiho 777 as the family's dedicated slot-machine catalogue. Download it from jaihoslots24.com. This page covers its promo code status and what Teen Patti players comparing it against card-format apps on this network should know.",
+        ],
+      },
+      {
+        heading: "No Jaiho Slot Promo Code Is on Record Yet",
+        paragraphs: [
+          "As of this report, AllYonoPatti.com has not independently verified a promo code for Jaiho Slot. If a code is circulating anywhere outside the app's own sign-up screen, treat it as unconfirmed.",
+        ],
+      },
+      {
+        heading: "Where Jaiho Slot Fits",
+        paragraphs: [
+          "Jaiho Slot and Jaiho 777 are both described as slots-first apps with overlapping game types, and the distinction between the two isn't well documented by either app. If you're comparing them, be aware that third-party pages sometimes mix screenshots and details from one into articles about the other. Nothing about Jaiho Slot's operator or game catalogue has been independently confirmed for this listing.",
+        ],
+      },
+      {
+        heading: "How Promo Codes Work Across This Network",
+        paragraphs: [
+          "A promo or referral code here is typically a shareable string entered at sign-up, not a private credential, and the platform can change it on its own schedule. AllYonoPatti.com records a code and its last-checked date once it can be verified through a traceable source — we don't generate, issue, or guarantee any code ourselves.",
+        ],
+      },
+      {
+        heading: "Is Jaiho Slot Relevant to Teen Patti Players?",
+        paragraphs: [
+          "Not directly — it's a reel/slots format, not a card game, so the gameplay itself has nothing in common with Teen Patti. It's covered here because it shares the Jaiho network branding with Jaiho Win and Jaiho 91, both of which are already tracked on this site, and readers comparing Jaiho-branded apps often want the full picture.",
+        ],
+      },
+      {
+        heading: "Safety Note",
+        paragraphs: [
+          "Never pay money or share an OTP, password, or bank detail in exchange for an \"exclusive\" Jaiho Slot code. That pattern is a common scam, not a legitimate promo mechanic — the same standard we apply to every app tracked here.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is there a Jaiho Slot promo code right now?",
+        answer:
+          "No, not yet confirmed. This page will be updated once a code can be independently verified.",
+      },
+      {
+        question: "Is Jaiho Slot the same as Jaiho 777?",
+        answer:
+          "Not confirmed either way. Both are slots-first apps in the same family line-up, but each has its own separate listing and the distinction between them isn't well documented.",
+      },
+      {
+        question: "Is Jaiho Slot a Teen Patti game?",
+        answer:
+          "No — it's a reel/slots format. It's tracked here because of its shared Jaiho network branding with other apps already covered on this site.",
+      },
+    ],
+  },
+  {
     slug: "jeet-spin-game-launch",
     title: "Jeet Spin Game: Launch Date, Download Status & What Teen Patti Players Should Know",
     seoTitle: "Jeet Spin Game — Launch Date, Download & Details for Teen Patti Players",
