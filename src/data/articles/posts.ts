@@ -1330,4 +1330,70 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "club-inr-promo-code",
+    title: "Club INR: Promo Code Status & What to Know",
+    seoTitle: "Club INR Promo Code — Current Status & What Teen Patti Players Should Know",
+    description:
+      "Club INR's promo code status, its club-plus-cash branding pattern, and whether it's relevant to Teen Patti players — with what's confirmed and what isn't.",
+    category: "Promo-Code Awareness",
+    featuredImage: "/images/blog/club-inr-promo-code.webp",
+    publishedAt: "2026-11-01",
+    updatedAt: "2026-11-01",
+    relatedSlugs: ["jaiho-slot-promo-code", "why-a-promo-code-may-not-work"],
+    sections: [
+      {
+        paragraphs: [
+          "Club INR combines members-club framing with rupee-currency branding: a lobby of mixed games, with card tables reportedly among them, presented as a club for Indian players. Download it from clubinr2.top. This page covers its promo code status and what Teen Patti players comparing it against card-format apps on this network should know.",
+        ],
+      },
+      {
+        heading: "No Club INR Promo Code Is on Record Yet",
+        paragraphs: [
+          "As of this report, AllYonoPatti.com has not independently verified a promo code for Club INR. If a code is circulating anywhere outside the app's own sign-up screen, treat it as unconfirmed.",
+        ],
+      },
+      {
+        heading: "Why the Club-Plus-Cash Combination Deserves a Closer Look",
+        paragraphs: [
+          "Club INR pairs the members-club framing seen on Ind Club with the currency branding seen on INR Rummy. Club framing and cash branding are each designed, on their own, to build a sense of commitment — combined, they warrant double care rather than less. Membership mechanics, fund handling, and the operator behind the app all remain unverified for this listing.",
+        ],
+      },
+      {
+        heading: "How Promo Codes Work Across This Network",
+        paragraphs: [
+          "A promo or referral code here is typically a shareable string entered at sign-up, not a private credential, and the platform can change it on its own schedule. AllYonoPatti.com records a code and its last-checked date once it can be verified through a traceable source — we don't generate, issue, or guarantee any code ourselves.",
+        ],
+      },
+      {
+        heading: "Is Club INR Relevant to Teen Patti Players?",
+        paragraphs: [
+          "Not confirmed either way. The app's own copy names only \"card tables\" generically, without stating that Teen Patti specifically is on offer, so this listing's Teen Patti relevance is marked none pending clearer information. It's covered here because readers comparing club-styled, multi-game platforms in this network often want the full picture, including apps whose card-game content isn't yet clear.",
+        ],
+      },
+      {
+        heading: "Safety Note",
+        paragraphs: [
+          "Never pay money or share an OTP, password, or bank detail in exchange for an \"exclusive\" Club INR code. That pattern is a common scam, not a legitimate promo mechanic — the same standard we apply to every app tracked here.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is there a Club INR promo code right now?",
+        answer:
+          "No, not yet confirmed. This page will be updated once a code can be independently verified.",
+      },
+      {
+        question: "Is Club INR a Teen Patti game?",
+        answer:
+          "Not confirmed either way — the app's copy names only \"card tables\" generically, without specifying Teen Patti.",
+      },
+      {
+        question: "Why does Club INR combine club and cash branding?",
+        answer:
+          "Both club-membership framing and currency branding are design choices that tend to build a sense of commitment; combined, they're worth extra caution rather than less, though the mechanics behind them aren't independently confirmed here.",
+      },
+    ],
+  },
 ];
