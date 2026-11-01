@@ -31,7 +31,6 @@ export function Header() {
             width={36}
             height={36}
             className="h-9 w-9 rounded-lg"
-            priority
           />
           <span className="font-display text-lg font-bold text-brand-800">
             {siteConfig.name}

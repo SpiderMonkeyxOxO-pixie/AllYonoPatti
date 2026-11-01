@@ -37,16 +37,33 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   experimental: {
+    optimizeCss: true,
     // The admin panel posts Server Actions from code.allyonopatti.com.
     serverActions: {
       allowedOrigins: [process.env.ADMIN_HOST ?? "code.allyonopatti.com"],
     },
+  },
+  images: {
+    // Next's default (4h) is well inside Lighthouse's "efficient cache
+    // lifetimes" threshold for optimized image responses — these are
+    // content-hashed by query string, so a year-long cache is safe.
+    minimumCacheTTL: 31536000,
   },
   async headers() {
     return [
       {
         source: "/:path*",
         headers: securityHeaders,
+      },
+      // Hashed build output never changes under a given filename, so it's
+      // safe (and expected) to cache it for a year. Without this, Lighthouse
+      // flags every JS/CSS chunk as a short-lived resource that gets
+      // needlessly re-downloaded on repeat visits.
+      {
+        source: "/_next/static/:path*",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
       },
     ];
   },

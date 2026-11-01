@@ -1,0 +1,38 @@
+# AllYonoPatti
+
+> AllYonoPatti (allyonopatti.com) is an independent, informational Teen Patti category guide: the game's rules, hand rankings, terminology, and variants explained from scratch, plus an honestly-labelled directory of card/casual apps in the wider ecosystem — only some of which document an actual Teen Patti table or mode. It is not a gambling operator, does not run or host any game, and is not affiliated with any app or platform it describes.
+
+Every platform listing carries a status label; anything unconfirmed is marked as awaiting verification rather than guessed. Promo codes are shown only when supplied and verified for that day — never invented. Final safety, legality, and account checks always belong to the reader and the platform operator, not this site.
+
+## Learn Teen Patti
+
+- [Teen Patti rules, step by step](https://allyonopatti.com/guides/teen-patti-rules): boot, blind and seen, chaal, sideshow, and show — a full round in order
+- [Hand rankings](https://allyonopatti.com/guides/teen-patti-hand-rankings): trail, pure sequence, sequence, colour, pair, high card, and how ties break
+- [Terminology](https://allyonopatti.com/guides/teen-patti-terms): blind, chaal, pack, show, sideshow glossary
+- [Common variants](https://allyonopatti.com/guides/common-teen-patti-variations): Muflis, AK47, joker rounds, Best of Four, 999
+- [Teen Patti vs poker](https://allyonopatti.com/guides/teen-patti-vs-poker): what's actually different, point by point
+- [Teen Patti sequence guide](https://allyonopatti.com/guides/teen-patti-sequence-guide): how runs and pure runs work
+- [Teen Patti in Hindi](https://allyonopatti.com/guides/teen-patti-in-hindi): terms in Hindi and English side by side
+- [What is Teen Patti?](https://allyonopatti.com/guides/what-is-teen-patti): beginner-friendly explanation
+
+## Safety and legal context
+
+- [How to review a Teen Patti platform safely](https://allyonopatti.com/guides/how-to-review-a-teen-patti-platform-safely): a five-step checklist before installing any app
+- [Gambling awareness](https://allyonopatti.com/gambling-awareness): age restrictions, warning signs, and where to find support
+- [Legalities overview](https://allyonopatti.com/legalities): how online real-money gaming is regulated in India, state by state
+
+## Directory
+
+- [Platforms with a documented Teen Patti offering](https://allyonopatti.com/games): filtered to apps whose own description names a Teen Patti table or mode
+- [Full card & casual-app ecosystem](https://allyonopatti.com/games): the complete tracked directory
+- [Promo codes](https://allyonopatti.com/promo-codes): per-platform code status, shown only when verified for that day
+- [Rewards & incentives](https://allyonopatti.com/rewards): how reward structures commonly work and why none is ever guaranteed
+- [Blog](https://allyonopatti.com/blog): platform safety, spotting fake apps, app permissions, promo-code behaviour
+
+## About
+
+- [What this website is — and is not](https://allyonopatti.com/about)
+- [Editorial policy](https://allyonopatti.com/editorial-policy)
+- [Corrections policy](https://allyonopatti.com/corrections-policy)
+- [Disclaimer](https://allyonopatti.com/disclaimer)
+- [Affiliate disclosure](https://allyonopatti.com/affiliate-disclosure)
