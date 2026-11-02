@@ -2921,5 +2921,147 @@ export const guidesOct2026: Article[] = [
         "answer": "It can incidentally confirm age if triggered, but this usually happens later in the user journey (e.g., at withdrawal), not at signup."
       }
     ]
+  },
+  {
+    "slug": "best-of-four-teen-patti-rules",
+    "title": "Best of Four Teen Patti Rules: How the Extra Card Works",
+    "seoTitle": "Best of Four Teen Patti Rules: Extra Card Explained",
+    "description": "Best of Four deals each player four cards instead of three. See how picking the strongest three works, why hands run stronger, and what to check before playing.",
+    "category": "Teen Patti Basics",
+    "featuredImage": "/images/blog/best-of-four-teen-patti-rules.webp",
+    "featuredImageAlt": "Four playing cards fanned out with three highlighted, showing how the strongest three are chosen in Best of Four Teen Patti",
+    "publishedAt": "2026-11-02",
+    "updatedAt": "2026-11-02",
+    "relatedSlugs": [
+      "common-teen-patti-variations",
+      "teen-patti-hand-rankings",
+      "ak47-teen-patti-rules"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: Best of Four deals each player four cards instead of the usual three. You then choose the strongest three-card combination from those four to form your hand, using the same rankings as standard Teen Patti. Betting, blind and seen play, and showdown rules stay exactly the same — only the number of cards dealt and the selection step change.",
+          "The name describes the mechanic directly: you're picking the \"best of four\" possible three-card hands hidden inside your draw."
+        ]
+      },
+      {
+        "heading": "How the extra card changes your hand",
+        "paragraphs": [
+          "With four cards instead of three, there are four different three-card combinations available — drop any one of the four and the remaining three form a hand. You (or the app, automatically) pick whichever of those four combinations ranks highest."
+        ],
+        "list": [
+          "A♣ K♦ 9♠ 9♥: dropping the ace or king leaves a pair of nines — the strongest of the four possible combinations.",
+          "7♣ 8♦ 9♠ 2♥: dropping the 2 leaves a pure sequence, 7-8-9 — clearly the best option here.",
+          "K♣ K♦ 5♠ 5♥: dropping either 5 leaves a pair of kings, which beats the pair of fives you'd get by dropping a king instead."
+        ]
+      },
+      {
+        "heading": "What changes in play",
+        "paragraphs": [
+          "Because you're selecting the best of four combinations rather than being dealt one fixed hand, average hand strength rises across the table."
+        ],
+        "table": {
+          "headers": [
+            "Effect",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Pairs",
+              "Much more common"
+            ],
+            [
+              "Plain high-card hands",
+              "Rarer, and usually too weak to open"
+            ],
+            [
+              "Trails and pure sequences",
+              "Slightly more common, since more combinations get checked"
+            ],
+            [
+              "Strategy",
+              "Betting and packing thresholds need to shift up accordingly"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Reading a Best of Four showdown",
+        "paragraphs": [
+          "Because you always keep the best three of your four cards, a weak-looking deal often hides a decent hand."
+        ],
+        "table": {
+          "headers": [
+            "Four cards dealt",
+            "Best three-card hand"
+          ],
+          "rows": [
+            [
+              "A♣ K♦ 9♠ 9♥",
+              "Pair of 9s (drop A or K)"
+            ],
+            [
+              "7♣ 8♦ 9♠ 2♥",
+              "Pure sequence 7-8-9 (drop 2)"
+            ],
+            [
+              "5♣ J♦ Q♠ 2♥",
+              "High card, Q-high (drop 2)"
+            ],
+            [
+              "K♣ K♦ 5♠ 5♥",
+              "Pair of Kings (drop a 5)"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Betting, blind and seen, sideshows",
+        "paragraphs": [
+          "None of this changes. Boot, blind and seen bets, packing, and sideshows all work exactly as in standard Teen Patti — the only difference is the deal size and the selection step before betting starts. See [blind vs seen](/guides/blind-vs-seen-teen-patti) for the betting basics."
+        ]
+      },
+      {
+        "heading": "Tie-breaks",
+        "paragraphs": [
+          "Once each player's best three-card hand is set, ties resolve exactly as they do in standard Teen Patti — by comparing hand type, then rank, then suit order where a table uses one. Best of Four doesn't introduce any new tie-break rule of its own."
+        ]
+      },
+      {
+        "heading": "Common beginner mistakes in Best of Four",
+        "list": [
+          "Not checking all four possible three-card combinations before deciding your hand — the best one isn't always the obvious first glance.",
+          "Treating a pair as automatically strong. Pairs are common here, so the betting threshold that worked in standard Teen Patti is often too loose.",
+          "Sizing bets as if hands run as weak as in the standard game, when average strength is higher.",
+          "Forgetting the dropped fourth card has no further use once your best three are chosen — it doesn't come back into play."
+        ]
+      },
+      {
+        "heading": "Is Best of Four the same everywhere?",
+        "paragraphs": [
+          "The core mechanic — four cards dealt, best three kept — is consistent wherever the name is used. Table-specific details like tie-break conventions follow the same rules as standard Teen Patti. Treat the description above as the common core and the table's own rules screen as the final word.",
+          "Compare Best of Four with other styles in [common Teen Patti variations](/guides/common-teen-patti-variations), including [AK47](/guides/ak47-teen-patti-rules) and [Muflis](/guides/muflis-teen-patti-rules). The ranking order stays standard — see [trail vs pure sequence](/guides/trail-vs-pure-sequence-teen-patti).",
+          "18+ only. Educational content."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How many cards do you get in Best of Four?",
+        "answer": "Four, instead of the usual three. You then choose the strongest three-card combination from those four."
+      },
+      {
+        "question": "How many three-card hands can you make from four cards?",
+        "answer": "Four — each one made by dropping a different one of the four cards."
+      },
+      {
+        "question": "Are pairs more common in Best of Four?",
+        "answer": "Yes. With four cards to choose from, forming at least a pair is much easier than with three, so betting thresholds typically shift up."
+      },
+      {
+        "question": "Does Best of Four change betting rules?",
+        "answer": "No. Only the deal and hand-selection step change — betting, blind and seen play, and tie-breaks follow standard Teen Patti rules."
+      }
+    ]
   }
 ];

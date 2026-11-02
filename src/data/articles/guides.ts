@@ -607,7 +607,7 @@ export const guides: Article[] = [
         heading: "Best of Four",
         paragraphs: [
           "Each player receives four cards instead of three and plays the best three-card hand they can make from them. Rankings and betting are unchanged; only average hand strength rises, since everyone is choosing the best of four possible combinations.",
-          "The practical effect is inflation. Pairs become commonplace, high-card hands become weak holdings, and the thresholds for betting and packing need to shift up accordingly.",
+          "The practical effect is inflation. Pairs become commonplace, high-card hands become weak holdings, and the thresholds for betting and packing need to shift up accordingly. See the [full Best of Four rules guide](/guides/best-of-four-teen-patti-rules) for worked examples.",
         ],
       },
       {
