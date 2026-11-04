@@ -1396,4 +1396,108 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "teen-patti-dhan-welcome-bonus-and-withdrawal",
+    title: "Teen Patti Dhan: Welcome Bonus, Minimum Withdrawal, and What to Check First",
+    seoTitle: "Teen Patti Dhan Bonus & Minimum Withdrawal Explained",
+    description:
+      "Teen Patti Dhan lists a ₹175 welcome bonus and a ₹100 minimum withdrawal. Here's what those figures mean, how they compare to similar apps, and what to verify before you deposit.",
+    featuredImage: "/images/blog/teen-patti-dhan-welcome-bonus-and-withdrawal.webp",
+    category: "Platform Guides",
+    publishedAt: "2026-11-04",
+    updatedAt: "2026-11-04",
+    relatedSlugs: [
+      "how-to-review-a-teen-patti-platform-safely",
+      "teen-patti-withdrawal-explained",
+      "teen-patti-minimum-deposit",
+      "why-a-promo-code-may-not-work",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "Quick answer: Teen Patti Dhan is a real-money Teen Patti card-game app listing a ₹175 welcome bonus for new sign-ups and a ₹100 minimum withdrawal. Those two figures are the ones currently documented for this app; everything else below is context for reading them correctly, not a new claim about the platform.",
+          "AllYonoPatti.com is an independent information directory. It does not operate Teen Patti Dhan, issue its bonus, process its withdrawals, or guarantee that the terms below match what you see inside the app at the moment you install it. Bonus structures and minimum-withdrawal thresholds on real-money platforms change without much notice, so treat the figures here as a documented starting point, not a locked-in promise.",
+        ],
+      },
+      {
+        heading: "Teen Patti Dhan at a Glance",
+        table: {
+          headers: ["Detail", "Listed figure"],
+          rows: [
+            ["Game type", "Real-money Teen Patti (three-card)"],
+            ["Welcome / sign-up bonus", "₹175"],
+            ["Minimum withdrawal", "₹100"],
+            ["Promo code status", "Not published on this site — see note below"],
+            ["Verification status", "As listed; not independently load-tested"],
+          ],
+        },
+      },
+      {
+        heading: "What the ₹175 welcome bonus actually means",
+        paragraphs: [
+          "A welcome bonus is an incentive credited to a new account, usually after signing up or completing a first action such as a first deposit — the exact trigger varies by app and isn't something this page can confirm for every installer. ₹175 sits in the same general band as a number of other Teen Patti and rummy apps tracked across this network, which tend to cluster their new-user bonuses between roughly ₹150 and ₹250.",
+          "What a headline bonus figure doesn't tell you is whether it's usable immediately, whether it requires a minimum deposit to unlock, or whether it carries a playthrough requirement before any winnings built from it can be withdrawn. Those conditions live in the app's own terms, not in a marketing line, and they're the actual determinant of whether ₹175 is meaningfully useful or mostly symbolic. Our [guide to why a promo code may not work](/blog/why-a-promo-code-may-not-work) walks through the same gap for promo codes specifically — the logic carries over directly to welcome bonuses.",
+        ],
+      },
+      {
+        heading: "What the ₹100 minimum withdrawal means",
+        paragraphs: [
+          "₹100 is a comparatively low minimum withdrawal threshold — several apps in this category set theirs higher. On its own, a low minimum is a convenience, not a safety signal: it tells you how little you need before you can request a payout, not how reliably or quickly that payout actually arrives once requested.",
+          "Minimum withdrawal figures are also sometimes quoted separately from KYC requirements, processing-time windows, and payout-method restrictions, all of which affect the real-world experience of pulling money out far more than the headline number does. Our [Teen Patti withdrawal explained](/blog/teen-patti-withdrawal-explained) guide covers the common pattern — KYC checks, processing claims, and what's worth verifying — and [Teen Patti minimum deposit](/blog/teen-patti-minimum-deposit) covers the deposit side of the same question.",
+        ],
+      },
+      {
+        heading: "How Teen Patti Dhan compares",
+        table: {
+          headers: ["App", "Welcome bonus", "Minimum withdrawal"],
+          rows: [
+            ["Teen Patti Dhan", "₹175", "₹100"],
+            ["Typical range across this network", "₹150 – ₹250", "₹100 – ₹200"],
+          ],
+        },
+        paragraphs: [
+          "Teen Patti Dhan's figures sit squarely inside the typical range this directory sees across comparable real-money Teen Patti apps — neither unusually generous nor unusually restrictive. That's worth knowing precisely because an outlier number (either very high or suspiciously low) is one of the simpler red flags covered in our [platform review guide](/guides/how-to-review-a-teen-patti-platform-safely); a figure that's in line with the rest of the category isn't a red flag by itself, but it also isn't verification that the app pays out as described.",
+        ],
+      },
+      {
+        heading: "The promo code — not published here yet",
+        paragraphs: [
+          "No Teen Patti Dhan promo code is published on this site. If one is supplied and can be dated, it will appear on this directory's promo-code pages the same way every other listing here is handled — with a status label and the date it was added, never guessed or invented in advance of confirmation.",
+        ],
+      },
+      {
+        heading: "Before you deposit anything",
+        paragraphs: [
+          "A welcome bonus and a low minimum withdrawal are both easy to notice and easy to advertise. Neither one tells you who operates the app, whether its terms are written clearly, or how it actually handles a withdrawal request once you submit one. Run Teen Patti Dhan through the same checks you'd apply to any new real-money platform — operator identity, documented terms, and how withdrawals are described in writing rather than in a headline — before relying on either figure above with your own money. [How to review a Teen Patti platform safely](/guides/how-to-review-a-teen-patti-platform-safely) walks through exactly what to look for.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What welcome bonus does Teen Patti Dhan offer?",
+        answer:
+          "Teen Patti Dhan lists a ₹175 welcome bonus for new sign-ups. This is the figure currently documented for the app; the exact terms behind it (deposit requirements, playthrough conditions) haven't been independently reviewed on this site.",
+      },
+      {
+        question: "What is the minimum withdrawal on Teen Patti Dhan?",
+        answer:
+          "₹100. That's a comparatively low threshold compared to several other apps in this category, though it says nothing about processing time or KYC requirements once you actually request a payout.",
+      },
+      {
+        question: "Is the ₹175 bonus guaranteed money?",
+        answer:
+          "No. Advertised welcome bonuses typically come with conditions — minimum deposits, playthrough requirements, or expiry windows — that determine how usable the figure actually is. Read the app's own terms before counting on it.",
+      },
+      {
+        question: "Is there a Teen Patti Dhan promo code?",
+        answer:
+          "None is published on this site yet. If one is supplied and can be dated, it will appear on this directory's promo-code pages with a status label, the same system used for every other app tracked here.",
+      },
+      {
+        question: "How does Teen Patti Dhan compare to other apps in this bonus range?",
+        answer:
+          "Its ₹175 bonus and ₹100 minimum withdrawal both fall within the typical range this directory sees across comparable real-money Teen Patti apps (roughly ₹150–₹250 bonus, ₹100–₹200 minimum withdrawal) — neither an outlier high nor low figure.",
+      },
+    ],
+  },
 ];
