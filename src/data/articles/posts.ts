@@ -1500,4 +1500,98 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "cash-rummy-where-it-fits",
+    title: "Cash Rummy: Where It Fits (and Where It Doesn't)",
+    seoTitle: "Cash Rummy: Is It a Teen Patti App? | AllYonoPatti",
+    description:
+      "Cash Rummy launched 5 Nov 2026 as a 10-game platform — not a Teen Patti title. What's confirmed about its bonus, games, and why it's tracked here anyway.",
+    featuredImage: "/images/blog/cash-rummy-where-it-fits.webp",
+    category: "Platform Guides",
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+    relatedSlugs: ["how-to-review-a-teen-patti-platform-safely"],
+    sections: [
+      {
+        paragraphs: [
+          "Cash Rummy launched 5 November 2026 at 8:00 AM IST. If you landed here expecting Teen Patti: it isn't one. It's a ten-game platform built around Rummy, Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, and Roulette — no Teen Patti mode anywhere in its stated lineup.",
+        ],
+      },
+      {
+        heading: "Why a Teen Patti Site Is Covering a Rummy-Branded App",
+        paragraphs: [
+          "Patti players rarely stick to one app. Jhandi Munda in particular is worth flagging — a dice game with real roots in Indian festival gambling culture, playing in a similar social register to Teen Patti, even though the mechanics differ completely.",
+        ],
+      },
+      {
+        heading: "Welcome Bonus: A Range, Not a Number",
+        paragraphs: [
+          "₹50–500, rather than one fixed figure — genuinely unusual among the apps tracked here. Treat ₹500 as the ceiling you might see mentioned, not what to expect.",
+        ],
+      },
+      {
+        heading: "Minimum Withdrawal and Promo Codes",
+        paragraphs: [
+          "₹100 minimum withdrawal. No single fixed promo code — up to three releases a day, morning through evening.",
+        ],
+      },
+      {
+        heading: "Downloading Cash Rummy",
+        paragraphs: [
+          "Download Cash Rummy here: [Cash Rummy](https://www.cashrummy99.com/?code=RS9XV2AA&t=1793849345).",
+        ],
+      },
+      {
+        heading: "Who's Behind It",
+        paragraphs: [
+          "Cash Rummy Tech Co. Ltd., per the app's own claim — not independently checked.",
+        ],
+      },
+      {
+        heading: "Should Teen Patti Players Care?",
+        paragraphs: [
+          "Maybe — mostly for the games bundled alongside Rummy rather than Rummy itself. If you're here for Teen Patti specifically, this isn't it.",
+        ],
+      },
+      {
+        heading: "The Full Game Lineup",
+        table: {
+          headers: ["Game", "Type"],
+          rows: [
+            ["Rummy", "Skill"],
+            ["Poker", "Skill"],
+            ["Ludo", "Skill and chance"],
+            ["Crash", "Chance"],
+            ["Andar Bahar", "Chance"],
+            ["Wingo Lottery", "Chance"],
+            ["7 Up Down", "Chance"],
+            ["Dragon & Tiger", "Chance"],
+            ["Jhandi Munda", "Chance"],
+            ["Roulette", "Chance"],
+          ],
+        },
+      },
+    ],
+    faq: [
+      {
+        question: "Does Cash Rummy have Teen Patti?",
+        answer: "No — its stated lineup has no Teen Patti mode.",
+      },
+      {
+        question: "Why is a Teen Patti site covering it?",
+        answer:
+          "Overlap in player base and adjacent game formats, Jhandi Munda especially — not because it's a Teen Patti app.",
+      },
+      {
+        question: "What's the welcome bonus?",
+        answer:
+          "₹50–500, a range rather than a fixed figure — not independently verified.",
+      },
+      {
+        question: "Is there a fixed promo code?",
+        answer:
+          "No — released up to three times daily per the operator's own stated pattern.",
+      },
+    ],
+  },
 ];

@@ -245,4 +245,27 @@ export const miscPlatforms: GameEntry[] = [
     publishedAt: "2026-10-30",
     updatedAt: "2026-10-30",
   }),
+  defineGame({
+    name: "Cash Rummy",
+    slug: "cash-rummy",
+    downloadUrl: "https://www.cashrummy99.com/?code=RS9XV2AA&t=1793849345",
+    category: "Multi-game platform",
+    shortDescription:
+      "Cash Rummy is a ten-game platform — Rummy, Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, and Roulette — launched 5 November 2026.",
+    fullDescription:
+      "Cash Rummy launched on 5 November 2026 at 8:00 AM IST as a ten-game platform bundling Rummy, Ludo, Poker, Crash, Andar Bahar, Wingo Lottery, 7 Up Down, Dragon & Tiger, Jhandi Munda, and Roulette. The app's own listing states a ₹50–500 welcome bonus and a ₹100 minimum withdrawal, neither independently verified by this directory. Several of the bundled titles are chance-based rather than skill-based, which matters because rummy's long-standing 'game of skill' classification in Indian courts doesn't extend to the chance-based games bundled alongside it.",
+    informationalStatus:
+      "Cash Rummy launched 5 November 2026. This is a newly added listing — features, terms, and safety details are based on the operator's own materials and have not yet been independently confirmed.",
+    rewardInformation:
+      "Cash Rummy's own listing states a ₹50–500 welcome bonus (a range, not a fixed figure) and a ₹100 minimum withdrawal. Neither figure has been independently verified by this directory.",
+    // Reviewed: the app's own stated lineup has no Teen Patti mode.
+    teenPattiRelevance: "none",
+    tags: ["newly-launched", "multi-game"],
+    featured: true,
+    safetyNotes:
+      "This app launched today. No package name, permissions, or signing certificate have been independently checked yet — verify before installing.",
+    relatedArticleSlugs: ["cash-rummy-where-it-fits"],
+    publishedAt: "2026-11-05",
+    updatedAt: "2026-11-05",
+  }),
 ];
