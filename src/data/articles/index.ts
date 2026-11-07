@@ -83,6 +83,13 @@ export function getArticleBySlug(slug: string): Article | undefined {
   return getPostBySlug(slug) ?? getGuideBySlug(slug);
 }
 
+/** The N most recently published blog posts, newest first. */
+export function getLatestPosts(limit = 3): Article[] {
+  return [...blogPosts]
+    .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1))
+    .slice(0, limit);
+}
+
 /** Returns the base path ("/blog" or "/guides") an article lives under. */
 export function articleBasePath(article: Article): string {
   return blogPosts.some((p) => p.slug === article.slug) ? "/blog" : "/guides";

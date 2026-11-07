@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { UpcomingGameCard } from "@/components/games/UpcomingGameCard";
 import { GameCard } from "@/components/ui/GameCard";
+import { getLatestPosts } from "@/data/articles";
 import {
   featuredGames,
   games,
@@ -30,6 +31,7 @@ export const metadata = buildMetadata({
 
 export default function HomePage() {
   const upcomingGames = getActiveUpcomingGames();
+  const latestPosts = getLatestPosts(3);
 
   return (
     <div>
@@ -360,6 +362,41 @@ export default function HomePage() {
             </Link>
           </div>
         </section>
+
+        {latestPosts.length > 0 && (
+          <section aria-labelledby="latest-blog-heading" className="mt-14">
+            <div className="flex items-center justify-between">
+              <h2
+                id="latest-blog-heading"
+                className="font-display text-2xl font-bold text-slate-900"
+              >
+                From the blog
+              </h2>
+              <Link
+                href="/blog"
+                className="text-sm font-semibold text-brand-700 hover:underline"
+              >
+                View all articles
+              </Link>
+            </div>
+            <div className="mt-6 grid gap-4 sm:grid-cols-3">
+              {latestPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-600 hover:shadow-md sm:p-5"
+                >
+                  <h3 className="font-semibold text-slate-900">
+                    {post.title}
+                  </h3>
+                  <p className="mt-1.5 text-sm text-slate-600">
+                    {post.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section aria-labelledby="how-heading" className="mt-14">
           <h2
