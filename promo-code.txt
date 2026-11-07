@@ -8,7 +8,7 @@
 # A blank cell shows "Not released yet" on the site.
 # ------------------------------------------------------------
 
-DATE | 2026-07-18
+DATE | 2026-11-07
 
 101z | 101Z | | |
 567-slots | 567 Slots | | |

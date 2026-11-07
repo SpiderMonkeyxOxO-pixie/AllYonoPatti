@@ -6,10 +6,17 @@
 // codes silently relabelled under a new date because a cell was never
 // cleared).
 import { readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const FILE = join(process.cwd(), "promo-code.txt");
-const today = new Date().toISOString().slice(0, 10);
+const REPO_FILE = join(dirname(fileURLToPath(import.meta.url)), "..", "promo-code.txt");
+
+// Respect PROMO_FILE like every other reader/writer in this codebase
+// (src/lib/promo-file.ts) — this previously hardcoded the repo's own blank
+// seed copy, which meant running this script in production silently did
+// nothing to the real, live admin-managed sheet.
+const FILE = process.env.PROMO_FILE?.trim() || REPO_FILE;
+const today = new Date(Date.now() + 330 * 60_000).toISOString().slice(0, 10);
 
 const raw = readFileSync(FILE, "utf-8");
 const lines = raw.split(/\r?\n/);
