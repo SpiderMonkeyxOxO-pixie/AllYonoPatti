@@ -46,8 +46,11 @@ export async function generateMetadata({
   const game = getGameWithLivePromo(slug);
   if (!game) return {};
   return buildMetadata({
-    title: `${game.name} Promo Code — Status & Conditions`,
-    description: `Current ${game.name} promo code status: ${promoStatusLabels[game.promoStatus]}. What a ${game.name} code may provide, eligibility conditions, and why codes stop working.`,
+    title:
+      game.promoMetaTitle ?? `${game.name} Promo Code — Status & Conditions`,
+    description:
+      game.promoMetaDescription ??
+      `Current ${game.name} promo code status: ${promoStatusLabels[game.promoStatus]}. What a ${game.name} code may provide, eligibility conditions, and why codes stop working.`,
     path: `/promo-codes/${game.slug}`,
     image: game.featuredImage,
   });

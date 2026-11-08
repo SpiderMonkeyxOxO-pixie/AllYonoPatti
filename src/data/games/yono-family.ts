@@ -93,6 +93,12 @@ export const yonoFamily: GameEntry[] = [
     teenPattiRelevance: "mode",
     tags: ["yono", "arcade", "casual"],
     relatedGameSlugs: ["yono-games", "jaiho-arcade", "yono-vip"],
+    // Title/meta override: "yono arcade promo" ranks pos 9.3 / 42 impr / 0
+    // clicks on the generic template — real query phrasing, honest about no
+    // code being on record (promoStatus defaults to awaiting-review).
+    promoMetaTitle: "Yono Arcade Promo Code: What's Confirmed So Far",
+    promoMetaDescription:
+      "Yono Arcade promo code status, checked and explained: no code is currently on record, what that means, and what a future code may include.",
   }),
   defineGame({
     name: "Yono Vip",

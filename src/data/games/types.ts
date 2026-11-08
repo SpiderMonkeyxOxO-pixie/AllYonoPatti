@@ -109,6 +109,11 @@ export type GameEntry = {
   promoDescription?: string;
   promoConditions?: string;
   promoLastChecked?: string;
+  /** Overrides the generic "{name} Promo Code — Status & Conditions" title on
+   * this game's /promo-codes page, only when the generic template is a
+   * confirmed poor match for real search queries. Leave unset by default. */
+  promoMetaTitle?: string;
+  promoMetaDescription?: string;
   rewardInformation?: string;
   safetyNotes?: string;
   ageNotice: string;

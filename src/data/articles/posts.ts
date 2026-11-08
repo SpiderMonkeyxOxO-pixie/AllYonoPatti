@@ -1885,4 +1885,103 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "yono-arcade-teen-patti-card-games",
+    title: "Does Yono Arcade Include Teen Patti? Its Lobby Games Explained",
+    seoTitle: "Yono Arcade Teen Patti: Lobby Games Explained",
+    description:
+      "Does Yono Arcade include Teen Patti? Its own description names Teen Patti-style games as reported lobby content, secondary to its arcade-and-casual focus — here's what's confirmed and what isn't.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/yono-arcade-teen-patti-card-games.webp",
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    relatedSlugs: [
+      "what-is-teen-patti",
+      "teen-patti-rules",
+      "how-to-review-a-teen-patti-platform-safely",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "The current answer is: reportedly yes, but as a secondary feature. Yono Arcade's own description centers on short-session arcade and casual games, with Teen Patti-style tables reported to appear in its lobby alongside that main catalogue — not the app's headline draw, but a named, specific component rather than a vague catch-all claim.",
+          "That puts Yono Arcade in a different category from DhanGame, the first entry in this series: DhanGame's marketing never mentions card games at all, while Yono Arcade's own framing specifically names Teen Patti-style lobby content — it's just positioned as secondary to the arcade-and-casual focus, not the headline feature. It's a similar shape of answer to Jaiho 777's, though the two apps lead with different primary catalogues (arcade/casual here, 777-style slots there).",
+          "Arcade-style apps in this segment frequently rotate their mini-game line-ups, so the exact catalogue reported for Yono Arcade may differ from older descriptions or from what you find after installing.",
+          "AllYonoPatti.com is an independent information directory. It does not operate Yono Arcade, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
+        ],
+      },
+      {
+        heading: "Yono Arcade Teen Patti Status at a Glance",
+        table: {
+          headers: ["Question", "Current answer"],
+          rows: [
+            ["Does the operator's description mention Teen Patti?", "Yes — reported as lobby content"],
+            ["Is Teen Patti the app's main advertised feature?", "No — arcade and casual games are the primary focus"],
+            ["Is Yono Arcade listed under a card-game category?", "No — arcade & casual games platform"],
+            ["Has a Teen Patti game mode been seen inside the APK?", "Not independently verified"],
+            ["Is the operator, catalogue, or payout handling verified?", "No"],
+            ["Verification status", "Named as a feature, not independently confirmed"],
+            ["Last checked", "November 8, 2026"],
+          ],
+        },
+        paragraphs: [
+          "For Yono Arcade's launch details, advertised bonus, and promo-code status, see this directory's [Yono Arcade profile page](/games/yono-arcade) — that's a separate question from the one this page answers.",
+        ],
+      },
+      {
+        heading: "What \"Secondary Feature\" Means for Yono Arcade",
+        paragraphs: [
+          "Most entries in this series fall into one of two clear buckets: platforms that clearly state they have no card games (like DhanGame), or platforms built entirely around Teen Patti as the headline feature. Yono Arcade sits in the same middle category as Jaiho 777 — its own description names Teen Patti-style lobby content specifically enough to not be vague marketing, but frames it as a side feature next to an arcade-and-casual focus that gets top billing.",
+          "That distinction matters for anyone deciding whether to install it. If short-session arcade and casual games are the draw, the reported Teen Patti content is a bonus. If Teen Patti is specifically the goal, Yono Arcade is a platform that reportedly has it, not one built around it — worth knowing before downloading, since the home screen and most marketing will likely emphasise the arcade side.",
+        ],
+      },
+      {
+        heading: "Teen Patti vs. What Yono Arcade Leads With",
+        paragraphs: [
+          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. The short-session arcade and casual games that Yono Arcade's own marketing centers on work differently: quick, self-contained rounds rather than a sustained multi-player card contest.",
+          "These are genuinely different experiences sitting under one app. A reported lobby of Teen Patti-style tables doesn't change what the platform is built around — it just means both are reportedly available, with arcade and casual play as the clear primary focus based on every description checked for this listing.",
+        ],
+      },
+      {
+        heading: "Should You Download Yono Arcade for Teen Patti?",
+        paragraphs: [
+          "Possibly — but go in knowing the arcade-and-casual side is the main draw, with Teen Patti positioned as a secondary lobby option that hasn't been independently verified inside the app itself. If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several.",
+          "Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on Yono Arcade or anywhere else. For Yono Arcade's own listing — bonus details, promo-code status, launch timeline — see the [Yono Arcade profile page](/games/yono-arcade).",
+        ],
+      },
+      {
+        heading: "What Would Change This Answer",
+        paragraphs: [
+          "This page reflects what Yono Arcade's own description currently says, not independently verified in-app testing — that's true of the reported Teen Patti lobby content specifically. If that changes — the lobby content turns out not to exist, gets removed, or the app's own framing shifts to feature it more prominently — this page gets updated to match, the same standard applied to every listing in this directory.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does Yono Arcade include Teen Patti?",
+        answer:
+          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as reported lobby content, positioned alongside its primary arcade-and-casual focus, not independently verified inside the app.",
+      },
+      {
+        question: "Is Teen Patti the main game on Yono Arcade?",
+        answer:
+          "No. Every description checked for this listing centers on short-session arcade and casual games as the primary draw, with Teen Patti-style lobby content described as a secondary feature.",
+      },
+      {
+        question: "Is Yono Arcade the same as Jaiho 777?",
+        answer:
+          "No — they're separate apps in the wider Yono-network directory with different primary catalogues (arcade/casual here, 777-style slots for Jaiho 777), though both reportedly include secondary Teen Patti-style content.",
+      },
+      {
+        question: "Where can I find Yono Arcade's bonus and launch details?",
+        answer:
+          "See this directory's Yono Arcade profile page for its advertised welcome bonus, download link, and promo-code status — a separate question from its game catalogue.",
+      },
+      {
+        question: "Does this directory operate or endorse Yono Arcade?",
+        answer:
+          "No. AllYonoPatti.com is an independent information directory. It doesn't run Yono Arcade, handle payments, or guarantee that any advertised feature will match what ships in the app.",
+      },
+    ],
+  },
 ];
