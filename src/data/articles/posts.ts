@@ -1893,8 +1893,8 @@ export const posts: Article[] = [
       "Does Yono Arcade include Teen Patti? Its own description names Teen Patti-style games as reported lobby content, secondary to its arcade-and-casual focus — here's what's confirmed and what isn't.",
     category: "Game Comparisons",
     featuredImage: "/images/blog/yono-arcade-teen-patti-card-games.webp",
-    publishedAt: "2026-11-08",
-    updatedAt: "2026-11-08",
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
     relatedSlugs: [
       "what-is-teen-patti",
       "teen-patti-rules",
