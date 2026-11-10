@@ -1984,4 +1984,103 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "jaiho-rummy-teen-patti-card-games",
+    title: "Does Jaiho Rummy Include Teen Patti? Its Card Tables Explained",
+    seoTitle: "Jaiho Rummy Teen Patti: Card Tables Explained",
+    description:
+      "Does Jaiho Rummy include Teen Patti? Its own description names Teen Patti-style tables as a reported secondary feature alongside its rummy core — here's what's confirmed and what isn't.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/jaiho-rummy-teen-patti-card-games.webp",
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    relatedSlugs: [
+      "what-is-teen-patti",
+      "teen-patti-rules",
+      "how-to-review-a-teen-patti-platform-safely",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "The current answer is: reportedly yes, but as a secondary feature. Jaiho Rummy's own description centers on Indian rummy formats as the advertised core, with Teen Patti-style tables commonly mentioned in the same breath — not the app's headline draw, but a named, specific component rather than a vague catch-all claim.",
+          "That puts Jaiho Rummy in the same middle category as its stablemate Jaiho 777 and this series' most recent entry, Yono Arcade — all three name Teen Patti-style content specifically enough to not be vague marketing, while keeping it secondary to their own primary catalogue (777-style slots for Jaiho 777, arcade-and-casual games for Yono Arcade, Indian rummy formats here).",
+          "Rummy apps in this segment tend to emphasise quick matchmaking and small-stakes tables, but this directory has not confirmed how this particular app handles stakes, accounts, or withdrawals — that's a separate, unverified question from the game-catalogue claim this page covers.",
+          "AllYonoPatti.com is an independent information directory. It does not operate Jaiho Rummy, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
+        ],
+      },
+      {
+        heading: "Jaiho Rummy Teen Patti Status at a Glance",
+        table: {
+          headers: ["Question", "Current answer"],
+          rows: [
+            ["Does the operator's description mention Teen Patti?", "Yes — commonly mentioned alongside the rummy core"],
+            ["Is Teen Patti the app's main advertised feature?", "No — Indian rummy formats are the primary focus"],
+            ["Is Jaiho Rummy listed under a card-game category?", "Yes — rummy-focused platform"],
+            ["Has a Teen Patti game mode been seen inside the APK?", "Not independently verified"],
+            ["Is the operator, catalogue, or payout handling verified?", "No"],
+            ["Verification status", "Named as a feature, not independently confirmed"],
+            ["Last checked", "November 10, 2026"],
+          ],
+        },
+        paragraphs: [
+          "For Jaiho Rummy's launch details, advertised bonus, and promo-code status, see this directory's [Jaiho Rummy profile page](/games/jaiho-rummy) — that's a separate question from the one this page answers.",
+        ],
+      },
+      {
+        heading: "What \"Secondary Feature\" Means for Jaiho Rummy",
+        paragraphs: [
+          "Most entries in this series fall into one of two clear buckets: platforms that clearly state they have no card games (like DhanGame), or platforms built entirely around Teen Patti as the headline feature. Jaiho Rummy sits in the same middle category as Jaiho 777 and Yono Arcade — its own description names Teen Patti-style tables specifically enough to not be vague marketing, but frames them as a secondary addition next to an Indian-rummy core that gets top billing.",
+          "That distinction matters for anyone deciding whether to install it. If Indian rummy formats are the draw, the reported Teen Patti tables are a bonus. If Teen Patti is specifically the goal, Jaiho Rummy is a platform that reportedly has it, not one built around it — worth knowing before downloading, since the app's own marketing will likely emphasise the rummy side.",
+        ],
+      },
+      {
+        heading: "Teen Patti vs. What Jaiho Rummy Leads With",
+        paragraphs: [
+          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. Indian rummy formats, which Jaiho Rummy's own marketing centers on, work differently: players draw and discard from a shared pool to form sets and sequences across a full hand, a longer, skill-driven round rather than a single three-card bet.",
+          "These are genuinely different experiences sitting under one app. Commonly mentioned Teen Patti-style tables don't change what the platform is built around — it just means both are reportedly available, with Indian rummy formats as the clear primary focus based on every description checked for this listing.",
+        ],
+      },
+      {
+        heading: "Should You Download Jaiho Rummy for Teen Patti?",
+        paragraphs: [
+          "Possibly — but go in knowing the rummy side is the main draw, with Teen Patti positioned as a secondary table option that hasn't been independently verified inside the app itself. If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several.",
+          "Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on Jaiho Rummy or anywhere else. For Jaiho Rummy's own listing — bonus details, promo-code status, launch timeline — see the [Jaiho Rummy profile page](/games/jaiho-rummy).",
+        ],
+      },
+      {
+        heading: "What Would Change This Answer",
+        paragraphs: [
+          "This page reflects what Jaiho Rummy's own description currently says, not independently verified in-app testing — that's true of the commonly mentioned Teen Patti tables specifically. If that changes — the tables turn out not to exist, get removed, or the app's own framing shifts to feature them more prominently — this page gets updated to match, the same standard applied to every listing in this directory.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does Jaiho Rummy include Teen Patti?",
+        answer:
+          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as commonly mentioned alongside its primary Indian-rummy core, not independently verified inside the app.",
+      },
+      {
+        question: "Is Teen Patti the main game on Jaiho Rummy?",
+        answer:
+          "No. Every description checked for this listing centers on Indian rummy formats as the primary draw, with Teen Patti-style tables described as a secondary feature.",
+      },
+      {
+        question: "Is Jaiho Rummy the same as Jaiho 777?",
+        answer:
+          "No — they're separate apps in the same Jaiho family with different primary catalogues (Indian rummy formats here, 777-style slots for Jaiho 777), though both reportedly include secondary Teen Patti-style content.",
+      },
+      {
+        question: "Where can I find Jaiho Rummy's bonus and launch details?",
+        answer:
+          "See this directory's Jaiho Rummy profile page for its advertised welcome bonus, download link, and promo-code status — a separate question from its game catalogue.",
+      },
+      {
+        question: "Does this directory operate or endorse Jaiho Rummy?",
+        answer:
+          "No. AllYonoPatti.com is an independent information directory. It doesn't run Jaiho Rummy, handle payments, or guarantee that any advertised feature will match what ships in the app.",
+      },
+    ],
+  },
 ];
