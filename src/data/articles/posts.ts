@@ -2083,4 +2083,99 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "123-rummy-game-launch",
+    title: "123 Rummy: Launch Date, Download Status & What Teen Patti Players Should Know",
+    seoTitle: "123 Rummy — Launch Date, Download & Details for Teen Patti Players",
+    description:
+      "123 Rummy launches 16 Nov 2026. What Teen Patti players should know about this rummy-format app — launch status, expected features, and how it fits alongside card games.",
+    category: "Legal and Industry Updates",
+    featuredImage: "/images/blog/123-rummy-game.webp",
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    relatedSlugs: ["jeet-spin-game-launch", "teen-patti-vs-rummy"],
+    sections: [
+      {
+        paragraphs: [
+          "123 Rummy is a new real-money rummy app scheduled to launch on 16 November 2026 at 8:00 AM IST, the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. No download link is live yet.",
+          "This page covers what has been announced so far. It will be updated once the app is live.",
+        ],
+      },
+      {
+        heading: "What Is 123 Rummy?",
+        paragraphs: [
+          "123 Rummy is a rummy-format card app, not Teen Patti. While it shares the network branding and sideloaded-APK distribution method used across the Yono network, its core gameplay is rummy's sequence-and-set format, distinct from Teen Patti's three-card hand-ranking structure.",
+          "For Teen Patti players, this means 123 Rummy is a separate card game. It does not replace, update, or modify any existing Teen Patti app in the network.",
+        ],
+      },
+      {
+        heading: "Launch and Download Status",
+        table: {
+          headers: ["Detail", "Status"],
+          rows: [
+            ["App name", "123 Rummy"],
+            ["Category", "Rummy"],
+            ["Scheduled launch", "16 November 2026, 8:00 AM IST"],
+            ["APK download link", "Not yet live"],
+            ["Welcome bonus", "Not yet announced"],
+            ["Minimum deposit", "Not yet confirmed"],
+          ],
+        },
+      },
+      {
+        heading: "How 123 Rummy Relates to Teen Patti Apps",
+        paragraphs: [
+          "The Yono network includes both card games (Teen Patti variants, rummy apps) and arcade/spin games. 123 Rummy falls into the rummy side. It will have its own accounts, promo codes and update schedule — installing it will not affect any Teen Patti app you already use.",
+          "Players who move between app categories in this network should be aware that each app operates independently: balances, bonuses and referral rewards do not transfer between apps.",
+        ],
+      },
+      {
+        heading: "Expected Features",
+        paragraphs: [
+          "Based on similar rummy-category apps in this network, 123 Rummy may include standard 13-card rummy formats, daily login rewards, a referral program with per-invite bonuses, UPI and bank transfer withdrawal options, and phone-number registration with OTP login. These are expectations based on established patterns, not confirmed features.",
+        ],
+      },
+      {
+        heading: "Promo Code and Welcome Bonus",
+        paragraphs: [
+          "No 123 Rummy promo code or welcome bonus amount has been confirmed. Based on patterns across similar launches, a sign-up reward in the ₹50–₹500 range is typical, and promo codes are usually released inside the app itself at or shortly after launch.",
+        ],
+      },
+      {
+        heading: "Safety Checks Before You Download",
+        paragraphs: [
+          "The same safety checks that apply to Teen Patti apps apply here: download only from the platform's own website once live, verify what permissions the app requests, and read the withdrawal terms and KYC requirements before depositing.",
+          "Do not trust any \"123 Rummy APK\" links circulating before the launch date. Pre-launch APKs are not from the platform's source.",
+        ],
+      },
+      {
+        heading: "Legal Note",
+        paragraphs: [
+          "Online money games are prohibited in India since 1 May 2026 under the Promotion and Regulation of Online Gaming Act, 2025. Players should confirm 123 Rummy's classification and their state's specific regulations before playing.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is 123 Rummy a Teen Patti game?",
+        answer:
+          "No. 123 Rummy is a rummy-format card app, not Teen Patti. It shares the Yono network but uses rummy's sequence-and-set gameplay rather than Teen Patti's three-card hand-ranking format.",
+      },
+      {
+        question: "Will installing 123 Rummy affect my Teen Patti app?",
+        answer:
+          "No. Each app in the Yono network has separate accounts, balances and promo codes. Installing 123 Rummy will not change anything on your existing Teen Patti apps.",
+      },
+      {
+        question: "When does 123 Rummy launch?",
+        answer:
+          "123 Rummy is scheduled to launch on 16 November 2026 at 8:00 AM IST. This page will be updated with a download link once the app goes live.",
+      },
+      {
+        question: "Does 123 Rummy have a confirmed welcome bonus?",
+        answer:
+          "No. No welcome bonus or promo code has been announced yet. This page will be updated once 123 Rummy launches.",
+      },
+    ],
+  },
 ];
