@@ -79,7 +79,7 @@ export const guides: Article[] = [
     sections: [
       {
         paragraphs: [
-          "Teen Patti's rules fit on a page, but the betting structure has a few moving parts that confuse newcomers — mainly the difference between blind and seen play. This guide walks through a complete round in order.",
+          "Teen Patti is played with a standard 52-card deck, 3–6 players, each dealt 3 cards face down after everyone pays a fixed boot into the pot. Players bet blind or seen (seen costs double), betting continues clockwise until one player remains or two go to a show, and the highest-ranking hand wins. Here's the complete round, step by step.",
         ],
       },
       {
