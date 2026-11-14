@@ -152,13 +152,27 @@ export const guides: Article[] = [
     category: "Rules and Hand Rankings",
     featuredImage: "/images/blog/teen-patti-hand-rankings.webp",
     publishedAt: "2026-07-17",
-    updatedAt: "2026-07-17",
+    updatedAt: "2026-11-14",
     relatedSlugs: ["teen-patti-rules", "teen-patti-terms", "what-is-teen-patti"],
     sections: [
       {
         paragraphs: [
-          "Teen Patti has six hand ranks. They follow rarity: the harder a hand is to be dealt in three cards, the higher it ranks. Here they are from strongest to weakest, with the tie-breaking rules that decide close calls. How the betting gets you to a show in the first place is covered in our [rules guide](/guides/teen-patti-rules).",
+          "Teen Patti ranks six hand types, highest to lowest: Trail, Pure Sequence, Sequence, Colour, Pair, High Card. A Trail beats everything; a High Card only wins if nothing better is shown at the table. Here's the full order with real odds, then each rank explained with examples and how ties break. How the betting gets you to a show in the first place is covered in our [rules guide](/guides/teen-patti-rules).",
         ],
+      },
+      {
+        heading: "Quick reference: odds of each hand",
+        table: {
+          headers: ["Rank", "Example", "Odds (out of 22,100 possible 3-card hands)"],
+          rows: [
+            ["1. Trail", "A♠ A♥ A♦", "52 hands — about 1 in 425"],
+            ["2. Pure Sequence", "4♠ 5♠ 6♠", "48 hands — about 1 in 460"],
+            ["3. Sequence", "4♠ 5♥ 6♦", "720 hands — about 1 in 31"],
+            ["4. Colour", "2♠ 7♠ K♠", "1,096 hands — about 1 in 20"],
+            ["5. Pair", "9♠ 9♥ 4♦", "3,744 hands — about 1 in 6"],
+            ["6. High Card", "K♠ 8♥ 3♦", "16,440 hands — about 3 in 4"],
+          ],
+        },
       },
       {
         heading: "1. Trail (three of a kind)",
