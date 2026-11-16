@@ -304,6 +304,7 @@ export const rummyFamily: GameEntry[] = [
     informationalStatus:
       "This platform has launched and a download link is now available. Its feature set, table formats, and promo codes are still unverified at this stage.",
     tags: ["newly-launched", "rummy"],
+    relatedArticleSlugs: ["gold-rummy-teen-patti-card-games"],
     publishedAt: "2026-08-18",
     updatedAt: "2026-08-19",
   }),

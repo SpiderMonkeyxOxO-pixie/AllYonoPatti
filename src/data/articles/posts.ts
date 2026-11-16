@@ -2084,6 +2084,102 @@ export const posts: Article[] = [
     ],
   },
   {
+    slug: "gold-rummy-teen-patti-card-games",
+    title: "Does Gold Rummy Include Teen Patti? Its Card Games Explained",
+    seoTitle: "Gold Rummy Teen Patti: Card Games Explained",
+    description:
+      "Find out whether Gold Rummy includes Teen Patti and review what's actually been reported about its game catalogue since launch.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/gold-rummy-teen-patti-card-games.webp",
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    relatedSlugs: [
+      "what-is-teen-patti",
+      "teen-patti-rules",
+      "how-to-review-a-teen-patti-platform-safely",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "The current answer is: no evidence connects Gold Rummy to Teen Patti. Nothing in Gold Rummy's own reported branding, category, or launch materials mentions Teen Patti at all — it's positioned specifically as a rummy-focused platform, which launched August 18, 2026.",
+          "AllYonoPatti.com is an independent information directory. It does not operate Gold Rummy, provide accounts, accept payments or guarantee that any specific game mode will appear in the released app.",
+        ],
+      },
+      {
+        heading: "Gold Rummy Teen Patti Status at a Glance",
+        table: {
+          headers: ["Question", "Current answer"],
+          rows: [
+            ["Does Gold Rummy's branding mention Teen Patti?", "No"],
+            ["Is Gold Rummy positioned as a Teen Patti app?", "No — reported as a rummy-focused platform"],
+            ["Has the app launched yet?", "Yes — launched August 18, 2026"],
+            ["Has Teen Patti been seen inside the app?", "Not observed — no independent review completed yet"],
+            ["Is a Teen Patti game mode confirmed?", "No"],
+            ["Verification status", "No relevance found"],
+            ["Last checked", "November 16, 2026"],
+          ],
+        },
+        paragraphs: [
+          "Readers can follow the main [Gold Rummy platform profile](/games/gold-rummy) for changing APK, publisher and game-catalogue information, and this directory's [rewards and incentives explained](/rewards) page for how bonus terms typically work across these platforms. Real-money card games are also subject to India's evolving regulatory landscape — see this directory's [online gaming legalities overview](/legalities) for the state-by-state picture.",
+        ],
+      },
+      {
+        heading: "Does Gold Rummy Have Teen Patti?",
+        paragraphs: [
+          "Gold Rummy is listed in this directory as a rummy-focused platform. Its own shortDescription and fullDescription, as reported since launch, describe a newly launched app with a working download link — no welcome bonus or promo code has been announced, and its full feature set and table formats have not yet been independently reviewed. No website description, testimonial, or promotional material reviewed for this app referenced Teen Patti, Andar Bahar, poker, or any other card-game category beyond rummy.",
+          "There simply isn't a Teen Patti claim to evaluate here — Gold Rummy isn't presented as a multi-game platform in the first place.",
+        ],
+      },
+      {
+        heading: "Gold Rummy vs Win Rummy: Different Branding Choices",
+        paragraphs: [
+          "Gold Rummy and Win Rummy are listed next to each other in this directory's rummy family, but their operators have made different claims about what's inside. Win Rummy's own website advertises more than 25 games and explicitly names Teen Patti among them, even though that claim hasn't yet been independently confirmed inside the released app. Gold Rummy's own category and description, by contrast, stay entirely within rummy — no Teen Patti mention appears anywhere in its reported branding.",
+          "This is a difference in what each operator has chosen to claim, not a judgment about either platform. Win Rummy naming Teen Patti doesn't make it more or less credible than Gold Rummy staying rummy-only — it just means a reader comparing the two should expect a different scope of catalogue claims from each, and should verify both independently before assuming either one.",
+        ],
+      },
+      {
+        heading: "Why This Listing Doesn't Cover Teen Patti",
+        paragraphs: [
+          "The article should therefore avoid statements such as \"Gold Rummy might include Teen Patti\" until either the operator makes that claim or the released app can be inspected. As of publication, neither has happened.",
+        ],
+      },
+      {
+        heading: "What Could Still Change This",
+        paragraphs: [
+          "App catalogues sometimes expand after launch, and early-stage marketing doesn't always reflect the final feature set. If Gold Rummy's catalogue turns out to include Teen Patti or other table games not mentioned in its current materials, this page will be updated to reflect that — the same way Win Rummy's listing was updated once its own website made an explicit claim.",
+        ],
+      },
+      {
+        paragraphs: [
+          "The existing Gold Rummy directory listing currently describes the platform as rummy-focused, with its full feature set still unverified since launch. That listing will be reviewed and updated if the released app shows otherwise.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Does Gold Rummy have Teen Patti?",
+        answer:
+          "No evidence connects Gold Rummy to Teen Patti. It's reported as a rummy-focused platform, which launched August 18, 2026.",
+      },
+      {
+        question: "Is Gold Rummy different from Win Rummy?",
+        answer:
+          "Yes, in what each operator has claimed. Win Rummy's own website names Teen Patti among 25+ advertised games, while Gold Rummy's reported branding and category stay entirely within rummy — not a judgment on either platform, just a difference in claims made.",
+      },
+      {
+        question: "Could Gold Rummy add Teen Patti later?",
+        answer:
+          "It's possible app catalogues expand after launch. This page will be updated if that happens.",
+      },
+      {
+        question: "Does this directory operate or endorse Gold Rummy?",
+        answer:
+          "No. AllYonoPatti.com is an independent information directory. It doesn't run Gold Rummy, handle payments, or guarantee that any feature will match what's inside the app.",
+      },
+    ],
+  },
+  {
     slug: "123-rummy-game-launch",
     title: "123 Rummy: Launch Date, Download Status & What Teen Patti Players Should Know",
     seoTitle: "123 Rummy — Launch Date, Download & Details for Teen Patti Players",
