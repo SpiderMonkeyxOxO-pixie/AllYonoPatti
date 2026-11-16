@@ -268,4 +268,26 @@ export const miscPlatforms: GameEntry[] = [
     publishedAt: "2026-11-05",
     updatedAt: "2026-11-05",
   }),
+  defineGame({
+    name: "123Rummy",
+    slug: "123-rummy",
+    downloadUrl: "https://www.123rummy2.com/?code=HT9PS5WTMED&t=1794797556",
+    aliases: ["123 Rummy"],
+    category: "Rummy-focused platform",
+    shortDescription:
+      "123Rummy is a rummy-format card app in the same network as this directory's Teen Patti apps — launched 16 November 2026.",
+    fullDescription:
+      "123Rummy launched on 16 November 2026 at 8:00 AM IST as a rummy-format card app, not a Teen Patti title. It shares the sideloaded-APK distribution method used across this network, but its core gameplay is rummy's sequence-and-set format, distinct from Teen Patti's three-card hand-ranking structure. Beyond the launch itself and the download link, no welcome bonus amount, promo code, or other feature has been independently confirmed yet.",
+    informationalStatus:
+      "123Rummy launched 16 November 2026. This is a newly added listing — features, terms, and safety details beyond the download link have not yet been independently confirmed.",
+    // Reviewed: the app's own copy documents rummy gameplay, not Teen Patti.
+    teenPattiRelevance: "none",
+    tags: ["newly-launched", "rummy"],
+    featured: true,
+    safetyNotes:
+      "This app launched today. No package name, permissions, signing certificate, or welcome bonus has been independently checked yet — verify before installing.",
+    relatedArticleSlugs: ["123-rummy-game-launch"],
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+  }),
 ];

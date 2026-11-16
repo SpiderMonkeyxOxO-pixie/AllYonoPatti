@@ -2088,17 +2088,17 @@ export const posts: Article[] = [
     title: "123 Rummy: Launch Date, Download Status & What Teen Patti Players Should Know",
     seoTitle: "123 Rummy — Launch Date, Download & Details for Teen Patti Players",
     description:
-      "123 Rummy launches 16 Nov 2026. What Teen Patti players should know about this rummy-format app — launch status, expected features, and how it fits alongside card games.",
+      "123 Rummy launched 16 Nov 2026. What Teen Patti players should know about this rummy-format app — download status, expected features, and how it fits alongside card games.",
     category: "Legal and Industry Updates",
     featuredImage: "/images/blog/123-rummy-game.webp",
     publishedAt: "2026-11-11",
-    updatedAt: "2026-11-11",
+    updatedAt: "2026-11-16",
     relatedSlugs: ["jeet-spin-game-launch", "teen-patti-vs-rummy"],
     sections: [
       {
         paragraphs: [
-          "123 Rummy is a new real-money rummy app scheduled to launch on 16 November 2026 at 8:00 AM IST, the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. No download link is live yet.",
-          "This page covers what has been announced so far. It will be updated once the app is live.",
+          "123 Rummy is a new real-money rummy app that launched on 16 November 2026 at 8:00 AM IST, the newest entry in the Yono network — the same network that hosts several Teen Patti apps tracked in this directory. The download link is now live — see our [123 Rummy directory page](/games/123-rummy) for it.",
+          "This page covers what has been announced so far. Beyond the launch itself and the download link, details such as the welcome bonus remain unconfirmed and this page will be updated as they are.",
         ],
       },
       {
@@ -2115,9 +2115,9 @@ export const posts: Article[] = [
           rows: [
             ["App name", "123 Rummy"],
             ["Category", "Rummy"],
-            ["Scheduled launch", "16 November 2026, 8:00 AM IST"],
-            ["APK download link", "Not yet live"],
-            ["Welcome bonus", "Not yet announced"],
+            ["Launch", "16 November 2026, 8:00 AM IST — live"],
+            ["APK download link", "Live — see our [123 Rummy directory page](/games/123-rummy)"],
+            ["Welcome bonus", "Not yet confirmed"],
             ["Minimum deposit", "Not yet confirmed"],
           ],
         },
@@ -2138,14 +2138,14 @@ export const posts: Article[] = [
       {
         heading: "Promo Code and Welcome Bonus",
         paragraphs: [
-          "No 123 Rummy promo code or welcome bonus amount has been confirmed. Based on patterns across similar launches, a sign-up reward in the ₹50–₹500 range is typical, and promo codes are usually released inside the app itself at or shortly after launch.",
+          "No 123 Rummy promo code or welcome bonus amount has been confirmed yet, even though the app has now launched. Based on patterns across similar launches, a sign-up reward in the ₹50–₹500 range is typical, and promo codes are usually released inside the app itself at or shortly after launch — but treat that as a pattern from other apps, not a confirmed 123 Rummy figure.",
         ],
       },
       {
         heading: "Safety Checks Before You Download",
         paragraphs: [
-          "The same safety checks that apply to Teen Patti apps apply here: download only from the platform's own website once live, verify what permissions the app requests, and read the withdrawal terms and KYC requirements before depositing.",
-          "Do not trust any \"123 Rummy APK\" links circulating before the launch date. Pre-launch APKs are not from the platform's source.",
+          "The same safety checks that apply to Teen Patti apps apply here: download only from the platform's own linked source, verify what permissions the app requests, and read the withdrawal terms and KYC requirements before depositing.",
+          "Be wary of any \"123 Rummy APK\" link circulating outside our [123 Rummy directory page](/games/123-rummy). Unofficial mirrors are not from the platform's source.",
         ],
       },
       {
@@ -2169,12 +2169,12 @@ export const posts: Article[] = [
       {
         question: "When does 123 Rummy launch?",
         answer:
-          "123 Rummy is scheduled to launch on 16 November 2026 at 8:00 AM IST. This page will be updated with a download link once the app goes live.",
+          "123 Rummy launched on 16 November 2026 at 8:00 AM IST. The download link is live — see our [123 Rummy directory page](/games/123-rummy).",
       },
       {
         question: "Does 123 Rummy have a confirmed welcome bonus?",
         answer:
-          "No. No welcome bonus or promo code has been announced yet. This page will be updated once 123 Rummy launches.",
+          "No. No welcome bonus or promo code has been confirmed yet, even though the app has launched. This page will be updated once one is.",
       },
     ],
   },
