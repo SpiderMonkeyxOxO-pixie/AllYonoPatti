@@ -3063,5 +3063,186 @@ export const guidesOct2026: Article[] = [
         "answer": "No. Only the deal and hand-selection step change — betting, blind and seen play, and tie-breaks follow standard Teen Patti rules."
       }
     ]
+  },
+  {
+    "slug": "999-paplu-teen-patti-rules",
+    "title": "999 Teen Patti Rules: How the Paplu Variant Works",
+    "seoTitle": "999 (Paplu) Teen Patti Rules Explained",
+    "description": "How does 999 (Paplu) Teen Patti work? Learn how cards become digits, how to score closest to 999, and why a trail of kings can be the weakest hand at the table.",
+    "category": "Teen Patti Basics",
+    "featuredImage": "/images/blog/999-paplu-teen-patti-rules.webp",
+    "featuredImageAlt": "Three playing cards beside a glowing 999 target number, illustrating the digit-scoring Paplu variant of Teen Patti",
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "relatedSlugs": [
+      "common-teen-patti-variations",
+      "teen-patti-hand-rankings",
+      "teen-patti-in-hindi"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: 999 — widely known as Paplu — drops Teen Patti's usual hand rankings entirely. Each card becomes a digit (ace as 1, two through nine at face value, and every ten or picture card as 0), and each player arranges their three digits into the best three-digit number they can. Whoever's number lands closest to 999 wins the show.",
+          "999 is one of the more radical Teen Patti variants: it keeps the deal, the boot, and the betting rounds, but replaces the entire concept of hand strength with simple arithmetic. A trail of aces, prized everywhere else, becomes close to worthless here."
+        ]
+      },
+      {
+        "heading": "How the scoring works",
+        "list": [
+          "Ace counts as 1.",
+          "Two through nine count at face value.",
+          "Ten, Jack, Queen and King all count as 0.",
+          "The three digits are arranged to form the largest possible three-digit number, since any other order only moves the total further from 999."
+        ],
+        "paragraphs": [
+          "Because no digit can exceed 9, the highest obtainable total is 999 itself — a hand of three nines. Every other combination of digits settles for a lower total, and \"closest to 999\" in practice means \"highest arranged total.\""
+        ]
+      },
+      {
+        "heading": "Worked examples",
+        "paragraphs": [
+          "Here is how four different hands score under 999 rules."
+        ],
+        "table": {
+          "headers": [
+            "Hand",
+            "Digits",
+            "Arranged total",
+            "How it does"
+          ],
+          "rows": [
+            [
+              "9♣ 9♦ 9♠",
+              "9, 9, 9",
+              "999",
+              "The perfect hand — exactly 999"
+            ],
+            [
+              "9♥ 8♦ K♠",
+              "9, 8, 0",
+              "980",
+              "Very strong — only 19 short of 999"
+            ],
+            [
+              "A♣ 5♦ 6♠",
+              "1, 5, 6",
+              "651",
+              "Middling — well short of 999"
+            ],
+            [
+              "Q♣ J♦ 10♠",
+              "0, 0, 0",
+              "000",
+              "The weakest possible hand"
+            ]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "A hand that would be unplayable elsewhere — three picture cards, for instance — can still show up as a 0 here, same as it would be a weak high card in classic Teen Patti. But a trail that would dominate a normal table, such as three kings, also scores 0, since kings count as zero. The two games reward opposite things."
+        ]
+      },
+      {
+        "heading": "Impact on hand reading",
+        "paragraphs": [
+          "Normal Teen Patti hand types — pair, colour, sequence, pure sequence, trail — do not exist in 999. There is nothing to recognize as a \"made hand\"; there is only a running total. This changes what a strong starting hand looks like: in classic Teen Patti a trail of kings is the second-best hand possible, but in 999 those same three kings score a flat 0, the weakest total on the table. See the standard [hand rankings](/guides/teen-patti-hand-rankings) for what 999 replaces."
+        ]
+      },
+      {
+        "heading": "Variants within the variation",
+        "list": [
+          "Exact-999 hands: some tables treat an exact 999 as an automatic win or pay a bonus, though not universal — confirm before playing.",
+          "Scoring of tens and picture cards: most score them as 0 but check table rules.",
+          "Tie handling: commonly a secondary rule (suit order or pot split), but varies.",
+          "Number of cards: usually 3-card deal, though some apply to a Best of Four-style 4-card deal; see [Best of Four Teen Patti rules](/guides/best-of-four-teen-patti-rules)."
+        ]
+      },
+      {
+        "heading": "How 999 rules affect betting",
+        "paragraphs": [
+          "The betting structure does not change: boot, blind, chaal, pack and show all work exactly as they do in [the base game](/guides/teen-patti-rules). What changes is what you are betting on. See also [blind vs seen play](/guides/blind-vs-seen-teen-patti)."
+        ]
+      },
+      {
+        "heading": "999 vs Classic Teen Patti",
+        "table": {
+          "headers": [
+            "",
+            "999 (Paplu)",
+            "Classic Teen Patti"
+          ],
+          "rows": [
+            [
+              "Goal",
+              "Get as close to 999 as possible",
+              "Make the highest-ranked hand"
+            ],
+            [
+              "Best possible hand",
+              "999 (three nines)",
+              "Trail of aces"
+            ],
+            [
+              "Worst possible hand",
+              "000",
+              "Low unmatched cards, e.g. 5-3-2"
+            ],
+            [
+              "Card values",
+              "Ace = 1, 2–9 face value, 10/picture = 0",
+              "Ace high"
+            ],
+            [
+              "Betting structure",
+              "Unchanged",
+              "Boot, blind, chaal, show"
+            ]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "999's inversion of value is a different kind of reversal from [Muflis](/guides/muflis-teen-patti-rules), where the lowest-ranked hand wins but the ranking table itself stays intact. Compare both alongside the rest of the variants in [common Teen Patti variations](/guides/common-teen-patti-variations)."
+        ]
+      },
+      {
+        "heading": "Things to confirm before the first hand",
+        "list": [
+          "Do tens and picture cards count as 0?",
+          "Is an exact 999 an automatic win?",
+          "How are tied totals broken?",
+          "Is the deal three cards or four?"
+        ]
+      },
+      {
+        "paragraphs": [
+          "If the answer to any of these is unclear, ask before the first bet goes in. See also [beginner mistakes](/guides/teen-patti-beginner-mistakes) and [Teen Patti in Hindi](/guides/teen-patti-in-hindi).",
+          "18+ only. Educational content."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does 999 mean in Teen Patti?",
+        "answer": "It's the target number. Each card becomes a digit — ace as 1, two through nine at face value, and tens or picture cards as 0 — and the closest arranged total to 999 wins."
+      },
+      {
+        "question": "Why is 999 also called Paplu?",
+        "answer": "Paplu is the common Hindi-language name for the same variant; the rules are identical, only the name changes by table or region."
+      },
+      {
+        "question": "What is the best possible hand in 999?",
+        "answer": "Three nines, which arrange to an exact 999 — the highest total the scoring allows."
+      },
+      {
+        "question": "Does a trail of kings win in 999?",
+        "answer": "No. Kings count as 0, so three kings score a flat 000, the weakest total on the table, even though a trail of kings is a near-unbeatable hand in classic Teen Patti."
+      },
+      {
+        "question": "Does 999 change the betting rules?",
+        "answer": "No. Boot, blind, chaal, pack and show all work the same as the base game. Only how a hand is evaluated changes."
+      }
+    ]
   }
 ];
