@@ -1301,7 +1301,7 @@ export const guidesOct2026: Article[] = [
       },
       {
         "paragraphs": [
-          "For the fixed-wild version, read [AK47 Teen Patti rules](/guides/ak47-teen-patti-rules). To see how Teen Patti compares with a game without wilds, read [Teen Patti vs poker](/guides/teen-patti-vs-poker), and for all the styles in one place see [common variations](/guides/common-teen-patti-variations)."
+          "For the fixed-wild version, read [AK47 Teen Patti rules](/guides/ak47-teen-patti-rules). For the version where the wild card is private to each player instead of shared by the table, read [Lowest Card Joker Teen Patti rules](/guides/lowest-card-joker-teen-patti-rules). To see how Teen Patti compares with a game without wilds, read [Teen Patti vs poker](/guides/teen-patti-vs-poker), and for all the styles in one place see [common variations](/guides/common-teen-patti-variations)."
         ]
       },
       {
@@ -3242,6 +3242,107 @@ export const guidesOct2026: Article[] = [
       {
         "question": "Does 999 change the betting rules?",
         "answer": "No. Boot, blind, chaal, pack and show all work the same as the base game. Only how a hand is evaluated changes."
+      }
+    ]
+  },
+  {
+    "slug": "lowest-card-joker-teen-patti-rules",
+    "title": "Lowest Card Joker Teen Patti Rules",
+    "seoTitle": "Lowest Card Joker Teen Patti Rules Explained",
+    "description": "How does Lowest Card Joker work in Teen Patti? Learn how each player's own lowest card becomes their private wild card, with a worked example and a comparison to shared and fixed joker variants.",
+    "category": "Teen Patti Basics",
+    "featuredImage": "/images/blog/lowest-card-joker-teen-patti-rules.webp",
+    "featuredImageAlt": "Three playing cards with the lowest-ranked card glowing as a wild joker, illustrating the Lowest Card Joker variant of Teen Patti",
+    "publishedAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "relatedSlugs": [
+      "common-teen-patti-variations",
+      "joker-teen-patti-rules",
+      "ak47-teen-patti-rules"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: In Lowest Card Joker, there is no shared wild card and no card drawn from the deck. Instead, each player looks at their own three cards and whichever one is ranked lowest automatically becomes that player's personal wild card for the hand — along with any other card of the same rank they hold. It is private: your joker rank has nothing to do with anyone else's, and no one at the table can see what it is until a show.",
+          "This makes Lowest Card Joker different from every other joker variant. A random-rank joker or a printed joker is shared knowledge once it is revealed — everyone at the table is wild in the same rank. Here, each hand effectively runs its own private joker round, decided entirely by the luck of that individual's deal."
+        ]
+      },
+      {
+        "heading": "Worked example",
+        "paragraphs": [
+          "Take a hand of 7♠ 7♦ 3♣. Ranked by value, the 3♣ is the lowest card dealt, so it becomes this player's joker.",
+          "Without the joker rule, this hand is just a pair of sevens with a 3 kicker — a decent but ordinary hand. Once the 3♣ is treated as wild, it can stand in for any card that improves the hand, and the obvious choice is another 7. The pair of sevens becomes a trail (three of a kind) of sevens, jumping several rungs up the hand-ranking ladder for free.",
+          "Compare that with a hand of A♦ 9♠ 4♥. Here the 4♥ is lowest and becomes wild, but there is nothing worth copying — no pair to extend, no run to complete. The wild card still has to resolve to something, so it is set to whatever gives the best result, typically making the hand a high-card A hand with a disguised sequence attempt at best. The same rule, a very different outcome, purely because of what else was in the hand."
+        ]
+      },
+      {
+        "heading": "Lowest Card Joker vs other joker variants",
+        "table": {
+          "headers": [
+            "",
+            "Lowest Card Joker",
+            "Shared single joker",
+            "Fixed joker card (e.g. AK47)"
+          ],
+          "rows": [
+            [
+              "How the joker is determined",
+              "Each player's own lowest-ranked card in their dealt hand",
+              "One rank drawn or declared for the whole table that round",
+              "A fixed set of ranks (A, K, 4, 7) is always wild, every hand"
+            ],
+            [
+              "Private or shared",
+              "Private — only you know your wild rank",
+              "Shared — the whole table is wild in the same rank",
+              "Shared and constant — known before the cards are even dealt"
+            ],
+            [
+              "Effect on hand strength",
+              "Variable and personal: a weak-looking hand can jump several ranks if the lowest card matches another card held; a hand with no duplicate ranks gains little",
+              "Uniform across the table: everyone's odds of holding a wild rise or fall together, since it is the same rank for all",
+              "Very large and constant: with 16 cards always wild, strong hands (pairs, trails, sequences) become routine at every table"
+            ]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "The practical difference is information. With a shared joker, every player can work out roughly how often a wild should appear once the rank is known. With Lowest Card Joker, you only ever know your own wild rank — an opponent's seemingly weak low card could just as easily be duplicating a pair in their hand as sitting there dead. See [Joker Teen Patti rules](/guides/joker-teen-patti-rules) for how the shared-rank version works, and [AK47 Teen Patti rules](/guides/ak47-teen-patti-rules) for the fixed-card version."
+        ]
+      },
+      {
+        "heading": "Things to confirm before playing",
+        "list": [
+          "Does the app or table apply Lowest Card Joker automatically on every hand, or does it need to be selected as a table rule before cards are dealt?",
+          "If a player's lowest card appears more than once in their hand (e.g. two cards of equal lowest rank), is the tie resolved by suit rank, or by some other house rule?",
+          "Is this variant actually available in the specific app or table being used — not every Teen Patti app offers it, and the name may differ slightly by platform.",
+          "Does a wild card here count toward every hand type (pair, sequence, colour, trail) or are there restrictions, as with some shared-joker tables?"
+        ]
+      },
+      {
+        "paragraphs": [
+          "If the answer to any of these is unclear, confirm it before the first bet goes in rather than after a disputed show. See also [common Teen Patti variations](/guides/common-teen-patti-variations) and [beginner mistakes](/guides/teen-patti-beginner-mistakes).",
+          "18+ only. Educational content."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Lowest Card Joker in Teen Patti?",
+        "answer": "A variant where each player's own lowest-ranked card, from the three they are dealt, automatically becomes their personal wild card for that hand — private to them, not shared with the table."
+      },
+      {
+        "question": "Is the Lowest Card Joker the same for every player?",
+        "answer": "No. Each player's wild rank is decided independently by their own lowest card, so different players at the same table can be wild in completely different ranks."
+      },
+      {
+        "question": "How is Lowest Card Joker different from a random joker round?",
+        "answer": "A random joker round declares one rank wild for everyone at the table. Lowest Card Joker never reveals a shared rank at all — it is determined privately, per player, by their own hand."
+      },
+      {
+        "question": "Can a tie for lowest card happen in your own hand?",
+        "answer": "Yes, if you hold two cards of equal lowest rank. How that is resolved — by suit rank or another house rule — varies by table or app, so confirm it before playing."
       }
     ]
   }

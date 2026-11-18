@@ -614,7 +614,7 @@ export const guides: Article[] = [
         heading: "Lowest Card Joker",
         paragraphs: [
           "Here each player's own lowest card is wild — for that player only, along with any other cards of the same rank in their hand. Everyone therefore holds at least one joker, but nobody knows which rank is wild in anyone else's cards.",
-          "It is a subtler variant than AK47: hands run stronger than classic Teen Patti without being saturated in wilds, and reading opponents gets harder because their wild rank is private information.",
+          "It is a subtler variant than AK47: hands run stronger than classic Teen Patti without being saturated in wilds, and reading opponents gets harder because their wild rank is private information. See the full [Lowest Card Joker Teen Patti rules guide](/guides/lowest-card-joker-teen-patti-rules) for a worked example and the questions to confirm before playing.",
         ],
       },
       {
