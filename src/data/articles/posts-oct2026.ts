@@ -981,5 +981,76 @@ export const postsOct2026: Article[] = [
         "answer": "No — losing streaks are expected behavior from genuine randomness, not evidence of tampering. See our hand probabilities guide for how often strong hands actually occur."
       }
     ]
+  },
+  {
+    "slug": "teen-patti-winnings-tax-tds",
+    "title": "Do You Pay Tax on Teen Patti Winnings in India? TDS Explained",
+    "seoTitle": "Do You Pay Tax on Teen Patti Winnings in India? TDS Explained",
+    "description": "Net real-money Teen Patti winnings are commonly taxed via TDS at a flat rate, with no exemption threshold and no loss offset across sessions. Not tax advice.",
+    "category": "Legal and Industry Updates",
+    "featuredImage": "/images/blog/teen-patti-winnings-tax-tds.webp",
+    "featuredImageAlt": "TDS tax certificate and rupee banknote icon beside a Teen Patti card hand, representing tax on real-money game winnings",
+    "publishedAt": "2026-11-19",
+    "updatedAt": "2026-11-19",
+    "relatedSlugs": ["teen-patti-legal-india-2025", "teen-patti-withdrawal-explained"],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: yes — net real-money winnings from Teen Patti and similar online games are commonly understood to be taxable in India. Tax is most often withheld at source (TDS) at a flat rate commonly cited as around 30% under Section 115BBJ-style rules for online games, applied to your net winnings for the financial year, with no basic exemption threshold and no offset for losses in other sessions. This page explains the commonly cited general framework. It is not tax advice."
+        ]
+      },
+      {
+        "heading": "How TDS on real-money game winnings works",
+        "paragraphs": [
+          "Older withholding rules for games and lotteries (Section 194B) applied a per-win threshold — tax only kicked in above a stated amount per individual win. The framework commonly cited for online real-money games works differently: there's generally no comparable basic exemption, so net winnings can be taxable from a low starting point rather than only above a per-win floor.",
+          "The key phrase is \"net winnings.\" Rather than taxing each individual hand or session in isolation, the computation commonly described in this framework nets your total withdrawals plus your closing wallet balance against your total deposits plus your opening balance, for the financial year as a whole. A big single win and a string of small losses the same week aren't treated as two separate taxable events — they flow into one year-long net figure."
+        ],
+        "list": [
+          "No basic exemption threshold under the online-games-specific rules, unlike the older per-win threshold for games/lotteries generally.",
+          "Tax is commonly cited as a flat rate (often described as around 30%, plus applicable cess/surcharge) on net winnings — not your slab rate, and not reduced by standard deductions.",
+          "Losses in one game session are commonly understood to net against winnings within the same running calculation, but a net loss generally cannot be set off against income from other sources, carried forward, or used to reduce unrelated income the way certain other losses can."
+        ]
+      },
+      {
+        "heading": "When the platform deducts it vs. when you self-declare",
+        "paragraphs": [
+          "On platforms that comply with this framework, the usual pattern is: the platform itself computes net winnings on an ongoing basis and deducts TDS either at the time you withdraw, or at the end of the financial year (31 March) on any taxable net winnings still sitting in your wallet and not yet withdrawn. The amount deducted is deposited against your PAN, and should show up in your Form 26AS / Annual Information Statement, with a Form 16A as the certificate for the deduction.",
+          "TDS being deducted doesn't close the matter on its own — you're still generally expected to report the winnings (and claim credit for the TDS already paid) when you file your income tax return. And the reverse also holds: if a platform doesn't deduct TDS — because it operates outside this framework, applies its own threshold before triggering the computation, or simply doesn't comply — the responsibility to report and pay tax on those winnings as income doesn't disappear. It generally falls back to you, via self-declaration in your ITR, commonly under \"income from other sources,\" with possible advance-tax implications if the amount is significant.",
+          "In short: a platform handling TDS for you is a convenience, not a guarantee that nothing further is owed, and a platform not handling it doesn't mean the winnings are tax-free."
+        ]
+      },
+      {
+        "heading": "What this commonly looks like",
+        "paragraphs": ["As generally understood — not a guarantee for any specific platform, and not a substitute for checking your own tax position:"],
+        "table": {
+          "headers": ["Situation", "Who typically handles the tax step", "What to check yourself"],
+          "rows": [
+            ["Platform deducts TDS at withdrawal", "Platform, credited against your PAN", "Confirm it appears in your Form 26AS / AIS and you receive a Form 16A"],
+            ["Winnings sit unwithdrawn past 31 March", "Platform, per common year-end deduction practice", "Check the specific app's own stated TDS policy — this isn't universal"],
+            ["Platform doesn't deduct TDS", "You, via self-declaration in your ITR", "Report under \"income from other sources\"; keep your own records of deposits/withdrawals"],
+            ["Losses across other sessions or games", "Generally not offsettable against unrelated income", "Get a professional opinion for your specific year's computation"]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "This is a different question from [whether Teen Patti is legal in India](/guides/teen-patti-legal-india-2025), which is about how an app is classified under the Online Gaming Act, 2025 — and it's different again from [how Teen Patti withdrawal actually works](/blog/teen-patti-withdrawal-explained), which covers KYC checks and processing-time mechanics. This page is specifically about what happens to your money, tax-wise, after you win. A platform being legally classified one way or another doesn't change the tax treatment described here, and a smooth withdrawal doesn't mean the tax question is settled — the three questions are independent of each other."
+        ]
+      },
+      {
+        "heading": "This is not tax advice",
+        "paragraphs": [
+          "This page explains a commonly cited general framework for real-money gaming TDS in India, in plain language. Tax law, rates, thresholds and computation details can change, vary with your personal circumstances (other income, residency status, applicable rebates), and are open to interpretation in ways a blog post can't fully capture. Nothing on this page is tax, financial or legal advice, and this directory does not prepare, review or file tax returns for anyone.",
+          "Consult a qualified chartered accountant or tax professional before relying on anything here for your own filing. 18+ only; real-money gaming carries financial risk independent of any tax question."
+        ]
+      }
+    ],
+    "faq": [
+      { "question": "Do I have to pay tax on Teen Patti winnings in India?", "answer": "Net real-money winnings are commonly understood to be taxable — typically withheld at source as TDS by the platform, and/or reportable in your own income tax return. This is general information, not tax advice." },
+      { "question": "What percentage is deducted as TDS on Teen Patti winnings?", "answer": "A flat rate is commonly cited — often described as around 30% under Section 115BBJ-style rules for online games — applied to net winnings. Confirm the current exact figure with a tax professional or official guidance rather than relying on this page." },
+      { "question": "Is there a minimum winning amount before TDS applies?", "answer": "Unlike older withholding rules with a per-win threshold, the framework commonly described for online real-money games generally has no comparable basic exemption, meaning net winnings can be taxable from a low starting point." },
+      { "question": "Can I offset a loss in one game against winnings in another?", "answer": "Generally no — net losses are commonly understood not to offset winnings reported under other heads of income the way certain other losses can. Confirm your specific situation with a tax professional." },
+      { "question": "How is this different from the 'is Teen Patti legal' question?", "answer": "They're separate questions. Legal classification under the Online Gaming Act, 2025 decides whether and how an app can operate; this page is about what tax treatment applies to winnings regardless of that classification." }
+    ]
   }
 ];
