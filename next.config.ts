@@ -49,6 +49,39 @@ const nextConfig: NextConfig = {
     // content-hashed by query string, so a year-long cache is safe.
     minimumCacheTTL: 31536000,
   },
+  async redirects() {
+    // Five standalone Teen Patti variant-rules guides were consolidated into
+    // anchored subsections of /guides/teen-patti-rules to resolve internal
+    // keyword cannibalization (all 5 were competing with the canonical guide
+    // for the same "teen patti rules"/"variant rules" query intent).
+    return [
+      {
+        source: "/guides/joker-teen-patti-rules",
+        destination: "/guides/teen-patti-rules#joker",
+        permanent: true,
+      },
+      {
+        source: "/guides/muflis-teen-patti-rules",
+        destination: "/guides/teen-patti-rules#muflis",
+        permanent: true,
+      },
+      {
+        source: "/guides/ak47-teen-patti-rules",
+        destination: "/guides/teen-patti-rules#ak47",
+        permanent: true,
+      },
+      {
+        source: "/guides/999-paplu-teen-patti-rules",
+        destination: "/guides/teen-patti-rules#999-paplu",
+        permanent: true,
+      },
+      {
+        source: "/guides/lowest-card-joker-teen-patti-rules",
+        destination: "/guides/teen-patti-rules#lowest-card-joker",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

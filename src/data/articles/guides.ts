@@ -70,16 +70,29 @@ export const guides: Article[] = [
     slug: "teen-patti-rules",
     title: "Teen Patti Rules Explained",
     description:
-      "The complete rules of Teen Patti: the boot, dealing, blind and seen play, chaal, sideshow, and show — explained step by step for new players.",
+      "The complete rules of Teen Patti: the boot, dealing, blind and seen play, chaal, sideshow, and show, plus Joker, Muflis, AK47, 999 and Lowest Card Joker variant rules — explained step by step for new players.",
     category: "Rules and Hand Rankings",
     featuredImage: "/images/blog/teen-patti-rules.webp",
     publishedAt: "2026-07-17",
-    updatedAt: "2026-07-17",
+    updatedAt: "2026-11-19",
     relatedSlugs: ["what-is-teen-patti", "teen-patti-hand-rankings", "teen-patti-terms"],
     sections: [
       {
         paragraphs: [
-          "Teen Patti is played with a standard 52-card deck, 3–6 players, each dealt 3 cards face down after everyone pays a fixed boot into the pot. Players bet blind or seen (seen costs double), betting continues clockwise until one player remains or two go to a show, and the highest-ranking hand wins. Here's the complete round, step by step.",
+          "Teen Patti is played with a standard 52-card deck, 3–6 players, each dealt 3 cards face down after everyone pays a fixed boot into the pot. Players bet blind or seen (seen costs double), betting continues clockwise until one player remains or two go to a show, and the highest-ranking hand wins. Here's the complete round, step by step. Further down this page you will also find the full rules for the five best-known variants — Joker, Muflis, AK47, 999 (Paplu) and Lowest Card Joker.",
+        ],
+      },
+      {
+        heading: "Teen Patti variants on this page",
+        paragraphs: [
+          "Beyond the classic rules below, Teen Patti has several well-known variants that change how hands are made or ranked. Jump straight to the one you need:",
+        ],
+        list: [
+          "[Joker](#joker) — one rank (or a printed joker) is wild and can substitute for any card.",
+          "[Muflis](#muflis) — the ranking flips entirely; the lowest hand wins.",
+          "[AK47](#ak47) — A, K, 4 and 7 are always wild, in every suit.",
+          "[999 (Paplu)](#999-paplu) — hand rankings are replaced by a digit-based score closest to 999.",
+          "[Lowest Card Joker](#lowest-card-joker) — each player's own lowest card is privately wild for them alone.",
         ],
       },
       {
@@ -112,7 +125,318 @@ export const guides: Article[] = [
       {
         heading: "House and app variations",
         paragraphs: [
-          "Home games and apps layer countless variations on this base: limits on how long you can stay blind, maximum pot sizes, joker cards, and [variant games](/guides/common-teen-patti-variations) like Muflis (lowest hand wins) or AK47. None of them change the fundamentals above, but always confirm which rules are in force — in an app, including any listed in our [games directory](/games), that means reading the rules screen for the specific table you join.",
+          "Home games and apps layer countless variations on this base: limits on how long you can stay blind, maximum pot sizes, joker cards, and variant games like [Muflis](#muflis) (lowest hand wins), [AK47](#ak47) (fixed wild cards), [Joker](#joker), [999/Paplu](#999-paplu) and [Lowest Card Joker](#lowest-card-joker) — covered in full below. None of them change the fundamentals above, but always confirm which rules are in force — in an app, including any listed in our [games directory](/games), that means reading the rules screen for the specific table you join.",
+        ],
+      },
+      {
+        heading: "Joker Teen Patti",
+        id: "joker",
+        paragraphs: [
+          "Quick answer: in Joker Teen Patti, one card rank (or a printed joker added to the deck) is declared wild and can substitute for any card to make a better hand. Most tables choose the wild rank at random, either before or after the deal — printed-joker and random-rank versions are both common.",
+        ],
+      },
+      {
+        heading: "Two common Joker versions",
+        paragraphs: [
+          "A wild card becomes whatever gives the strongest hand: it can complete a pair (the joker copies another card), a trail (the joker joins a pair), a sequence or pure sequence (the joker fills a gap), or a colour (the joker takes the suit of the other cards).",
+        ],
+        list: [
+          "Printed joker — one or two jokers are added to the 52-card deck, and a player holding one can use it as any card.",
+          "Random joker rank — a card is drawn from the deck (often face up) and every card of that rank becomes wild for the hand. If a 9 is drawn, all four nines are wild.",
+        ],
+      },
+      {
+        heading: "Joker worked examples",
+        paragraphs: [
+          "Suppose the declared joker rank is 9, so every nine is wild. Check the table rules on whether a joker can complete a pure sequence or colour, as some versions restrict it.",
+        ],
+        table: {
+          headers: ["Hand", "Joker count", "Best hand it makes"],
+          rows: [
+            ["9♣ K♦ K♠", "1", "Trail of Ks"],
+            ["9♥ 9♦ 4♣", "2", "Trail of 4s"],
+            ["9♠ 5♦ 6♦", "1", "Pure sequence (the 9 becomes 4♦ or 7♦)"],
+            ["2♣ 8♦ J♠", "0", "Plain high card, J-high"],
+          ],
+        },
+      },
+      {
+        heading: "Fixed joker or changing joker?",
+        list: [
+          "Fixed joker (printed joker in the deck): the odds are stable, and few players hold one, so strong hands are only a little more common than standard play.",
+          "Changing joker (random rank each hand): four cards of that rank are wild, so roughly one hand in five holds a wild. A card you would normally ignore, such as a 3, may be the most important card on the table that round.",
+        ],
+      },
+      {
+        heading: "Joker vs AK47 at a glance",
+        paragraphs: [
+          "The hand ranking order itself never changes in any wild-card variant — only how often each hand appears. For the fixed-wild version, see [AK47](#ak47) below; for the version where the wild card is private to each player instead of shared by the table, see [Lowest Card Joker](#lowest-card-joker).",
+        ],
+        table: {
+          headers: ["", "Joker", "AK47"],
+          rows: [
+            ["Wild cards", "One rank or printed joker", "A, K, 4, 7 (fixed)"],
+            ["Number of wilds", "Usually 1–4", "16"],
+            ["Changes each hand?", "Often", "No"],
+          ],
+        },
+      },
+      {
+        heading: "Things to confirm before playing Joker Teen Patti",
+        list: [
+          "Is the joker a printed card or a random rank, and when is the wild rank revealed?",
+          "Can a joker complete every hand type, or only trails and sequences?",
+          "How are ties between natural and joker-assisted hands settled — some tables rank a natural hand above one built with wilds.",
+        ],
+      },
+      {
+        heading: "Muflis Teen Patti",
+        id: "muflis",
+        paragraphs: [
+          "Quick answer: Muflis is a Teen Patti variation in which the ranking is reversed and the lowest hand wins. Trails and pure sequences become the worst hands, while the lowest unpaired, non-sequence hand is best. Dealing and betting work exactly as in the normal game — only how hands are compared at the show changes.",
+          "\"Muflis\" is an Urdu and Hindi word meaning \"bankrupt\" or \"poor\", a fitting name for a game where having nothing is the goal. It is also sometimes called \"lowball\" Teen Patti.",
+        ],
+      },
+      {
+        heading: "The reversed Muflis ranking, with examples",
+        paragraphs: ["From best (1) to worst (6):"],
+        table: {
+          headers: ["Rank", "Hand type", "Example"],
+          rows: [
+            ["1", "High card (lowest wins)", "2♣ 3♦ 5♥"],
+            ["2", "Pair", "4♣ 4♦ 9♠"],
+            ["3", "Colour", "3♥ 7♥ J♥"],
+            ["4", "Sequence", "6♣ 7♦ 8♠"],
+            ["5", "Pure sequence", "6♥ 7♥ 8♥"],
+            ["6", "Trail", "8♣ 8♦ 8♠"],
+          ],
+        },
+      },
+      {
+        paragraphs: [
+          "Within each type, lower is still better — a pair of fours beats a pair of nines, and a high-card hand topping out at 5 beats one topping out at 9. The strongest possible hand is the lowest high-card hand with mixed suits, commonly 2-3-5. Some tables treat the ace as low, which makes hands like A-2-4 the best, so check the table's rule on the ace and on whether A-2-3 counts as a sequence.",
+        ],
+      },
+      {
+        heading: "Muflis worked example",
+        paragraphs: [
+          "Player A holds 2♣ 3♦ 5♥ and Player B holds 9♠ 9♦ K♣. Player A has a high-card hand with a low top card (5); Player B has a pair. In Muflis, A wins, because a low high-card hand beats a pair.",
+        ],
+      },
+      {
+        heading: "Muflis strategy shifts",
+        paragraphs: ["Muflis does not make the game easier or harder, but it flips your instincts."],
+        list: [
+          "Hands you would fold normally can be among the best — a 2-3-5 of mixed suits is a classic example.",
+          "Strong standard hands become liabilities. If you are dealt a trail, you are holding the worst possible hand.",
+          "Bluffing changes shape: because the best hands are unremarkable, a confident bet can mean something different from the same bet in the standard game.",
+        ],
+      },
+      {
+        heading: "Normal vs Muflis at a glance",
+        table: {
+          headers: ["", "Normal Teen Patti", "Muflis"],
+          rows: [
+            ["Winning hand", "Highest", "Lowest"],
+            ["Best hand", "Trail", "Lowest high card"],
+            ["Worst hand", "High card", "Trail"],
+            ["Betting", "Standard", "Standard"],
+          ],
+        },
+      },
+      {
+        heading: "Checks before playing Muflis",
+        list: [
+          "Is the ace high or low? This changes which hands are best.",
+          "Does A-2-3 count as a sequence? If it does, it is a bad hand, not a good one.",
+          "How are ties resolved — by comparing the highest card first, or by suit order? Rules vary by table.",
+          "Is sideshow allowed? The lower hand wins, so make sure you know the direction of the comparison.",
+        ],
+      },
+      {
+        heading: "AK47 Teen Patti",
+        id: "ak47",
+        paragraphs: [
+          "Quick answer: in AK47 Teen Patti, the cards A, K, 4 and 7 are wild cards in every suit — read the four wild ranks together and you get \"AK47\". A wild card can stand in for any card to complete a trail, sequence or other hand, which makes strong hands much more common than in the standard game. Each rank appears in four suits, so there are 16 wild cards in a 52-card deck — almost one card in three.",
+        ],
+      },
+      {
+        heading: "How AK47 wild cards work",
+        paragraphs: ["A wild card takes whatever value gives its holder the best possible hand. For example:"],
+        list: [
+          "A-K-5: two wilds and a 5. The wilds become fives, giving a trail of 5-5-5.",
+          "7-9-9: one wild and a pair of nines. The wild becomes a nine, giving a trail of 9-9-9.",
+          "4-8-9: one wild (the 4) with an 8 and a 9. The wild becomes a 7 or a 10 to complete a sequence (7-8-9 or 8-9-10), or a 9 to make a pair — whichever gives the best hand.",
+          "4-7-6: two wilds (the 4 and 7) and a 6. Both wilds become sixes, giving a trail of 6-6-6.",
+        ],
+      },
+      {
+        heading: "What changes in AK47 play",
+        paragraphs: ["Because 16 of 52 cards are wild, strong hands show up far more often."],
+        table: {
+          headers: ["Effect", "Result"],
+          rows: [
+            ["Trails", "Much more common"],
+            ["Pure sequences", "More common"],
+            ["Weak hands", "Rarer, and a plain high card is seldom enough"],
+            ["Strategy", "Hands that feel strong in standard play become ordinary"],
+          ],
+        },
+      },
+      {
+        heading: "Reading an AK47 showdown",
+        paragraphs: [
+          "Because the wild ranks are fixed, you can read any hand by counting wilds first. The last row below shows what a \"natural\" hand looks like: with no wild cards and no pairing, it is now unusually weak, because most opponents will hold at least one wild.",
+        ],
+        table: {
+          headers: ["Hand", "Wilds", "Best hand it makes"],
+          rows: [
+            ["A♣ K♦ 9♠", "2 (A, K)", "Trail of 9s"],
+            ["7♥ 7♦ 2♣", "2 (both 7s)", "Trail of 2s"],
+            ["4♠ 8♦ 9♦", "1 (the 4)", "Pure sequence (7♦-8♦-9♦)"],
+            ["5♣ 6♣ 10♥", "0", "Plain high card, 10-high"],
+          ],
+        },
+      },
+      {
+        heading: "AK47 odds and tie-breaks",
+        paragraphs: [
+          "36 of the 52 cards are not wild, so the chance of a three-card hand with no wild is about 32% — roughly two players in three hold at least one wild in a typical hand. That is why trails dominate showdowns, and why ties and near-ties between strong hands are common. When two players hold the same type of hand, such as two trails, many tables rank the natural hand (made with no wild card) above one built with wilds; others compare by rank only. This is table-specific, so look for it in the table description.",
+        ],
+      },
+      {
+        heading: "Common beginner mistakes in AK47",
+        list: [
+          "Forgetting the wilds are in every suit — there are four wild aces, four wild kings, four wild fours and four wild sevens.",
+          "Treating a wild as a fixed card. A wild is whatever helps most at the show.",
+          "Not checking the tie-break rule.",
+          "Playing it like standard Teen Patti — a hand you would raise on in the standard game may be ordinary here.",
+        ],
+      },
+      {
+        paragraphs: [
+          "The name is widely used, but local versions differ: some tables add a rule that wilds cannot be used for a pure sequence, others rank natural trails above wild trails, and some add extra wilds. Treat the rules above as the common core and the table's own rules as the final word.",
+        ],
+      },
+      {
+        heading: "999 (Paplu) Teen Patti",
+        id: "999-paplu",
+        paragraphs: [
+          "Quick answer: 999 — widely known as Paplu — drops Teen Patti's usual hand rankings entirely. Each card becomes a digit (ace as 1, two through nine at face value, and every ten or picture card as 0), and each player arranges their three digits into the best three-digit number they can. Whoever's number lands closest to 999 wins the show. It keeps the deal, the boot and the betting rounds, but replaces hand strength with simple arithmetic — a trail of aces, prized everywhere else, becomes close to worthless here.",
+        ],
+      },
+      {
+        heading: "How 999 scoring works",
+        list: [
+          "Ace counts as 1.",
+          "Two through nine count at face value.",
+          "Ten, Jack, Queen and King all count as 0.",
+          "The three digits are arranged to form the largest possible three-digit number, since any other order only moves the total further from 999.",
+        ],
+        paragraphs: [
+          "Because no digit can exceed 9, the highest obtainable total is 999 itself — a hand of three nines. Every other combination settles for a lower total, so \"closest to 999\" in practice means \"highest arranged total.\"",
+        ],
+      },
+      {
+        heading: "999 worked examples",
+        table: {
+          headers: ["Hand", "Digits", "Arranged total", "How it does"],
+          rows: [
+            ["9♣ 9♦ 9♠", "9, 9, 9", "999", "The perfect hand — exactly 999"],
+            ["9♥ 8♦ K♠", "9, 8, 0", "980", "Very strong — only 19 short of 999"],
+            ["A♣ 5♦ 6♠", "1, 5, 6", "651", "Middling — well short of 999"],
+            ["Q♣ J♦ 10♠", "0, 0, 0", "000", "The weakest possible hand"],
+          ],
+        },
+      },
+      {
+        paragraphs: [
+          "A trail that would dominate a normal table, such as three kings, scores a flat 0 in 999, since kings count as zero — the two games reward opposite things. Normal Teen Patti hand types (pair, colour, sequence, pure sequence, trail) do not exist in 999; there is only a running total.",
+        ],
+      },
+      {
+        heading: "999 vs classic Teen Patti",
+        table: {
+          headers: ["", "999 (Paplu)", "Classic Teen Patti"],
+          rows: [
+            ["Goal", "Get as close to 999 as possible", "Make the highest-ranked hand"],
+            ["Best possible hand", "999 (three nines)", "Trail of aces"],
+            ["Worst possible hand", "000", "Low unmatched cards, e.g. 5-3-2"],
+            ["Card values", "Ace = 1, 2–9 face value, 10/picture = 0", "Ace high"],
+            ["Betting structure", "Unchanged", "Boot, blind, chaal, show"],
+          ],
+        },
+      },
+      {
+        heading: "Variants within 999",
+        list: [
+          "Exact-999 hands: some tables treat an exact 999 as an automatic win or pay a bonus, though not universal — confirm before playing.",
+          "Scoring of tens and picture cards: most score them as 0, but check table rules.",
+          "Tie handling: commonly a secondary rule (suit order or pot split), but varies.",
+          "Number of cards: usually a 3-card deal, though some apply it to a Best of Four-style 4-card deal; see [Best of Four Teen Patti rules](/guides/best-of-four-teen-patti-rules).",
+        ],
+      },
+      {
+        heading: "Things to confirm before playing 999",
+        list: [
+          "Do tens and picture cards count as 0?",
+          "Is an exact 999 an automatic win?",
+          "How are tied totals broken?",
+          "Is the deal three cards or four?",
+        ],
+      },
+      {
+        heading: "Lowest Card Joker Teen Patti",
+        id: "lowest-card-joker",
+        paragraphs: [
+          "Quick answer: in Lowest Card Joker, there is no shared wild card and no card drawn from the deck. Instead, each player looks at their own three cards, and whichever one is ranked lowest automatically becomes that player's personal wild card for the hand — along with any other card of the same rank they hold. It is private: your joker rank has nothing to do with anyone else's, and no one at the table can see what it is until a show. A random-rank or printed joker is shared knowledge once revealed — here, each hand runs its own private joker round, decided entirely by the luck of that individual's deal.",
+        ],
+      },
+      {
+        heading: "Lowest Card Joker worked example",
+        paragraphs: [
+          "Take a hand of 7♠ 7♦ 3♣. Ranked by value, the 3♣ is the lowest card dealt, so it becomes this player's joker. Without the joker rule, this hand is just a pair of sevens with a 3 kicker — decent but ordinary. Once the 3♣ is treated as wild, it can stand in for another 7, and the pair becomes a trail of sevens, jumping several rungs up the ranking for free.",
+          "Compare that with a hand of A♦ 9♠ 4♥. Here the 4♥ is lowest and becomes wild, but there is nothing worth copying — no pair to extend, no run to complete. The wild card still has to resolve to something, so it is set to whatever gives the best result, typically leaving the hand as a high-card A hand with a disguised sequence attempt at best. The same rule, a very different outcome, purely because of what else was in the hand.",
+        ],
+      },
+      {
+        heading: "Lowest Card Joker vs other joker variants",
+        table: {
+          headers: ["", "Lowest Card Joker", "Shared single joker", "Fixed joker card (e.g. AK47)"],
+          rows: [
+            [
+              "How the joker is determined",
+              "Each player's own lowest-ranked card in their dealt hand",
+              "One rank drawn or declared for the whole table that round",
+              "A fixed set of ranks (A, K, 4, 7) is always wild, every hand",
+            ],
+            [
+              "Private or shared",
+              "Private — only you know your wild rank",
+              "Shared — the whole table is wild in the same rank",
+              "Shared and constant — known before the cards are even dealt",
+            ],
+            [
+              "Effect on hand strength",
+              "Variable and personal: a weak-looking hand can jump several ranks if the lowest card matches another card held; a hand with no duplicate ranks gains little",
+              "Uniform across the table: everyone's odds of holding a wild rise or fall together, since it is the same rank for all",
+              "Very large and constant: with 16 cards always wild, strong hands become routine at every table",
+            ],
+          ],
+        },
+      },
+      {
+        paragraphs: [
+          "The practical difference is information. With a shared joker, every player can work out roughly how often a wild should appear once the rank is known. With Lowest Card Joker, you only ever know your own wild rank — an opponent's seemingly weak low card could just as easily be duplicating a pair in their hand as sitting there dead.",
+        ],
+      },
+      {
+        heading: "Things to confirm before playing Lowest Card Joker",
+        list: [
+          "Does the app or table apply it automatically on every hand, or does it need to be selected as a table rule before cards are dealt?",
+          "If a player's lowest card appears more than once in their hand, is the tie resolved by suit rank, or by some other house rule?",
+          "Is this variant actually available in the specific app or table being used — not every app offers it, and the name may differ slightly by platform.",
+          "Does a wild card here count toward every hand type, or are there restrictions, as with some shared-joker tables?",
         ],
       },
     ],
@@ -141,6 +465,31 @@ export const guides: Article[] = [
         question: "Is there a check option like in poker?",
         answer:
           "No. Staying in always costs chips: on your turn you either bet the required amount or pack (fold), forfeiting anything you have already put in.",
+      },
+      {
+        question: "What is the best hand in Muflis?",
+        answer:
+          "The lowest mixed-suit high-card hand, commonly 2-3-5. Rules vary slightly by table. See the full Muflis rules above.",
+      },
+      {
+        question: "Which cards are wild in AK47?",
+        answer:
+          "A, K, 4 and 7 of all suits — sixteen of the 52 cards. See the full AK47 rules above.",
+      },
+      {
+        question: "Can a Joker be any card?",
+        answer:
+          "Yes, within the table's rules. It takes the value that gives the best hand. See the full Joker rules above.",
+      },
+      {
+        question: "What does 999 mean in Teen Patti?",
+        answer:
+          "It's the target number in the 999 (Paplu) variant. Each card becomes a digit — ace as 1, two through nine at face value, and tens or picture cards as 0 — and the closest arranged total to 999 wins. See the full 999 rules above.",
+      },
+      {
+        question: "What is Lowest Card Joker in Teen Patti?",
+        answer:
+          "A variant where each player's own lowest-ranked card, from the three they are dealt, automatically becomes their personal wild card for that hand — private to them, not shared with the table. See the full rules above.",
       },
     ],
   },
@@ -614,7 +963,7 @@ export const guides: Article[] = [
         heading: "Lowest Card Joker",
         paragraphs: [
           "Here each player's own lowest card is wild — for that player only, along with any other cards of the same rank in their hand. Everyone therefore holds at least one joker, but nobody knows which rank is wild in anyone else's cards.",
-          "It is a subtler variant than AK47: hands run stronger than classic Teen Patti without being saturated in wilds, and reading opponents gets harder because their wild rank is private information. See the full [Lowest Card Joker Teen Patti rules guide](/guides/lowest-card-joker-teen-patti-rules) for a worked example and the questions to confirm before playing.",
+          "It is a subtler variant than AK47: hands run stronger than classic Teen Patti without being saturated in wilds, and reading opponents gets harder because their wild rank is private information. See the full [Lowest Card Joker Teen Patti rules](/guides/teen-patti-rules#lowest-card-joker) for a worked example and the questions to confirm before playing.",
         ],
       },
       {

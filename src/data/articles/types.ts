@@ -5,6 +5,12 @@ export type ArticleTable = {
 
 export type ArticleSection = {
   heading?: string;
+  /**
+   * Optional anchor id rendered on the heading element, so other pages (or a
+   * `next.config.ts` redirect) can deep-link to this subsection with
+   * `#id`. Only needed on sections that are a jump-link target.
+   */
+  id?: string;
   paragraphs?: string[];
   list?: string[];
   table?: ArticleTable;

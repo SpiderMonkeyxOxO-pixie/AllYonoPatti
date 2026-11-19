@@ -41,14 +41,19 @@ function validateArticles(entries: Article[], label: string): Article[] {
     }
   }
 
-  const LINK_PATTERN = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
+  // Matches the `[label](/path)` convention, and also a same-page
+  // `[label](#anchor)` jump link (skipped below — nothing to validate).
+  const LINK_PATTERN = /\[([^\]]+)\]\(((?:\/|#)[^)\s]+)\)/g;
   for (const a of entries) {
     const text = a.sections
       .flatMap((s) => [...(s.paragraphs ?? []), ...(s.list ?? [])])
       .join("\n");
     for (const match of text.matchAll(LINK_PATTERN)) {
       const href = match[2];
-      const articleMatch = href.match(/^\/(guides|blog)\/([^/]+)$/);
+      if (href.startsWith("#")) continue;
+      // Strip a trailing "#anchor" — it points at a subsection of the
+      // target article, not a separate slug.
+      const articleMatch = href.match(/^\/(guides|blog)\/([^/#]+)(?:#.*)?$/);
       if (
         articleMatch &&
         ![...guides, ...posts].some((x) => x.slug === articleMatch[2])

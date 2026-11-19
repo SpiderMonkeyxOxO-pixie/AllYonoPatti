@@ -6,8 +6,13 @@ type ArticleBodyProps = {
   sections: ArticleSection[];
 };
 
-/** Matches the site's `[label](/path)` inline-link convention in article prose. */
-const LINK_PATTERN = /\[([^\]]+)\]\((\/[^)\s]+)\)/g;
+/**
+ * Matches the site's `[label](/path)` inline-link convention in article
+ * prose. Also matches a same-page `[label](#anchor)` jump link, and a
+ * cross-page `[label](/guides/slug#anchor)` deep link into another
+ * article's subsection.
+ */
+const LINK_PATTERN = /\[([^\]]+)\]\(((?:\/|#)[^)\s]+)\)/g;
 
 /**
  * Article copy is authored with plain `[label](/path)` markers for internal
@@ -27,17 +32,28 @@ function renderWithLinks(text: string): ReactNode[] {
       nodes.push(text.slice(lastIndex, match.index));
     }
     const [, label, href] = match;
-    // Scheduled articles may link to posts that are not live yet. Render those
-    // as plain text so no visitor or crawler ever hits a 404.
-    const articleMatch = href.match(/^\/(?:guides|blog)\/([^/]+)$/);
-    if (articleMatch && !getArticleBySlug(articleMatch[1])) {
-      nodes.push(label);
-    } else {
+    if (href.startsWith("#")) {
+      // A same-page anchor jump link — no article to validate against.
       nodes.push(
-        <Link key={`link-${key++}`} href={href}>
+        <a key={`link-${key++}`} href={href}>
           {label}
-        </Link>,
+        </a>,
       );
+    } else {
+      // Strip any "#anchor" suffix before checking the target article
+      // exists — the fragment points at a subsection, not a separate slug.
+      const articleMatch = href.match(/^\/(?:guides|blog)\/([^/#]+)(?:#.*)?$/);
+      // Scheduled articles may link to posts that are not live yet. Render
+      // those as plain text so no visitor or crawler ever hits a 404.
+      if (articleMatch && !getArticleBySlug(articleMatch[1])) {
+        nodes.push(label);
+      } else {
+        nodes.push(
+          <Link key={`link-${key++}`} href={href}>
+            {label}
+          </Link>,
+        );
+      }
     }
     lastIndex = match.index + match[0].length;
   }
@@ -52,7 +68,7 @@ export function ArticleBody({ sections }: ArticleBodyProps) {
     <div className="content-prose mt-6">
       {sections.map((section, i) => (
         <section key={section.heading ?? `section-${i}`}>
-          {section.heading && <h2>{section.heading}</h2>}
+          {section.heading && <h2 id={section.id}>{section.heading}</h2>}
           {section.paragraphs?.map((p) => (
             <p key={p.slice(0, 40)}>{renderWithLinks(p)}</p>
           ))}

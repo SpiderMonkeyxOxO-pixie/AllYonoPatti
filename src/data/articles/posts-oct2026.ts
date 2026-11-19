@@ -131,7 +131,7 @@ export const postsOct2026: Article[] = [
       {
         "heading": "Variations in each game",
         "paragraphs": [
-          "Teen Patti has local variations such as [Muflis](/guides/muflis-teen-patti-rules), [AK47](/guides/ak47-teen-patti-rules) and [Joker](/guides/joker-teen-patti-rules). Rummy has formats too: points rummy, pool rummy and deals rummy, which vary how rounds are scored. Always read the table or app rules before playing."
+          "Teen Patti has local variations such as [Muflis](/guides/teen-patti-rules#muflis), [AK47](/guides/teen-patti-rules#ak47) and [Joker](/guides/teen-patti-rules#joker). Rummy has formats too: points rummy, pool rummy and deals rummy, which vary how rounds are scored. Always read the table or app rules before playing."
         ]
       },
       {
@@ -406,7 +406,7 @@ export const postsOct2026: Article[] = [
       {
         "heading": "How the game developed locally",
         "paragraphs": [
-          "Players invented variations that changed the rules or ranking, including [Muflis](/guides/muflis-teen-patti-rules), [AK47](/guides/ak47-teen-patti-rules) and [Joker](/guides/joker-teen-patti-rules). See all of them in [common Teen Patti variations](/guides/common-teen-patti-variations). The game also developed its own terms such as blind, chaal and sideshow, covered in [Teen Patti terms explained](/guides/teen-patti-terms).",
+          "Players invented variations that changed the rules or ranking, including [Muflis](/guides/teen-patti-rules#muflis), [AK47](/guides/teen-patti-rules#ak47) and [Joker](/guides/teen-patti-rules#joker). See all of them in [common Teen Patti variations](/guides/common-teen-patti-variations). The game also developed its own terms such as blind, chaal and sideshow, covered in [Teen Patti terms explained](/guides/teen-patti-terms).",
           "Knowing the background explains why there are so many rule variations. A game that grew through families rather than a central rulebook develops local differences, such as the [A23 ranking](/guides/a23-sequence-in-teen-patti) or optional rules like [sideshow](/guides/teen-patti-sideshow-rules). When rules differ, the table's rules are always the final word."
         ]
       },
