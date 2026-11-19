@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { PromoDailyCard } from "@/components/promo/PromoDailyCard";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 import { FaqSection } from "@/components/ui/FaqSection";
 import { games, getGamesWithLivePromo } from "@/data/games";
-import { buildMetadata } from "@/lib/seo";
-import { siteConfig } from "@/lib/site";
+import { readPromoSheet } from "@/lib/promo-file";
+import { buildMetadata, formatDate } from "@/lib/seo";
+import { absoluteUrl, siteConfig } from "@/lib/site";
 
 // promo-code.txt is edited directly on the server (no rebuild step) — this
 // page must re-read it on every request rather than serve a cached/static
@@ -42,9 +44,24 @@ const hubFaqs = [
 
 export default function PromoCodesPage() {
   const games = getGamesWithLivePromo();
+  // Same sheet PromoDailyCard reads for individual codes — surfaced here as
+  // a page-level freshness signal (visible date + matching dateModified in
+  // the schema below), rather than leaving this hub's only freshness cue
+  // buried inside each card.
+  const { date: codesDate } = readPromoSheet();
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Teen Patti Promo Code Status Updates — All ${games.length} Games`,
+    url: absoluteUrl("/promo-codes"),
+    dateModified: codesDate,
+    isPartOf: { "@type": "WebSite", name: siteConfig.name, url: siteConfig.url },
+  };
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8">
+      <JsonLd data={collectionSchema} />
       <Breadcrumbs
         items={[
           { name: "Home", href: "/" },
@@ -60,6 +77,9 @@ export default function PromoCodesPage() {
         Browse the latest recorded promo codes for all {games.length} listed
         platforms, with a separate slot for the morning, afternoon, and
         evening release periods.
+      </p>
+      <p className="mt-1.5 text-sm text-slate-500">
+        Codes last recorded: {formatDate(codesDate)}
       </p>
       <div className="mt-5 flex flex-wrap gap-3">
         <a

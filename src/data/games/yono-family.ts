@@ -25,6 +25,18 @@ export const yonoFamily: GameEntry[] = [
     safetyNotes:
       "Yono-branded apps are distributed under many similar names. Before installing anything, compare the exact app name, publisher, and source against the version you intend to use.",
     relatedGameSlugs: ["yono-games", "yono-777", "ind-rummy", "rummy-888"],
+    // Title/meta override: GSC showed /promo-codes/yono-rummy's impressions
+    // tripling while its position stayed stuck around 21 — a sign the
+    // generic promo title was too close to /games/yono-rummy's own framing
+    // to win the broad "yono rummy" query, splitting rather than sharing it.
+    // /games/yono-rummy stays the broad-intent page (richer profile
+    // content, already cross-linked from here); this override sharpens the
+    // promo page toward the narrower "yono rummy promo code" query, honest
+    // about no code being on record (promoStatus defaults to
+    // awaiting-review).
+    promoMetaTitle: "Yono Rummy Promo Code: What's Confirmed So Far",
+    promoMetaDescription:
+      "Yono Rummy promo code status, checked and explained: no code is currently on record, what that means, and what a future code may include.",
   }),
   defineGame({
     name: "Yono Games",

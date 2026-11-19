@@ -80,6 +80,31 @@ const nextConfig: NextConfig = {
         destination: "/guides/teen-patti-rules#lowest-card-joker",
         permanent: true,
       },
+      // Four near-identical "Does {App} Include Teen Patti?" posts were
+      // added back-to-back (DhanGame, Jaiho 777, Yono Arcade, Jaiho Rummy),
+      // all competing for the same "brand + teen patti" query shape and
+      // reusing near-identical boilerplate across pages. Consolidated into
+      // one comparison post with an anchored section per brand.
+      {
+        source: "/blog/dhan-game-teen-patti-card-games",
+        destination: "/blog/does-this-app-include-teen-patti#dhangame",
+        permanent: true,
+      },
+      {
+        source: "/blog/jaiho-777-teen-patti-card-games",
+        destination: "/blog/does-this-app-include-teen-patti#jaiho-777",
+        permanent: true,
+      },
+      {
+        source: "/blog/yono-arcade-teen-patti-card-games",
+        destination: "/blog/does-this-app-include-teen-patti#yono-arcade",
+        permanent: true,
+      },
+      {
+        source: "/blog/jaiho-rummy-teen-patti-card-games",
+        destination: "/blog/does-this-app-include-teen-patti#jaiho-rummy",
+        permanent: true,
+      },
     ];
   },
   async headers() {

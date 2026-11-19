@@ -1687,15 +1687,16 @@ export const posts: Article[] = [
     ],
   },
   {
-    slug: "dhan-game-teen-patti-card-games",
-    title: "Does DhanGame Include Teen Patti? Its Card Games Explained",
-    seoTitle: "DhanGame Teen Patti: Card Games Explained",
+    slug: "does-this-app-include-teen-patti",
+    title:
+      "Does This App Include Teen Patti? Jaiho 777, Jaiho Rummy, DhanGame & Yono Arcade Checked",
+    seoTitle: "Teen Patti in Jaiho 777, DhanGame & Yono Arcade",
     description:
-      "Does DhanGame include Teen Patti? Its own description frames it as a crown-and-coins slots title, with no card games named anywhere — here's what's confirmed.",
+      "Does Jaiho 777, Jaiho Rummy, DhanGame or Yono Arcade include Teen Patti? Each app's own description checked and compared in one place — DhanGame's answer is no, the other three report it as a secondary feature.",
     category: "Game Comparisons",
-    featuredImage: "/images/blog/dhan-game-teen-patti-card-games.webp",
-    publishedAt: "2026-11-07",
-    updatedAt: "2026-11-07",
+    featuredImage: "/images/blog/jaiho-777-teen-patti-card-games.webp",
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
     relatedSlugs: [
       "what-is-teen-patti",
       "teen-patti-rules",
@@ -1705,55 +1706,90 @@ export const posts: Article[] = [
     sections: [
       {
         paragraphs: [
-          "The current answer is: no. DhanGame's own description doesn't mention Teen Patti anywhere, and nothing in this portfolio's existing DhanGame coverage names a card-game mode of any kind.",
-          "DhanGame launched on 23 July 2026 and is listed here and elsewhere under the slots category — a \"crown-and-coins\" title, in the operator's own framing. That's a specific, consistent description, not a vague \"and more games\" line that might be hiding something. When a platform's marketing leads with slots and never brings up cards, that's a real signal, not just an absence of information.",
-          "This is a cleaner case than some other entries in this \"Does {App} Include Teen Patti\" series. Yono 777 and Win Rummy both had a website line or testimonial connecting them to Teen Patti that needed checking against the actual app. DhanGame doesn't have that problem — there's no claim to verify, because no claim exists.",
-          "AllYonoPatti.com is an independent information directory. It does not operate DhanGame, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
+          "Four platforms covered on this directory get asked some version of the same question: does this app actually include Teen Patti, or is that assumed just because it sits in the same app family as one that does? The honest answer isn't the same for all four. DhanGame's own description never mentions Teen Patti anywhere. Jaiho 777, Yono Arcade, and Jaiho Rummy each name a Teen Patti-style card mode or table — but every one of them frames it as a secondary feature next to a different primary catalogue, not independently confirmed inside any of the apps.",
+          "Jump to: [DhanGame](#dhangame) · [Jaiho 777](#jaiho-777) · [Yono Arcade](#yono-arcade) · [Jaiho Rummy](#jaiho-rummy).",
+          "AllYonoPatti.com is an independent information directory. It does not operate any of these four apps, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
         ],
       },
       {
-        heading: "DhanGame Teen Patti Status at a Glance",
+        heading: "Teen Patti Status at a Glance",
         table: {
-          headers: ["Question", "Current answer"],
+          headers: ["App", "Mentions Teen Patti?", "Is it the main feature?", "Last checked"],
           rows: [
-            ["Does the operator's description mention Teen Patti?", "No"],
-            ["Is DhanGame listed under a card-game category?", "No — slots"],
-            ["Does any other portfolio source name card games for DhanGame?", "No"],
-            ["Has a card-game mode been seen inside the APK?", "Not independently verified"],
-            ["Is a Teen Patti game mode confirmed?", "No"],
-            ["Verification status", "No claim exists to verify"],
-            ["Last checked", "November 7, 2026"],
+            ["DhanGame", "No", "—", "November 7, 2026"],
+            ["Jaiho 777", "Yes — secondary card menu", "No — 777-style slots are primary", "November 8, 2026"],
+            [
+              "Yono Arcade",
+              "Yes — reported lobby content",
+              "No — arcade & casual games are primary",
+              "November 8, 2026",
+            ],
+            [
+              "Jaiho Rummy",
+              "Yes — commonly mentioned alongside the rummy core",
+              "No — Indian rummy formats are primary",
+              "November 10, 2026",
+            ],
           ],
         },
+      },
+      {
+        heading: "What \"Secondary Feature\" Means Here",
         paragraphs: [
-          "For DhanGame's launch date, advertised welcome bonus and what's still unconfirmed about those figures, see this directory's [DhanGame launch details](/blog/dhan-game-launch-details) post — that's a separate question from the one this page answers.",
+          "Across this directory's app listings, entries like these fall into one of two clear buckets: platforms that clearly state they have no card games at all (DhanGame), or platforms built entirely around Teen Patti as the headline feature. Jaiho 777, Yono Arcade, and Jaiho Rummy all sit in a middle category — each one's own description names Teen Patti-style content specifically enough to not be vague marketing, but frames it as a side feature next to a different primary catalogue that gets top billing.",
+          "That distinction matters for anyone deciding whether to install one of them. If the app's advertised primary catalogue is the draw, the reported Teen Patti content is a bonus. If Teen Patti is specifically the goal, these three apps reportedly have it, but none of them is built around it — worth knowing before downloading, since the home screen and most marketing for each will likely emphasise its own primary focus instead.",
         ],
       },
       {
-        heading: "Why DhanGame Doesn't Fit the Teen Patti Pattern",
+        heading: "DhanGame",
+        id: "dhangame",
         paragraphs: [
-          "Most entries in this series exist because a platform's own marketing creates genuine ambiguity — a line on a website, a testimonial, a \"25+ games\" claim that doesn't say which 25. DhanGame doesn't generate that ambiguity. Every description of it that's been checked across this portfolio agrees on the same framing: a slots title built around a crown-and-coins theme, first and only.",
-          "That consistency matters. A single source calling DhanGame a slots app could be an incomplete description. Multiple independent listings agreeing, with zero mention of cards anywhere, is a much stronger basis for a direct answer than this series usually gets to work with.",
+          "The current answer is: no. DhanGame's own description doesn't mention Teen Patti anywhere, and nothing in this portfolio's existing DhanGame coverage names a card-game mode of any kind.",
+          "DhanGame launched on 23 July 2026 and is listed here and elsewhere under the slots category — a \"crown-and-coins\" title, in the operator's own framing. Every description of it checked across this portfolio (including AllYonoReward and AllYonoOfficial) agrees on the same framing, with zero mention of cards anywhere — a cleaner case than the other three apps below, where a card-game claim exists and needs qualifying rather than simply confirming an absence.",
+          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. Slot and reel games, which is what DhanGame's own marketing centers on, work on a completely different mechanic: you spin, symbols land somewhere, and the outcome is random rather than a contest between players. There's no opponent to read, no hand to build — if Teen Patti is specifically what someone's after, DhanGame is built around an entirely different kind of game.",
+          "No — not for Teen Patti specifically. DhanGame may still be worth a look if its slots catalogue is the actual draw, but go in with that expectation. For DhanGame's launch date, advertised welcome bonus and what's still unconfirmed about those figures, see this directory's [DhanGame launch details](/blog/dhan-game-launch-details) post, and its full listing on the [DhanGame profile page](/games/dhan-game).",
         ],
       },
       {
-        heading: "Teen Patti vs. What DhanGame Is Actually Built Around",
+        heading: "Jaiho 777",
+        id: "jaiho-777",
         paragraphs: [
-          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. Slot and reel games, which is what DhanGame's own marketing centers on, work on a completely different mechanic: you spin, symbols land somewhere, and the outcome is random rather than a contest between players.",
-          "There's no opponent to read in a slots game, no hand to build, nothing resembling a Teen Patti table. If Teen Patti is specifically what someone's after, DhanGame isn't a near-miss that might secretly have it buried in a menu — it's built around an entirely different kind of game.",
+          "The current answer is: reportedly yes, but as a secondary feature. Jaiho 777's own description centers on 777-style slot and reel games, with a side menu of card play that reportedly includes Teen Patti-style tables — not the app's main draw, but a named, specific component rather than a vague catch-all claim.",
+          "The app's name is also commonly misspelled as \"Jahio 777\" across listings and shared links, which makes cross-checking sources for this one unusually tricky and makes it easier than usual to land on the wrong page — worth confirming the spelling against an official source before trusting any link.",
+          "Teen Patti is a three-card game played against other people — you bet and fold or call based on your hand and your read on the table. The 777-style reel games Jaiho 777's own marketing centers on work differently: you spin, symbols land, and the outcome is random rather than a contest between players. Both are reportedly available under one app, with slots as the clear primary focus based on every description checked for this listing.",
+          "Possibly worth it for Teen Patti — but go in knowing the slots side is the main draw, with Teen Patti positioned as a secondary option that hasn't been independently verified inside the app. For Jaiho 777's bonus details, promo-code status, and launch timeline, see the [Jaiho 777 profile page](/games/jaiho-777).",
         ],
       },
       {
-        heading: "Should You Download DhanGame for Teen Patti?",
+        heading: "Yono Arcade",
+        id: "yono-arcade",
         paragraphs: [
-          "No — not for that reason. If the actual goal is Teen Patti, a platform that leads with Teen Patti as its main feature is the more direct choice, and this directory covers several. DhanGame may still be worth a look if its slots catalogue is the actual draw, but go in with that expectation.",
-          "Before installing anything in this space, it's worth confirming the publisher and download source rather than trusting a similarly named link — app names in this category repeat and overlap often enough that the name alone isn't proof of anything. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on DhanGame or anywhere else. For DhanGame's own listing — bonus details, promo-code status, launch timeline — see the [DhanGame profile page](/games/dhan-game).",
+          "The current answer is: reportedly yes, but as a secondary feature. Yono Arcade's own description centers on short-session arcade and casual games, with Teen Patti-style tables reported to appear in its lobby alongside that main catalogue — not the app's headline draw, but a named, specific component rather than a vague catch-all claim.",
+          "Arcade-style apps in this segment frequently rotate their mini-game line-ups, so the exact catalogue reported for Yono Arcade may differ from older descriptions or from what you find after installing.",
+          "Teen Patti is a three-card game played against other people, building and betting on a hand over several rounds. The short-session arcade and casual games Yono Arcade's own marketing centers on work differently: quick, self-contained rounds rather than a sustained multi-player card contest. Both are reportedly available under one app, with arcade and casual play as the clear primary focus based on every description checked for this listing.",
+          "Possibly worth it for Teen Patti — but go in knowing the arcade-and-casual side is the main draw, with Teen Patti positioned as a secondary lobby option that hasn't been independently verified inside the app. For Yono Arcade's bonus details, promo-code status, and launch timeline, see the [Yono Arcade profile page](/games/yono-arcade).",
         ],
       },
       {
-        heading: "What Would Change This Answer",
+        heading: "Jaiho Rummy",
+        id: "jaiho-rummy",
         paragraphs: [
-          "Operators add game modes after launch often enough that \"no card games today\" isn't necessarily \"no card games ever.\" If DhanGame's own materials start naming Teen Patti, or if a card-game section shows up inside the app, this page gets updated to reflect that — the same standard applied to every listing in this directory. Until then, the honest answer stays what the operator's own description actually says: a slots title, with no Teen Patti in sight.",
+          "The current answer is: reportedly yes, but as a secondary feature. Jaiho Rummy's own description centers on Indian rummy formats as the advertised core, with Teen Patti-style tables commonly mentioned in the same breath — not the app's headline draw, but a named, specific component rather than a vague catch-all claim. It's Jaiho 777's stablemate, with a different primary catalogue (Indian rummy here, 777-style slots there) but the same secondary-feature shape of answer.",
+          "Rummy apps in this segment tend to emphasise quick matchmaking and small-stakes tables, but this directory has not confirmed how this particular app handles stakes, accounts, or withdrawals — a separate, unverified question from the game-catalogue claim covered here.",
+          "Teen Patti is a three-card game decided in a single betting round. Indian rummy formats, which Jaiho Rummy's own marketing centers on, work differently: players draw and discard from a shared pool to form sets and sequences across a full hand — a longer, skill-driven round rather than a single three-card bet. Both are reportedly available under one app, with Indian rummy formats as the clear primary focus based on every description checked for this listing.",
+          "Possibly worth it for Teen Patti — but go in knowing the rummy side is the main draw, with Teen Patti positioned as a secondary table option that hasn't been independently verified inside the app. For Jaiho Rummy's bonus details, promo-code status, and launch timeline, see the [Jaiho Rummy profile page](/games/jaiho-rummy).",
+        ],
+      },
+      {
+        heading: "Before Installing Any of These for Teen Patti",
+        paragraphs: [
+          "If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several. Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link — app names in this category repeat, overlap, and get misspelled often enough that the name alone isn't proof of anything. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on any of these four apps or elsewhere.",
+        ],
+      },
+      {
+        heading: "What Would Change These Answers",
+        paragraphs: [
+          "Operators add, remove, or re-emphasise game modes after launch often enough that none of these four answers is permanent. If any app's own materials change how they describe Teen Patti — DhanGame starts naming it, or one of the other three removes or repositions it — this page gets updated to match, the same standard applied to every listing in this directory.",
         ],
       },
     ],
@@ -1764,109 +1800,19 @@ export const posts: Article[] = [
           "No. DhanGame's own description doesn't mention Teen Patti, and no other source in this portfolio names a card-game mode for it either. It's consistently described as a slots title.",
       },
       {
-        question: "Is DhanGame a card-game app at all?",
-        answer:
-          "No. Every available description places DhanGame in the slots category, built around a crown-and-coins theme, with no card games named.",
-      },
-      {
-        question: "Could Teen Patti be added to DhanGame later?",
-        answer:
-          "Possibly — operators do add game modes after launch. Nothing published right now indicates DhanGame has or plans one, but this page will update if that changes.",
-      },
-      {
-        question: "Where can I find DhanGame's bonus and launch details?",
-        answer:
-          "See this directory's dedicated DhanGame launch details post for the advertised welcome bonus, deposit-match terms, and what's still unverified about those figures — a separate question from its game catalogue.",
-      },
-      {
-        question: "Does this directory operate or endorse DhanGame?",
-        answer:
-          "No. AllYonoPatti.com is an independent information directory. It doesn't run DhanGame, handle payments, or guarantee that any advertised feature will match what ships in the app.",
-      },
-    ],
-  },
-  {
-    slug: "jaiho-777-teen-patti-card-games",
-    title: "Does Jaiho 777 Include Teen Patti? Its Card Games Explained",
-    seoTitle: "Jaiho 777 Teen Patti: Card Games Explained",
-    description:
-      "Does Jaiho 777 include Teen Patti? Its own description names a secondary card-game menu alongside its 777-style slots focus — here's what's confirmed and what isn't.",
-    category: "Game Comparisons",
-    featuredImage: "/images/blog/jaiho-777-teen-patti-card-games.webp",
-    publishedAt: "2026-11-08",
-    updatedAt: "2026-11-08",
-    relatedSlugs: [
-      "what-is-teen-patti",
-      "teen-patti-rules",
-      "how-to-review-a-teen-patti-platform-safely",
-      "how-to-identify-fake-teen-patti-apps",
-    ],
-    sections: [
-      {
-        paragraphs: [
-          "The current answer is: reportedly yes, but as a secondary feature. Jaiho 777's own description centers on 777-style slot and reel games, with a side menu of card play that reportedly includes Teen Patti-style tables — not the app's main draw, but a named, specific component rather than a vague catch-all claim.",
-          "The app's name is also commonly misspelled as \"Jahio 777\" across listings and shared links, which makes cross-checking sources for this one unusually tricky — worth keeping in mind before trusting a link that uses either spelling.",
-          "That puts Jaiho 777 in a different category from DhanGame, the previous entry in this series: DhanGame's marketing never mentions card games at all, while Jaiho 777's own framing specifically calls out a Teen Patti-style card menu — it's just positioned as secondary to the slots focus, not the headline feature.",
-          "AllYonoPatti.com is an independent information directory. It does not operate Jaiho 777, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
-        ],
-      },
-      {
-        heading: "Jaiho 777 Teen Patti Status at a Glance",
-        table: {
-          headers: ["Question", "Current answer"],
-          rows: [
-            ["Does the operator's description mention Teen Patti?", "Yes — as a secondary card-game menu"],
-            ["Is Teen Patti the app's main advertised feature?", "No — 777-style slots are the primary focus"],
-            ["Is Jaiho 777 listed under a card-game category?", "No — slots-style platform"],
-            ["Has a Teen Patti game mode been seen inside the APK?", "Not independently verified"],
-            ["Is the operator, catalogue, or payment handling verified?", "No"],
-            ["Common naming confusion", "Often misspelled \"Jahio 777\" in listings and shared links"],
-            ["Verification status", "Named as a feature, not independently confirmed"],
-            ["Last checked", "November 8, 2026"],
-          ],
-        },
-        paragraphs: [
-          "For Jaiho 777's launch details, advertised bonus, and promo-code status, see this directory's [Jaiho 777 profile page](/games/jaiho-777) — that's a separate question from the one this page answers.",
-        ],
-      },
-      {
-        heading: "What \"Secondary Feature\" Means for Jaiho 777",
-        paragraphs: [
-          "Most entries in this series fall into one of two clear buckets: platforms that clearly state they have no card games (like DhanGame), or platforms built entirely around Teen Patti as the headline feature. Jaiho 777 sits in a middle category — its own description names a Teen Patti-style card menu specifically enough to not be vague marketing, but frames it as a side feature next to a 777-style slots focus that gets top billing.",
-          "That distinction matters for anyone deciding whether to install it. If the slots-style reel games are the draw, the reported card menu is a bonus. If Teen Patti is specifically the goal, Jaiho 777 is a platform that reportedly has it, not one built around it — worth knowing before downloading, since the home screen and most marketing will likely emphasise the slots side.",
-        ],
-      },
-      {
-        heading: "Teen Patti vs. What Jaiho 777 Leads With",
-        paragraphs: [
-          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. The 777-style reel games that Jaiho 777's own marketing centers on work differently: you spin, symbols land, and the outcome is random rather than a contest between players.",
-          "These are genuinely different experiences sitting under one app. A reported side menu of Teen Patti-style tables doesn't change what the platform is built around — it just means both are reportedly available, with slots as the clear primary focus based on every description checked for this listing.",
-        ],
-      },
-      {
-        heading: "Should You Download Jaiho 777 for Teen Patti?",
-        paragraphs: [
-          "Possibly — but go in knowing the slots side is the main draw, with Teen Patti positioned as a secondary option that hasn't been independently verified inside the app itself. If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several.",
-          "Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link — this app's name in particular circulates in at least two spellings (\"Jaiho 777\" and \"Jahio 777\"), which makes it easier than usual to land on the wrong page. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on Jaiho 777 or anywhere else. For Jaiho 777's own listing — bonus details, promo-code status, launch timeline — see the [Jaiho 777 profile page](/games/jaiho-777).",
-        ],
-      },
-      {
-        heading: "What Would Change This Answer",
-        paragraphs: [
-          "This page reflects what Jaiho 777's own description currently says, not independently verified in-app testing — that's true of the secondary Teen Patti-style menu specifically. If that changes — the card menu turns out not to exist, gets removed, or the app's own framing shifts to feature it more prominently — this page gets updated to match, the same standard applied to every listing in this directory.",
-        ],
-      },
-    ],
-    faq: [
-      {
         question: "Does Jaiho 777 include Teen Patti?",
         answer:
           "Reportedly, yes — but as a secondary feature. The operator's own description names a side menu of card play that includes Teen Patti-style tables, positioned alongside its primary 777-style slots focus, not independently verified inside the app.",
       },
       {
-        question: "Is Teen Patti the main game on Jaiho 777?",
+        question: "Does Yono Arcade include Teen Patti?",
         answer:
-          "No. Every description checked for this listing centers on 777-style reel games as the primary draw, with the Teen Patti-style card menu described as a secondary feature.",
+          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as reported lobby content, positioned alongside its primary arcade-and-casual focus, not independently verified inside the app.",
+      },
+      {
+        question: "Does Jaiho Rummy include Teen Patti?",
+        answer:
+          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as commonly mentioned alongside its primary Indian-rummy core, not independently verified inside the app.",
       },
       {
         question: "Are Jaiho 777 and Jahio 777 the same app?",
@@ -1874,212 +1820,19 @@ export const posts: Article[] = [
           "Yes — \"Jahio 777\" is a common misspelling of the same app's name that circulates in listings and shared links. Confirm which spelling the official source uses before trusting a third-party page.",
       },
       {
-        question: "Where can I find Jaiho 777's bonus and launch details?",
+        question: "Are Jaiho 777 and Jaiho Rummy the same app?",
         answer:
-          "See this directory's Jaiho 777 profile page for its advertised welcome bonus, download link, and promo-code status — a separate question from its game catalogue.",
+          "No — they're separate apps in the same Jaiho family with different primary catalogues (777-style slots for Jaiho 777, Indian rummy formats for Jaiho Rummy), though both reportedly include secondary Teen Patti-style content. Yono Arcade is a separate app again, in the wider Yono-network directory rather than the Jaiho family.",
       },
       {
-        question: "Does this directory operate or endorse Jaiho 777?",
+        question: "Where can I find bonus and launch details for these apps?",
         answer:
-          "No. AllYonoPatti.com is an independent information directory. It doesn't run Jaiho 777, handle payments, or guarantee that any advertised feature will match what ships in the app.",
-      },
-    ],
-  },
-  {
-    slug: "yono-arcade-teen-patti-card-games",
-    title: "Does Yono Arcade Include Teen Patti? Its Lobby Games Explained",
-    seoTitle: "Yono Arcade Teen Patti: Lobby Games Explained",
-    description:
-      "Does Yono Arcade include Teen Patti? Its own description names Teen Patti-style games as reported lobby content, secondary to its arcade-and-casual focus — here's what's confirmed and what isn't.",
-    category: "Game Comparisons",
-    featuredImage: "/images/blog/yono-arcade-teen-patti-card-games.webp",
-    publishedAt: "2026-11-09",
-    updatedAt: "2026-11-09",
-    relatedSlugs: [
-      "what-is-teen-patti",
-      "teen-patti-rules",
-      "how-to-review-a-teen-patti-platform-safely",
-      "how-to-identify-fake-teen-patti-apps",
-    ],
-    sections: [
-      {
-        paragraphs: [
-          "The current answer is: reportedly yes, but as a secondary feature. Yono Arcade's own description centers on short-session arcade and casual games, with Teen Patti-style tables reported to appear in its lobby alongside that main catalogue — not the app's headline draw, but a named, specific component rather than a vague catch-all claim.",
-          "That puts Yono Arcade in a different category from DhanGame, the first entry in this series: DhanGame's marketing never mentions card games at all, while Yono Arcade's own framing specifically names Teen Patti-style lobby content — it's just positioned as secondary to the arcade-and-casual focus, not the headline feature. It's a similar shape of answer to Jaiho 777's, though the two apps lead with different primary catalogues (arcade/casual here, 777-style slots there).",
-          "Arcade-style apps in this segment frequently rotate their mini-game line-ups, so the exact catalogue reported for Yono Arcade may differ from older descriptions or from what you find after installing.",
-          "AllYonoPatti.com is an independent information directory. It does not operate Yono Arcade, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
-        ],
+          "See each app's own profile page: DhanGame's launch details post plus its profile page, and the Jaiho 777, Yono Arcade, and Jaiho Rummy profile pages — each covers the advertised welcome bonus, download link, and promo-code status separately from the game-catalogue question answered here.",
       },
       {
-        heading: "Yono Arcade Teen Patti Status at a Glance",
-        table: {
-          headers: ["Question", "Current answer"],
-          rows: [
-            ["Does the operator's description mention Teen Patti?", "Yes — reported as lobby content"],
-            ["Is Teen Patti the app's main advertised feature?", "No — arcade and casual games are the primary focus"],
-            ["Is Yono Arcade listed under a card-game category?", "No — arcade & casual games platform"],
-            ["Has a Teen Patti game mode been seen inside the APK?", "Not independently verified"],
-            ["Is the operator, catalogue, or payout handling verified?", "No"],
-            ["Verification status", "Named as a feature, not independently confirmed"],
-            ["Last checked", "November 8, 2026"],
-          ],
-        },
-        paragraphs: [
-          "For Yono Arcade's launch details, advertised bonus, and promo-code status, see this directory's [Yono Arcade profile page](/games/yono-arcade) — that's a separate question from the one this page answers.",
-        ],
-      },
-      {
-        heading: "What \"Secondary Feature\" Means for Yono Arcade",
-        paragraphs: [
-          "Most entries in this series fall into one of two clear buckets: platforms that clearly state they have no card games (like DhanGame), or platforms built entirely around Teen Patti as the headline feature. Yono Arcade sits in the same middle category as Jaiho 777 — its own description names Teen Patti-style lobby content specifically enough to not be vague marketing, but frames it as a side feature next to an arcade-and-casual focus that gets top billing.",
-          "That distinction matters for anyone deciding whether to install it. If short-session arcade and casual games are the draw, the reported Teen Patti content is a bonus. If Teen Patti is specifically the goal, Yono Arcade is a platform that reportedly has it, not one built around it — worth knowing before downloading, since the home screen and most marketing will likely emphasise the arcade side.",
-        ],
-      },
-      {
-        heading: "Teen Patti vs. What Yono Arcade Leads With",
-        paragraphs: [
-          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. The short-session arcade and casual games that Yono Arcade's own marketing centers on work differently: quick, self-contained rounds rather than a sustained multi-player card contest.",
-          "These are genuinely different experiences sitting under one app. A reported lobby of Teen Patti-style tables doesn't change what the platform is built around — it just means both are reportedly available, with arcade and casual play as the clear primary focus based on every description checked for this listing.",
-        ],
-      },
-      {
-        heading: "Should You Download Yono Arcade for Teen Patti?",
-        paragraphs: [
-          "Possibly — but go in knowing the arcade-and-casual side is the main draw, with Teen Patti positioned as a secondary lobby option that hasn't been independently verified inside the app itself. If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several.",
-          "Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on Yono Arcade or anywhere else. For Yono Arcade's own listing — bonus details, promo-code status, launch timeline — see the [Yono Arcade profile page](/games/yono-arcade).",
-        ],
-      },
-      {
-        heading: "What Would Change This Answer",
-        paragraphs: [
-          "This page reflects what Yono Arcade's own description currently says, not independently verified in-app testing — that's true of the reported Teen Patti lobby content specifically. If that changes — the lobby content turns out not to exist, gets removed, or the app's own framing shifts to feature it more prominently — this page gets updated to match, the same standard applied to every listing in this directory.",
-        ],
-      },
-    ],
-    faq: [
-      {
-        question: "Does Yono Arcade include Teen Patti?",
+        question: "Does this directory operate or endorse any of these apps?",
         answer:
-          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as reported lobby content, positioned alongside its primary arcade-and-casual focus, not independently verified inside the app.",
-      },
-      {
-        question: "Is Teen Patti the main game on Yono Arcade?",
-        answer:
-          "No. Every description checked for this listing centers on short-session arcade and casual games as the primary draw, with Teen Patti-style lobby content described as a secondary feature.",
-      },
-      {
-        question: "Is Yono Arcade the same as Jaiho 777?",
-        answer:
-          "No — they're separate apps in the wider Yono-network directory with different primary catalogues (arcade/casual here, 777-style slots for Jaiho 777), though both reportedly include secondary Teen Patti-style content.",
-      },
-      {
-        question: "Where can I find Yono Arcade's bonus and launch details?",
-        answer:
-          "See this directory's Yono Arcade profile page for its advertised welcome bonus, download link, and promo-code status — a separate question from its game catalogue.",
-      },
-      {
-        question: "Does this directory operate or endorse Yono Arcade?",
-        answer:
-          "No. AllYonoPatti.com is an independent information directory. It doesn't run Yono Arcade, handle payments, or guarantee that any advertised feature will match what ships in the app.",
-      },
-    ],
-  },
-  {
-    slug: "jaiho-rummy-teen-patti-card-games",
-    title: "Does Jaiho Rummy Include Teen Patti? Its Card Tables Explained",
-    seoTitle: "Jaiho Rummy Teen Patti: Card Tables Explained",
-    description:
-      "Does Jaiho Rummy include Teen Patti? Its own description names Teen Patti-style tables as a reported secondary feature alongside its rummy core — here's what's confirmed and what isn't.",
-    category: "Game Comparisons",
-    featuredImage: "/images/blog/jaiho-rummy-teen-patti-card-games.webp",
-    publishedAt: "2026-11-10",
-    updatedAt: "2026-11-10",
-    relatedSlugs: [
-      "what-is-teen-patti",
-      "teen-patti-rules",
-      "how-to-review-a-teen-patti-platform-safely",
-      "how-to-identify-fake-teen-patti-apps",
-    ],
-    sections: [
-      {
-        paragraphs: [
-          "The current answer is: reportedly yes, but as a secondary feature. Jaiho Rummy's own description centers on Indian rummy formats as the advertised core, with Teen Patti-style tables commonly mentioned in the same breath — not the app's headline draw, but a named, specific component rather than a vague catch-all claim.",
-          "That puts Jaiho Rummy in the same middle category as its stablemate Jaiho 777 and this series' most recent entry, Yono Arcade — all three name Teen Patti-style content specifically enough to not be vague marketing, while keeping it secondary to their own primary catalogue (777-style slots for Jaiho 777, arcade-and-casual games for Yono Arcade, Indian rummy formats here).",
-          "Rummy apps in this segment tend to emphasise quick matchmaking and small-stakes tables, but this directory has not confirmed how this particular app handles stakes, accounts, or withdrawals — that's a separate, unverified question from the game-catalogue claim this page covers.",
-          "AllYonoPatti.com is an independent information directory. It does not operate Jaiho Rummy, provide accounts, accept payments, or guarantee what any platform's catalogue will include now or later.",
-        ],
-      },
-      {
-        heading: "Jaiho Rummy Teen Patti Status at a Glance",
-        table: {
-          headers: ["Question", "Current answer"],
-          rows: [
-            ["Does the operator's description mention Teen Patti?", "Yes — commonly mentioned alongside the rummy core"],
-            ["Is Teen Patti the app's main advertised feature?", "No — Indian rummy formats are the primary focus"],
-            ["Is Jaiho Rummy listed under a card-game category?", "Yes — rummy-focused platform"],
-            ["Has a Teen Patti game mode been seen inside the APK?", "Not independently verified"],
-            ["Is the operator, catalogue, or payout handling verified?", "No"],
-            ["Verification status", "Named as a feature, not independently confirmed"],
-            ["Last checked", "November 10, 2026"],
-          ],
-        },
-        paragraphs: [
-          "For Jaiho Rummy's launch details, advertised bonus, and promo-code status, see this directory's [Jaiho Rummy profile page](/games/jaiho-rummy) — that's a separate question from the one this page answers.",
-        ],
-      },
-      {
-        heading: "What \"Secondary Feature\" Means for Jaiho Rummy",
-        paragraphs: [
-          "Most entries in this series fall into one of two clear buckets: platforms that clearly state they have no card games (like DhanGame), or platforms built entirely around Teen Patti as the headline feature. Jaiho Rummy sits in the same middle category as Jaiho 777 and Yono Arcade — its own description names Teen Patti-style tables specifically enough to not be vague marketing, but frames them as a secondary addition next to an Indian-rummy core that gets top billing.",
-          "That distinction matters for anyone deciding whether to install it. If Indian rummy formats are the draw, the reported Teen Patti tables are a bonus. If Teen Patti is specifically the goal, Jaiho Rummy is a platform that reportedly has it, not one built around it — worth knowing before downloading, since the app's own marketing will likely emphasise the rummy side.",
-        ],
-      },
-      {
-        heading: "Teen Patti vs. What Jaiho Rummy Leads With",
-        paragraphs: [
-          "Teen Patti is a three-card game played against other people — you're dealt a hand, you bet, and you fold or call based on the strength of those cards or your read on the table. Indian rummy formats, which Jaiho Rummy's own marketing centers on, work differently: players draw and discard from a shared pool to form sets and sequences across a full hand, a longer, skill-driven round rather than a single three-card bet.",
-          "These are genuinely different experiences sitting under one app. Commonly mentioned Teen Patti-style tables don't change what the platform is built around — it just means both are reportedly available, with Indian rummy formats as the clear primary focus based on every description checked for this listing.",
-        ],
-      },
-      {
-        heading: "Should You Download Jaiho Rummy for Teen Patti?",
-        paragraphs: [
-          "Possibly — but go in knowing the rummy side is the main draw, with Teen Patti positioned as a secondary table option that hasn't been independently verified inside the app itself. If Teen Patti is the only thing that matters, a platform that leads with it as the headline feature is the more direct choice, and this directory covers several.",
-          "Before installing anything in this space, confirm the publisher and download source rather than trusting a similarly named link. [This guide on spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) covers the red flags, and this directory's [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) is worth running through before any real-money account gets created, on Jaiho Rummy or anywhere else. For Jaiho Rummy's own listing — bonus details, promo-code status, launch timeline — see the [Jaiho Rummy profile page](/games/jaiho-rummy).",
-        ],
-      },
-      {
-        heading: "What Would Change This Answer",
-        paragraphs: [
-          "This page reflects what Jaiho Rummy's own description currently says, not independently verified in-app testing — that's true of the commonly mentioned Teen Patti tables specifically. If that changes — the tables turn out not to exist, get removed, or the app's own framing shifts to feature them more prominently — this page gets updated to match, the same standard applied to every listing in this directory.",
-        ],
-      },
-    ],
-    faq: [
-      {
-        question: "Does Jaiho Rummy include Teen Patti?",
-        answer:
-          "Reportedly, yes — but as a secondary feature. The operator's own description names Teen Patti-style tables as commonly mentioned alongside its primary Indian-rummy core, not independently verified inside the app.",
-      },
-      {
-        question: "Is Teen Patti the main game on Jaiho Rummy?",
-        answer:
-          "No. Every description checked for this listing centers on Indian rummy formats as the primary draw, with Teen Patti-style tables described as a secondary feature.",
-      },
-      {
-        question: "Is Jaiho Rummy the same as Jaiho 777?",
-        answer:
-          "No — they're separate apps in the same Jaiho family with different primary catalogues (Indian rummy formats here, 777-style slots for Jaiho 777), though both reportedly include secondary Teen Patti-style content.",
-      },
-      {
-        question: "Where can I find Jaiho Rummy's bonus and launch details?",
-        answer:
-          "See this directory's Jaiho Rummy profile page for its advertised welcome bonus, download link, and promo-code status — a separate question from its game catalogue.",
-      },
-      {
-        question: "Does this directory operate or endorse Jaiho Rummy?",
-        answer:
-          "No. AllYonoPatti.com is an independent information directory. It doesn't run Jaiho Rummy, handle payments, or guarantee that any advertised feature will match what ships in the app.",
+          "No. AllYonoPatti.com is an independent information directory. It doesn't run DhanGame, Jaiho 777, Yono Arcade, or Jaiho Rummy, handle payments for any of them, or guarantee that any advertised feature will match what ships in the app.",
       },
     ],
   },
