@@ -1052,5 +1052,96 @@ export const postsOct2026: Article[] = [
       { "question": "Can I offset a loss in one game against winnings in another?", "answer": "Generally no — net losses are commonly understood not to offset winnings reported under other heads of income the way certain other losses can. Confirm your specific situation with a tax professional." },
       { "question": "How is this different from the 'is Teen Patti legal' question?", "answer": "They're separate questions. Legal classification under the Online Gaming Act, 2025 decides whether and how an app can operate; this page is about what tax treatment applies to winnings regardless of that classification." }
     ]
+  },
+  {
+    "slug": "teen-patti-betting-strategy",
+    "title": "Teen Patti Betting Strategy: When to Call, Raise, or Fold",
+    "seoTitle": "Teen Patti Betting Strategy: Call, Raise or Fold Guide",
+    "description": "When should you call, raise, or fold in Teen Patti? Turn the real odds of each hand into practical betting thresholds for blind, seen and sideshow decisions.",
+    "category": "Teen Patti Basics",
+    "featuredImage": "/images/blog/teen-patti-betting-strategy.webp",
+    "featuredImageAlt": "Teen Patti card hand with a branching decision-tree path leading to call, raise and fold icons",
+    "publishedAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "relatedSlugs": ["teen-patti-hand-probabilities", "blind-vs-seen-teen-patti", "teen-patti-sideshow-rules"],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: Bet with conviction once your hand reaches pair or better — that already beats about 74% of all hands dealt. Treat a sequence or stronger as comfortable to raise, since a plain sequence alone beats roughly 96% of possible hands. Fold a bare high card early, especially once you're seen and paying double the stake, because it loses outright to any pair or better (about 1 in 4 hands). The right threshold also shifts with whether you're blind or seen, whether a sideshow is on the table, and how large the pot has already grown relative to what you're willing to risk.",
+          "This guide assumes you already know the hand rankings and table terms — see the full [Teen Patti rules](/guides/teen-patti-rules) if you need a refresher. What follows is what to actually do with that knowledge once chips are on the table."
+        ]
+      },
+      {
+        "heading": "Reading Your Hand's Actual Strength",
+        "paragraphs": [
+          "Every Teen Patti decision is really a question of where your hand sits among the 22,100 possible three-card combinations. Our [probability guide](/guides/teen-patti-hand-probabilities) lays out the exact counts; here is what they mean for a fold-call-raise decision, each figure worked out directly from those published counts."
+        ],
+        "table": {
+          "headers": ["Your hand", "Beats (at least)", "Practical read"],
+          "rows": [
+            ["Trail", "Every other hand (99.76%)", "The best possible hand. Push it hard regardless of position."],
+            ["Pure sequence", "Everything except a trail (99.55%)", "Near the top of the deck. Bet to build the pot, not just to stay in."],
+            ["Sequence (plain)", "Colour, pair and high card — about 96% of all hands (21,280 of 22,100)", "A genuinely strong hand. Comfortable calling a raise, and comfortable raising yourself."],
+            ["Colour", "Pair and high card — about 91% of all hands (20,184 of 22,100)", "Still well ahead of most hands. Worth defending against a single raise."],
+            ["Pair", "High card only — about 74% of all hands (16,440 of 22,100)", "A solid, ordinary hand. Call confidently; raise if the table looks passive."],
+            ["High card", "Only a weaker high card", "Loses outright to any pair or better — about 1 in 4 hands (25.61%). The hand to fold cheaply, not chase."]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "These are cumulative numbers, not head-to-head odds against one specific opponent — they tell you where your hand ranks against the full range of possible hands, not what the player across from you is actually holding. But they're the only objective anchor you have before any betting happens, and they translate into a simple rule of thumb: the further your hand sits above 'pair', the more comfortable you can be building the pot; the closer it sits to 'high card', the less reason you have to match a rising stake."
+        ]
+      },
+      {
+        "heading": "How Blind vs. Seen Betting Changes the Calculus",
+        "paragraphs": [
+          "The thresholds above only apply once you actually know your hand — and that's exactly the choice [blind vs seen](/guides/blind-vs-seen-teen-patti) forces on you. A blind player bets without looking, typically at the current stake with the option to raise to double it, while a seen player has looked and pays double the stake to act on that knowledge, with the option to raise to four times it. That price difference should move your threshold in both directions:"
+        ],
+        "list": [
+          "Staying blind delays the decision, not the odds. Your hand is already fixed the moment it's dealt; staying blind just means you haven't checked yet. Doing this cheaply for a round or two, especially early when the stake is small, costs little and reveals nothing to opponents.",
+          "Going seen raises the cost of acting on weak information. If you look and find a bare high card, you're now paying double the stake to continue — with exactly the hand type that loses outright to roughly 1 in 4 other hands. That's the moment to fold cheaply rather than match a seen-level bet with the weakest hand type in the deck.",
+          "Going seen with a genuinely strong hand (sequence or better) is where the higher seen price pays for itself: you can raise with real conviction instead of staying blind and letting the pot grow without pressing your advantage.",
+          "Remember that looking is permanent — you can't return to blind once you've checked your cards — and most tables cap how many rounds you can stay blind in the first place (the max blinds limit). Factor that limit into your plan before you sit down, not mid-hand."
+        ]
+      },
+      {
+        "heading": "When a Sideshow Request Changes Your Decision",
+        "paragraphs": [
+          "A [sideshow](/guides/teen-patti-sideshow-rules) gives you a cheaper way to resolve a decision you'd otherwise have to make blind to the table. If you're seen and the player immediately before you is also seen, you can ask to compare hands privately instead of betting into an uncertain field. That changes your fold/call/raise decision in a specific way:"
+        ],
+        "list": [
+          "A pending sideshow is a reason to wait rather than commit early. Holding a borderline hand — a strong colour or a weak sequence, say — with a sideshow available against the previous seen player lets you resolve the uncertainty for the cost of one comparison instead of several rounds of chaal.",
+          "If the sideshow is accepted and you lose it, you pack immediately — which is the outcome you wanted to reach cheaply, rather than discovering it three rounds later after the pot had grown.",
+          "If the sideshow is refused, treat the refusal itself as information. A player who won't let their hand be compared is often protecting something they don't want tested — a useful tell, though not a certainty.",
+          "Remember a sideshow only works against the immediately previous seen player, and it usually needs three or more players still in the hand. Once the hand is down to two players, a normal show replaces it."
+        ]
+      },
+      {
+        "heading": "Pot Growth and the Fold Threshold",
+        "paragraphs": [
+          "Everything above assumes a snapshot. In practice the stake rises with every chaal, and the [boot amount and pot limit](/guides/teen-patti-boot-amount-and-pot-limit) structure means a table that looks cheap at the start can demand far more a few rounds in. The general principle: the bar for continuing should rise as the pot grows relative to what you're willing to risk, not stay fixed at wherever it started."
+        ],
+        "list": [
+          "Early in a hand, when the stake is close to the boot, the cost of seeing one more round is low relative to almost any hand type. This is the cheapest point to stay in just to gather information.",
+          "As the stake climbs toward the table's chaal limit, or the pot approaches its pot limit, you're committing proportionally more to the same hand you started with. A plain sequence that was an easy call at the boot level is a much closer decision once the pot has doubled or tripled.",
+          "A useful discipline: decide, before you sit down, what fraction of your session limit you're willing to put into a single hand. If a hand's betting has already used up that fraction, your effective fold threshold has moved up — from 'pair or better' to 'sequence or better', for instance — even if nothing about your actual cards has changed.",
+          "This is also where reads matter most. A rising stake from a player who was blind a moment ago and is now raising aggressively as seen is a signal worth weighing against your own hand strength, not just the raw probability table."
+        ]
+      },
+      {
+        "paragraphs": [
+          "None of this turns Teen Patti into a predictable game. The deal is still random, and no betting rule changes what cards you were dealt. Treat these thresholds as a way to lose less on weak hands and press harder on strong ones — not as a system that guarantees results. Decide your total spending limit and your stop point before the first boot goes in, and stick to it regardless of how any single hand looks. See our [responsible gaming guide](/blog/responsible-teen-patti-gaming) for how to set one.",
+          "18+ only. This page is educational and does not promise any outcome. See our [responsible gaming](/responsible-gaming) page."
+        ]
+      }
+    ],
+    "faq": [
+      { "question": "When should I fold in Teen Patti?", "answer": "Fold a bare high card early, especially once you're seen and paying double the stake. A high-card hand loses outright to any pair or better, which is about 1 in 4 hands dealt (25.61%)." },
+      { "question": "What hand strength is safe to raise with?", "answer": "A plain sequence or better is strong enough to raise with real conviction — a sequence alone beats roughly 96% of all possible three-card hands (colour, pair and high card combined)." },
+      { "question": "Does being blind or seen change when I should fold?", "answer": "Yes. Seen players pay double the current stake to act on known information, so a weak hand costs more to hold once you've looked. Staying blind delays that cost but doesn't change the odds — your cards are fixed either way." },
+      { "question": "Should I request a sideshow with a borderline hand?", "answer": "It's often worth it. Asking for a sideshow when you're seen, holding a borderline hand, and the previous player is also seen resolves the uncertainty for the cost of one comparison instead of several rounds of betting." },
+      { "question": "Should my fold threshold change as the pot grows?", "answer": "Yes. As the stake climbs relative to your spending limit, the bar for continuing should rise — a hand that was an easy call near the boot amount becomes a closer decision once the pot has doubled or tripled." }
+    ]
   }
 ];
