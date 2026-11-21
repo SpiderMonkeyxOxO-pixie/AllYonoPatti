@@ -2116,7 +2116,8 @@ export const guidesOct2026: Article[] = [
     "relatedSlugs": [
       "is-teen-patti-skill-or-chance",
       "teen-patti-and-indian-online-gaming-awareness",
-      "teen-patti-age-requirement"
+      "teen-patti-age-requirement",
+      "teen-patti-gst-online-gaming-tax"
     ],
     "sections": [
       {

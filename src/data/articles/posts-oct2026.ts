@@ -992,7 +992,7 @@ export const postsOct2026: Article[] = [
     "featuredImageAlt": "TDS tax certificate and rupee banknote icon beside a Teen Patti card hand, representing tax on real-money game winnings",
     "publishedAt": "2026-11-19",
     "updatedAt": "2026-11-19",
-    "relatedSlugs": ["teen-patti-legal-india-2025", "teen-patti-withdrawal-explained"],
+    "relatedSlugs": ["teen-patti-legal-india-2025", "teen-patti-withdrawal-explained", "teen-patti-gst-online-gaming-tax"],
     "sections": [
       {
         "paragraphs": [
@@ -1051,6 +1051,95 @@ export const postsOct2026: Article[] = [
       { "question": "Is there a minimum winning amount before TDS applies?", "answer": "Unlike older withholding rules with a per-win threshold, the framework commonly described for online real-money games generally has no comparable basic exemption, meaning net winnings can be taxable from a low starting point." },
       { "question": "Can I offset a loss in one game against winnings in another?", "answer": "Generally no — net losses are commonly understood not to offset winnings reported under other heads of income the way certain other losses can. Confirm your specific situation with a tax professional." },
       { "question": "How is this different from the 'is Teen Patti legal' question?", "answer": "They're separate questions. Legal classification under the Online Gaming Act, 2025 decides whether and how an app can operate; this page is about what tax treatment applies to winnings regardless of that classification." }
+    ]
+  },
+  {
+    "slug": "teen-patti-gst-online-gaming-tax",
+    "title": "Does GST Apply to Teen Patti Deposits? The 28% Online Gaming Tax Explained",
+    "seoTitle": "Does GST Apply to Teen Patti Deposits? The 28% Online Gaming Tax Explained",
+    "description": "Real-money Teen Patti deposits are commonly taxed under GST at 28% of the full deposit amount, not just platform commission. Here's how that differs from TDS. Not tax advice.",
+    "category": "Legal and Industry Updates",
+    "featuredImage": "/images/blog/teen-patti-gst-online-gaming-tax.webp",
+    "featuredImageAlt": "GST tax stamp on a rupee deposit sliding into a digital wallet, with a smaller amount landing as playable balance, representing India's 28% online gaming tax on Teen Patti deposits",
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "relatedSlugs": ["teen-patti-winnings-tax-tds", "teen-patti-legal-india-2025"],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: yes — under India's current GST framework, real-money card games like Teen Patti are commonly treated as \"online money gaming,\" and GST is charged at 28% on the full face value of each deposit or bet placed, not just on the platform's commission or margin. The platform itself is responsible for collecting this GST and remitting it to the government — a structurally different tax from the TDS deducted from your winnings, covered separately in [our TDS guide](/blog/teen-patti-winnings-tax-tds). This page explains the commonly cited general framework. It is not tax advice."
+        ]
+      },
+      {
+        "heading": "How GST on real-money online gaming works",
+        "paragraphs": [
+          "India's GST law treats real-money games where an outcome carries a possibility of winnings — including real-cash Teen Patti — as \"online money gaming,\" a specific category commonly cited as carrying a 28% GST rate. The distinguishing feature of this rate, compared to GST on most other goods and services, is what it's charged on: the full face value of the amount deposited or staked, rather than only the platform's revenue share (sometimes called gross gaming revenue, or GGR) after payouts.",
+          "In practice, this means GST isn't something that happens only when you win or lose — it's commonly understood to trigger at the point money enters play, on the deposit or bet itself, regardless of that hand or session's eventual outcome."
+        ],
+        "list": [
+          "Rate: commonly cited as 28%, applied under rules for \"online money gaming\" specifically — not the lower rates that apply to most ordinary goods and services.",
+          "Base: the full face value of the deposit/bet, not just the platform's commission or margin on it.",
+          "Who remits it: the platform itself is generally responsible for collecting and depositing this GST with the government — it isn't something you separately file or pay as a player.",
+          "When it applies: at the deposit/staking stage, independent of whether that specific hand or session results in a win or a loss."
+        ]
+      },
+      {
+        "heading": "Why your playable balance can be less than what you deposit",
+        "paragraphs": [
+          "Because GST is commonly understood to be charged on a deposit's full face value and collected by the platform, a portion of what you add to your wallet is commonly described as going toward this tax rather than becoming playable credit. Exact mechanics vary by platform — some build the tax into deposit pricing up front, others display it as a separate line item at the time of deposit — but the practical effect commonly described is the same: the amount credited to your in-app balance after depositing a given sum is often less than that sum itself."
+        ],
+        "table": {
+          "headers": ["Step", "What commonly happens", "What to check on your own app"],
+          "rows": [
+            ["You deposit a given amount", "The deposit amount is treated as the GST base", "Whether the deposit screen shows GST as a separate line item or as a built-in deduction"],
+            ["GST is calculated at 28%", "Charged on the full deposit value, not the platform's margin", "The app's own stated GST or deposit-terms page, if published"],
+            ["Platform remits GST to the government", "Happens on the platform's side, not something you separately file", "You generally don't need to take any action yourself for this specific tax"],
+            ["Remaining amount becomes playable balance", "Can be meaningfully less than the amount you deposited", "Compare what you paid against the credited balance shown in-app"]
+          ]
+        }
+      },
+      {
+        "heading": "GST vs. TDS: two different taxes on two different events",
+        "paragraphs": [
+          "It's easy to conflate this with the tax already covered in [our guide to tax on Teen Patti winnings](/blog/teen-patti-winnings-tax-tds), but the two are separate taxes, under separate rules, triggered by separate events — and a platform handling one correctly doesn't tell you anything about the other."
+        ],
+        "table": {
+          "headers": ["", "GST on deposits", "TDS on winnings"],
+          "rows": [
+            ["What it taxes", "The deposit/bet's full face value", "Your net real-money winnings for the financial year"],
+            ["Commonly cited rate", "28%, under \"online money gaming\" GST rules", "Around 30% under Section 115BBJ-style rules, on net winnings"],
+            ["When it's triggered", "At the point you deposit or place a stake", "At withdrawal, or at financial year-end on unwithdrawn winnings"],
+            ["Who remits/pays it", "The platform, to the GST authorities", "The platform withholds it, or you self-declare it in your ITR"],
+            ["Where it shows up for you", "Reflected in a smaller playable balance than your deposit", "Reflected in Form 26AS / AIS and a Form 16A certificate"],
+            ["Type of tax", "Indirect tax on the transaction itself", "Direct income tax on your winnings as income"]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "Put simply: GST is a cost baked into putting money into play at all, charged regardless of whether you win that session. TDS is a cost that only arises if and when you have net winnings to withdraw or declare. Neither tax being applied correctly by a platform says anything about whether the other one is — they're independent of each other, and so is your obligation to check both."
+        ]
+      },
+      {
+        "heading": "How this fits with the legal classification question",
+        "paragraphs": [
+          "This also sits alongside — but is distinct from — the question covered in [our explainer on whether Teen Patti is legal in India](/guides/teen-patti-legal-india-2025), which is about how an app is classified under the Online Gaming Act, 2025 as a prohibited \"online money game\" versus a permitted skill-based or social game. GST law uses its own, separate \"online money gaming\" classification under tax statutes, administered by tax authorities rather than whoever enforces the Online Gaming Act. The two frameworks use overlapping language and both key off real-money stakes, but they're different laws serving different purposes — a game's classification under one doesn't automatically determine its classification, or its tax treatment, under the other."
+        ]
+      },
+      {
+        "heading": "This is not tax advice",
+        "paragraphs": [
+          "This page explains a commonly cited general framework for GST on real-money online gaming deposits in India, in plain language. GST rates, classification rules, and how individual platforms implement them can change, and official guidance should always take precedence over a summary like this one. Nothing on this page is tax, financial or legal advice, and this directory does not prepare, review or file tax returns or GST filings for anyone.",
+          "Confirm current rates and your specific platform's implementation with the platform itself or a qualified tax professional before relying on anything here. 18+ only; real-money gaming carries financial risk independent of any tax question."
+        ]
+      }
+    ],
+    "faq": [
+      { "question": "Does GST apply to Teen Patti deposits in India?", "answer": "Yes — real-money Teen Patti deposits are commonly treated as \"online money gaming\" under India's GST rules, taxed at 28% on the full face value of the deposit. This is general information, not tax advice." },
+      { "question": "Is GST charged on my winnings or on my deposit?", "answer": "On the deposit/stake itself, at the point money enters play — not specifically on winnings. Tax on winnings is a separate mechanism, TDS, covered in our guide to tax on Teen Patti winnings." },
+      { "question": "Why is my playable balance less than what I deposited?", "answer": "Because GST, commonly cited at 28% of the full deposit value, is collected by the platform at the point of deposit — the remaining amount is what becomes playable credit. Check your specific app's deposit screen for how it displays this." },
+      { "question": "Do I need to pay or file this GST myself?", "answer": "No — GST on deposits is generally the platform's responsibility to collect and remit, unlike TDS on winnings, which can fall back to you to self-declare if a platform doesn't handle it." },
+      { "question": "Is GST the same as the tax on Teen Patti winnings (TDS)?", "answer": "No — they're separate taxes under separate rules. GST applies to deposits at 28% of face value; TDS applies to net winnings at withdrawal, commonly cited around 30%. See our TDS guide for details on that mechanism." }
     ]
   },
   {
