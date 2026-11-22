@@ -27,7 +27,17 @@ export type UpcomingGame = {
 // Rummy launched 2026-10-30, Cash Rummy launched 2026-11-05, and
 // 123Rummy launched 2026-11-16; all moved into the main game
 // collection (src/data/games).
-export const upcomingGames: UpcomingGame[] = [];
+export const upcomingGames: UpcomingGame[] = [
+  {
+    slug: "rush-gala",
+    name: "Rush Gala",
+    logo: "/images/games/rush-gala.webp",
+    releaseDate: "2026-11-23",
+    windowStart: "08:00",
+    blurb:
+      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
+  },
+];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
