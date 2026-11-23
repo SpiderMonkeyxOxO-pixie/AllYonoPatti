@@ -2027,4 +2027,104 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "rush-gala-game-launch",
+    title: "Rush Gala: Is It Another Teen Patti App? Launch Date and Download Status",
+    seoTitle: "Rush Gala — Launch Date, Download Link & What Teen Patti Players Should Know",
+    description:
+      "Rush Gala launched 23 Nov 2026 as a four-game casino-style app, not Teen Patti. What's confirmed about its bonus, games, deposit terms, and legal standing.",
+    category: "Legal and Industry Updates",
+    featuredImage: "/images/blog/rush-gala-game-launch.webp",
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    relatedSlugs: ["123-rummy-game-launch", "teen-patti-and-indian-online-gaming-awareness"],
+    sections: [
+      {
+        paragraphs: [
+          "If you came here wondering whether Rush Gala is another Teen Patti app: it isn't. Rush Gala is a new multi-game casino-style app that joined the Yono network on 23 November 2026 at 8:00 AM IST, and its download link is live now — see our [Rush Gala directory page](/games/rush-gala).",
+          "This page covers what the operator has published about Rush Gala so far, and walks through where it actually differs from the rummy and Teen Patti titles this site normally covers.",
+        ],
+      },
+      {
+        heading: "What Is Rush Gala?",
+        paragraphs: [
+          "Rush Gala bundles four games: Slots, Fishing, Fly, and Roulette. None of them are Teen Patti, and none of them are rummy either. That makes it a genuinely different kind of app from most of what gets covered on this site, built around spinning reels, a fishing-shooter format, a fast-round betting game, and a wheel, rather than a card table.",
+          "According to the app's own listing, the installer comes in at 33.4 MB, a fairly compact download for a multi-game app. Beyond the four named games and the launch itself, no other feature of the platform has been independently checked by this directory.",
+        ],
+      },
+      {
+        heading: "Launch and Download Status",
+        table: {
+          headers: ["Detail", "Status"],
+          rows: [
+            ["App name", "Rush Gala"],
+            ["Category", "Multi-game (casino-style)"],
+            ["Launch", "23 November 2026, 8:00 AM IST — live"],
+            ["Download link", "Live — see our [Rush Gala directory page](/games/rush-gala)"],
+            ["Welcome bonus", "Rs.50-500, randomly assigned at signup (operator's own listing)"],
+            ["Minimum deposit", "Rs.50-100 (operator-stated)"],
+            ["Minimum withdrawal", "Rs.100, per the operator's listing"],
+            ["App size", "33.4 MB (per the operator's listing)"],
+          ],
+        },
+      },
+      {
+        heading: "Does This Affect Your Teen Patti App?",
+        paragraphs: [
+          "No. Rush Gala runs on its own account, its own promo codes, and its own update schedule, entirely separate from any Teen Patti or rummy app you already have installed from this network. Installing it changes nothing about your existing balances, bonuses, or referral codes elsewhere.",
+        ],
+      },
+      {
+        heading: "Four Chance-Based Games",
+        paragraphs: [
+          "Slots, Fishing, Fly, and Roulette are the four modes named in Rush Gala's own listing. All four are chance-based: the outcome rests on a random result rather than a player's decisions during the round. That's a meaningful distinction from rummy, which Indian courts have repeatedly classified as a game of skill. That skill-game precedent, often cited to defend Teen Patti and rummy apps, doesn't automatically carry over to Slots, Fishing, Fly, or Roulette, since none of them involve the kind of decision-making that courts have pointed to when drawing that line.",
+        ],
+      },
+      {
+        heading: "Bonus and Deposit Terms",
+        paragraphs: [
+          "The operator's own listing puts the welcome bonus at Rs.50-500, randomly assigned at signup rather than a flat amount everyone receives. Minimum deposit sits at Rs.50-100, and minimum withdrawal is listed at Rs.100. None of these figures have been independently verified by this directory; they're presented here exactly as the operator states them.",
+        ],
+      },
+      {
+        heading: "Before You Install: Where the Law Stands",
+        paragraphs: [
+          "Online money games have been prohibited in India since 1 May 2026 under the Promotion and Regulation of Online Gaming Act, 2025. Because Rush Gala's four games are chance-based rather than skill-based, the legal reasoning that has historically protected rummy and certain card games doesn't apply here in the same way. Anyone considering Rush Gala should check its current classification and their own state's rules before depositing any money.",
+          "The same basic safety checks that apply to any newly launched app apply here too: install only from the operator's own linked source, review the permissions it asks for, and read the withdrawal terms before you deposit.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is Rush Gala a Teen Patti app?",
+        answer:
+          "No. Rush Gala is a four-game casino-style app — Slots, Fishing, Fly, and Roulette. It has no Teen Patti mode and no rummy mode.",
+      },
+      {
+        question: "Will installing Rush Gala affect my Teen Patti app?",
+        answer:
+          "No. Rush Gala uses a separate account, separate promo codes, and its own update schedule. Your existing Teen Patti or rummy apps are unaffected.",
+      },
+      {
+        question: "When did Rush Gala launch?",
+        answer:
+          "Rush Gala launched on 23 November 2026 at 8:00 AM IST. The download link is live — see our [Rush Gala directory page](/games/rush-gala).",
+      },
+      {
+        question: "What is Rush Gala's welcome bonus?",
+        answer:
+          "Per the operator's own listing, Rs.50-500, randomly assigned at signup rather than a fixed amount. This has not been independently verified.",
+      },
+      {
+        question: "Are Rush Gala's games skill-based like rummy?",
+        answer:
+          "No. Slots, Fishing, Fly, and Roulette are all chance-based. Rummy's skill-game legal precedent in Indian courts does not automatically extend to these formats.",
+      },
+      {
+        question: "What are the minimum deposit and withdrawal amounts?",
+        answer:
+          "The operator states a Rs.50-100 minimum deposit and a Rs.100 minimum withdrawal. Neither figure has been independently confirmed.",
+      },
+    ],
+  },
 ];

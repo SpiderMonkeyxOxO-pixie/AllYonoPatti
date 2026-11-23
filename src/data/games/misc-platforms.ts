@@ -290,4 +290,27 @@ export const miscPlatforms: GameEntry[] = [
     publishedAt: "2026-11-16",
     updatedAt: "2026-11-16",
   }),
+  defineGame({
+    name: "Rush Gala",
+    slug: "rush-gala",
+    downloadUrl: "https://rushgala.club/?code=MBZQC5NXWUP&t=1795408331",
+    category: "Multi-game platform",
+    shortDescription:
+      "Rush Gala is a four-game casino-style app — Slots, Fishing, Fly, and Roulette — launched 23 November 2026. Not a Teen Patti or rummy title.",
+    fullDescription:
+      "Rush Gala launched on 23 November 2026 at 8:00 AM IST as a four-game casino-style app bundling Slots, Fishing, Fly, and Roulette. The operator's own listing states a welcome bonus randomly assigned between ₹50 and ₹500, a ₹50–100 minimum deposit, and a ₹100 minimum withdrawal, none of which have been independently verified by this directory. Unlike the rummy titles tracked elsewhere in this directory, none of Rush Gala's four games turn on player decision-making — they're outcome-random by design, so the 'game of skill' legal exemption that Indian courts have carved out for rummy simply has no footing here.",
+    informationalStatus:
+      "Rush Gala launched 23 November 2026. This is a newly added listing — features, terms, and safety details are based on the operator's own listing and have not yet been independently confirmed.",
+    rewardInformation:
+      "Per the operator's own listing, Rush Gala's welcome bonus is randomly assigned between ₹50 and ₹500 (not a fixed figure), with a ₹50–100 minimum deposit and a ₹100 minimum withdrawal. None of these figures have been independently verified by this directory.",
+    // Reviewed: the app's own stated lineup has no Teen Patti mode.
+    teenPattiRelevance: "none",
+    tags: ["newly-launched", "multi-game"],
+    featured: true,
+    safetyNotes:
+      "This app launched today. No package name, permissions, or signing certificate have been independently checked yet — verify before installing.",
+    relatedArticleSlugs: ["rush-gala-game-launch"],
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+  }),
 ];

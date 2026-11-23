@@ -24,20 +24,10 @@ export type UpcomingGame = {
 // DhanGame launched 2026-07-23, Win Rummy launched 2026-07-29, Gold
 // Rummy launched 2026-08-19, Money Rummy launched 2026-09-09, Jaiho
 // Play launched 2026-10-15, VIP Rummy launched 2026-10-20, Spin
-// Rummy launched 2026-10-30, Cash Rummy launched 2026-11-05, and
-// 123Rummy launched 2026-11-16; all moved into the main game
-// collection (src/data/games).
-export const upcomingGames: UpcomingGame[] = [
-  {
-    slug: "rush-gala",
-    name: "Rush Gala",
-    logo: "/images/games/rush-gala.webp",
-    releaseDate: "2026-11-23",
-    windowStart: "08:00",
-    blurb:
-      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
-  },
-];
+// Rummy launched 2026-10-30, Cash Rummy launched 2026-11-05, 123Rummy
+// launched 2026-11-16, and Rush Gala launched 2026-11-23; all moved
+// into the main game collection (src/data/games).
+export const upcomingGames: UpcomingGame[] = [];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
