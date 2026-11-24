@@ -1232,5 +1232,105 @@ export const postsOct2026: Article[] = [
       { "question": "Should I request a sideshow with a borderline hand?", "answer": "It's often worth it. Asking for a sideshow when you're seen, holding a borderline hand, and the previous player is also seen resolves the uncertainty for the cost of one comparison instead of several rounds of betting." },
       { "question": "Should my fold threshold change as the pot grows?", "answer": "Yes. As the stake climbs relative to your spending limit, the bar for continuing should rise — a hand that was an easy call near the boot amount becomes a closer decision once the pot has doubled or tripled." }
     ]
+  },
+  {
+    "slug": "teen-patti-table-fee-explained",
+    "title": "Teen Patti Table Fee: Why You Don't Win the Full Pot",
+    "seoTitle": "Teen Patti Table Fee Explained: Why Payouts Run Lower",
+    "description": "Teen Patti apps often deduct a small table fee or commission from the pot before paying the winner. How it works, and how it differs from GST and TDS.",
+    "category": "Platform Guides",
+    "featuredImage": "/images/blog/teen-patti-table-fee-explained.webp",
+    "featuredImageAlt": "Teen Patti pot with a small portion of chips set aside before the rest is paid to the winner, representing a table fee",
+    "publishedAt": "2026-11-24",
+    "updatedAt": "2026-11-24",
+    "relatedSlugs": [
+      "teen-patti-boot-amount-and-pot-limit",
+      "teen-patti-withdrawal-explained",
+      "teen-patti-gst-online-gaming-tax",
+      "teen-patti-winnings-tax-tds"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Quick answer: yes. Most real-cash Teen Patti apps take a small cut — usually called a table fee, service charge, or commission — out of the pot before crediting the winner's balance, so the amount you actually receive is a little less than the pot you watched grow during the hand. This fee is set by the app itself. It is not a government tax, and it is separate from the GST charged on deposits and the TDS withheld from net winnings, covered elsewhere on this site."
+        ]
+      },
+      {
+        "heading": "Table fee, rake, commission — different labels, same mechanic",
+        "paragraphs": [
+          "Teen Patti apps borrow the concept directly from poker's \"rake\": a portion of each pot that the house keeps for running the table, rather than paying out 100% of what players put in. Apps use inconsistent labels for it — \"table fee,\" \"service charge,\" \"platform fee,\" \"commission\" — and some don't label it at all, folding it quietly into the final payout number instead of showing it as a separate line item."
+        ]
+      },
+      {
+        "heading": "Why apps take a cut of the pot",
+        "paragraphs": [
+          "A real-cash card-game app needs a revenue source beyond advertising, and a per-hand fee on the pot is the most direct one: it scales naturally with how much money moves through the table, rather than depending on a flat subscription or a fixed entry charge. This is a normal business mechanic across the category, disclosed or not — not evidence of anything irregular by itself."
+        ]
+      },
+      {
+        "heading": "Where the fee typically sits in the payout chain",
+        "table": {
+          "headers": ["Step", "What happens"],
+          "rows": [
+            ["Boot paid", "Every player's [boot](/guides/teen-patti-boot-amount-and-pot-limit) forms the starting pot"],
+            ["Betting rounds", "Chaal and raises grow the pot further"],
+            ["Show / showdown", "The winning hand is declared"],
+            ["Table fee deducted", "The app deducts its commission from the final pot"],
+            ["Balance credited", "The remainder lands in the winner's in-app balance"],
+            ["Withdrawal (separate step)", "TDS may apply to net winnings — see our [TDS explainer](/blog/teen-patti-winnings-tax-tds)"]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "The table fee is the only deduction in that chain that the platform itself keeps. Everything after \"balance credited\" is a government-side deduction, not the app's."
+        ]
+      },
+      {
+        "heading": "A commonly cited range — and why you shouldn't rely on it",
+        "paragraphs": [
+          "Figures circulating for this kind of fee across real-money card-game apps commonly cite a low single-digit percentage of the pot, often somewhere in a 2%–5% range. That figure is not independently verified for any specific app named on this site, is not disclosed uniformly across the category, and can change without notice. Treat it as a general pattern to be aware of, not a number to plan a bankroll around."
+        ]
+      },
+      {
+        "heading": "How to find the actual fee for an app you use",
+        "list": [
+          "Check the app's in-app rules screen or FAQ section — some apps disclose the fee there under a name like \"table charge.\"",
+          "Check the app's terms and conditions page for a fee or commission clause.",
+          "Compare a pot's displayed size just before a show against the amount credited afterward, on a hand you can see clearly.",
+          "Don't confuse a line labeled \"GST\" or \"TDS\" in a transaction history with the table fee — see the comparison below."
+        ]
+      },
+      {
+        "heading": "Table fee vs. GST vs. TDS: three separate deductions",
+        "table": {
+          "headers": ["Deduction", "Who keeps it", "When it applies", "What it's based on"],
+          "rows": [
+            ["Table fee / rake / commission", "The app itself", "Deducted from the pot at the end of a winning hand", "The pot size for that hand"],
+            ["GST", "Government (collected by the platform)", "At deposit/bet", "28% of the deposit or bet's face value — see our [GST explainer](/blog/teen-patti-gst-online-gaming-tax)"],
+            ["TDS", "Government (withheld or self-declared)", "On net winnings, typically at withdrawal", "Net winnings over the applicable threshold — see our [TDS explainer](/blog/teen-patti-winnings-tax-tds)"]
+          ]
+        }
+      },
+      {
+        "paragraphs": [
+          "These three can all apply to the same session without being the same thing. A payout that looks \"short\" twice over — once at the table, once at withdrawal — usually reflects two unrelated deductions, not one miscalculated figure."
+        ]
+      },
+      {
+        "heading": "What this means for your bankroll",
+        "paragraphs": [
+          "Any pot-odds math — including the thresholds in our [betting strategy guide](/blog/teen-patti-betting-strategy) — is based on the pot as dealt, not on the smaller amount that actually lands in your balance after a table fee comes out. Your realistic win rate, in money terms, runs a little below the raw pot math, which is worth building into how big a bankroll edge you expect to come away with over a session.",
+          "18+ only. This page is educational and does not promise any outcome. See our [responsible gaming](/responsible-gaming) page."
+        ]
+      }
+    ],
+    "faq": [
+      { "question": "What is a table fee in Teen Patti?", "answer": "A small commission the app deducts from the pot before crediting the winner — similar to a poker room's \"rake.\" It's kept by the platform, not a government tax." },
+      { "question": "How much commission do Teen Patti apps usually take?", "answer": "Figures commonly cited for this category fall in a low single-digit percentage of the pot, often around 2%–5%, but this isn't independently verified for any specific app and can change without notice. Check the app's own rules or terms." },
+      { "question": "Is the table fee the same as GST or TDS?", "answer": "No. The table fee is kept by the app and taken from the pot at the end of a hand. GST is a government tax on deposits/bets; TDS is a government deduction from net winnings, typically at withdrawal. All three can apply in the same session." },
+      { "question": "Does the table fee apply if I lose the hand?", "answer": "No — the fee is deducted from the pot the winner receives, not charged separately to losing players." },
+      { "question": "Where can I check the exact fee an app charges?", "answer": "The app's in-app rules screen, FAQ, or terms and conditions page is the only reliable source — this page describes a general industry pattern, not a specific app's disclosed rate." }
+    ]
   }
 ];
