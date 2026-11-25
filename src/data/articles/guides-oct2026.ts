@@ -2532,4 +2532,88 @@ export const guidesOct2026: Article[] = [
       }
     ]
   },
+  {
+    "slug": "teen-patti-vs-andar-bahar",
+    "title": "Teen Patti vs Andar Bahar: What's Actually Different",
+    "seoTitle": "Teen Patti vs Andar Bahar: Rules, Odds & Skill Compared",
+    "description": "Teen Patti and Andar Bahar often sit side by side on the same app, but one deals a hand and one doesn't. A side-by-side comparison of rules, odds, and skill.",
+    "category": "Game Comparisons",
+    "featuredImage": "/images/blog/teen-patti-vs-andar-bahar.webp",
+    "featuredImageAlt": "Three Teen Patti cards beside two labelled card piles, comparing Teen Patti and Andar Bahar",
+    "publishedAt": "2026-11-25",
+    "updatedAt": "2026-11-25",
+    "relatedSlugs": [
+      "what-is-teen-patti",
+      "teen-patti-rules",
+      "is-teen-patti-skill-or-chance",
+      "is-teen-patti-rigged"
+    ],
+    "sections": [
+      {
+        "paragraphs": [
+          "Open the Top Games grid on several apps in this directory's catalogue and Andar Bahar sits right next to Teen Patti, often in the same row — [Win Rummy's own listing does exactly that](/blog/win-rummy-teen-patti-card-games). Sharing a lobby isn't the same as sharing a game. Teen Patti deals every player a hand and bets on how it ranks; Andar Bahar deals no hand to anyone and bets on where a single card lands. Here's what separates them."
+        ]
+      },
+      {
+        "heading": "How Andar Bahar actually works",
+        "paragraphs": [
+          "A single card is turned face-up — often nicknamed the \"joker\" card, though it isn't a wild card in the Teen Patti sense; it only sets the target rank. The dealer then deals cards one at a time, alternating between two named piles, Andar (inside) and Bahar (outside), until a card of the same rank as that face-up card appears. Whichever pile holds that match wins the round for everyone who bet on it.",
+          "Players place their bet on a side before any of those cards are dealt, not after watching how the deal develops — there's nothing to watch yet. Some tables assign the very first card to a fixed side based on the face-up card's colour; others don't use that rule at all. It genuinely varies by platform, so the specific table's rules screen is the only source worth trusting on that detail."
+        ]
+      },
+      {
+        "heading": "Cards and hands",
+        "paragraphs": [
+          "Teen Patti gives each player a private three-card hand, and the [ranking of that hand](/guides/teen-patti-hand-rankings) decides the show. Andar Bahar never deals anyone a personal hand at all — there is one shared sequence of cards, and nothing about it belongs to any individual player. There's no hand to build, rank, or misread, because there's no hand."
+        ]
+      },
+      {
+        "heading": "Betting structure",
+        "paragraphs": [
+          "A Teen Patti round runs through a sequence of decisions — [boot, blind or seen, chaal, sideshow, show](/guides/teen-patti-rules) — and a player can fold, raise, or ask for a sideshow at several points along the way. Andar Bahar collapses all of that into one decision, made once, before the first card of the round is even turned. After the bet is placed, nothing a player does changes anything; the rest of the round is just the dealer revealing cards until a match appears."
+        ]
+      },
+      {
+        "heading": "Skill and information",
+        "paragraphs": [
+          "Teen Patti hides information — each player's own three cards — and that's exactly what creates room for bluffing, reading opponents, and the sideshow as a way to buy information mid-round. [Whether that counts as enough skill to matter legally is its own question](/blog/is-teen-patti-skill-or-chance), but the mechanism for skill to attach to clearly exists. Andar Bahar has no equivalent mechanism. Once the bet is down, the outcome depends only on which pile the deck happens to deliver a matching rank to first — a player watching the cards fall has no decision left to make, so there's nothing for skill to act on."
+        ]
+      },
+      {
+        "heading": "Pace",
+        "paragraphs": [
+          "A Teen Patti round takes as long as its betting does — a few seconds if everyone folds early, much longer if two players keep raising. Andar Bahar resolves the moment a matching card lands, usually within a handful of cards of the turn, which makes it one of the fastest-resolving games on apps that offer both. That speed is also why stakes move faster in Andar Bahar than in a comparable Teen Patti session — more rounds fit into the same ten minutes."
+        ]
+      },
+      {
+        "heading": "If an app lists both",
+        "paragraphs": [
+          "Several platforms in this directory's catalogue bundle Andar Bahar alongside Teen Patti, rummy, and other table games, and presence in a Top Games grid doesn't confirm which titles are actually playable in a given app build — see how that question got handled for [Win Rummy](/blog/win-rummy-teen-patti-card-games) and [Cash Rummy](/blog/cash-rummy-where-it-fits). If you do play both, the pace difference matters for [bankroll management](/blog/responsible-teen-patti-gaming): a format with no betting rounds to slow it down burns through a session faster than the round count alone suggests.",
+          "Neither game is a way to earn money, and outcomes are never guaranteed. Set limits before you play. See [responsible gaming](/responsible-gaming). 18+ only. Educational content."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is Andar Bahar a variant of Teen Patti?",
+        "answer": "No. It's a separate card game that happens to appear alongside Teen Patti on many of the same apps. Teen Patti deals every player a three-card hand; Andar Bahar deals no personal hand to anyone and decides the round by which of two piles gets a card matching a single revealed card."
+      },
+      {
+        "question": "Which game involves more skill, Teen Patti or Andar Bahar?",
+        "answer": "Teen Patti has a mechanism for skill to matter — hidden cards create room for bluffing, reading opponents, and the sideshow. Andar Bahar's outcome is set the moment the bet is placed, with no decision point afterward for skill to attach to."
+      },
+      {
+        "question": "Why is the revealed card in Andar Bahar sometimes called a \"joker\"?",
+        "answer": "It's a naming holdover, not a wild card. The face-up card only sets the target rank that Andar and Bahar are dealt against — it doesn't substitute for other cards the way a wild card does in Teen Patti variants like AK47."
+      },
+      {
+        "question": "Does the dealing order favour one side in Andar Bahar?",
+        "answer": "It depends on the table. Some assign the first card to a fixed side based on the revealed card's colour; others don't use that rule at all. This varies by platform, so the specific table's own rules screen is the only reliable source for that detail."
+      },
+      {
+        "question": "If an app lists Andar Bahar in its Top Games grid, does that confirm Teen Patti is also available?",
+        "answer": "Not on its own. Listing presence in a Top Games grid doesn't confirm which titles are actually playable in a given app build — this directory has documented that gap for apps like Win Rummy, where Andar Bahar and Teen Patti both appeared in marketing material without matching APK confirmation."
+      }
+    ]
+  },
 ];
