@@ -2127,4 +2127,79 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "jaiho-spin-promo-code",
+    title:
+      "Jaiho Spin Promo Code Status — and Why It's Not the Same App as Jaiho Rummy",
+    seoTitle:
+      "Jaiho Spin Promo Code — Current Status & How It Differs From Jaiho Rummy",
+    description:
+      "Jaiho Spin's promo code status, confirmed separate from Jaiho Rummy and Jaiho Slot despite the shared branding — what's verified, what isn't, and where each app's own page is.",
+    category: "Promo-Code Awareness",
+    featuredImage: "/images/blog/jaiho-spin-promo-code.webp",
+    featuredImageAlt:
+      "Spin wheel icon beside a rummy card hand icon, illustrating Jaiho Spin as a distinct app from Jaiho Rummy",
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    relatedSlugs: ["jaiho-slot-promo-code", "why-a-promo-code-may-not-work"],
+    sections: [
+      {
+        paragraphs: [
+          "Jaiho Spin is the wheel-and-reel entry in the Jaiho family of apps, separate from Jaiho Rummy and Jaiho Slot despite the shared branding and similar app names. This page covers Jaiho Spin's own promo code status — not Jaiho Rummy's, not Jaiho Slot's — because the three are easy to confuse and each has its own listing, download link, and promo-codes page on this site.",
+        ],
+      },
+      {
+        heading: "Jaiho Spin Is Not Jaiho Rummy or Jaiho Slot",
+        paragraphs: [
+          "All three carry the Jaiho name, but they are separate apps with separate download links. Jaiho Rummy centers on Indian rummy formats, with Teen Patti-style tables mentioned alongside them — see the [Jaiho Rummy profile](/games/jaiho-rummy) and its [promo-code page](/promo-codes/jaiho-rummy). Jaiho Slot is a reel-focused slots app, covered separately in [Jaiho Slot: Promo Code Status & What to Know](/blog/jaiho-slot-promo-code). Jaiho Spin is neither of those — it's built around wheel-and-reel mechanics, short rounds decided by where a wheel or reel lands, rather than rummy's full-hand card play or a slots reel grid. If you were after Jaiho Rummy or Jaiho Slot specifically, those links take you to the right page; everything below is about Jaiho Spin.",
+        ],
+      },
+      {
+        heading: "No Jaiho Spin Promo Code Is on Record Yet",
+        paragraphs: [
+          "As of this report, AllYonoPatti.com has not independently verified a promo code for Jaiho Spin. The [Jaiho Spin promo-code page](/promo-codes/jaiho-spin) tracks its status and will show a recorded code once one has been supplied and checked — it is never filled with an invented value in the meantime.",
+        ],
+      },
+      {
+        heading: "Is Jaiho Spin Relevant to Teen Patti Players?",
+        paragraphs: [
+          "Not directly. Jaiho Spin runs on a spin-wheel format, not cards, so none of its mechanics overlap with Teen Patti's betting rounds or hand rankings. The reason it has a page here at all is the Jaiho branding it shares with Jaiho Rummy, Jaiho Win, and Jaiho91 — apps this directory already tracks — and leaving one entry out of that lineup would make the directory incomplete rather than more focused.",
+        ],
+      },
+      {
+        heading: "How Promo Codes Work Across the Jaiho Network",
+        paragraphs: [
+          "A promo or referral code in this app segment is typically a shareable string entered during sign-up, not a private credential, and the operator can change or retire it on its own schedule. AllYonoPatti.com records a code and the date it was last checked once it can be verified through a traceable source; see [how promo codes usually work](/blog/how-promo-codes-usually-work) and [why a promo code may not work](/blog/why-a-promo-code-may-not-work) for the background that applies to every app tracked here, Jaiho Spin included.",
+        ],
+      },
+      {
+        heading: "Safety Note",
+        paragraphs: [
+          'Treat any "exclusive" Jaiho Spin code that asks for money, an OTP, a password, or a bank detail as a scam attempt, not a promo offer — a real code never requires a payment or a credential to redeem. This directory holds every app it covers to that same line. For more on spotting imitation apps and listings, see [how to identify fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps).',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is there a Jaiho Spin promo code right now?",
+        answer:
+          "Not confirmed. AllYonoPatti.com has not verified a working Jaiho Spin code, and the [promo-code page for Jaiho Spin](/promo-codes/jaiho-spin) will show one only once it has been supplied and checked.",
+      },
+      {
+        question: "Is Jaiho Spin the same app as Jaiho Rummy?",
+        answer:
+          "No. They share the Jaiho name but are separate apps with separate download links — Jaiho Rummy is a rummy-format app with Teen Patti-style tables mentioned alongside it, while Jaiho Spin is a wheel-and-reel format. Each has its own profile and promo-code page on this site.",
+      },
+      {
+        question: "Is Jaiho Spin a Teen Patti game?",
+        answer:
+          "No — it's a spin-wheel format. It's tracked here because of its shared Jaiho network branding with apps already covered on this site, not because its gameplay resembles Teen Patti.",
+      },
+      {
+        question: "Where do I find Jaiho Slot's promo code status instead?",
+        answer:
+          "See [Jaiho Slot: Promo Code Status & What to Know](/blog/jaiho-slot-promo-code), which covers that app separately from this page.",
+      },
+    ],
+  },
 ];
