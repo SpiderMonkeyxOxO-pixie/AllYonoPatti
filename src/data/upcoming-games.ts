@@ -27,7 +27,17 @@ export type UpcomingGame = {
 // Rummy launched 2026-10-30, Cash Rummy launched 2026-11-05, 123Rummy
 // launched 2026-11-16, and Rush Gala launched 2026-11-23; all moved
 // into the main game collection (src/data/games).
-export const upcomingGames: UpcomingGame[] = [];
+export const upcomingGames: UpcomingGame[] = [
+  {
+    slug: "spin-dost",
+    name: "Spin Dost",
+    logo: "/images/games/spin-dost.webp",
+    releaseDate: "2026-12-01",
+    windowStart: "08:00",
+    blurb:
+      "No download link, welcome bonus or promo code has been announced yet. We will review it once it is live.",
+  },
+];
 
 const IST_OFFSET_MINUTES = 5 * 60 + 30;
 
