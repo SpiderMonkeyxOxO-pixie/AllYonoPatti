@@ -2202,4 +2202,111 @@ export const posts: Article[] = [
       },
     ],
   },
+  {
+    slug: "dhangame-yono-network",
+    title: "Is DhanGame Part of the Yono Network? What's Actually Confirmed",
+    seoTitle: "DhanGame & the Yono Network — Are They the Same Platform?",
+    description:
+      "DhanGame and the Yono network are often searched together — but this directory lists them as separate, unrelated platforms. Here's what's confirmed about each.",
+    category: "Game Comparisons",
+    featuredImage: "/images/blog/dhangame-yono-network.webp",
+    featuredImageAlt:
+      "Two separate network diagrams showing DhanGame as an isolated node disconnected from the connected Yono app cluster.",
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    relatedSlugs: [
+      "dhan-game-launch-details",
+      "does-this-app-include-teen-patti",
+      "how-to-identify-fake-teen-patti-apps",
+    ],
+    sections: [
+      {
+        paragraphs: [
+          "DhanGame and \"the Yono network\" show up together in a lot of searches, which makes sense given how many similarly-built real-money card and arcade apps have launched under the Yono name this year. But in this directory's own listings, DhanGame and the Yono-branded family are tracked as separate, unrelated platforms. This page lays out exactly what's confirmed about each, and why the two keep getting searched as if they're connected.",
+        ],
+      },
+      {
+        heading: "DhanGame Sits Outside the Yono Family in This Directory",
+        paragraphs: [
+          "This directory groups the apps it tracks into naming families — Yono, Jaiho, and a handful of others — based on shared branding, shared domains, or the operator's own positioning. DhanGame (reachable at dhanwinplay.com, also advertised under the names Dhan Win Play and DhanWinPlay) is catalogued separately from every Yono-branded entry here. Nothing in DhanGame's own promotional material names the Yono network, and nothing in this directory's Yono-family coverage names DhanGame either. The two are tracked as unrelated platforms unless new information changes that.",
+        ],
+      },
+      {
+        heading: "What the Yono Network Actually Covers",
+        paragraphs: [
+          "\"Yono\" on this site refers to two overlapping things, and conflating them is part of where the confusion starts:",
+        ],
+        list: [
+          "A set of apps carrying the Yono name directly — [Yono Rummy](/games/yono-rummy), [Yono Games](/games/yono-games), [Yono 777](/games/yono-777), [Yono Slots](/games/yono-slots), [Yono Arcade](/games/yono-arcade), and [Yono Vip](/games/yono-vip), plus the shortened-name sibling [Yn 777](/games/yn-777).",
+          "A wider rollout of newly launched apps this directory has reported as joining \"the Yono network\" without carrying the Yono name themselves — including [Jeet Spin](/blog/jeet-spin-game-launch), [Money Rummy](/games/money-rummy), [123 Rummy](/games/123-rummy), and [Rush Gala](/games/rush-gala).",
+        ],
+      },
+      {
+        paragraphs: [
+          "DhanGame has never appeared in either list. Its own launch coverage on this site doesn't reference the Yono network, and none of this directory's Yono-network launch posts name DhanGame as part of that rollout.",
+        ],
+      },
+      {
+        heading: "What DhanGame Actually Is",
+        paragraphs: [
+          "DhanGame launched on 23 July 2026 at dhanwinplay.com. It's catalogued here as a multi-game platform, and the operator's own promotional material advertises a welcome bonus in the ₹100–500 range plus a first-deposit match reported as up to 200% — figures that come directly from DhanGame's marketing, not from independent testing, and which have not been confirmed by this directory. See the [DhanGame launch-details post](/blog/dhan-game-launch-details) for the full breakdown of what was announced at launch and what's still unverified, and the [DhanGame profile page](/games/dhan-game) for its current listing.",
+          "DhanGame's exact game catalogue — specifically whether Teen Patti is a confirmed part of it — is covered separately in this directory's [Teen Patti feature check across four platforms](/blog/does-this-app-include-teen-patti#dhangame), since that's a distinct question from the network/branding question this page answers. Readers after DhanGame's welcome bonus, promo-code status, or Teen Patti coverage specifically should start from those two pages rather than this one.",
+        ],
+      },
+      {
+        heading: "Why the Two Keep Getting Confused",
+        paragraphs: [
+          "A few real reasons this search pattern exists, as far as can be confirmed:",
+        ],
+        list: [
+          "Both DhanGame and the Yono-network apps are real-money platforms downloaded directly from the operator's own domain rather than an app-store listing, which makes them feel like the same kind of product even when they're unrelated operators.",
+          "The Yono network has published several new launches in a short window (Jeet Spin, Money Rummy, 123 Rummy, Rush Gala), which keeps \"new app + Yono\" searches active. DhanGame's own July 2026 launch likely got swept into that same search pattern by proximity, not by any confirmed connection.",
+          "\"Dhanwin\" — one of DhanGame's own advertised names — and \"Yono\" are both short, generic-sounding brand words in this app category, which makes them easy to type together even without a specific reason to connect them.",
+        ],
+      },
+      {
+        paragraphs: [
+          "None of that amounts to an actual link between the two. If DhanGame's own materials ever state a Yono-network connection, or a Yono-network launch post names DhanGame, this page will be updated to match — the same standard applied to every listing in this directory.",
+        ],
+      },
+      {
+        heading: "Before Installing Either",
+        paragraphs: [
+          "Whether it's DhanGame or any Yono-branded app, confirm the exact app name, publisher, and download source before creating an account or depositing anything — names in this category repeat and get misspelled often enough that a similar name is not proof of a shared operator. This directory's [guide to spotting fake Teen Patti apps](/blog/how-to-identify-fake-teen-patti-apps) and its [platform safety checklist](/guides/how-to-review-a-teen-patti-platform-safely) both apply here.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "Is DhanGame part of the Yono network?",
+        answer:
+          "Not based on anything confirmed so far. This directory catalogues DhanGame separately from every Yono-branded app and from the other platforms reported as joining the Yono network this year (Jeet Spin, Money Rummy, 123 Rummy, Rush Gala). Nothing in DhanGame's own materials names the Yono network, and nothing in this directory's Yono-network coverage names DhanGame.",
+      },
+      {
+        question: "Is \"Dhanwin\" the same as DhanGame?",
+        answer:
+          "Yes — Dhan Win Play and DhanWinPlay are both names DhanGame is advertised under, for the same platform at dhanwinplay.com.",
+      },
+      {
+        question: "What apps are actually in the Yono family?",
+        answer:
+          "Yono Rummy, Yono Games, Yono 777, Yono Slots, Yono Arcade, Yono Vip, and Yn 777 all carry the Yono name directly. Jeet Spin, Money Rummy, 123 Rummy, and Rush Gala have been reported as joining the wider Yono network without carrying the Yono name themselves.",
+      },
+      {
+        question: "When did DhanGame launch?",
+        answer:
+          "23 July 2026, at dhanwinplay.com, according to the operator.",
+      },
+      {
+        question: "Does DhanGame include Teen Patti?",
+        answer:
+          "That's a separate question from the network question this page answers, and it's covered in this directory's [Teen Patti feature check](/blog/does-this-app-include-teen-patti#dhangame).",
+      },
+      {
+        question: "Does this directory operate or endorse DhanGame or any Yono-branded app?",
+        answer:
+          "No. AllYonoPatti.com is an independent information directory. It doesn't run any of these platforms, handle payments for them, or guarantee that any advertised feature matches what ships in the app.",
+      },
+    ],
+  },
 ];
